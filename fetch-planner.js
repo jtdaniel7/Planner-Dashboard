@@ -44,12 +44,27 @@ async function getAccessToken() {
   return data.access_token;
 }
 
-async function graphGet(token, path) {
-  const res = await fetch(`https://graph.microsoft.com/v1.0${path}`, {
-    headers: { Authorization: `Bearer ${token}` },
-  });
-  if (!res.ok) throw new Error(`Graph ${path} → ${res.status}`);
-  return res.json();
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function graphGet(token, path, retries = 4) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const res = await fetch(`https://graph.microsoft.com/v1.0${path}`, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    if (res.ok) return res.json();
+
+    if (res.status === 429) {
+      // Respect Retry-After header if present, otherwise back off exponentially
+      const retryAfter = parseInt(res.headers.get('Retry-After') || '0', 10);
+      const wait = retryAfter > 0 ? retryAfter * 1000 : Math.pow(2, attempt) * 2000;
+      console.log(`Rate limited on ${path} — waiting ${wait}ms (attempt ${attempt + 1})`);
+      await sleep(wait);
+      continue;
+    }
+
+    throw new Error(`Graph ${path} → ${res.status}`);
+  }
+  throw new Error(`Graph ${path} → exceeded retries`);
 }
 
 const userCache = {};
@@ -103,6 +118,7 @@ async function main() {
 
   for (const planner of PLANNERS) {
     console.log(`Fetching: ${planner.label}`);
+    await sleep(500); // brief pause between planners
 
     const [tasksRes, bucketsRes] = await Promise.all([
       graphGet(token, `/planner/plans/${planner.planId}/tasks`),
@@ -151,9 +167,10 @@ async function main() {
         });
       }
 
-      // Fetch notes
+      // Fetch notes — small delay between calls to avoid rate limiting
       let notes = null;
       try {
+        await sleep(200);
         const detail = await graphGet(token, `/planner/tasks/${t.id}/details`);
         notes = detail.description || null;
       } catch { /* optional */ }
