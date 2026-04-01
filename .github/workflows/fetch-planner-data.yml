@@ -1,0 +1,36 @@
+name: Fetch Planner Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Planner data from Microsoft Graph
+        env:
+          TENANT_ID:     ${{ secrets.TENANT_ID }}
+          CLIENT_ID:     ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          PLAN_ID_TRADES:    ${{ secrets.PLAN_ID_TRADES }}
+          PLAN_ID_PAPERWORK: ${{ secrets.PLAN_ID_PAPERWORK }}
+          PLAN_ID_ADVISOR:   ${{ secrets.PLAN_ID_ADVISOR }}
+          PLAN_ID_LOCATIONS: ${{ secrets.PLAN_ID_LOCATIONS }}
+        run: |
+          node fetch-planner.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add planner-data.json
+          git diff --staged --quiet || git commit -m "chore: refresh planner data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
