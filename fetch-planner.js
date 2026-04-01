@@ -114,27 +114,31 @@ function deriveStatus(task, bucketName) {
  *            "LASTNAME, First & Last - Task Description" (joint accounts)
  *            Regular hyphen separator
  *
+ * advisor:   "Lastname, Firstname - Task Description" (same as paperwork)
+ *            or "Lastname, Firstname || Notes"
+ *
  * trades:    "FirstName LastName TaskType BES" (no separator)
  *            Take first two words as client name
  *
  * locations: "FirstName LastName - Task Description"
- *
- * advisor:   full title, no client grouping
  */
 function extractClient(title, plannerKey) {
   if (!title) return null;
-  if (plannerKey === 'advisor') return null;
 
   // Universal: try em dash or en dash first
   const emDash = title.match(/^(.+?)\s*[—–]\s*.+/);
   if (emDash) return emDash[1].trim();
 
-  // paperwork & locations: "Client Name - Task Description"
-  // Client name can contain letters, spaces, commas, &, /, apostrophes, hyphens in names
-  // Use " - " (space-hyphen-space) as the separator to avoid splitting hyphenated names
-  if (plannerKey === 'paperwork' || plannerKey === 'locations') {
+  // paperwork, locations, advisor: "Client Name - Task Description"
+  // Also handle advisor's || separator
+  if (plannerKey === 'paperwork' || plannerKey === 'locations' || plannerKey === 'advisor') {
+    // Try " - " separator
     const hyphen = title.match(/^(.+?)\s+-\s+.{2,}/);
     if (hyphen) return hyphen[1].trim();
+
+    // Try " || " separator (advisor uses this)
+    const pipe = title.match(/^(.+?)\s*\|\|\s*.+/);
+    if (pipe) return pipe[1].trim();
   }
 
   // trades: no separator — take first two words
@@ -189,11 +193,6 @@ async function main() {
       const bucketName  = bucketMap[t.bucketId] ?? 'Unknown';
       const status      = deriveStatus(t, bucketName);
       const clientName  = extractClient(t.title, planner.key);
-      if (planner.key === 'paperwork' && !clientName) {
-        // Log unparsed paperwork titles so we can see exact characters
-        const chars = [...t.title].slice(0,40).map(c => `${c}(${c.charCodeAt(0)})`).join('');
-        console.log(`PAPERWORK NO CLIENT: "${t.title.slice(0,60)}" chars: ${chars}`);
-      }
       const assigneeIds = Object.keys(t.assignments ?? {});
       const assigneeNames = assigneeIds.map(uid => userCache[uid] || 'Unknown');
       const completedToday = status === 'complete' && t.completedDateTime &&
