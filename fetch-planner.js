@@ -189,6 +189,11 @@ async function main() {
       const bucketName  = bucketMap[t.bucketId] ?? 'Unknown';
       const status      = deriveStatus(t, bucketName);
       const clientName  = extractClient(t.title, planner.key);
+      if (planner.key === 'paperwork' && !clientName) {
+        // Log unparsed paperwork titles so we can see exact characters
+        const chars = [...t.title].slice(0,40).map(c => `${c}(${c.charCodeAt(0)})`).join('');
+        console.log(`PAPERWORK NO CLIENT: "${t.title.slice(0,60)}" chars: ${chars}`);
+      }
       const assigneeIds = Object.keys(t.assignments ?? {});
       const assigneeNames = assigneeIds.map(uid => userCache[uid] || 'Unknown');
       const completedToday = status === 'complete' && t.completedDateTime &&
