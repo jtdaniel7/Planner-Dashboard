@@ -23,6 +23,9 @@ const CLIENT_DEPENDENT_BUCKETS = [
   'waiting on client',
   'pending client signature',
   'sent to client',
+  'in wip',
+  'reassign to acs',
+  'reassign to ejd',
 ];
 
 function isClientDependent(bucketName) {
@@ -94,9 +97,25 @@ function deriveStatus(task, bucketName) {
   return 'not-started';
 }
 
-function extractClient(title) {
-  const match = title.match(/^([^—–\-]+?)\s*[—–\-]/);
-  return match ? match[1].trim() : null;
+/**
+ * Extract client name from task title based on planner format:
+ * - trades, paperwork, locations: "FirstName LastName — Task Description"
+ *   Extract everything before the first — or – or -
+ * - advisor: full title is used as-is (no reliable client extraction)
+ */
+function extractClient(title, plannerKey) {
+  if (!title) return null;
+  if (plannerKey === 'advisor') return null; // show full title, no grouping
+
+  // Match "FirstName LastName — description" or "FirstName LastName - description"
+  const match = title.match(/^(.+?)\s*[—–]\s*.+/);
+  if (match) return match[1].trim();
+
+  // Fallback: try single dash but only if there's content on both sides
+  const dashMatch = title.match(/^([A-Za-z ,&.']+?)\s+-\s+.{3,}/);
+  if (dashMatch) return dashMatch[1].trim();
+
+  return null;
 }
 
 function formatDueDate(iso) {
@@ -141,7 +160,7 @@ async function main() {
     const tasks = await Promise.all((tasksRes.value ?? []).map(async t => {
       const bucketName  = bucketMap[t.bucketId] ?? 'Unknown';
       const status      = deriveStatus(t, bucketName);
-      const clientName  = extractClient(t.title);
+      const clientName  = extractClient(t.title, planner.key);
       const assigneeIds = Object.keys(t.assignments ?? {});
       const assigneeNames = assigneeIds.map(uid => userCache[uid] || 'Unknown');
       const completedToday = status === 'complete' && t.completedDateTime &&
