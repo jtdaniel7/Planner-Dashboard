@@ -220,6 +220,39 @@
   .spinner{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);border-top-color:var(--accent);animation:spin .8s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
   @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+  /* SEARCH & FILTER */
+  .wip-controls {
+    display:flex; align-items:center; gap:10px;
+    margin-bottom:14px; flex-wrap:wrap;
+  }
+  .wip-search {
+    flex:1; min-width:200px;
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:7px; padding:8px 12px;
+    font-family:'DM Mono',monospace; font-size:11px;
+    color:var(--text); outline:none;
+    transition:border-color .2s;
+  }
+  .wip-search::placeholder { color:var(--muted); }
+  .wip-search:focus { border-color:var(--accent); }
+  .filter-btns { display:flex; gap:6px; flex-wrap:wrap; }
+  .filter-btn {
+    padding:6px 12px;
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:6px; font-family:'DM Mono',monospace;
+    font-size:9px; letter-spacing:.08em; color:var(--muted);
+    cursor:pointer; transition:all .15s;
+  }
+  .filter-btn:hover { color:var(--text); border-color:var(--muted); }
+  .filter-btn.active { color:#fff; border-color:transparent; }
+  .filter-btn.all.active    { background:var(--muted); }
+  .filter-btn.trades.active { background:var(--accent); }
+  .filter-btn.paperwork.active { background:var(--amber); }
+  .filter-btn.advisor.active   { background:var(--green); }
+  .filter-btn.locations.active { background:var(--purple); }
+  .filter-btn.overdue.active   { background:var(--red); }
+  .no-results { padding:24px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.08em; }
   ::-webkit-scrollbar{width:3px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
 </style>
 </head>
@@ -415,7 +448,7 @@ function renderWip(wip){
             <div class="wip-task-item">
               <div class="wip-task-title">
                 ${item.title}
-                ${item.notes ? `<small>${item.notes.slice(0,80)}${item.notes.length>80?'…':''}</small>` : ''}
+                ${item.notes ? `<small>${item.notes}</small>` : ''}
               </div>
               <div class="wip-task-bucket">${item.bucketName}</div>
               <div class="wip-task-assignee">${item.isUnassigned?'⚠ Unassigned':item.assigneeNames?.join(', ')||'—'}</div>
@@ -425,7 +458,7 @@ function renderWip(wip){
     }).join('');
 
     return `
-      <div class="wip-client-card ${borderClass}" id="${cardId}">
+      <div class="wip-client-card ${borderClass}" id="${cardId}" data-client="${entry.client.toLowerCase()}" data-planners="${entry.planners.join(',')}" data-overdue="${entry.hasOverdue}">
         <div class="wip-client-header" onclick="toggleWipCard('${cardId}')">
           <div class="wip-avatar" style="background:${avatarGradient(entry.client)}">${initials(entry.client)}</div>
           <div>
@@ -451,6 +484,40 @@ function toggleTask(row, did){
   row.closest('.task-list').querySelectorAll('.task-detail.open').forEach(d=>d.classList.remove('open'));
   row.closest('.task-list').querySelectorAll('.task-row.expanded').forEach(r=>r.classList.remove('expanded'));
   if(!isOpen){ detail.classList.add('open'); row.classList.add('expanded'); }
+}
+
+let activeFilter = 'all';
+let wipData = [];
+
+function setFilter(filter, btn) {
+  activeFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterWip();
+}
+
+function filterWip() {
+  const search = document.getElementById('wip-search').value.toLowerCase().trim();
+  const cards  = document.querySelectorAll('.wip-client-card');
+  let visible  = 0;
+
+  cards.forEach(card => {
+    const client   = (card.dataset.client || '').toLowerCase();
+    const planners = (card.dataset.planners || '').toLowerCase();
+    const overdue  = card.dataset.overdue === 'true';
+
+    const matchesSearch  = !search || client.includes(search);
+    const matchesFilter  =
+      activeFilter === 'all'    ? true :
+      activeFilter === 'overdue'? overdue :
+      planners.includes(activeFilter);
+
+    const show = matchesSearch && matchesFilter;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+
+  document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
 }
 
 function toggleWipCard(cardId){
