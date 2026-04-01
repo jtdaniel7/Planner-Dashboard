@@ -22,104 +22,462 @@
   }
   * { margin:0; padding:0; box-sizing:border-box; }
   body { background:var(--bg); color:var(--text); font-family:'Syne',sans-serif; min-height:100vh; }
-  body::before { content:''; position:fixed; inset:0; background-image: linear-gradient(rgba(79,156,249,0.03) 1px,transparent 1px), linear-gradient(90deg,rgba(79,156,249,0.03) 1px,transparent 1px); background-size:40px 40px; pointer-events:none; z-index:0; }
+  body::before { content:''; position:fixed; inset:0; background-image:linear-gradient(rgba(79,156,249,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(79,156,249,0.03) 1px,transparent 1px); background-size:40px 40px; pointer-events:none; z-index:0; }
+
+  /* HEADER */
   header { position:sticky; top:0; z-index:100; padding:14px 24px; border-bottom:1px solid var(--border); background:rgba(13,15,20,0.95); backdrop-filter:blur(10px); display:flex; align-items:center; justify-content:space-between; }
   .logo { display:flex; align-items:center; gap:12px; }
   .logo-mark { width:32px; height:32px; border-radius:7px; background:linear-gradient(135deg,var(--accent),var(--purple)); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:12px; color:#fff; letter-spacing:-0.5px; }
   .logo-title { font-size:14px; font-weight:700; }
   .logo-sub { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:.15em; text-transform:uppercase; }
-  .header-right { display:flex; align-items:center; gap:14px; }
   .sync-info { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:.08em; text-align:right; }
   .live-dot { display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:5px; animation:blink 2s infinite; }
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+  /* OVERDUE ALERT BAR */
+  #overdue-alert {
+    display:none;
+    background: linear-gradient(90deg, rgba(249,123,123,0.15), rgba(249,123,123,0.05));
+    border-bottom: 1px solid rgba(249,123,123,0.3);
+    padding: 10px 24px;
+    display:flex; align-items:center; gap:12px;
+    font-family:'DM Mono',monospace; font-size:10px;
+    color: var(--red); letter-spacing:.05em;
+  }
+  #overdue-alert .alert-icon { font-size:14px; }
+  #overdue-alert .alert-count {
+    background: var(--red); color:#fff;
+    padding:2px 8px; border-radius:4px;
+    font-weight:700; font-size:11px;
+  }
+
   #error-banner { display:none; background:rgba(249,123,123,0.1); border-bottom:1px solid rgba(249,123,123,0.3); padding:8px 24px; font-family:'DM Mono',monospace; font-size:10px; color:var(--red); letter-spacing:.05em; }
+
   .page { position:relative; z-index:1; padding:20px 24px; }
-  .stats-row { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; animation:fadeUp .35s ease both; }
+
+  /* STATS */
+  .stats-row { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-bottom:20px; animation:fadeUp .35s ease both; }
   .stat { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 16px; position:relative; overflow:hidden; }
   .stat::after { content:''; position:absolute; top:0; left:0; right:0; height:2px; }
-  .stat.c1::after { background:var(--accent); } .stat.c2::after { background:var(--green); } .stat.c3::after { background:var(--red); } .stat.c4::after { background:var(--purple); }
+  .stat.c1::after{background:var(--accent)} .stat.c2::after{background:var(--green)} .stat.c3::after{background:var(--red)} .stat.c4::after{background:var(--purple)} .stat.c5::after{background:var(--amber)}
   .stat-lbl { font-family:'DM Mono',monospace; font-size:8px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
   .stat-val { font-size:26px; font-weight:800; line-height:1; }
-  .stat.c1 .stat-val{color:var(--accent)} .stat.c2 .stat-val{color:var(--green)} .stat.c3 .stat-val{color:var(--red)} .stat.c4 .stat-val{color:var(--purple)}
+  .stat.c1 .stat-val{color:var(--accent)} .stat.c2 .stat-val{color:var(--green)} .stat.c3 .stat-val{color:var(--red)} .stat.c4 .stat-val{color:var(--purple)} .stat.c5 .stat-val{color:var(--amber)}
   .stat-sub { font-size:9px; color:var(--muted); margin-top:3px; font-family:'DM Mono',monospace; }
+
+  /* SECTION */
   .sec-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
   .sec-title { display:flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:.04em; }
   .sec-dot { width:8px; height:8px; border-radius:50%; }
+
+  /* PLANNER GRID */
   .planner-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px; animation:fadeUp .35s .07s ease both; opacity:0; animation-fill-mode:forwards; }
   .planner-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
-  .pcard-head { padding:10px 14px; border-bottom:1px solid var(--border); background:var(--surface2); display:flex; align-items:center; justify-content:space-between; }
+  .pcard-head { padding:10px 14px; border-bottom:1px solid var(--border); background:var(--surface2); }
+  .pcard-head-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
   .pcard-name { display:flex; align-items:center; gap:7px; font-size:11px; font-weight:700; }
   .pcard-badge { font-family:'DM Mono',monospace; font-size:9px; padding:2px 7px; border-radius:3px; }
-  .task-list { max-height:220px; overflow-y:auto; }
-  .task-row { padding:7px 14px; display:grid; grid-template-columns:14px 1fr auto auto; gap:8px; align-items:center; border-bottom:1px solid rgba(37,42,56,.5); cursor:pointer; transition:background .1s; }
-  .task-row:last-child { border-bottom:none; } .task-row:hover { background:rgba(79,156,249,.04); }
+  .pcard-meta { display:flex; gap:8px; align-items:center; }
+  .pcard-timestamp { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); letter-spacing:.06em; }
+  .pcard-waiting { font-family:'DM Mono',monospace; font-size:8px; color:var(--purple); background:rgba(192,132,252,.1); padding:1px 6px; border-radius:3px; }
+  .pcard-overdue { font-family:'DM Mono',monospace; font-size:8px; color:var(--red); background:rgba(249,123,123,.1); padding:1px 6px; border-radius:3px; }
+
+  .task-list { max-height:260px; overflow-y:auto; }
+  .task-row { padding:8px 14px; border-bottom:1px solid rgba(37,42,56,.5); cursor:pointer; transition:background .1s; }
+  .task-row:last-child { border-bottom:none; }
+  .task-row:hover { background:rgba(79,156,249,.04); }
+  .task-row-main { display:grid; grid-template-columns:14px 1fr auto auto; gap:8px; align-items:center; }
+
   .t-check { width:13px; height:13px; border-radius:3px; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:7px; flex-shrink:0; }
-  .t-check.done{background:var(--green);border-color:var(--green);color:#fff} .t-check.prog{border-color:var(--amber)} .t-check.late{border-color:var(--red)}
+  .t-check.done{background:var(--green);border-color:var(--green);color:#fff}
+  .t-check.prog{border-color:var(--amber)}
+  .t-check.late{border-color:var(--red)}
+  .t-check.waiting{border-color:var(--purple)}
+
   .t-name { font-size:10px; color:var(--text); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .t-name.striked { color:var(--muted); text-decoration:line-through; }
-  .t-assignee { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
+  .expand-arrow { font-size:8px; color:var(--muted); margin-left:4px; transition:transform .2s; display:inline-block; }
+  .task-row.expanded .expand-arrow { transform:rotate(90deg); }
+
+  .t-assignee-pill { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
+  .unassigned-pill { font-family:'DM Mono',monospace; font-size:8px; color:var(--red); background:rgba(249,123,123,.1); padding:1px 5px; border-radius:3px; }
+
   .t-status { font-family:'DM Mono',monospace; font-size:8px; padding:2px 6px; border-radius:3px; white-space:nowrap; }
-  .s-not-started{background:rgba(107,114,128,.15);color:var(--muted2)} .s-in-progress{background:rgba(249,168,79,.15);color:var(--amber)} .s-complete{background:rgba(127,216,160,.15);color:var(--green)} .s-late{background:rgba(249,123,123,.15);color:var(--red)} .s-waiting{background:rgba(192,132,252,.15);color:var(--purple)}
+  .s-not-started{background:rgba(107,114,128,.15);color:var(--muted2)}
+  .s-in-progress{background:rgba(249,168,79,.15);color:var(--amber)}
+  .s-complete{background:rgba(127,216,160,.15);color:var(--green)}
+  .s-late{background:rgba(249,123,123,.15);color:var(--red)}
+  .s-waiting-on-client{background:rgba(192,132,252,.15);color:var(--purple)}
+
+  /* INLINE EXPAND */
+  .task-detail { display:none; margin-top:8px; padding:10px 12px; background:var(--surface2); border-radius:6px; border:1px solid var(--border); grid-template-columns:1fr 1fr; gap:8px; }
+  .task-detail.open { display:grid; }
+  .detail-item { display:flex; flex-direction:column; gap:2px; }
+  .detail-label { font-family:'DM Mono',monospace; font-size:8px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+  .detail-value { font-size:10px; color:var(--text); }
+  .detail-notes { grid-column:1/-1; }
+  .detail-notes .detail-value { color:var(--muted2); font-style:italic; line-height:1.5; }
+
   .empty-state { padding:24px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.08em; }
-  .wip-wrap { animation:fadeUp .35s .14s ease both; opacity:0; animation-fill-mode:forwards; }
-  .wip-table { width:100%; border-collapse:collapse; background:var(--surface); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
-  .wip-table th { text-align:left; padding:9px 14px; font-family:'DM Mono',monospace; font-size:8px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); background:var(--surface2); border-bottom:1px solid var(--border); font-weight:400; }
-  .wip-table td { padding:9px 14px; font-size:10px; border-bottom:1px solid rgba(37,42,56,.6); vertical-align:middle; }
-  .wip-table tr:last-child td{border-bottom:none} .wip-table tr:hover td{background:rgba(79,156,249,.03)}
-  .client-cell{display:flex;align-items:center;gap:8px} .avatar{width:24px;height:24px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:800;color:#fff} .client-name{font-weight:700}
-  .prog-wrap{display:flex;align-items:center;gap:7px} .prog-bar{width:70px;height:4px;background:var(--border);border-radius:2px;overflow:hidden} .prog-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--green))} .prog-pct{font-family:'DM Mono',monospace;font-size:8px;color:var(--muted)}
-  .source-tags{display:flex;gap:3px;flex-wrap:wrap} .stag{font-family:'DM Mono',monospace;font-size:7px;padding:2px 5px;border-radius:3px;letter-spacing:.04em}
-  .stag-trades{background:rgba(79,156,249,.15);color:var(--accent)} .stag-paperwork{background:rgba(249,168,79,.15);color:var(--amber)} .stag-advisor{background:rgba(127,216,160,.15);color:var(--green)} .stag-locations{background:rgba(192,132,252,.15);color:var(--purple)}
+
+  /* OVERDUE SECTION */
+  .overdue-section { margin-bottom:20px; animation:fadeUp .35s .1s ease both; opacity:0; animation-fill-mode:forwards; }
+  .overdue-list { display:flex; flex-direction:column; gap:8px; }
+  .overdue-item {
+    background:var(--surface);
+    border:1px solid rgba(249,123,123,.3);
+    border-left:3px solid var(--red);
+    border-radius:8px;
+    padding:12px 16px;
+    display:grid;
+    grid-template-columns:1fr auto auto auto auto;
+    gap:12px; align-items:center;
+  }
+  .overdue-client { font-weight:700; font-size:11px; color:var(--text); }
+  .overdue-title { font-size:10px; color:var(--muted2); margin-top:2px; }
+  .overdue-planner { font-family:'DM Mono',monospace; font-size:8px; padding:2px 6px; border-radius:3px; }
+  .overdue-bucket { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); }
+  .overdue-assignee { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted2); }
+  .overdue-due { font-family:'DM Mono',monospace; font-size:8px; color:var(--red); font-weight:600; }
+
+  /* WIP SECTION */
+  .wip-wrap { animation:fadeUp .35s .16s ease both; opacity:0; animation-fill-mode:forwards; margin-bottom:24px; }
+  .wip-clients { display:flex; flex-direction:column; gap:10px; }
+
+  .wip-client-card {
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .wip-client-card.has-overdue { border-color:rgba(249,123,123,.4); }
+  .wip-client-card.has-waiting { border-color:rgba(192,132,252,.3); }
+
+  .wip-client-header {
+    padding:12px 16px;
+    display:grid;
+    grid-template-columns:auto 1fr auto auto auto auto;
+    gap:12px; align-items:center;
+    cursor:pointer;
+    background:var(--surface2);
+    transition:background .15s;
+  }
+  .wip-client-header:hover { background:rgba(79,156,249,.05); }
+
+  .wip-avatar { width:30px; height:30px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:800; color:#fff; }
+  .wip-client-name { font-size:13px; font-weight:700; color:var(--text); }
+  .wip-client-sub { font-size:9px; color:var(--muted); font-family:'DM Mono',monospace; margin-top:1px; }
+
+  .wip-tags { display:flex; gap:4px; flex-wrap:wrap; }
+  .stag { font-family:'DM Mono',monospace; font-size:7px; padding:2px 5px; border-radius:3px; letter-spacing:.04em; }
+  .stag-trades{background:rgba(79,156,249,.15);color:var(--accent)}
+  .stag-paperwork{background:rgba(249,168,79,.15);color:var(--amber)}
+  .stag-advisor{background:rgba(127,216,160,.15);color:var(--green)}
+  .stag-locations{background:rgba(192,132,252,.15);color:var(--purple)}
+
+  .wip-prog-wrap { display:flex; align-items:center; gap:7px; }
+  .wip-prog-bar { width:60px; height:4px; background:var(--border); border-radius:2px; overflow:hidden; }
+  .wip-prog-fill { height:100%; border-radius:2px; background:linear-gradient(90deg,var(--accent),var(--green)); }
+  .wip-prog-pct { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); min-width:28px; }
+
+  .wip-status-badge { font-family:'DM Mono',monospace; font-size:8px; padding:3px 8px; border-radius:4px; }
+  .wip-expand-btn { font-size:10px; color:var(--muted); transition:transform .2s; }
+  .wip-client-card.open .wip-expand-btn { transform:rotate(90deg); }
+
+  /* WIP EXPANDED CONTENT */
+  .wip-client-body { display:none; padding:0 16px 14px; }
+  .wip-client-card.open .wip-client-body { display:block; }
+
+  .wip-planner-group { margin-top:12px; }
+  .wip-planner-label {
+    display:flex; align-items:center; gap:6px;
+    font-family:'DM Mono',monospace; font-size:9px;
+    letter-spacing:.1em; text-transform:uppercase;
+    color:var(--muted); margin-bottom:6px;
+    padding-bottom:4px; border-bottom:1px solid var(--border);
+  }
+  .wip-planner-dot { width:6px; height:6px; border-radius:50%; flex-shrink:0; }
+
+  .wip-task-item {
+    display:grid;
+    grid-template-columns:1fr auto auto auto;
+    gap:8px; align-items:center;
+    padding:8px 10px;
+    background:var(--bg);
+    border-radius:6px;
+    border:1px solid var(--border);
+    margin-bottom:5px;
+    font-size:10px;
+  }
+  .wip-task-item:last-child { margin-bottom:0; }
+  .wip-task-title { color:var(--text); font-weight:600; }
+  .wip-task-title small { display:block; font-size:8px; color:var(--muted); font-weight:400; margin-top:1px; font-family:'DM Mono',monospace; }
+  .wip-task-bucket { font-family:'DM Mono',monospace; font-size:8px; color:var(--purple); background:rgba(192,132,252,.08); padding:2px 6px; border-radius:3px; white-space:nowrap; }
+  .wip-task-assignee { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
+  .wip-task-due { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
+
   .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:300px;gap:12px;color:var(--muted);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em}
   .spinner{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);border-top-color:var(--accent);animation:spin .8s linear infinite}
-  @keyframes spin{to{transform:rotate(360deg)}} @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
   ::-webkit-scrollbar{width:3px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
 </style>
 </head>
 <body>
+
 <header>
   <div class="logo">
     <div class="logo-mark">SDC</div>
-    <div><div class="logo-title">Operations Dashboard</div><div class="logo-sub">SD Capital Advisors</div></div>
+    <div>
+      <div class="logo-title">Operations Dashboard</div>
+      <div class="logo-sub">SD Capital Advisors</div>
+    </div>
   </div>
-  <div class="header-right">
-    <div class="sync-info"><span class="live-dot"></span><span id="sync-label">Loading...</span><br><span id="next-sync"></span></div>
+  <div class="sync-info">
+    <span class="live-dot"></span><span id="sync-label">Loading...</span><br>
+    <span id="next-sync"></span>
   </div>
 </header>
+
+<div id="overdue-alert" style="display:none">
+  <span class="alert-icon">⚠</span>
+  <span class="alert-count" id="overdue-count">0</span>
+  <span id="overdue-alert-text">tasks are overdue and need immediate attention — see below</span>
+</div>
+
 <div id="error-banner">⚠ Could not load planner data. Check that planner-data.json exists in this repo.</div>
+
 <div class="page">
   <div id="loading" class="loading"><div class="spinner"></div>FETCHING PLANNER DATA</div>
   <div id="content" style="display:none">
+
     <div class="stats-row" id="stats-row"></div>
+
+    <!-- OVERDUE SECTION -->
+    <div class="overdue-section" id="overdue-section" style="display:none">
+      <div class="sec-head">
+        <div class="sec-title">
+          <div class="sec-dot" style="background:var(--red)"></div>
+          Overdue Tasks
+        </div>
+      </div>
+      <div class="overdue-list" id="overdue-list"></div>
+    </div>
+
+    <!-- PLANNER SNAPSHOT -->
     <div class="sec-head" style="animation:fadeUp .35s .05s ease both">
       <div class="sec-title"><div class="sec-dot" style="background:var(--accent)"></div>Planner Snapshot</div>
     </div>
     <div class="planner-grid" id="planner-grid"></div>
+
+    <!-- WIP -->
     <div class="wip-wrap">
       <div class="sec-head">
         <div class="sec-title"><div class="sec-dot" style="background:var(--amber)"></div>WIP — Work In Process</div>
       </div>
-      <table class="wip-table">
-        <thead><tr><th>Client</th><th>Items</th><th>Planners</th><th>Progress</th><th>Status</th><th>Next Action</th></tr></thead>
-        <tbody id="wip-body"></tbody>
-      </table>
+      <div class="wip-clients" id="wip-clients"></div>
     </div>
+
   </div>
 </div>
+
 <script>
 const PLANNER_TAG_CLASS={trades:'stag-trades',paperwork:'stag-paperwork',advisor:'stag-advisor',locations:'stag-locations'};
-const PLANNER_LABEL={trades:'Trades',paperwork:'Paperwork',advisor:'Advisor',locations:'Locations'};
-function statusClass(s){return{'not-started':'s-not-started','in-progress':'s-in-progress','complete':'s-complete','late':'s-late','waiting':'s-waiting'}[s]||'s-not-started'}
-function statusLabel(s){return{'not-started':'Not Started','in-progress':'In Progress','complete':'Complete','late':'Overdue','waiting':'Waiting'}[s]||s}
-function checkClass(s){return{'complete':'done','in-progress':'prog','late':'late'}[s]||''}
+
+function statusClass(s){return{'not-started':'s-not-started','in-progress':'s-in-progress','complete':'s-complete','late':'s-late','waiting-on-client':'s-waiting-on-client'}[s]||'s-not-started'}
+function statusLabel(s){return{'not-started':'Not Started','in-progress':'In Progress','complete':'Complete','late':'Overdue','waiting-on-client':'Waiting on Client'}[s]||s}
+function checkClass(s){return{'complete':'done','in-progress':'prog','late':'late','waiting-on-client':'waiting'}[s]||''}
 function checkMark(s){return s==='complete'?'✓':''}
-function avatarGradient(name){const g=[['#4f9cf9','#c084fc'],['#7fd8a0','#4f9cf9'],['#f9a84f','#f97b7b'],['#c084fc','#4f9cf9'],['#7fd8a0','#c084fc'],['#f97b7b','#f9a84f']];const i=(name.charCodeAt(0)+(name.charCodeAt(1)||0))%g.length;return`linear-gradient(135deg,${g[i][0]},${g[i][1]})`}
+
+function avatarGradient(name){
+  const g=[['#4f9cf9','#c084fc'],['#7fd8a0','#4f9cf9'],['#f9a84f','#f97b7b'],['#c084fc','#4f9cf9'],['#7fd8a0','#c084fc'],['#f97b7b','#f9a84f']];
+  const i=(name.charCodeAt(0)+(name.charCodeAt(1)||0))%g.length;
+  return`linear-gradient(135deg,${g[i][0]},${g[i][1]})`;
+}
 function initials(name){const p=name.replace(',','').split(' ').filter(Boolean);return(p[0]?.[0]||'')+(p[1]?.[0]||'')}
 function timeAgo(s){const d=Math.floor((Date.now()-new Date(s))/60000);if(d<1)return'just now';if(d<60)return`${d}m ago`;return`${Math.floor(d/60)}h ago`}
-function renderStats(s){document.getElementById('stats-row').innerHTML=`<div class="stat c1"><div class="stat-lbl">Total Open Tasks</div><div class="stat-val">${s.totalOpen}</div><div class="stat-sub">across 4 planners</div></div><div class="stat c2"><div class="stat-lbl">Completed Today</div><div class="stat-val">${s.completedToday}</div><div class="stat-sub">since midnight</div></div><div class="stat c3"><div class="stat-lbl">Overdue / At Risk</div><div class="stat-val">${s.overdue}</div><div class="stat-sub">${s.overdue>0?'needs attention':'all clear'}</div></div><div class="stat c4"><div class="stat-lbl">WIP Clients</div><div class="stat-val">${s.wipClients}</div><div class="stat-sub">multi-planner in motion</div></div>`}
-function renderPlanners(planners){document.getElementById('planner-grid').innerHTML=planners.map(p=>{const open=p.tasks.filter(t=>t.status!=='complete');const display=open.slice(0,5);const rows=display.length>0?display.map(t=>`<div class="task-row"><div class="t-check ${checkClass(t.status)}">${checkMark(t.status)}</div><div class="t-name ${t.status==='complete'?'striked':''}" title="${t.title}">${t.title}</div><div class="t-assignee">${t.assignees.length?t.assignees[0].slice(0,2).toUpperCase():'—'}</div><div class="t-status ${statusClass(t.status)}">${statusLabel(t.status)}</div></div>`).join(''):'<div class="empty-state">NO OPEN TASKS ✓</div>';return`<div class="planner-card"><div class="pcard-head"><div class="pcard-name" style="color:${p.color}"><div style="width:7px;height:7px;border-radius:50%;background:${p.color}"></div>${p.label}</div><div class="pcard-badge" style="background:${p.color}22;color:${p.color}">${p.openCount} open</div></div><div class="task-list">${rows}</div></div>`}).join('')}
-function renderWip(wip){const tb=document.getElementById('wip-body');if(!wip.length){tb.innerHTML=`<tr><td colspan="6" style="text-align:center;padding:24px;font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)">NO ACTIVE WIP CLIENTS</td></tr>`;return}tb.innerHTML=wip.map(e=>{const oi=e.items.find(i=>i.status==='late');const na=oi?oi.title:(e.items.find(i=>i.status==='in-progress')||e.items[0])?.title||'—';const pr=e.hasOverdue?'late':e.planners.length>2?'in-progress':'not-started';return`<tr><td><div class="client-cell"><div class="avatar" style="background:${avatarGradient(e.client)}">${initials(e.client)}</div><span class="client-name">${e.client}</span></div></td><td style="font-family:'DM Mono',monospace">${e.items.length} item${e.items.length!==1?'s':''}</td><td><div class="source-tags">${e.planners.map(pk=>`<span class="stag ${PLANNER_TAG_CLASS[pk]}">${PLANNER_LABEL[pk]}</span>`).join('')}</div></td><td><div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:${e.progress}%"></div></div><span class="prog-pct">${e.progress}%</span></div></td><td><div class="t-status ${statusClass(pr)}">${e.hasOverdue?'Overdue':e.planners.length>1?'Multi':'Active'}</div></td><td style="color:var(--muted2);font-size:9px;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${na}">${na}</td></tr>`}).join('')}
-async function loadData(){try{const res=await fetch('planner-data.json?t='+Date.now());if(!res.ok)throw new Error(res.status);const data=await res.json();document.getElementById('loading').style.display='none';document.getElementById('content').style.display='block';document.getElementById('sync-label').textContent='Synced '+timeAgo(data.fetchedAt);document.getElementById('next-sync').textContent='Next refresh in ~30 min';renderStats(data.stats);renderPlanners(data.planners);renderWip(data.wip)}catch(err){document.getElementById('loading').style.display='none';document.getElementById('error-banner').style.display='block';console.error('Failed to load planner-data.json:',err)}}
+function fmtTime(iso){return new Date(iso).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'})}
+
+function assigneeDisplay(t){
+  if(t.isUnassigned||!t.assigneeNames||t.assigneeNames.length===0) return`<span class="unassigned-pill">⚠ Unassigned</span>`;
+  return`<span class="t-assignee-pill">${t.assigneeNames.join(', ')}</span>`;
+}
+
+function renderStats(s){
+  document.getElementById('stats-row').innerHTML=`
+    <div class="stat c1"><div class="stat-lbl">Total Open Tasks</div><div class="stat-val">${s.totalOpen}</div><div class="stat-sub">across 4 planners</div></div>
+    <div class="stat c2"><div class="stat-lbl">Completed Today</div><div class="stat-val">${s.completedToday}</div><div class="stat-sub">since midnight</div></div>
+    <div class="stat c3"><div class="stat-lbl">Overdue</div><div class="stat-val">${s.overdue}</div><div class="stat-sub">${s.overdue>0?'needs attention':'all clear'}</div></div>
+    <div class="stat c5"><div class="stat-lbl">Waiting on Client</div><div class="stat-val">${s.waitingOnClient}</div><div class="stat-sub">client action needed</div></div>
+    <div class="stat c4"><div class="stat-lbl">WIP Clients</div><div class="stat-val">${s.wipClients}</div><div class="stat-sub">multi-planner</div></div>`;
+}
+
+function renderOverdueAlert(overdue, count) {
+  if (count === 0) return;
+  const bar = document.getElementById('overdue-alert');
+  bar.style.display = 'flex';
+  document.getElementById('overdue-count').textContent = count;
+  document.getElementById('overdue-alert-text').textContent =
+    `task${count!==1?'s':''} overdue — needs immediate attention`;
+
+  const section = document.getElementById('overdue-section');
+  section.style.display = 'block';
+  document.getElementById('overdue-list').innerHTML = overdue.map(t => `
+    <div class="overdue-item">
+      <div>
+        <div class="overdue-client">${t.clientName || 'No client'}</div>
+        <div class="overdue-title">${t.title}</div>
+      </div>
+      <div class="overdue-planner stag-${t.plannerKey}" style="background:${t.plannerColor}22;color:${t.plannerColor}">${t.plannerLabel}</div>
+      <div class="overdue-bucket">${t.bucketName}</div>
+      <div class="overdue-assignee">${t.isUnassigned?'⚠ Unassigned':t.assigneeNames?.join(', ')||'—'}</div>
+      <div class="overdue-due">Due: ${t.dueDateFormatted||'—'}</div>
+    </div>`).join('');
+}
+
+function renderPlanners(planners){
+  document.getElementById('planner-grid').innerHTML = planners.map(p => {
+    const open = p.tasks.filter(t => t.status !== 'complete');
+    const display = open.slice(0,6);
+
+    const rows = display.length > 0 ? display.map((t,idx) => {
+      const did = `d-${p.key}-${idx}`;
+      return `
+        <div class="task-row" onclick="toggleTask(this,'${did}')">
+          <div class="task-row-main">
+            <div class="t-check ${checkClass(t.status)}">${checkMark(t.status)}</div>
+            <div class="t-name" title="${t.title}">${t.title}<span class="expand-arrow">▶</span></div>
+            ${assigneeDisplay(t)}
+            <div class="t-status ${statusClass(t.status)}">${statusLabel(t.status)}</div>
+          </div>
+          <div class="task-detail" id="${did}">
+            <div class="detail-item"><div class="detail-label">Bucket / Stage</div><div class="detail-value">${t.bucketName||'—'}</div></div>
+            <div class="detail-item"><div class="detail-label">Assigned To</div><div class="detail-value">${t.isUnassigned?'⚠ Unassigned':t.assigneeNames?.join(', ')||'—'}</div></div>
+            <div class="detail-item"><div class="detail-label">Due Date</div><div class="detail-value">${t.dueDateFormatted||'No due date'}</div></div>
+            <div class="detail-item"><div class="detail-label">Progress</div><div class="detail-value">${t.percentComplete}%</div></div>
+            ${t.notes?`<div class="detail-item detail-notes"><div class="detail-label">Notes</div><div class="detail-value">${t.notes}</div></div>`:''}
+          </div>
+        </div>`;
+    }).join('') : '<div class="empty-state">NO OPEN TASKS ✓</div>';
+
+    const overdueTag = p.overdueCount > 0 ? `<span class="pcard-overdue">${p.overdueCount} overdue</span>` : '';
+    const waitingTag = p.waitingCount > 0 ? `<span class="pcard-waiting">${p.waitingCount} waiting on client</span>` : '';
+
+    return `
+      <div class="planner-card">
+        <div class="pcard-head">
+          <div class="pcard-head-top">
+            <div class="pcard-name" style="color:${p.color}">
+              <div style="width:7px;height:7px;border-radius:50%;background:${p.color}"></div>
+              ${p.label}
+            </div>
+            <div class="pcard-badge" style="background:${p.color}22;color:${p.color}">${p.openCount} open</div>
+          </div>
+          <div class="pcard-meta">
+            <span class="pcard-timestamp">Updated ${fmtTime(p.lastUpdated)}</span>
+            ${overdueTag}${waitingTag}
+          </div>
+        </div>
+        <div class="task-list">${rows}</div>
+      </div>`;
+  }).join('');
+}
+
+function renderWip(wip){
+  const container = document.getElementById('wip-clients');
+  if(!wip.length){
+    container.innerHTML=`<div style="padding:24px;text-align:center;font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)">NO ACTIVE WIP CLIENTS</div>`;
+    return;
+  }
+
+  container.innerHTML = wip.map((entry, idx) => {
+    const cardId = `wip-card-${idx}`;
+    const borderClass = entry.hasOverdue ? 'has-overdue' : entry.hasWaitingOnClient ? 'has-waiting' : '';
+    const statusBadge = entry.hasOverdue
+      ? `<div class="wip-status-badge s-late">Overdue</div>`
+      : entry.hasWaitingOnClient
+      ? `<div class="wip-status-badge s-waiting-on-client">Waiting on Client</div>`
+      : `<div class="wip-status-badge s-in-progress">Active</div>`;
+
+    const activeItems = entry.plannerGroups.reduce((n,g) => n + g.items.filter(i=>i.status!=='complete').length, 0);
+
+    // Build planner groups inside expanded body
+    const plannerGroupsHtml = entry.plannerGroups.map(g => {
+      const activeGroupItems = g.items.filter(i => i.status !== 'complete');
+      if (!activeGroupItems.length) return '';
+      return `
+        <div class="wip-planner-group">
+          <div class="wip-planner-label">
+            <div class="wip-planner-dot" style="background:${g.color}"></div>
+            ${g.label}
+          </div>
+          ${activeGroupItems.map(item => `
+            <div class="wip-task-item">
+              <div class="wip-task-title">
+                ${item.title}
+                ${item.notes ? `<small>${item.notes.slice(0,80)}${item.notes.length>80?'…':''}</small>` : ''}
+              </div>
+              <div class="wip-task-bucket">${item.bucketName}</div>
+              <div class="wip-task-assignee">${item.isUnassigned?'⚠ Unassigned':item.assigneeNames?.join(', ')||'—'}</div>
+              <div class="wip-task-due">${item.dueDateFormatted||'No due date'}</div>
+            </div>`).join('')}
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="wip-client-card ${borderClass}" id="${cardId}">
+        <div class="wip-client-header" onclick="toggleWipCard('${cardId}')">
+          <div class="wip-avatar" style="background:${avatarGradient(entry.client)}">${initials(entry.client)}</div>
+          <div>
+            <div class="wip-client-name">${entry.client}</div>
+            <div class="wip-client-sub">${activeItems} active item${activeItems!==1?'s':''} · ${entry.planners.length} planner${entry.planners.length!==1?'s':''}</div>
+          </div>
+          <div class="wip-tags">${entry.planners.map(pk=>`<span class="stag ${PLANNER_TAG_CLASS[pk]}">${pk}</span>`).join('')}</div>
+          <div class="wip-prog-wrap">
+            <div class="wip-prog-bar"><div class="wip-prog-fill" style="width:${entry.progress}%"></div></div>
+            <span class="wip-prog-pct">${entry.progress}%</span>
+          </div>
+          ${statusBadge}
+          <div class="wip-expand-btn">▶</div>
+        </div>
+        <div class="wip-client-body">${plannerGroupsHtml}</div>
+      </div>`;
+  }).join('');
+}
+
+function toggleTask(row, did){
+  const detail = document.getElementById(did);
+  const isOpen = detail.classList.contains('open');
+  row.closest('.task-list').querySelectorAll('.task-detail.open').forEach(d=>d.classList.remove('open'));
+  row.closest('.task-list').querySelectorAll('.task-row.expanded').forEach(r=>r.classList.remove('expanded'));
+  if(!isOpen){ detail.classList.add('open'); row.classList.add('expanded'); }
+}
+
+function toggleWipCard(cardId){
+  const card = document.getElementById(cardId);
+  card.classList.toggle('open');
+}
+
+async function loadData(){
+  try{
+    const res  = await fetch('planner-data.json?t='+Date.now());
+    if(!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    document.getElementById('loading').style.display='none';
+    document.getElementById('content').style.display='block';
+    document.getElementById('sync-label').textContent='Synced '+timeAgo(data.fetchedAt);
+    document.getElementById('next-sync').textContent='Next refresh in ~30 min';
+    renderStats(data.stats);
+    renderOverdueAlert(data.overdueTasks, data.stats.overdue);
+    renderPlanners(data.planners);
+    renderWip(data.wip);
+  }catch(err){
+    document.getElementById('loading').style.display='none';
+    document.getElementById('error-banner').style.display='block';
+    console.error('Failed to load planner-data.json:',err);
+  }
+}
+
 loadData();
 </script>
 </body>
