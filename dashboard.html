@@ -216,6 +216,111 @@
   .wip-task-assignee { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
   .wip-task-due { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
 
+
+  /* SLIDE-OUT PANEL */
+  .panel-overlay {
+    display:none; position:fixed; inset:0;
+    background:rgba(0,0,0,0.5); z-index:500;
+    backdrop-filter:blur(2px);
+  }
+  .panel-overlay.open { display:block; }
+
+  .slide-panel {
+    position:fixed; top:0; right:-560px; width:540px; height:100vh;
+    background:var(--surface); border-left:1px solid var(--border);
+    z-index:501; transition:right .3s cubic-bezier(.4,0,.2,1);
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+  .slide-panel.open { right:0; }
+
+  .panel-header {
+    padding:16px 20px; border-bottom:1px solid var(--border);
+    background:var(--surface2);
+    display:flex; align-items:center; justify-content:space-between;
+    flex-shrink:0;
+  }
+  .panel-title { display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; }
+  .panel-dot { width:8px; height:8px; border-radius:50%; }
+  .panel-meta { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); margin-top:2px; }
+  .panel-close {
+    width:28px; height:28px; border-radius:6px;
+    background:var(--bg); border:1px solid var(--border);
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer; color:var(--muted); font-size:14px;
+    transition:all .15s;
+  }
+  .panel-close:hover { border-color:var(--red); color:var(--red); }
+
+  .panel-search-wrap {
+    padding:12px 20px; border-bottom:1px solid var(--border);
+    flex-shrink:0;
+  }
+  .panel-search {
+    width:100%; background:var(--bg); border:1px solid var(--border);
+    border-radius:6px; padding:7px 12px;
+    font-family:'DM Mono',monospace; font-size:10px;
+    color:var(--text); outline:none; transition:border-color .2s;
+  }
+  .panel-search::placeholder { color:var(--muted); }
+  .panel-search:focus { border-color:var(--accent); }
+
+  .panel-filter-row {
+    padding:8px 20px 12px; border-bottom:1px solid var(--border);
+    display:flex; gap:6px; flex-wrap:wrap; flex-shrink:0;
+  }
+  .panel-filter-btn {
+    padding:4px 10px; background:var(--bg);
+    border:1px solid var(--border); border-radius:4px;
+    font-family:'DM Mono',monospace; font-size:8px;
+    letter-spacing:.08em; color:var(--muted);
+    cursor:pointer; transition:all .15s;
+  }
+  .panel-filter-btn:hover { color:var(--text); }
+  .panel-filter-btn.active { background:var(--surface2); border-color:var(--accent); color:var(--accent); }
+
+  .panel-body { flex:1; overflow-y:auto; padding:12px 20px; }
+
+  .panel-task {
+    background:var(--bg); border:1px solid var(--border);
+    border-radius:8px; margin-bottom:8px; overflow:hidden;
+    cursor:pointer; transition:border-color .15s;
+  }
+  .panel-task:hover { border-color:var(--accent); }
+  .panel-task.late-task { border-left:3px solid var(--red); }
+  .panel-task.waiting-task { border-left:3px solid var(--purple); }
+
+  .panel-task-main {
+    padding:10px 14px;
+    display:grid; grid-template-columns:1fr auto;
+    gap:8px; align-items:start;
+  }
+  .panel-task-title { font-size:11px; font-weight:600; color:var(--text); line-height:1.4; }
+  .panel-task-client { font-family:'DM Mono',monospace; font-size:8px; color:var(--accent); margin-top:2px; }
+  .panel-task-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; }
+
+  .panel-task-detail {
+    display:none; padding:10px 14px 12px;
+    border-top:1px solid var(--border);
+    background:var(--surface);
+    grid-template-columns:1fr 1fr; gap:8px;
+  }
+  .panel-task-detail.open { display:grid; }
+  .panel-detail-item { display:flex; flex-direction:column; gap:2px; }
+  .panel-detail-label { font-family:'DM Mono',monospace; font-size:7px; letter-spacing:.15em; text-transform:uppercase; color:var(--muted); }
+  .panel-detail-value { font-size:10px; color:var(--text); }
+  .panel-notes-item { grid-column:1/-1; }
+  .panel-notes-item .panel-detail-value { color:var(--muted2); font-style:italic; line-height:1.5; font-size:9px; }
+
+  .panel-empty { padding:32px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.1em; }
+
+  /* Make planner card header clickable */
+  .pcard-head { cursor:pointer; transition:background .15s; }
+  .pcard-head:hover { background:rgba(79,156,249,.06); }
+  .view-all-btn {
+    font-family:'DM Mono',monospace; font-size:8px;
+    color:var(--accent); letter-spacing:.08em;
+    display:flex; align-items:center; gap:3px;
+  }
   .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:300px;gap:12px;color:var(--muted);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em}
   .spinner{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);border-top-color:var(--accent);animation:spin .8s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
@@ -312,6 +417,33 @@
     </div>
 
   </div>
+
+  <!-- SLIDE-OUT PANEL -->
+  <div class="panel-overlay" id="panel-overlay" onclick="closePanel()"></div>
+  <div class="slide-panel" id="slide-panel">
+    <div class="panel-header">
+      <div>
+        <div class="panel-title">
+          <div class="panel-dot" id="panel-dot"></div>
+          <span id="panel-title-text">Planner</span>
+        </div>
+        <div class="panel-meta" id="panel-meta"></div>
+      </div>
+      <div class="panel-close" onclick="closePanel()">✕</div>
+    </div>
+    <div class="panel-search-wrap">
+      <input class="panel-search" id="panel-search" type="text" placeholder="Search tasks..." oninput="filterPanel()">
+    </div>
+    <div class="panel-filter-row" id="panel-filter-row">
+      <button class="panel-filter-btn active" onclick="setPanelFilter('all',this)">All</button>
+      <button class="panel-filter-btn" onclick="setPanelFilter('late',this)">Overdue</button>
+      <button class="panel-filter-btn" onclick="setPanelFilter('in-progress',this)">In Progress</button>
+      <button class="panel-filter-btn" onclick="setPanelFilter('not-started',this)">Not Started</button>
+      <button class="panel-filter-btn" onclick="setPanelFilter('waiting-on-client',this)">Waiting on Client</button>
+      <button class="panel-filter-btn" onclick="setPanelFilter('unassigned',this)">Unassigned</button>
+    </div>
+    <div class="panel-body" id="panel-body"></div>
+  </div>
 </div>
 
 <script>
@@ -398,13 +530,16 @@ function renderPlanners(planners){
 
     return `
       <div class="planner-card">
-        <div class="pcard-head">
+        <div class="pcard-head" onclick="openPanel('${p.key}')">
           <div class="pcard-head-top">
             <div class="pcard-name" style="color:${p.color}">
               <div style="width:7px;height:7px;border-radius:50%;background:${p.color}"></div>
               ${p.label}
             </div>
-            <div class="pcard-badge" style="background:${p.color}22;color:${p.color}">${p.openCount} open</div>
+            <div style="display:flex;align-items:center;gap:8px;">
+              <div class="pcard-badge" style="background:${p.color}22;color:${p.color}">${p.openCount} open</div>
+              <div class="view-all-btn">View All ▶</div>
+            </div>
           </div>
           <div class="pcard-meta">
             <span class="pcard-timestamp">Updated ${fmtTime(p.lastUpdated)}</span>
@@ -525,6 +660,131 @@ function toggleWipCard(cardId){
   card.classList.toggle('open');
 }
 
+// ── SLIDE PANEL ────────────────────────────────────────────────────────────
+let panelPlannerKey = null;
+let panelFilter = 'all';
+let allPlannerData = [];
+
+function openPanel(plannerKey) {
+  const planner = allPlannerData.find(p => p.key === plannerKey);
+  if (!planner) return;
+
+  panelPlannerKey = plannerKey;
+  panelFilter = 'all';
+
+  // Reset UI
+  document.getElementById('panel-search').value = '';
+  document.querySelectorAll('.panel-filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.panel-filter-btn').classList.add('active');
+
+  // Set header
+  document.getElementById('panel-dot').style.background = planner.color;
+  document.getElementById('panel-title-text').textContent = planner.label;
+  const open = planner.tasks.filter(t => t.status !== 'complete');
+  document.getElementById('panel-meta').textContent =
+    `${open.length} open · ${planner.overdueCount || 0} overdue · ${planner.waitingCount || 0} waiting on client`;
+
+  renderPanelTasks(planner);
+
+  document.getElementById('panel-overlay').classList.add('open');
+  document.getElementById('slide-panel').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closePanel() {
+  document.getElementById('panel-overlay').classList.remove('open');
+  document.getElementById('slide-panel').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function setPanelFilter(filter, btn) {
+  panelFilter = filter;
+  document.querySelectorAll('.panel-filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const planner = allPlannerData.find(p => p.key === panelPlannerKey);
+  if (planner) renderPanelTasks(planner);
+}
+
+function filterPanel() {
+  const planner = allPlannerData.find(p => p.key === panelPlannerKey);
+  if (planner) renderPanelTasks(planner);
+}
+
+function renderPanelTasks(planner) {
+  const search = document.getElementById('panel-search').value.toLowerCase().trim();
+  let tasks = planner.tasks.filter(t => t.status !== 'complete');
+
+  // Apply status filter
+  if (panelFilter === 'unassigned') {
+    tasks = tasks.filter(t => t.isUnassigned);
+  } else if (panelFilter !== 'all') {
+    tasks = tasks.filter(t => t.status === panelFilter);
+  }
+
+  // Apply search
+  if (search) {
+    tasks = tasks.filter(t =>
+      t.title.toLowerCase().includes(search) ||
+      (t.clientName || '').toLowerCase().includes(search) ||
+      (t.bucketName || '').toLowerCase().includes(search) ||
+      (t.assigneeNames || []).some(n => n.toLowerCase().includes(search))
+    );
+  }
+
+  const body = document.getElementById('panel-body');
+  if (!tasks.length) {
+    body.innerHTML = '<div class="panel-empty">NO TASKS MATCH</div>';
+    return;
+  }
+
+  body.innerHTML = tasks.map((t, idx) => {
+    const pid = `pt-${planner.key}-${idx}`;
+    const borderClass = t.status === 'late' ? 'late-task' : t.status === 'waiting-on-client' ? 'waiting-task' : '';
+    return `
+      <div class="panel-task ${borderClass}" onclick="togglePanelTask('${pid}')">
+        <div class="panel-task-main">
+          <div>
+            <div class="panel-task-title">${t.title}</div>
+            ${t.clientName ? `<div class="panel-task-client">${t.clientName}</div>` : ''}
+          </div>
+          <div class="panel-task-right">
+            <div class="t-status ${statusClass(t.status)}">${statusLabel(t.status)}</div>
+            ${t.isUnassigned ? '<span class="unassigned-pill">⚠ Unassigned</span>' : `<span style="font-family:'DM Mono',monospace;font-size:8px;color:var(--muted)">${(t.assigneeNames||[]).join(', ')||'—'}</span>`}
+          </div>
+        </div>
+        <div class="panel-task-detail" id="${pid}">
+          <div class="panel-detail-item">
+            <div class="panel-detail-label">Bucket / Stage</div>
+            <div class="panel-detail-value">${t.bucketName || '—'}</div>
+          </div>
+          <div class="panel-detail-item">
+            <div class="panel-detail-label">Due Date</div>
+            <div class="panel-detail-value" style="${t.status==='late'?'color:var(--red);font-weight:700':''}">${t.dueDateFormatted || 'No due date'}</div>
+          </div>
+          <div class="panel-detail-item">
+            <div class="panel-detail-label">Assigned To</div>
+            <div class="panel-detail-value">${t.isUnassigned ? '⚠ Unassigned' : (t.assigneeNames||[]).join(', ') || '—'}</div>
+          </div>
+          <div class="panel-detail-item">
+            <div class="panel-detail-label">Progress</div>
+            <div class="panel-detail-value">${t.percentComplete}%</div>
+          </div>
+          ${t.notes ? `<div class="panel-detail-item panel-notes-item"><div class="panel-detail-label">Notes</div><div class="panel-detail-value">${t.notes}</div></div>` : ''}
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function togglePanelTask(pid) {
+  const detail = document.getElementById(pid);
+  const isOpen = detail.classList.contains('open');
+  document.querySelectorAll('.panel-task-detail.open').forEach(d => d.classList.remove('open'));
+  if (!isOpen) detail.classList.add('open');
+}
+
+// Close panel on Escape key
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+
 async function loadData(){
   try{
     const res  = await fetch('planner-data.json?t='+Date.now());
@@ -536,6 +796,7 @@ async function loadData(){
     document.getElementById('next-sync').textContent='Next refresh in ~30 min';
     renderStats(data.stats);
     renderOverdueAlert(data.overdueTasks, data.stats.overdue);
+    allPlannerData = data.planners;
     renderPlanners(data.planners);
     renderWip(data.wip);
   }catch(err){
