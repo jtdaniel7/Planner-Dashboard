@@ -417,10 +417,11 @@
     </div>
 
   </div>
+</div>
 
-  <!-- SLIDE-OUT PANEL -->
-  <div class="panel-overlay" id="panel-overlay" onclick="closePanel()"></div>
-  <div class="slide-panel" id="slide-panel">
+<!-- SLIDE-OUT PANEL — outside page div so z-index works correctly -->
+<div class="panel-overlay" id="panel-overlay" onclick="closePanel()"></div>
+<div class="slide-panel" id="slide-panel">
     <div class="panel-header">
       <div>
         <div class="panel-title">
@@ -443,7 +444,6 @@
       <button class="panel-filter-btn" onclick="setPanelFilter('unassigned',this)">Unassigned</button>
     </div>
     <div class="panel-body" id="panel-body"></div>
-  </div>
 </div>
 
 <script>
@@ -508,7 +508,7 @@ function renderPlanners(planners){
     const rows = display.length > 0 ? display.map((t,idx) => {
       const did = `d-${p.key}-${idx}`;
       return `
-        <div class="task-row" onclick="toggleTask(this,'${did}')">
+        <div class="task-row" onclick="event.stopPropagation();toggleTask(this,'${did}')">
           <div class="task-row-main">
             <div class="t-check ${checkClass(t.status)}">${checkMark(t.status)}</div>
             <div class="t-name" title="${t.title}">${t.title}<span class="expand-arrow">▶</span></div>
