@@ -26,12 +26,15 @@ const CLIENT_DEPENDENT_BUCKETS = [
   'in wip',
   'reassign to acs',
   'reassign to ejd',
+  'paperwork submitted',
 ];
 
 function isClientDependent(bucketName) {
   if (!bucketName) return false;
   return CLIENT_DEPENDENT_BUCKETS.some(b => bucketName.toLowerCase().includes(b));
 }
+
+
 
 async function getAccessToken() {
   const url  = `https://login.microsoftonline.com/${TENANT_ID}/oauth2/v2.0/token`;
