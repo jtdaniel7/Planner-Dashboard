@@ -75,11 +75,18 @@ const userCache = {};
 async function resolveUserName(token, userId) {
   if (userCache[userId]) return userCache[userId];
   try {
-    const data = await graphGet(token, `/users/${userId}`);
-    const name = data.displayName || data.userPrincipalName || 'Unknown';
+    // Use $select to ensure displayName is returned, works for members and guests
+    const data = await graphGet(token, `/users/${userId}?$select=displayName,userPrincipalName,mail`);
+    // displayName is most reliable; fall back to mail prefix or UPN prefix
+    let name = data.displayName;
+    if (!name || name === 'Unknown') {
+      const email = data.mail || data.userPrincipalName || '';
+      name = email.split('@')[0].replace(/[._]/g, ' ') || 'Unknown';
+    }
     userCache[userId] = name;
     return name;
-  } catch {
+  } catch (e) {
+    console.log(`Could not resolve user ${userId}: ${e.message}`);
     userCache[userId] = 'Unknown';
     return 'Unknown';
   }
@@ -98,26 +105,30 @@ function deriveStatus(task, bucketName) {
 }
 
 /**
- * Extract client name from task title based on planner format:
- * - trades, paperwork, locations: "FirstName LastName — Task Description"
- *   Extract everything before the first — or – or -
- * - advisor: full title is used as-is (no reliable client extraction)
+ * Extract client name from task title based on planner format.
+ *
+ * paperwork: "LASTNAME, FIRSTNAME - Task Description" (dash separator)
+ * trades:    "FirstName LastName TaskType BES" (no separator - take first 2 words)
+ * locations: "FirstName LastName - Task Description" (dash separator)
+ * advisor:   full title, no client grouping
  */
 function extractClient(title, plannerKey) {
   if (!title) return null;
-  if (plannerKey === 'advisor') return null; // show full title, no grouping
+  if (plannerKey === 'advisor') return null;
 
-  // Match "FirstName LastName — description" or "FirstName LastName - description"
-  const match = title.match(/^(.+?)\s*[—–]\s*.+/);
-  if (match) return match[1].trim();
+  // Try em dash or en dash separator first (paperwork, locations)
+  const emDash = title.match(/^(.+?)\s*[—–]\s*.+/);
+  if (emDash) return emDash[1].trim();
 
-  // Fallback: try single dash but only if there's content on both sides
-  const dashMatch = title.match(/^([A-Za-z ,&.']+?)\s+-\s+.{3,}/);
-  if (dashMatch) return dashMatch[1].trim();
+  // Trades: no dash in title — extract first two words as client name
+  if (plannerKey === 'trades') {
+    const words = title.trim().split(/\s+/);
+    if (words.length >= 2) return (words[0] + ' ' + words[1]);
+    return words[0] || null;
+  }
 
   return null;
 }
-
 function formatDueDate(iso) {
   if (!iso) return null;
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
