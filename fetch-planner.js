@@ -110,20 +110,34 @@ function deriveStatus(task, bucketName) {
 /**
  * Extract client name from task title based on planner format.
  *
- * paperwork: "LASTNAME, FIRSTNAME - Task Description" (dash separator)
- * trades:    "FirstName LastName TaskType BES" (no separator - take first 2 words)
- * locations: "FirstName LastName - Task Description" (dash separator)
+ * paperwork: "LASTNAME, Firstname - Task Description"
+ *            "LASTNAME, First & Last - Task Description" (joint accounts)
+ *            Regular hyphen separator
+ *
+ * trades:    "FirstName LastName TaskType BES" (no separator)
+ *            Take first two words as client name
+ *
+ * locations: "FirstName LastName - Task Description"
+ *
  * advisor:   full title, no client grouping
  */
 function extractClient(title, plannerKey) {
   if (!title) return null;
   if (plannerKey === 'advisor') return null;
 
-  // Try em dash or en dash separator first (paperwork, locations)
+  // Universal: try em dash or en dash first
   const emDash = title.match(/^(.+?)\s*[—–]\s*.+/);
   if (emDash) return emDash[1].trim();
 
-  // Trades: no dash in title — extract first two words as client name
+  // paperwork & locations: "Client Name - Task Description"
+  // Client name can contain letters, spaces, commas, &, /, apostrophes, hyphens in names
+  // Use " - " (space-hyphen-space) as the separator to avoid splitting hyphenated names
+  if (plannerKey === 'paperwork' || plannerKey === 'locations') {
+    const hyphen = title.match(/^(.+?)\s+-\s+.{2,}/);
+    if (hyphen) return hyphen[1].trim();
+  }
+
+  // trades: no separator — take first two words
   if (plannerKey === 'trades') {
     const words = title.trim().split(/\s+/);
     if (words.length >= 2) return (words[0] + ' ' + words[1]);
