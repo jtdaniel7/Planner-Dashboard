@@ -15,6 +15,7 @@ const PLANNERS = [
   { key: 'paperwork', label: 'Paperwork',               planId: process.env.PLAN_ID_PAPERWORK,  color: '#f9a84f' },
   { key: 'advisor',   label: 'Advisor Flow',            planId: process.env.PLAN_ID_ADVISOR,    color: '#7fd8a0' },
   { key: 'locations', label: 'Locations',               planId: process.env.PLAN_ID_LOCATIONS,  color: '#c084fc' },
+  { key: 'conts',     label: 'CONTs & Checks',          planId: process.env.PLAN_ID_CONTS,      color: '#f97b7b' },
 ];
 
 // Buckets that are client-dependent — never count as overdue
@@ -141,8 +142,8 @@ function extractClient(title, plannerKey) {
     if (pipe) return pipe[1].trim();
   }
 
-  // trades: no separator — take first two words
-  if (plannerKey === 'trades') {
+  // trades & conts: no separator — take first two words
+  if (plannerKey === 'trades' || plannerKey === 'conts') {
     const words = title.trim().split(/\s+/);
     if (words.length >= 2) return (words[0] + ' ' + words[1]);
     return words[0] || null;
