@@ -493,22 +493,22 @@ function clientColumn(entry) {
 function renderStats(s) {
   document.getElementById('stats-row').innerHTML = `
     <div class="stat-card red" onclick="filterColumn('overdue')">
-      <div class="stat-label">Overdue</div>
+      <div class="stat-label">Overdue Tasks</div>
       <div class="stat-num">${s.overdue}</div>
       <div class="stat-sub">tasks past due date</div>
     </div>
     <div class="stat-card amber" onclick="filterColumn('inprog')">
-      <div class="stat-label">In Progress</div>
+      <div class="stat-label">In Progress Tasks</div>
       <div class="stat-num">${s.totalOpen - s.overdue - s.waitingOnClient}</div>
       <div class="stat-sub">tasks actively in motion</div>
     </div>
     <div class="stat-card purple" onclick="filterColumn('waiting')">
-      <div class="stat-label">Waiting on Client</div>
+      <div class="stat-label">Waiting on Client Tasks</div>
       <div class="stat-num">${s.waitingOnClient}</div>
       <div class="stat-sub">pending client action</div>
     </div>
     <div class="stat-card blue" onclick="filterColumn('all')">
-      <div class="stat-label">Total Open</div>
+      <div class="stat-label">Total Open Tasks</div>
       <div class="stat-num">${s.totalOpen}</div>
       <div class="stat-sub">across all planners</div>
     </div>`;
@@ -581,7 +581,7 @@ function renderColumns(wip) {
   ['overdue','inprog','waiting'].forEach(col => {
     const el = document.getElementById(`col-${col}`);
     const cnt = document.getElementById(`cnt-${col}`);
-    cnt.textContent = cols[col].length;
+    cnt.textContent = `${cols[col].length} client${cols[col].length !== 1 ? 's' : ''}`;
     if (!cols[col].length) {
       el.innerHTML = `<div class="col-empty">ALL CLEAR</div>`;
     } else {
