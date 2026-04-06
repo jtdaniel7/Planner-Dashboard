@@ -165,6 +165,7 @@ body { background:var(--bg); color:var(--text); font-family:'Plus Jakarta Sans',
 .ptag-paperwork{ background:var(--amber-bg);  color:var(--paper);   border:1px solid var(--amber-border); }
 .ptag-advisor  { background:var(--green-bg);  color:var(--advisor); border:1px solid var(--green-border); }
 .ptag-locations{ background:var(--purple-bg); color:var(--locs);    border:1px solid var(--purple-border); }
+.ptag-conts    { background:#fff1f2;          color:#dc2626;        border:1px solid #fecaca; }
 
 /* CARD ITEMS PREVIEW */
 .card-items { padding:0 14px 12px; }
@@ -443,9 +444,9 @@ body { background:var(--bg); color:var(--text); font-family:'Plus Jakarta Sans',
 <script>
 // ── Constants ──────────────────────────────────────────────────────────────
 const PLANNER_COLOR = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed' };
-const PC = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed' };
-const PLANNER_LABEL = { trades:'Trades', paperwork:'Paperwork', advisor:'Advisor', locations:'Locations' };
-const PTAG_CLASS = { trades:'ptag-trades', paperwork:'ptag-paperwork', advisor:'ptag-advisor', locations:'ptag-locations' };
+const PC = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed', conts:'#dc2626' };
+const PLANNER_LABEL = { trades:'Trades', paperwork:'Paperwork', advisor:'Advisor', locations:'Locations', conts:'CONTs & Checks' };
+const PTAG_CLASS = { trades:'ptag-trades', paperwork:'ptag-paperwork', advisor:'ptag-advisor', locations:'ptag-locations', conts:'ptag-conts' };
 
 // ── State ──────────────────────────────────────────────────────────────────
 let DATA = null;
