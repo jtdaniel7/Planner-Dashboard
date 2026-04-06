@@ -4,688 +4,623 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SDC Operations Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg:      #0d0f14;
-    --surface: #13161e;
-    --surface2:#1a1e2a;
-    --border:  #252a38;
-    --accent:  #4f9cf9;
-    --green:   #7fd8a0;
-    --amber:   #f9a84f;
-    --red:     #f97b7b;
-    --purple:  #c084fc;
-    --text:    #e8eaf0;
-    --muted:   #6b7280;
-    --muted2:  #9ca3af;
-  }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--bg); color:var(--text); font-family:'Syne',sans-serif; min-height:100vh; }
-  body::before { content:''; position:fixed; inset:0; background-image:linear-gradient(rgba(79,156,249,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(79,156,249,0.03) 1px,transparent 1px); background-size:40px 40px; pointer-events:none; z-index:0; }
+:root {
+  --bg:      #f0f2f5;
+  --surface: #ffffff;
+  --surface2:#f7f8fa;
+  --border:  #e2e5ea;
+  --border2: #d0d5dd;
+  --text:    #0f1117;
+  --text2:   #3d4450;
+  --muted:   #6b7280;
+  --muted2:  #9ca3af;
+  --red:     #dc2626;
+  --red-bg:  #fef2f2;
+  --red-border: #fecaca;
+  --amber:   #d97706;
+  --amber-bg:#fffbeb;
+  --amber-border:#fde68a;
+  --purple:  #7c3aed;
+  --purple-bg:#f5f3ff;
+  --purple-border:#ddd6fe;
+  --blue:    #2563eb;
+  --blue-bg: #eff6ff;
+  --blue-border:#bfdbfe;
+  --green:   #16a34a;
+  --green-bg:#f0fdf4;
+  --green-border:#bbf7d0;
+  --trades:  #2563eb;
+  --paper:   #d97706;
+  --advisor: #16a34a;
+  --locs:    #7c3aed;
+}
 
-  /* HEADER */
-  header { position:sticky; top:0; z-index:100; padding:14px 24px; border-bottom:1px solid var(--border); background:rgba(13,15,20,0.95); backdrop-filter:blur(10px); display:flex; align-items:center; justify-content:space-between; }
-  .logo { display:flex; align-items:center; gap:12px; }
-  .logo-mark { width:32px; height:32px; border-radius:7px; background:linear-gradient(135deg,var(--accent),var(--purple)); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:12px; color:#fff; letter-spacing:-0.5px; }
-  .logo-title { font-size:14px; font-weight:700; }
-  .logo-sub { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:.15em; text-transform:uppercase; }
-  .sync-info { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:.08em; text-align:right; }
-  .live-dot { display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:5px; animation:blink 2s infinite; }
-  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'Plus Jakarta Sans',sans-serif; min-height:100vh; }
 
-  /* OVERDUE ALERT BAR */
-  #overdue-alert {
-    display:none;
-    background: linear-gradient(90deg, rgba(249,123,123,0.15), rgba(249,123,123,0.05));
-    border-bottom: 1px solid rgba(249,123,123,0.3);
-    padding: 10px 24px;
-    display:flex; align-items:center; gap:12px;
-    font-family:'DM Mono',monospace; font-size:10px;
-    color: var(--red); letter-spacing:.05em;
-  }
-  #overdue-alert .alert-icon { font-size:14px; }
-  #overdue-alert .alert-count {
-    background: var(--red); color:#fff;
-    padding:2px 8px; border-radius:4px;
-    font-weight:700; font-size:11px;
-  }
+/* HEADER */
+.header {
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:0 28px;
+  display:flex; align-items:center; justify-content:space-between;
+  height:60px;
+  position:sticky; top:0; z-index:100;
+  box-shadow:0 1px 3px rgba(0,0,0,0.06);
+}
+.header-left { display:flex; align-items:center; gap:12px; }
+.logo-mark {
+  width:34px; height:34px; border-radius:8px;
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+  display:flex; align-items:center; justify-content:center;
+  font-weight:800; font-size:13px; color:#fff; letter-spacing:-0.5px;
+}
+.header-title { font-size:15px; font-weight:700; color:var(--text); }
+.header-sub { font-size:11px; color:var(--muted); font-family:'IBM Plex Mono',monospace; letter-spacing:.04em; }
+.header-right { display:flex; align-items:center; gap:16px; }
+.sync-badge {
+  display:flex; align-items:center; gap:6px;
+  font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted);
+  background:var(--surface2); border:1px solid var(--border);
+  padding:5px 10px; border-radius:6px;
+}
+.sync-dot { width:6px; height:6px; border-radius:50%; background:#16a34a; animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.8)} }
 
-  #error-banner { display:none; background:rgba(249,123,123,0.1); border-bottom:1px solid rgba(249,123,123,0.3); padding:8px 24px; font-family:'DM Mono',monospace; font-size:10px; color:var(--red); letter-spacing:.05em; }
+/* SEARCH BAR */
+.search-wrap {
+  padding:16px 28px 0;
+}
+.search-input {
+  width:100%; max-width:420px;
+  background:var(--surface); border:1px solid var(--border2);
+  border-radius:8px; padding:9px 14px 9px 36px;
+  font-family:'Plus Jakarta Sans',sans-serif; font-size:13px;
+  color:var(--text); outline:none; transition:border-color .2s;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E");
+  background-repeat:no-repeat; background-position:12px center;
+}
+.search-input:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(37,99,235,0.1); }
+.search-input::placeholder { color:var(--muted2); }
 
-  .page { position:relative; z-index:1; padding:20px 24px; }
+/* STAT CARDS */
+.stats-row {
+  display:grid; grid-template-columns:repeat(4,1fr); gap:14px;
+  padding:16px 28px 0;
+}
+.stat-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:12px; padding:16px 20px;
+  cursor:pointer; transition:all .15s;
+  position:relative; overflow:hidden;
+}
+.stat-card:hover { box-shadow:0 4px 12px rgba(0,0,0,0.08); transform:translateY(-1px); }
+.stat-card.red   { border-top:3px solid var(--red); }
+.stat-card.amber { border-top:3px solid var(--amber); }
+.stat-card.purple{ border-top:3px solid var(--purple); }
+.stat-card.blue  { border-top:3px solid var(--blue); }
+.stat-label { font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.15em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+.stat-num { font-size:32px; font-weight:800; line-height:1; }
+.stat-card.red   .stat-num { color:var(--red); }
+.stat-card.amber .stat-num { color:var(--amber); }
+.stat-card.purple .stat-num { color:var(--purple); }
+.stat-card.blue  .stat-num { color:var(--blue); }
+.stat-sub { font-size:11px; color:var(--muted); margin-top:4px; }
 
-  /* STATS */
-  .stats-row { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-bottom:20px; animation:fadeUp .35s ease both; }
-  .stat { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 16px; position:relative; overflow:hidden; }
-  .stat::after { content:''; position:absolute; top:0; left:0; right:0; height:2px; }
-  .stat.c1::after{background:var(--accent)} .stat.c2::after{background:var(--green)} .stat.c3::after{background:var(--red)} .stat.c4::after{background:var(--purple)} .stat.c5::after{background:var(--amber)}
-  .stat-lbl { font-family:'DM Mono',monospace; font-size:8px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
-  .stat-val { font-size:26px; font-weight:800; line-height:1; }
-  .stat.c1 .stat-val{color:var(--accent)} .stat.c2 .stat-val{color:var(--green)} .stat.c3 .stat-val{color:var(--red)} .stat.c4 .stat-val{color:var(--purple)} .stat.c5 .stat-val{color:var(--amber)}
-  .stat-sub { font-size:9px; color:var(--muted); margin-top:3px; font-family:'DM Mono',monospace; }
+/* MAIN COLUMNS */
+.columns-wrap { padding:20px 28px 32px; display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; }
 
-  /* SECTION */
-  .sec-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
-  .sec-title { display:flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:.04em; }
-  .sec-dot { width:8px; height:8px; border-radius:50%; }
+.column-header {
+  display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:12px;
+}
+.column-title {
+  display:flex; align-items:center; gap:8px;
+  font-size:12px; font-weight:700; letter-spacing:.04em; text-transform:uppercase;
+}
+.col-dot { width:9px; height:9px; border-radius:50%; }
+.col-count {
+  font-family:'IBM Plex Mono',monospace; font-size:10px;
+  padding:2px 8px; border-radius:10px;
+}
+.col-overdue .col-count { background:var(--red-bg); color:var(--red); border:1px solid var(--red-border); }
+.col-inprog  .col-count { background:var(--amber-bg); color:var(--amber); border:1px solid var(--amber-border); }
+.col-waiting .col-count { background:var(--purple-bg); color:var(--purple); border:1px solid var(--purple-border); }
 
-  /* PLANNER GRID */
-  .planner-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px; animation:fadeUp .35s .07s ease both; opacity:0; animation-fill-mode:forwards; }
-  .planner-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
-  .pcard-head { padding:10px 14px; border-bottom:1px solid var(--border); background:var(--surface2); }
-  .pcard-head-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
-  .pcard-name { display:flex; align-items:center; gap:7px; font-size:11px; font-weight:700; }
-  .pcard-badge { font-family:'DM Mono',monospace; font-size:9px; padding:2px 7px; border-radius:3px; }
-  .pcard-meta { display:flex; gap:8px; align-items:center; }
-  .pcard-timestamp { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); letter-spacing:.06em; }
-  .pcard-waiting { font-family:'DM Mono',monospace; font-size:8px; color:var(--purple); background:rgba(192,132,252,.1); padding:1px 6px; border-radius:3px; }
-  .pcard-overdue { font-family:'DM Mono',monospace; font-size:8px; color:var(--red); background:rgba(249,123,123,.1); padding:1px 6px; border-radius:3px; }
+.col-cards { display:flex; flex-direction:column; gap:10px; }
 
-  .task-list { max-height:260px; overflow-y:auto; }
-  .task-row { padding:8px 14px; border-bottom:1px solid rgba(37,42,56,.5); cursor:pointer; transition:background .1s; }
-  .task-row:last-child { border-bottom:none; }
-  .task-row:hover { background:rgba(79,156,249,.04); }
-  .task-row-main { display:grid; grid-template-columns:14px 1fr auto auto; gap:8px; align-items:center; }
+/* CLIENT CARD */
+.client-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:12px; overflow:hidden;
+  transition:all .15s; cursor:pointer;
+}
+.client-card:hover { box-shadow:0 4px 16px rgba(0,0,0,0.08); border-color:var(--border2); transform:translateY(-1px); }
+.client-card.overdue { border-left:3px solid var(--red); }
+.client-card.waiting { border-left:3px solid var(--purple); }
+.client-card.inprog  { border-left:3px solid var(--amber); }
 
-  .t-check { width:13px; height:13px; border-radius:3px; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:7px; flex-shrink:0; }
-  .t-check.done{background:var(--green);border-color:var(--green);color:#fff}
-  .t-check.prog{border-color:var(--amber)}
-  .t-check.late{border-color:var(--red)}
-  .t-check.waiting{border-color:var(--purple)}
+.card-header {
+  padding:12px 14px;
+  display:flex; align-items:flex-start; justify-content:space-between; gap:8px;
+}
+.card-avatar {
+  width:32px; height:32px; border-radius:50%; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+  font-size:11px; font-weight:700; color:#fff;
+}
+.card-client-info { flex:1; min-width:0; }
+.card-client-name { font-size:13px; font-weight:700; color:var(--text); line-height:1.3; }
+.card-client-sub { font-family:'IBM Plex Mono',monospace; font-size:9px; color:var(--muted); margin-top:2px; }
+.card-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; flex-shrink:0; }
 
-  .t-name { font-size:10px; color:var(--text); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .t-name.striked { color:var(--muted); text-decoration:line-through; }
-  .expand-arrow { font-size:8px; color:var(--muted); margin-left:4px; transition:transform .2s; display:inline-block; }
-  .task-row.expanded .expand-arrow { transform:rotate(90deg); }
+.planner-tags { display:flex; gap:3px; flex-wrap:wrap; justify-content:flex-end; }
+.ptag {
+  font-family:'IBM Plex Mono',monospace; font-size:8px;
+  padding:2px 6px; border-radius:4px; letter-spacing:.03em; font-weight:500;
+}
+.ptag-trades   { background:var(--blue-bg);   color:var(--trades);  border:1px solid var(--blue-border); }
+.ptag-paperwork{ background:var(--amber-bg);  color:var(--paper);   border:1px solid var(--amber-border); }
+.ptag-advisor  { background:var(--green-bg);  color:var(--advisor); border:1px solid var(--green-border); }
+.ptag-locations{ background:var(--purple-bg); color:var(--locs);    border:1px solid var(--purple-border); }
 
-  .t-assignee-pill { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
-  .unassigned-pill { font-family:'DM Mono',monospace; font-size:8px; color:var(--red); background:rgba(249,123,123,.1); padding:1px 5px; border-radius:3px; }
+/* CARD ITEMS PREVIEW */
+.card-items { padding:0 14px 12px; }
+.card-item {
+  display:flex; align-items:center; gap:6px;
+  padding:5px 0; border-top:1px solid var(--border);
+  font-size:11px; color:var(--text2);
+}
+.card-item:first-child { border-top:none; }
+.item-dot { width:5px; height:5px; border-radius:50%; flex-shrink:0; }
+.item-title { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:11px; }
+.item-badge {
+  font-family:'IBM Plex Mono',monospace; font-size:8px;
+  padding:1px 5px; border-radius:3px; white-space:nowrap; flex-shrink:0;
+}
+.item-badge.late    { background:var(--red-bg);    color:var(--red);    border:1px solid var(--red-border); }
+.item-badge.prog    { background:var(--amber-bg);  color:var(--amber);  border:1px solid var(--amber-border); }
+.item-badge.waiting { background:var(--purple-bg); color:var(--purple); border:1px solid var(--purple-border); }
+.item-badge.ns      { background:var(--surface2);  color:var(--muted);  border:1px solid var(--border); }
 
-  .t-status { font-family:'DM Mono',monospace; font-size:8px; padding:2px 6px; border-radius:3px; white-space:nowrap; }
-  .s-not-started{background:rgba(107,114,128,.15);color:var(--muted2)}
-  .s-in-progress{background:rgba(249,168,79,.15);color:var(--amber)}
-  .s-complete{background:rgba(127,216,160,.15);color:var(--green)}
-  .s-late{background:rgba(249,123,123,.15);color:var(--red)}
-  .s-waiting-on-client{background:rgba(192,132,252,.15);color:var(--purple)}
+.card-more {
+  font-family:'IBM Plex Mono',monospace; font-size:9px; color:var(--muted);
+  padding:6px 14px; border-top:1px solid var(--border);
+  text-align:center; background:var(--surface2);
+}
 
-  /* INLINE EXPAND */
-  .task-detail { display:none; margin-top:8px; padding:10px 12px; background:var(--surface2); border-radius:6px; border:1px solid var(--border); grid-template-columns:1fr 1fr; gap:8px; }
-  .task-detail.open { display:grid; }
-  .detail-item { display:flex; flex-direction:column; gap:2px; }
-  .detail-label { font-family:'DM Mono',monospace; font-size:8px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
-  .detail-value { font-size:10px; color:var(--text); }
-  .detail-notes { grid-column:1/-1; }
-  .detail-notes .detail-value { color:var(--muted2); font-style:italic; line-height:1.5; }
+/* EMPTY COL */
+.col-empty {
+  padding:32px 16px; text-align:center;
+  background:var(--surface); border:1px dashed var(--border2);
+  border-radius:12px;
+  font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted2);
+  letter-spacing:.08em;
+}
 
-  .empty-state { padding:24px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.08em; }
+/* SLIDE PANEL */
+.panel-overlay {
+  display:none; position:fixed; inset:0;
+  background:rgba(15,17,23,0.4); z-index:500;
+  backdrop-filter:blur(3px);
+}
+.panel-overlay.open { display:block; }
 
-  /* OVERDUE SECTION */
-  .overdue-section { margin-bottom:20px; animation:fadeUp .35s .1s ease both; opacity:0; animation-fill-mode:forwards; }
-  .overdue-list { display:flex; flex-direction:column; gap:8px; }
-  .overdue-item {
-    background:var(--surface);
-    border:1px solid rgba(249,123,123,.3);
-    border-left:3px solid var(--red);
-    border-radius:8px;
-    padding:12px 16px;
-    display:grid;
-    grid-template-columns:1fr auto auto auto auto;
-    gap:12px; align-items:center;
-  }
-  .overdue-client { font-weight:700; font-size:11px; color:var(--text); }
-  .overdue-title { font-size:10px; color:var(--muted2); margin-top:2px; }
-  .overdue-planner { font-family:'DM Mono',monospace; font-size:8px; padding:2px 6px; border-radius:3px; }
-  .overdue-bucket { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); }
-  .overdue-assignee { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted2); }
-  .overdue-due { font-family:'DM Mono',monospace; font-size:8px; color:var(--red); font-weight:600; }
+.slide-panel {
+  position:fixed; top:0; right:-620px; width:600px; height:100vh;
+  background:var(--surface); border-left:1px solid var(--border);
+  z-index:501; transition:right .3s cubic-bezier(.4,0,.2,1);
+  display:flex; flex-direction:column; overflow:hidden;
+  box-shadow:-8px 0 32px rgba(0,0,0,0.12);
+}
+.slide-panel.open { right:0; }
 
-  /* WIP SECTION */
-  .wip-wrap { animation:fadeUp .35s .16s ease both; opacity:0; animation-fill-mode:forwards; margin-bottom:24px; }
-  .wip-clients { display:flex; flex-direction:column; gap:10px; }
+.panel-head {
+  padding:20px 24px; border-bottom:1px solid var(--border);
+  display:flex; align-items:flex-start; justify-content:space-between;
+  background:var(--surface);
+  flex-shrink:0;
+}
+.panel-head-left { display:flex; align-items:center; gap:12px; }
+.panel-avatar {
+  width:40px; height:40px; border-radius:50%; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+  font-size:14px; font-weight:700; color:#fff;
+}
+.panel-client-name { font-size:16px; font-weight:700; }
+.panel-client-meta { font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted); margin-top:3px; }
+.panel-close {
+  width:32px; height:32px; border-radius:8px;
+  background:var(--surface2); border:1px solid var(--border);
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer; color:var(--muted); font-size:16px;
+  transition:all .15s; flex-shrink:0;
+}
+.panel-close:hover { background:var(--red-bg); border-color:var(--red-border); color:var(--red); }
 
-  .wip-client-card {
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:10px;
-    overflow:hidden;
-  }
-  .wip-client-card.has-overdue { border-color:rgba(249,123,123,.4); }
-  .wip-client-card.has-waiting { border-color:rgba(192,132,252,.3); }
+.panel-search-bar {
+  padding:12px 24px; border-bottom:1px solid var(--border);
+  flex-shrink:0;
+}
+.panel-search-input {
+  width:100%; background:var(--surface2); border:1px solid var(--border);
+  border-radius:7px; padding:8px 12px;
+  font-family:'Plus Jakarta Sans',sans-serif; font-size:12px;
+  color:var(--text); outline:none; transition:border-color .2s;
+}
+.panel-search-input:focus { border-color:var(--blue); }
+.panel-search-input::placeholder { color:var(--muted2); }
 
-  .wip-client-header {
-    padding:12px 16px;
-    display:grid;
-    grid-template-columns:auto 1fr auto auto auto auto;
-    gap:12px; align-items:center;
-    cursor:pointer;
-    background:var(--surface2);
-    transition:background .15s;
-  }
-  .wip-client-header:hover { background:rgba(79,156,249,.05); }
+.panel-filters {
+  padding:10px 24px 12px; border-bottom:1px solid var(--border);
+  display:flex; gap:6px; flex-wrap:wrap; flex-shrink:0;
+}
+.pf-btn {
+  padding:5px 12px; background:var(--surface2);
+  border:1px solid var(--border); border-radius:6px;
+  font-family:'IBM Plex Mono',monospace; font-size:9px;
+  letter-spacing:.06em; color:var(--muted); cursor:pointer; transition:all .15s;
+}
+.pf-btn:hover { border-color:var(--border2); color:var(--text); }
+.pf-btn.on { background:var(--blue-bg); border-color:var(--blue-border); color:var(--blue); }
 
-  .wip-avatar { width:30px; height:30px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:800; color:#fff; }
-  .wip-client-name { font-size:13px; font-weight:700; color:var(--text); }
-  .wip-client-sub { font-size:9px; color:var(--muted); font-family:'DM Mono',monospace; margin-top:1px; }
+.panel-body { flex:1; overflow-y:auto; padding:16px 24px; }
 
-  .wip-tags { display:flex; gap:4px; flex-wrap:wrap; }
-  .stag { font-family:'DM Mono',monospace; font-size:7px; padding:2px 5px; border-radius:3px; letter-spacing:.04em; }
-  .stag-trades{background:rgba(79,156,249,.15);color:var(--accent)}
-  .stag-paperwork{background:rgba(249,168,79,.15);color:var(--amber)}
-  .stag-advisor{background:rgba(127,216,160,.15);color:var(--green)}
-  .stag-locations{background:rgba(192,132,252,.15);color:var(--purple)}
+/* PANEL TASK */
+.ptask {
+  background:var(--surface2); border:1px solid var(--border);
+  border-radius:10px; margin-bottom:8px; overflow:hidden;
+  transition:border-color .15s;
+}
+.ptask:hover { border-color:var(--border2); }
+.ptask.late   { border-left:3px solid var(--red); }
+.ptask.waiting-on-client { border-left:3px solid var(--purple); }
+.ptask.in-progress { border-left:3px solid var(--amber); }
 
-  .wip-prog-wrap { display:flex; align-items:center; gap:7px; }
-  .wip-prog-bar { width:60px; height:4px; background:var(--border); border-radius:2px; overflow:hidden; }
-  .wip-prog-fill { height:100%; border-radius:2px; background:linear-gradient(90deg,var(--accent),var(--green)); }
-  .wip-prog-pct { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); min-width:28px; }
+.ptask-top {
+  padding:12px 14px; cursor:pointer;
+  display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+}
+.ptask-title { font-size:12px; font-weight:600; color:var(--text); line-height:1.4; flex:1; }
+.ptask-right { display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex-shrink:0; }
+.ptask-planner-tag {
+  font-family:'IBM Plex Mono',monospace; font-size:8px;
+  padding:2px 6px; border-radius:4px;
+}
+.status-chip {
+  font-family:'IBM Plex Mono',monospace; font-size:8px;
+  padding:2px 7px; border-radius:4px; white-space:nowrap;
+}
+.chip-late    { background:var(--red-bg);    color:var(--red);    border:1px solid var(--red-border); }
+.chip-prog    { background:var(--amber-bg);  color:var(--amber);  border:1px solid var(--amber-border); }
+.chip-waiting { background:var(--purple-bg); color:var(--purple); border:1px solid var(--purple-border); }
+.chip-ns      { background:var(--surface2);  color:var(--muted);  border:1px solid var(--border); }
+.chip-done    { background:var(--green-bg);  color:var(--green);  border:1px solid var(--green-border); }
 
-  .wip-status-badge { font-family:'DM Mono',monospace; font-size:8px; padding:3px 8px; border-radius:4px; }
-  .wip-expand-btn { font-size:10px; color:var(--muted); transition:transform .2s; }
-  .wip-client-card.open .wip-expand-btn { transform:rotate(90deg); }
+.ptask-detail {
+  display:none; padding:12px 14px; border-top:1px solid var(--border);
+  background:var(--surface); grid-template-columns:1fr 1fr; gap:10px;
+}
+.ptask-detail.open { display:grid; }
+.pd-item { display:flex; flex-direction:column; gap:3px; }
+.pd-label { font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+.pd-value { font-size:11px; color:var(--text); }
+.pd-notes { grid-column:1/-1; }
+.pd-notes .pd-value { color:var(--text2); font-size:11px; line-height:1.6; }
+.pd-unassigned { color:var(--red); font-size:11px; }
 
-  /* WIP EXPANDED CONTENT */
-  .wip-client-body { display:none; padding:0 16px 14px; }
-  .wip-client-card.open .wip-client-body { display:block; }
+/* PLANNER GROUP HEADER IN PANEL */
+.panel-group-head {
+  display:flex; align-items:center; gap:8px;
+  font-family:'IBM Plex Mono',monospace; font-size:9px;
+  letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
+  padding:12px 0 8px; border-bottom:1px solid var(--border); margin-bottom:8px;
+  margin-top:4px;
+}
+.panel-group-head:first-child { padding-top:0; }
+.pg-dot { width:6px; height:6px; border-radius:50%; }
 
-  .wip-planner-group { margin-top:12px; }
-  .wip-planner-label {
-    display:flex; align-items:center; gap:6px;
-    font-family:'DM Mono',monospace; font-size:9px;
-    letter-spacing:.1em; text-transform:uppercase;
-    color:var(--muted); margin-bottom:6px;
-    padding-bottom:4px; border-bottom:1px solid var(--border);
-  }
-  .wip-planner-dot { width:6px; height:6px; border-radius:50%; flex-shrink:0; }
+.panel-empty { padding:40px; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted2); letter-spacing:.1em; }
 
-  .wip-task-item {
-    display:grid;
-    grid-template-columns:1fr auto auto auto;
-    gap:8px; align-items:center;
-    padding:8px 10px;
-    background:var(--bg);
-    border-radius:6px;
-    border:1px solid var(--border);
-    margin-bottom:5px;
-    font-size:10px;
-  }
-  .wip-task-item:last-child { margin-bottom:0; }
-  .wip-task-title { color:var(--text); font-weight:600; }
-  .wip-task-title small { display:block; font-size:8px; color:var(--muted); font-weight:400; margin-top:1px; font-family:'DM Mono',monospace; }
-  .wip-task-bucket { font-family:'DM Mono',monospace; font-size:8px; color:var(--purple); background:rgba(192,132,252,.08); padding:2px 6px; border-radius:3px; white-space:nowrap; }
-  .wip-task-assignee { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
-  .wip-task-due { font-family:'DM Mono',monospace; font-size:8px; color:var(--muted); white-space:nowrap; }
+/* LOADING */
+.loading { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:400px; gap:12px; color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.1em; }
+.spinner { width:28px; height:28px; border-radius:50%; border:2px solid var(--border); border-top-color:var(--blue); animation:spin .8s linear infinite; }
+@keyframes spin{to{transform:rotate(360deg)}}
 
+#error-banner { display:none; background:var(--red-bg); border-bottom:1px solid var(--red-border); padding:10px 28px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--red); }
 
-  /* SLIDE-OUT PANEL */
-  .panel-overlay {
-    display:none; position:fixed; inset:0;
-    background:rgba(0,0,0,0.5); z-index:500;
-    backdrop-filter:blur(2px);
-  }
-  .panel-overlay.open { display:block; }
+::-webkit-scrollbar { width:4px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
 
-  .slide-panel {
-    position:fixed; top:0; right:-560px; width:540px; height:100vh;
-    background:var(--surface); border-left:1px solid var(--border);
-    z-index:501; transition:right .3s cubic-bezier(.4,0,.2,1);
-    display:flex; flex-direction:column; overflow:hidden;
-  }
-  .slide-panel.open { right:0; }
-
-  .panel-header {
-    padding:16px 20px; border-bottom:1px solid var(--border);
-    background:var(--surface2);
-    display:flex; align-items:center; justify-content:space-between;
-    flex-shrink:0;
-  }
-  .panel-title { display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; }
-  .panel-dot { width:8px; height:8px; border-radius:50%; }
-  .panel-meta { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); margin-top:2px; }
-  .panel-close {
-    width:28px; height:28px; border-radius:6px;
-    background:var(--bg); border:1px solid var(--border);
-    display:flex; align-items:center; justify-content:center;
-    cursor:pointer; color:var(--muted); font-size:14px;
-    transition:all .15s;
-  }
-  .panel-close:hover { border-color:var(--red); color:var(--red); }
-
-  .panel-search-wrap {
-    padding:12px 20px; border-bottom:1px solid var(--border);
-    flex-shrink:0;
-  }
-  .panel-search {
-    width:100%; background:var(--bg); border:1px solid var(--border);
-    border-radius:6px; padding:7px 12px;
-    font-family:'DM Mono',monospace; font-size:10px;
-    color:var(--text); outline:none; transition:border-color .2s;
-  }
-  .panel-search::placeholder { color:var(--muted); }
-  .panel-search:focus { border-color:var(--accent); }
-
-  .panel-filter-row {
-    padding:8px 20px 12px; border-bottom:1px solid var(--border);
-    display:flex; gap:6px; flex-wrap:wrap; flex-shrink:0;
-  }
-  .panel-filter-btn {
-    padding:4px 10px; background:var(--bg);
-    border:1px solid var(--border); border-radius:4px;
-    font-family:'DM Mono',monospace; font-size:8px;
-    letter-spacing:.08em; color:var(--muted);
-    cursor:pointer; transition:all .15s;
-  }
-  .panel-filter-btn:hover { color:var(--text); }
-  .panel-filter-btn.active { background:var(--surface2); border-color:var(--accent); color:var(--accent); }
-
-  .panel-body { flex:1; overflow-y:auto; padding:12px 20px; }
-
-  .panel-task {
-    background:var(--bg); border:1px solid var(--border);
-    border-radius:8px; margin-bottom:8px; overflow:hidden;
-    cursor:pointer; transition:border-color .15s;
-  }
-  .panel-task:hover { border-color:var(--accent); }
-  .panel-task.late-task { border-left:3px solid var(--red); }
-  .panel-task.waiting-task { border-left:3px solid var(--purple); }
-
-  .panel-task-main {
-    padding:10px 14px;
-    display:grid; grid-template-columns:1fr auto;
-    gap:8px; align-items:start;
-  }
-  .panel-task-title { font-size:11px; font-weight:600; color:var(--text); line-height:1.4; }
-  .panel-task-client { font-family:'DM Mono',monospace; font-size:8px; color:var(--accent); margin-top:2px; }
-  .panel-task-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; }
-
-  .panel-task-detail {
-    display:none; padding:10px 14px 12px;
-    border-top:1px solid var(--border);
-    background:var(--surface);
-    grid-template-columns:1fr 1fr; gap:8px;
-  }
-  .panel-task-detail.open { display:grid; }
-  .panel-detail-item { display:flex; flex-direction:column; gap:2px; }
-  .panel-detail-label { font-family:'DM Mono',monospace; font-size:7px; letter-spacing:.15em; text-transform:uppercase; color:var(--muted); }
-  .panel-detail-value { font-size:10px; color:var(--text); }
-  .panel-notes-item { grid-column:1/-1; }
-  .panel-notes-item .panel-detail-value { color:var(--muted2); font-style:italic; line-height:1.5; font-size:9px; }
-
-  .panel-empty { padding:32px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.1em; }
-
-  /* Make planner card header clickable */
-  .pcard-head { cursor:pointer; transition:background .15s; }
-  .pcard-head:hover { background:rgba(79,156,249,.06); }
-  .view-all-btn {
-    font-family:'DM Mono',monospace; font-size:8px;
-    color:var(--accent); letter-spacing:.08em;
-    display:flex; align-items:center; gap:3px;
-  }
-  .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:300px;gap:12px;color:var(--muted);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em}
-  .spinner{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);border-top-color:var(--accent);animation:spin .8s linear infinite}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-
-  /* SEARCH & FILTER */
-  .wip-controls {
-    display:flex; align-items:center; gap:10px;
-    margin-bottom:14px; flex-wrap:wrap;
-  }
-  .wip-search {
-    flex:1; min-width:200px;
-    background:var(--surface); border:1px solid var(--border);
-    border-radius:7px; padding:8px 12px;
-    font-family:'DM Mono',monospace; font-size:11px;
-    color:var(--text); outline:none;
-    transition:border-color .2s;
-  }
-  .wip-search::placeholder { color:var(--muted); }
-  .wip-search:focus { border-color:var(--accent); }
-  .filter-btns { display:flex; gap:6px; flex-wrap:wrap; }
-  .filter-btn {
-    padding:6px 12px;
-    background:var(--surface); border:1px solid var(--border);
-    border-radius:6px; font-family:'DM Mono',monospace;
-    font-size:9px; letter-spacing:.08em; color:var(--muted);
-    cursor:pointer; transition:all .15s;
-  }
-  .filter-btn:hover { color:var(--text); border-color:var(--muted); }
-  .filter-btn.active { color:#fff; border-color:transparent; }
-  .filter-btn.all.active    { background:var(--muted); }
-  .filter-btn.trades.active { background:var(--accent); }
-  .filter-btn.paperwork.active { background:var(--amber); }
-  .filter-btn.advisor.active   { background:var(--green); }
-  .filter-btn.locations.active { background:var(--purple); }
-  .filter-btn.overdue.active   { background:var(--red); }
-  .no-results { padding:24px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.08em; }
-  ::-webkit-scrollbar{width:3px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+@keyframes fadeUp { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+.stats-row  { animation:fadeUp .3s ease both; }
+.columns-wrap { animation:fadeUp .3s .08s ease both; opacity:0; animation-fill-mode:forwards; }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="logo">
+<div class="header">
+  <div class="header-left">
     <div class="logo-mark">SDC</div>
     <div>
-      <div class="logo-title">Operations Dashboard</div>
-      <div class="logo-sub">SD Capital Advisors</div>
+      <div class="header-title">Operations Dashboard</div>
+      <div class="header-sub">SD Capital Advisors</div>
     </div>
   </div>
-  <div class="sync-info">
-    <span class="live-dot"></span><span id="sync-label">Loading...</span><br>
-    <span id="next-sync"></span>
+  <div class="header-right">
+    <div class="sync-badge">
+      <div class="sync-dot"></div>
+      <span id="sync-label">Loading...</span>
+    </div>
   </div>
-</header>
-
-<div id="overdue-alert" style="display:none">
-  <span class="alert-icon">⚠</span>
-  <span class="alert-count" id="overdue-count">0</span>
-  <span id="overdue-alert-text">tasks are overdue and need immediate attention — see below</span>
 </div>
 
-<div id="error-banner">⚠ Could not load planner data. Check that planner-data.json exists in this repo.</div>
+<div id="error-banner">⚠ Could not load planner data.</div>
 
-<div class="page">
-  <div id="loading" class="loading"><div class="spinner"></div>FETCHING PLANNER DATA</div>
-  <div id="content" style="display:none">
+<div id="loading" class="loading" style="padding:60px">
+  <div class="spinner"></div>
+  LOADING PLANNER DATA
+</div>
 
-    <div class="stats-row" id="stats-row"></div>
+<div id="main" style="display:none">
 
-    <!-- OVERDUE SECTION -->
-    <div class="overdue-section" id="overdue-section" style="display:none">
-      <div class="sec-head">
-        <div class="sec-title">
-          <div class="sec-dot" style="background:var(--red)"></div>
-          Overdue Tasks
+  <div class="search-wrap">
+    <input class="search-input" id="global-search" type="text" placeholder="Search clients, tasks, assignees..." oninput="applySearch()">
+  </div>
+
+  <div class="stats-row" id="stats-row"></div>
+
+  <div class="columns-wrap">
+    <!-- OVERDUE -->
+    <div class="col-overdue">
+      <div class="column-header">
+        <div class="column-title">
+          <div class="col-dot" style="background:var(--red)"></div>
+          Overdue
         </div>
+        <div class="col-count" id="cnt-overdue">0</div>
       </div>
-      <div class="overdue-list" id="overdue-list"></div>
+      <div class="col-cards" id="col-overdue"></div>
     </div>
 
-    <!-- PLANNER SNAPSHOT -->
-    <div class="sec-head" style="animation:fadeUp .35s .05s ease both">
-      <div class="sec-title"><div class="sec-dot" style="background:var(--accent)"></div>Planner Snapshot</div>
-    </div>
-    <div class="planner-grid" id="planner-grid"></div>
-
-    <!-- WIP -->
-    <div class="wip-wrap">
-      <div class="sec-head">
-        <div class="sec-title"><div class="sec-dot" style="background:var(--amber)"></div>WIP — Work In Process</div>
+    <!-- IN PROGRESS -->
+    <div class="col-inprog">
+      <div class="column-header">
+        <div class="column-title">
+          <div class="col-dot" style="background:var(--amber)"></div>
+          In Progress
+        </div>
+        <div class="col-count" id="cnt-inprog">0</div>
       </div>
-      <div class="wip-clients" id="wip-clients"></div>
+      <div class="col-cards" id="col-inprog"></div>
     </div>
 
+    <!-- WAITING ON CLIENT -->
+    <div class="col-waiting">
+      <div class="column-header">
+        <div class="column-title">
+          <div class="col-dot" style="background:var(--purple)"></div>
+          Waiting on Client
+        </div>
+        <div class="col-count" id="cnt-waiting">0</div>
+      </div>
+      <div class="col-cards" id="col-waiting"></div>
+    </div>
   </div>
+
 </div>
 
-<!-- SLIDE-OUT PANEL — outside page div so z-index works correctly -->
+<!-- SLIDE PANEL -->
 <div class="panel-overlay" id="panel-overlay" onclick="closePanel()"></div>
 <div class="slide-panel" id="slide-panel">
-    <div class="panel-header">
+  <div class="panel-head">
+    <div class="panel-head-left">
+      <div class="panel-avatar" id="panel-avatar"></div>
       <div>
-        <div class="panel-title">
-          <div class="panel-dot" id="panel-dot"></div>
-          <span id="panel-title-text">Planner</span>
-        </div>
-        <div class="panel-meta" id="panel-meta"></div>
+        <div class="panel-client-name" id="panel-client-name"></div>
+        <div class="panel-client-meta" id="panel-client-meta"></div>
       </div>
-      <div class="panel-close" onclick="closePanel()">✕</div>
     </div>
-    <div class="panel-search-wrap">
-      <input class="panel-search" id="panel-search" type="text" placeholder="Search tasks..." oninput="filterPanel()">
-    </div>
-    <div class="panel-filter-row" id="panel-filter-row">
-      <button class="panel-filter-btn active" onclick="setPanelFilter('all',this)">All</button>
-      <button class="panel-filter-btn" onclick="setPanelFilter('late',this)">Overdue</button>
-      <button class="panel-filter-btn" onclick="setPanelFilter('in-progress',this)">In Progress</button>
-      <button class="panel-filter-btn" onclick="setPanelFilter('not-started',this)">Not Started</button>
-      <button class="panel-filter-btn" onclick="setPanelFilter('waiting-on-client',this)">Waiting on Client</button>
-      <button class="panel-filter-btn" onclick="setPanelFilter('unassigned',this)">Unassigned</button>
-    </div>
-    <div class="panel-body" id="panel-body"></div>
+    <div class="panel-close" onclick="closePanel()">✕</div>
+  </div>
+  <div class="panel-search-bar">
+    <input class="panel-search-input" id="panel-search" type="text" placeholder="Search tasks, buckets, assignees..." oninput="renderPanel()">
+  </div>
+  <div class="panel-filters" id="panel-filters">
+    <button class="pf-btn on" onclick="setPF('all',this)">All</button>
+    <button class="pf-btn" onclick="setPF('late',this)">Overdue</button>
+    <button class="pf-btn" onclick="setPF('in-progress',this)">In Progress</button>
+    <button class="pf-btn" onclick="setPF('not-started',this)">Not Started</button>
+    <button class="pf-btn" onclick="setPF('waiting-on-client',this)">Waiting on Client</button>
+    <button class="pf-btn" onclick="setPF('unassigned',this)">Unassigned</button>
+  </div>
+  <div class="panel-body" id="panel-body"></div>
 </div>
 
 <script>
-const PLANNER_TAG_CLASS={trades:'stag-trades',paperwork:'stag-paperwork',advisor:'stag-advisor',locations:'stag-locations'};
+// ── Constants ──────────────────────────────────────────────────────────────
+const PLANNER_COLOR = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed' };
+const PC = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed' };
+const PLANNER_LABEL = { trades:'Trades', paperwork:'Paperwork', advisor:'Advisor', locations:'Locations' };
+const PTAG_CLASS = { trades:'ptag-trades', paperwork:'ptag-paperwork', advisor:'ptag-advisor', locations:'ptag-locations' };
 
-function statusClass(s){return{'not-started':'s-not-started','in-progress':'s-in-progress','complete':'s-complete','late':'s-late','waiting-on-client':'s-waiting-on-client'}[s]||'s-not-started'}
-function statusLabel(s){return{'not-started':'Not Started','in-progress':'In Progress','complete':'Complete','late':'Overdue','waiting-on-client':'Waiting on Client'}[s]||s}
-function checkClass(s){return{'complete':'done','in-progress':'prog','late':'late','waiting-on-client':'waiting'}[s]||''}
-function checkMark(s){return s==='complete'?'✓':''}
+// ── State ──────────────────────────────────────────────────────────────────
+let DATA = null;
+let panelClient = null;
+let panelFilter = 'all';
 
-function avatarGradient(name){
-  const g=[['#4f9cf9','#c084fc'],['#7fd8a0','#4f9cf9'],['#f9a84f','#f97b7b'],['#c084fc','#4f9cf9'],['#7fd8a0','#c084fc'],['#f97b7b','#f9a84f']];
-  const i=(name.charCodeAt(0)+(name.charCodeAt(1)||0))%g.length;
-  return`linear-gradient(135deg,${g[i][0]},${g[i][1]})`;
+// ── Helpers ────────────────────────────────────────────────────────────────
+function initials(name) {
+  const p = name.replace(/,/g,'').split(' ').filter(Boolean);
+  return ((p[0]||'')[0]||'') + ((p[1]||'')[0]||'');
 }
-function initials(name){const p=name.replace(',','').split(' ').filter(Boolean);return(p[0]?.[0]||'')+(p[1]?.[0]||'')}
-function timeAgo(s){const d=Math.floor((Date.now()-new Date(s))/60000);if(d<1)return'just now';if(d<60)return`${d}m ago`;return`${Math.floor(d/60)}h ago`}
-function fmtTime(iso){return new Date(iso).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'})}
-
-function assigneeDisplay(t){
-  if(t.isUnassigned||!t.assigneeNames||t.assigneeNames.length===0) return`<span class="unassigned-pill">⚠ Unassigned</span>`;
-  return`<span class="t-assignee-pill">${t.assigneeNames.join(', ')}</span>`;
+function avatarGrad(name) {
+  const g = [['#2563eb','#7c3aed'],['#16a34a','#2563eb'],['#d97706','#dc2626'],['#7c3aed','#2563eb'],['#16a34a','#7c3aed'],['#dc2626','#d97706']];
+  const i = (name.charCodeAt(0)+(name.charCodeAt(1)||0)) % g.length;
+  return `linear-gradient(135deg,${g[i][0]},${g[i][1]})`;
+}
+function timeAgo(iso) {
+  const d = Math.floor((Date.now()-new Date(iso))/60000);
+  if (d<1) return 'just now';
+  if (d<60) return `${d}m ago`;
+  return `${Math.floor(d/60)}h ago`;
+}
+function chipClass(s) {
+  return {late:'chip-late','in-progress':'chip-prog','waiting-on-client':'chip-waiting','not-started':'chip-ns','complete':'chip-done'}[s]||'chip-ns';
+}
+function chipLabel(s) {
+  return {late:'Overdue','in-progress':'In Progress','waiting-on-client':'Waiting','not-started':'Not Started','complete':'Done'}[s]||s;
+}
+function assigneeStr(t) {
+  if (t.isUnassigned||!t.assigneeNames||!t.assigneeNames.length) return '⚠ Unassigned';
+  return t.assigneeNames.join(', ');
 }
 
-function renderStats(s){
-  document.getElementById('stats-row').innerHTML=`
-    <div class="stat c1"><div class="stat-lbl">Total Open Tasks</div><div class="stat-val">${s.totalOpen}</div><div class="stat-sub">across 4 planners</div></div>
-    <div class="stat c2"><div class="stat-lbl">Completed Today</div><div class="stat-val">${s.completedToday}</div><div class="stat-sub">since midnight</div></div>
-    <div class="stat c3"><div class="stat-lbl">Overdue</div><div class="stat-val">${s.overdue}</div><div class="stat-sub">${s.overdue>0?'needs attention':'all clear'}</div></div>
-    <div class="stat c5"><div class="stat-lbl">Waiting on Client</div><div class="stat-val">${s.waitingOnClient}</div><div class="stat-sub">client action needed</div></div>
-    <div class="stat c4"><div class="stat-lbl">WIP Clients</div><div class="stat-val">${s.wipClients}</div><div class="stat-sub">multi-planner</div></div>`;
+// ── Bucket col classification ──────────────────────────────────────────────
+// Determine which column a WIP client belongs to based on worst status
+function clientColumn(entry) {
+  const statuses = entry.plannerGroups.flatMap(g => g.items.map(i => i.status));
+  if (statuses.includes('late')) return 'overdue';
+  if (statuses.some(s => s==='in-progress'||s==='not-started')) return 'inprog';
+  if (statuses.includes('waiting-on-client')) return 'waiting';
+  return 'inprog';
 }
 
-function renderOverdueAlert(overdue, count) {
-  if (count === 0) return;
-  const bar = document.getElementById('overdue-alert');
-  bar.style.display = 'flex';
-  document.getElementById('overdue-count').textContent = count;
-  document.getElementById('overdue-alert-text').textContent =
-    `task${count!==1?'s':''} overdue — needs immediate attention`;
+// ── Render Stats ───────────────────────────────────────────────────────────
+function renderStats(s) {
+  document.getElementById('stats-row').innerHTML = `
+    <div class="stat-card red" onclick="filterColumn('overdue')">
+      <div class="stat-label">Overdue</div>
+      <div class="stat-num">${s.overdue}</div>
+      <div class="stat-sub">tasks past due date</div>
+    </div>
+    <div class="stat-card amber" onclick="filterColumn('inprog')">
+      <div class="stat-label">In Progress</div>
+      <div class="stat-num">${s.totalOpen - s.overdue - s.waitingOnClient}</div>
+      <div class="stat-sub">tasks actively in motion</div>
+    </div>
+    <div class="stat-card purple" onclick="filterColumn('waiting')">
+      <div class="stat-label">Waiting on Client</div>
+      <div class="stat-num">${s.waitingOnClient}</div>
+      <div class="stat-sub">pending client action</div>
+    </div>
+    <div class="stat-card blue" onclick="filterColumn('all')">
+      <div class="stat-label">Total Open</div>
+      <div class="stat-num">${s.totalOpen}</div>
+      <div class="stat-sub">across all planners</div>
+    </div>`;
+}
 
-  const section = document.getElementById('overdue-section');
-  section.style.display = 'block';
-  document.getElementById('overdue-list').innerHTML = overdue.map(t => `
-    <div class="overdue-item">
-      <div>
-        <div class="overdue-client">${t.clientName || 'No client'}</div>
-        <div class="overdue-title">${t.title}</div>
+// ── Build Client Card ──────────────────────────────────────────────────────
+function buildCard(entry) {
+  const allItems = entry.plannerGroups.flatMap(g => g.items.filter(i=>i.status!=='complete'));
+  const hasOverdue = allItems.some(i=>i.status==='late');
+  const hasWaiting = allItems.every(i=>i.status==='waiting-on-client');
+  const borderCls = hasOverdue ? 'overdue' : hasWaiting ? 'waiting' : 'inprog';
+
+  const tags = entry.planners.map(pk =>
+    `<span class="ptag ${PTAG_CLASS[pk]}">${PLANNER_LABEL[pk]}</span>`
+  ).join('');
+
+  // Show up to 3 items as preview
+  const preview = allItems.slice(0,3).map(item => {
+    const dotColor = item.status==='late' ? 'var(--red)' : item.status==='waiting-on-client' ? 'var(--purple)' : 'var(--amber)';
+    const badgeCls = item.status==='late' ? 'late' : item.status==='waiting-on-client' ? 'waiting' : item.status==='in-progress' ? 'prog' : 'ns';
+    const plannerColor = PC[item.plannerKey] || '#6b7280';
+    return `
+      <div class="card-item">
+        <div class="item-dot" style="background:${dotColor}"></div>
+        <div class="item-title" title="${item.title}">${item.title}</div>
+        <span class="item-badge" style="background:${plannerColor}18;color:${plannerColor};border:1px solid ${plannerColor}30">${PLANNER_LABEL[item.plannerKey]||''}</span>
+        <span class="item-badge ${badgeCls}">${chipLabel(item.status)}</span>
+      </div>`;
+  }).join('');
+
+  const more = allItems.length > 3 ? `<div class="card-more">+ ${allItems.length-3} more item${allItems.length-3!==1?'s':''} — click to view all</div>` : '';
+
+  return `
+    <div class="client-card ${borderCls}" onclick="openPanel('${entry.client.replace(/'/g,"\\'")}')">
+      <div class="card-header">
+        <div class="card-avatar" style="background:${avatarGrad(entry.client)}">${initials(entry.client)}</div>
+        <div class="card-client-info">
+          <div class="card-client-name">${entry.client}</div>
+          <div class="card-client-sub">${allItems.length} active · ${entry.planners.length} planner${entry.planners.length!==1?'s':''}</div>
+        </div>
+        <div class="card-right">
+          <div class="planner-tags">${tags}</div>
+          ${hasOverdue ? `<span class="item-badge late">⚠ Overdue</span>` : ''}
+        </div>
       </div>
-      <div class="overdue-planner stag-${t.plannerKey}" style="background:${t.plannerColor}22;color:${t.plannerColor}">${t.plannerLabel}</div>
-      <div class="overdue-bucket">${t.bucketName}</div>
-      <div class="overdue-assignee">${t.isUnassigned?'⚠ Unassigned':t.assigneeNames?.join(', ')||'—'}</div>
-      <div class="overdue-due">Due: ${t.dueDateFormatted||'—'}</div>
-    </div>`).join('');
+      <div class="card-items">${preview}</div>
+      ${more}
+    </div>`;
 }
 
-function renderPlanners(planners){
-  document.getElementById('planner-grid').innerHTML = planners.map(p => {
-    const open = p.tasks.filter(t => t.status !== 'complete');
-    const display = open.slice(0,6);
+// ── Render Columns ─────────────────────────────────────────────────────────
+function renderColumns(wip) {
+  const search = (document.getElementById('global-search')||{value:''}).value.toLowerCase().trim();
 
-    const rows = display.length > 0 ? display.map((t,idx) => {
-      const did = `d-${p.key}-${idx}`;
-      return `
-        <div class="task-row" onclick="event.stopPropagation();toggleTask(this,'${did}')">
-          <div class="task-row-main">
-            <div class="t-check ${checkClass(t.status)}">${checkMark(t.status)}</div>
-            <div class="t-name" title="${t.title}">${t.title}<span class="expand-arrow">▶</span></div>
-            ${assigneeDisplay(t)}
-            <div class="t-status ${statusClass(t.status)}">${statusLabel(t.status)}</div>
-          </div>
-          <div class="task-detail" id="${did}">
-            <div class="detail-item"><div class="detail-label">Bucket / Stage</div><div class="detail-value">${t.bucketName||'—'}</div></div>
-            <div class="detail-item"><div class="detail-label">Assigned To</div><div class="detail-value">${t.isUnassigned?'⚠ Unassigned':t.assigneeNames?.join(', ')||'—'}</div></div>
-            <div class="detail-item"><div class="detail-label">Due Date</div><div class="detail-value">${t.dueDateFormatted||'No due date'}</div></div>
-            <div class="detail-item"><div class="detail-label">Progress</div><div class="detail-value">${t.percentComplete}%</div></div>
-            ${t.notes?`<div class="detail-item detail-notes"><div class="detail-label">Notes</div><div class="detail-value">${t.notes}</div></div>`:''}
-          </div>
-        </div>`;
-    }).join('') : '<div class="empty-state">NO OPEN TASKS ✓</div>';
-
-    const overdueTag = p.overdueCount > 0 ? `<span class="pcard-overdue">${p.overdueCount} overdue</span>` : '';
-    const waitingTag = p.waitingCount > 0 ? `<span class="pcard-waiting">${p.waitingCount} waiting on client</span>` : '';
-
-    return `
-      <div class="planner-card">
-        <div class="pcard-head" onclick="openPanel('${p.key}')">
-          <div class="pcard-head-top">
-            <div class="pcard-name" style="color:${p.color}">
-              <div style="width:7px;height:7px;border-radius:50%;background:${p.color}"></div>
-              ${p.label}
-            </div>
-            <div style="display:flex;align-items:center;gap:8px;">
-              <div class="pcard-badge" style="background:${p.color}22;color:${p.color}">${p.openCount} open</div>
-              <div class="view-all-btn">View All ▶</div>
-            </div>
-          </div>
-          <div class="pcard-meta">
-            <span class="pcard-timestamp">Updated ${fmtTime(p.lastUpdated)}</span>
-            ${overdueTag}${waitingTag}
-          </div>
-        </div>
-        <div class="task-list">${rows}</div>
-      </div>`;
-  }).join('');
-}
-
-function renderWip(wip){
-  const container = document.getElementById('wip-clients');
-  if(!wip.length){
-    container.innerHTML=`<div style="padding:24px;text-align:center;font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)">NO ACTIVE WIP CLIENTS</div>`;
-    return;
-  }
-
-  container.innerHTML = wip.map((entry, idx) => {
-    const cardId = `wip-card-${idx}`;
-    const borderClass = entry.hasOverdue ? 'has-overdue' : entry.hasWaitingOnClient ? 'has-waiting' : '';
-    const statusBadge = entry.hasOverdue
-      ? `<div class="wip-status-badge s-late">Overdue</div>`
-      : entry.hasWaitingOnClient
-      ? `<div class="wip-status-badge s-waiting-on-client">Waiting on Client</div>`
-      : `<div class="wip-status-badge s-in-progress">Active</div>`;
-
-    const activeItems = entry.plannerGroups.reduce((n,g) => n + g.items.filter(i=>i.status!=='complete').length, 0);
-
-    // Build planner groups inside expanded body
-    const plannerGroupsHtml = entry.plannerGroups.map(g => {
-      const activeGroupItems = g.items.filter(i => i.status !== 'complete');
-      if (!activeGroupItems.length) return '';
-      return `
-        <div class="wip-planner-group">
-          <div class="wip-planner-label">
-            <div class="wip-planner-dot" style="background:${g.color}"></div>
-            ${g.label}
-          </div>
-          ${activeGroupItems.map(item => `
-            <div class="wip-task-item">
-              <div class="wip-task-title">
-                ${item.title}
-                ${item.notes ? `<small>${item.notes}</small>` : ''}
-              </div>
-              <div class="wip-task-bucket">${item.bucketName}</div>
-              <div class="wip-task-assignee">${item.isUnassigned?'⚠ Unassigned':item.assigneeNames?.join(', ')||'—'}</div>
-              <div class="wip-task-due">${item.dueDateFormatted||'No due date'}</div>
-            </div>`).join('')}
-        </div>`;
-    }).join('');
-
-    return `
-      <div class="wip-client-card ${borderClass}" id="${cardId}" data-client="${entry.client.toLowerCase()}" data-planners="${entry.planners.join(',')}" data-overdue="${entry.hasOverdue}">
-        <div class="wip-client-header" onclick="toggleWipCard('${cardId}')">
-          <div class="wip-avatar" style="background:${avatarGradient(entry.client)}">${initials(entry.client)}</div>
-          <div>
-            <div class="wip-client-name">${entry.client}</div>
-            <div class="wip-client-sub">${activeItems} active item${activeItems!==1?'s':''} · ${entry.planners.length} planner${entry.planners.length!==1?'s':''}</div>
-          </div>
-          <div class="wip-tags">${entry.planners.map(pk=>`<span class="stag ${PLANNER_TAG_CLASS[pk]}">${pk}</span>`).join('')}</div>
-          <div class="wip-prog-wrap">
-            <div class="wip-prog-bar"><div class="wip-prog-fill" style="width:${entry.progress}%"></div></div>
-            <span class="wip-prog-pct">${entry.progress}%</span>
-          </div>
-          ${statusBadge}
-          <div class="wip-expand-btn">▶</div>
-        </div>
-        <div class="wip-client-body">${plannerGroupsHtml}</div>
-      </div>`;
-  }).join('');
-}
-
-function toggleTask(row, did){
-  const detail = document.getElementById(did);
-  const isOpen = detail.classList.contains('open');
-  row.closest('.task-list').querySelectorAll('.task-detail.open').forEach(d=>d.classList.remove('open'));
-  row.closest('.task-list').querySelectorAll('.task-row.expanded').forEach(r=>r.classList.remove('expanded'));
-  if(!isOpen){ detail.classList.add('open'); row.classList.add('expanded'); }
-}
-
-let activeFilter = 'all';
-let wipData = [];
-
-function setFilter(filter, btn) {
-  activeFilter = filter;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  filterWip();
-}
-
-function filterWip() {
-  const search = document.getElementById('wip-search').value.toLowerCase().trim();
-  const cards  = document.querySelectorAll('.wip-client-card');
-  let visible  = 0;
-
-  cards.forEach(card => {
-    const client   = (card.dataset.client || '').toLowerCase();
-    const planners = (card.dataset.planners || '').toLowerCase();
-    const overdue  = card.dataset.overdue === 'true';
-
-    const matchesSearch  = !search || client.includes(search);
-    const matchesFilter  =
-      activeFilter === 'all'    ? true :
-      activeFilter === 'overdue'? overdue :
-      planners.includes(activeFilter);
-
-    const show = matchesSearch && matchesFilter;
-    card.style.display = show ? '' : 'none';
-    if (show) visible++;
+  const filtered = wip.filter(entry => {
+    if (!search) return true;
+    const allText = [
+      entry.client,
+      ...entry.plannerGroups.flatMap(g => g.items.map(i => i.title + ' ' + (i.assigneeNames||[]).join(' ') + ' ' + i.bucketName))
+    ].join(' ').toLowerCase();
+    return allText.includes(search);
   });
 
-  document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+  const cols = { overdue:[], inprog:[], waiting:[] };
+  filtered.forEach(entry => {
+    const col = clientColumn(entry);
+    cols[col].push(entry);
+  });
+
+  ['overdue','inprog','waiting'].forEach(col => {
+    const el = document.getElementById(`col-${col}`);
+    const cnt = document.getElementById(`cnt-${col}`);
+    cnt.textContent = cols[col].length;
+    if (!cols[col].length) {
+      el.innerHTML = `<div class="col-empty">ALL CLEAR</div>`;
+    } else {
+      el.innerHTML = cols[col].map(buildCard).join('');
+    }
+  });
 }
 
-function toggleWipCard(cardId){
-  const card = document.getElementById(cardId);
-  card.classList.toggle('open');
+// ── Filter column (stat card click) ───────────────────────────────────────
+function filterColumn(col) {
+  // Scroll to columns section
+  document.querySelector('.columns-wrap').scrollIntoView({behavior:'smooth'});
 }
 
-// ── SLIDE PANEL ────────────────────────────────────────────────────────────
-let panelPlannerKey = null;
-let panelFilter = 'all';
-let allPlannerData = [];
+// ── Global search ──────────────────────────────────────────────────────────
+function applySearch() { if (DATA) renderColumns(DATA.wip); }
 
-function openPanel(plannerKey) {
-  const planner = allPlannerData.find(p => p.key === plannerKey);
-  if (!planner) return;
+// ── PANEL ──────────────────────────────────────────────────────────────────
+function openPanel(clientName) {
+  if (!DATA) return;
+  panelClient = DATA.wip.find(e => e.client === clientName);
+  if (!panelClient) return;
 
-  panelPlannerKey = plannerKey;
   panelFilter = 'all';
-
-  // Reset UI
   document.getElementById('panel-search').value = '';
-  document.querySelectorAll('.panel-filter-btn').forEach(b => b.classList.remove('active'));
-  document.querySelector('.panel-filter-btn').classList.add('active');
+  document.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('on'));
+  document.querySelector('.pf-btn').classList.add('on');
 
-  // Set header
-  document.getElementById('panel-dot').style.background = planner.color;
-  document.getElementById('panel-title-text').textContent = planner.label;
-  const open = planner.tasks.filter(t => t.status !== 'complete');
-  document.getElementById('panel-meta').textContent =
-    `${open.length} open · ${planner.overdueCount || 0} overdue · ${planner.waitingCount || 0} waiting on client`;
+  document.getElementById('panel-avatar').style.background = avatarGrad(clientName);
+  document.getElementById('panel-avatar').textContent = initials(clientName);
+  document.getElementById('panel-client-name').textContent = clientName;
 
-  renderPanelTasks(planner);
+  const allItems = panelClient.plannerGroups.flatMap(g=>g.items.filter(i=>i.status!=='complete'));
+  const overdue  = allItems.filter(i=>i.status==='late').length;
+  const waiting  = allItems.filter(i=>i.status==='waiting-on-client').length;
+  document.getElementById('panel-client-meta').textContent =
+    `${allItems.length} active items · ${overdue} overdue · ${waiting} waiting on client`;
 
+  renderPanel();
   document.getElementById('panel-overlay').classList.add('open');
   document.getElementById('slide-panel').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -697,112 +632,102 @@ function closePanel() {
   document.body.style.overflow = '';
 }
 
-function setPanelFilter(filter, btn) {
-  panelFilter = filter;
-  document.querySelectorAll('.panel-filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  const planner = allPlannerData.find(p => p.key === panelPlannerKey);
-  if (planner) renderPanelTasks(planner);
+function setPF(f, btn) {
+  panelFilter = f;
+  document.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  renderPanel();
 }
 
-function filterPanel() {
-  const planner = allPlannerData.find(p => p.key === panelPlannerKey);
-  if (planner) renderPanelTasks(planner);
-}
-
-function renderPanelTasks(planner) {
+function renderPanel() {
+  if (!panelClient) return;
   const search = document.getElementById('panel-search').value.toLowerCase().trim();
-  let tasks = planner.tasks.filter(t => t.status !== 'complete');
-
-  // Apply status filter
-  if (panelFilter === 'unassigned') {
-    tasks = tasks.filter(t => t.isUnassigned);
-  } else if (panelFilter !== 'all') {
-    tasks = tasks.filter(t => t.status === panelFilter);
-  }
-
-  // Apply search
-  if (search) {
-    tasks = tasks.filter(t =>
-      t.title.toLowerCase().includes(search) ||
-      (t.clientName || '').toLowerCase().includes(search) ||
-      (t.bucketName || '').toLowerCase().includes(search) ||
-      (t.assigneeNames || []).some(n => n.toLowerCase().includes(search))
-    );
-  }
-
   const body = document.getElementById('panel-body');
-  if (!tasks.length) {
-    body.innerHTML = '<div class="panel-empty">NO TASKS MATCH</div>';
-    return;
-  }
+  let html = '';
 
-  body.innerHTML = tasks.map((t, idx) => {
-    const pid = `pt-${planner.key}-${idx}`;
-    const borderClass = t.status === 'late' ? 'late-task' : t.status === 'waiting-on-client' ? 'waiting-task' : '';
-    return `
-      <div class="panel-task ${borderClass}" onclick="togglePanelTask('${pid}')">
-        <div class="panel-task-main">
-          <div>
-            <div class="panel-task-title">${t.title}</div>
-            ${t.clientName ? `<div class="panel-task-client">${t.clientName}</div>` : ''}
-          </div>
-          <div class="panel-task-right">
-            <div class="t-status ${statusClass(t.status)}">${statusLabel(t.status)}</div>
-            ${t.isUnassigned ? '<span class="unassigned-pill">⚠ Unassigned</span>' : `<span style="font-family:'DM Mono',monospace;font-size:8px;color:var(--muted)">${(t.assigneeNames||[]).join(', ')||'—'}</span>`}
-          </div>
-        </div>
-        <div class="panel-task-detail" id="${pid}">
-          <div class="panel-detail-item">
-            <div class="panel-detail-label">Bucket / Stage</div>
-            <div class="panel-detail-value">${t.bucketName || '—'}</div>
-          </div>
-          <div class="panel-detail-item">
-            <div class="panel-detail-label">Due Date</div>
-            <div class="panel-detail-value" style="${t.status==='late'?'color:var(--red);font-weight:700':''}">${t.dueDateFormatted || 'No due date'}</div>
-          </div>
-          <div class="panel-detail-item">
-            <div class="panel-detail-label">Assigned To</div>
-            <div class="panel-detail-value">${t.isUnassigned ? '⚠ Unassigned' : (t.assigneeNames||[]).join(', ') || '—'}</div>
-          </div>
-          <div class="panel-detail-item">
-            <div class="panel-detail-label">Progress</div>
-            <div class="panel-detail-value">${t.percentComplete}%</div>
-          </div>
-          ${t.notes ? `<div class="panel-detail-item panel-notes-item"><div class="panel-detail-label">Notes</div><div class="panel-detail-value">${t.notes}</div></div>` : ''}
-        </div>
+  panelClient.plannerGroups.forEach(g => {
+    let items = g.items.filter(i => i.status !== 'complete');
+
+    if (panelFilter === 'unassigned') items = items.filter(i=>i.isUnassigned);
+    else if (panelFilter !== 'all') items = items.filter(i=>i.status===panelFilter);
+
+    if (search) items = items.filter(i =>
+      i.title.toLowerCase().includes(search) ||
+      (i.bucketName||'').toLowerCase().includes(search) ||
+      (i.assigneeNames||[]).some(n=>n.toLowerCase().includes(search))
+    );
+
+    if (!items.length) return;
+
+    html += `
+      <div class="panel-group-head">
+        <div class="pg-dot" style="background:${PC[g.key]}"></div>
+        ${g.label} · ${items.length} item${items.length!==1?'s':''}
       </div>`;
-  }).join('');
+
+    items.forEach((item, idx) => {
+      const pid = `pi-${g.key}-${idx}`;
+      html += `
+        <div class="ptask ${item.status}" onclick="togglePTask('${pid}')">
+          <div class="ptask-top">
+            <div class="ptask-title">${item.title}</div>
+            <div class="ptask-right">
+              <span class="status-chip ${chipClass(item.status)}">${chipLabel(item.status)}</span>
+              ${item.isUnassigned ? '<span class="status-chip chip-late">⚠ Unassigned</span>' : ''}
+            </div>
+          </div>
+          <div class="ptask-detail" id="${pid}">
+            <div class="pd-item">
+              <div class="pd-label">Bucket / Stage</div>
+              <div class="pd-value">${item.bucketName||'—'}</div>
+            </div>
+            <div class="pd-item">
+              <div class="pd-label">Assigned To</div>
+              <div class="pd-value ${item.isUnassigned?'pd-unassigned':''}">${assigneeStr(item)}</div>
+            </div>
+            <div class="pd-item">
+              <div class="pd-label">Due Date</div>
+              <div class="pd-value" style="${item.status==='late'?'color:var(--red);font-weight:600':''}">${item.dueDateFormatted||'No due date'}</div>
+            </div>
+            <div class="pd-item">
+              <div class="pd-label">Planner</div>
+              <div class="pd-value">${g.label}</div>
+            </div>
+            ${item.notes ? `<div class="pd-item pd-notes"><div class="pd-label">Notes</div><div class="pd-value">${item.notes}</div></div>` : ''}
+          </div>
+        </div>`;
+    });
+  });
+
+  body.innerHTML = html || '<div class="panel-empty">NO ITEMS MATCH</div>';
 }
 
-function togglePanelTask(pid) {
-  const detail = document.getElementById(pid);
-  const isOpen = detail.classList.contains('open');
-  document.querySelectorAll('.panel-task-detail.open').forEach(d => d.classList.remove('open'));
-  if (!isOpen) detail.classList.add('open');
+function togglePTask(pid) {
+  const el = document.getElementById(pid);
+  const wasOpen = el.classList.contains('open');
+  document.querySelectorAll('.ptask-detail.open').forEach(d=>d.classList.remove('open'));
+  if (!wasOpen) el.classList.add('open');
 }
 
-// Close panel on Escape key
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+document.addEventListener('keydown', e => { if(e.key==='Escape') closePanel(); });
 
-async function loadData(){
-  try{
+// ── Load Data ──────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
     const res  = await fetch('planner-data.json?t='+Date.now());
-    if(!res.ok) throw new Error(res.status);
-    const data = await res.json();
-    document.getElementById('loading').style.display='none';
-    document.getElementById('content').style.display='block';
-    document.getElementById('sync-label').textContent='Synced '+timeAgo(data.fetchedAt);
-    document.getElementById('next-sync').textContent='Next refresh in ~30 min';
-    renderStats(data.stats);
-    renderOverdueAlert(data.overdueTasks, data.stats.overdue);
-    allPlannerData = data.planners;
-    renderPlanners(data.planners);
-    renderWip(data.wip);
-  }catch(err){
-    document.getElementById('loading').style.display='none';
-    document.getElementById('error-banner').style.display='block';
-    console.error('Failed to load planner-data.json:',err);
+    if (!res.ok) throw new Error(res.status);
+    DATA = await res.json();
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('main').style.display = 'block';
+    document.getElementById('sync-label').textContent = 'Synced ' + timeAgo(DATA.fetchedAt);
+
+    renderStats(DATA.stats);
+    renderColumns(DATA.wip);
+  } catch(err) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error-banner').style.display = 'block';
+    console.error(err);
   }
 }
 
