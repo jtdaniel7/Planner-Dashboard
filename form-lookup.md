@@ -1,0 +1,1070 @@
+# SDC Form Lookup by Account Type
+_Generated: 4/8/2026, 1:17:23 PM — 275 completed tasks analyzed_
+
+> **Review required:** Document names are parsed from task notes. Verify each row before using in production.
+
+## Unknown — Fidelity
+**Tasks seen:** 78
+
+**Documents found in notes:**
+- 035430 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Accoutn Access Rights"] Notes: so he is POA, and that is on file with FID with her IRA... but he cant see her account when loggin in? I was asking KSO and we are thinking maybe we still need AA on file for him to see it, but at least he can sign for her as POA. he likes to typically come and pick up forms from what I recall, or we can mail
+- 0995480726 Attached Documents
+- 224296 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: need to get a bank added on this IRA we opened last year
+- 50 contingent (see JTOD account and info on RT for kids) How the Account being funded:RO
+- 50 contingent How the Account being funded:Transfer
+- AIP information & CONTs:
+- Account Time Horizon: Long (>10 yrs) Annual Expenses: 75,000 Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: unsure I think we are just setting up for now monica is also unemployed right now so that will need to be updated on her sutiability 02
+- Add or Remove an Advisor
+- Additional Verification Information:
+- Basic Information:
+- CIDA ppwk was taken off and all ppwk was updated and sent again via docusign (baw) 02
+- Called Dennis to make sure he received the beneficiary update form. He did receive it right after Christmas but has not signed or sent back. (ctb) 01
+- Cambridge Investment Research Advisors Form CRS
+- Cambridge Investment Research, Inc. Form CRS
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Copy of Current DL on file: No Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Dennis called in to update his bene on FID account 655063093 (IRRL). He would like to update his son, Dennis Schultz ll to primary and keep Michelle Kurek on as contingent. Dennis Schultz ll, 06
+- FID IRA RO account established #655368774 (baw)
+- FJD review cover said open trad ira they want to pull in $7k Each for 2025 (ejd) 3
+- FJD review cover said open trad ira they want to pull in $7k Each for 2025 (ejd) They are going to hold off on opening these new accts
+- February 2026 Follow Up on Partial Roth Conversion 2026 Convert 10K to ROTH from her IRA in 2026 02
+- Form ADV Delivery Receipt
+- Gave Dennis a gave again. He still has not sent the bene forms back yet and said doesn't sound like he is in a rush. Pushing back. (ctb) 03
+- HSA Beneficiary Designation
+- HSA Beneficiary Form (kso) 02
+- Household ACH is on file ( .. include bank information here .. ) Periodic Instructions Set Up ( .. include Periodic Instructions here ..) Transfer is submitted ( … add Delivering SPONOSR COMPANY, Acct # & ~$ amount here ) Transfer is complete ( .. add amount that hit .. ) Add to new money sheet or Internal Transfer Trades
+- I am closing this out, I have been consistently reaching out to Dennis for 4 months now and he has yet to send it back or respond. Closing out. (ctb)
+- I asked JRR today if he processed this? It was still in his bookbag so he scanned to me, I submitted to NFS via Streetscape n then pulled a routing slip n submitted to CIR via webcapture: Confirmation
+- I pulled FID Power of Attorney Affidavit and CIR additional signers form for both Craig and Renate. I called Craig to see if he would like to forms delivered via email or snail mail. He confirmed docusign was okay. I put the docusigns together and sent them over to Craig and Renate, sent them both an MRC with instructions on how to get into the docusign. (ctb) 03
+- I pulled and filled out both FID IRA, all of David's GBU's, and both DL bene updates, tabbed, and in JEK office to get signatures tomorrow. (ctb) 03
+- I put the POA ppwk together on Friday. Gave Jen a call to fill her in on the ppwk and let her know she will be primary POA. I then gave Louise a call and she was with Jen so she was filled in. The POA is now up to date, I just need to give Louise a call today and let her know everything is up to date POA wise and submit to WC. (ctb) Submitted to WC under index key 205984091 Spoke with Louise to let her know the POA is updated everywhere, closing out! (ctb)
+- I sent the Account Access from to Sandra and Justin via Wealtscape Forms
+- INH IRA: Add to Tag Group Add RMD activity Follow up with Client
+- IRA"] Notes: FID IRA 628676650 (hal) to Jill IRA 655355853 Retirement
+- Is this a new client? No Add Advisor? Yes Beneficiaries: How the Account being funded:Transfer
+- Is this a new client? No Beneficiaries: Laurie 100% P and then Nicholas and Lauren 50
+- Is this a new client? No Beneficiaries: This is a BENE IRA for Anthony from his Aunt who passed away. Anthony's BENE on the account will be his wife and 3 children How the Account being funded:Transfer
+- Is this a new client? No Beneficiaries: brad rowe 100% and jacob and alllie rowe 50
+- Is this a new client? Yes Beneficiaries: Children How the Account being funded:Check
+- Is this a new client? Yes Beneficiaries: Husband Bret and Daughters Contingent How the Account being funded:
+- Is this a new client? Yes Beneficiaries: We do need to pull bene ppwrk for her. we could not get it added. Please add Nathan Kaminski 100% How the Account being funded:Transfer
+- Is this a new client? Yes Beneficiaries: Wife Ann How the Account being funded:RO
+- JRR had me print a TOA for Janets NFS to transfer her GBU. Idk what he did w it, he never gave it to me n I dont see it processing (sjc) 10
+- Kaminski Type of Account: Retirement Sponsor Company: FID IRA RO #261812071 Type of Paperwork Being Pulled: New Account
+- Ken stopped by and signed both the FID TOA and GBU app. I reached out to KSO to see if she can show me how to submit to GBU portal tmw. (ctb) 03
+- Left Dennis another VM to see if he needed me to resend bene forms or if he made his mind up on the bene change yet. (ctb) 0320
+- Mike reached out to me for values on conversions. They do docusigns, pay attention to email contact ;) just preface that Mike reached out for their tax info and we need to just have something signed on file that they allow our communication back and forth 03
+- Mike's info is in RT. Once complete, make sure to add UDF for each of them. (kso) 02
+- Name of Client: Albert & Karen Lewandowski Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: Pulled SPI to link their Savings account to their 3 Fidelity Accounts
+- Name of Client: Ann Porter Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: Paperwork has already been done through ICP, I helped her sign and attach a voided check with her phone. It is pending approval, this is just for follow
+- Name of Client: BRENDA MAHL Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["TRANSFER"] Notes:
+- Name of Client: BRITTANY TELANDER Type of Account: Retirement Sponsor Company: FIDELITY Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ROTH CONVERSION"] Notes: KSO I CAN TAKE THIS ONE (EJD) 1
+- Name of Client: Ben & Cindy Krieger Type of Account: Other Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Account Access Rights & statement consolidation"] Notes: they want to be able to view each others FID accounts and might as well do a statement consolidation
+- Name of Client: Craig Curtis Type of Account: Retirement Sponsor Company: FID, all accounts and JNL IRA 1025219755 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["POA (Power of Attorney)"] Notes: POA got sent today, we are adding to all their accounts. Saved in their MISC NOTE Make sure to pull FID and CIR paperwork! 03
+- Name of Client: David & Debbie Belkofer Type of Account: Retirement Sponsor Company: FID & GBU & Delaware Life Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: They are coming back in this thursday at 3pm. We need to update Vanessa's last name on their FID accounts to Murphy (I already updated on RT!). COllin already has taken care of their FID and has it ready to be signed. Then, on all their GBU & DL annuities, we need to get the two girls added as contingent b
+- Name of Client: Dennis Schultz Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: 12
+- Name of Client: Doug Cline & wendy Cline Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: Can you pull blank SPI's for them for their FID accounts to add a bank and send to me? I was trying through ICP but they are not tech savvy, they sent me their tax return but only the last page lol so I am just gonna mail them an envelope to send tax return back along with the SPIs and void check bc I think paper works best for them 01
+- Name of Client: Gierke, Dave & Jill Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Dave and Jill want a bene review, each other and then the kids as contingent, Collin Berryman see waht is there and update as necessary. call jill for this BES SERVICE TEAM
+- Name of Client: Hal & Jill Geiger Type of Account: Retirement Sponsor Company: FID IRA 628676650 (hal) to Jill IRA 655355853 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Transfer due to Divorce
+- Name of Client: Ian & Sarah Hill Type of Account: Other Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Account access rights & Statement of consolidaton"] Notes: Ian Hill takes care of all of his and Sarah's stuff, he wants to be able to log into FID and see all of both their accounts together. Please send them Account Access Rights for him to be able to be directly attached to her FID accounts and throw a statement of consolidation in there too 03
+- Name of Client: JACKIE HALL Type of Account: Retirement Sponsor Company: FID & INV Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes:
+- Name of Client: Jacob Walsh Type of Account: Other Sponsor Company: NFS to FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Transfer"] Notes:
+- Name of Client: KATIE MENOSKY Type of Account: Retirement Sponsor Company: FIDELITY Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ROTH CONVERSION"] Notes: KSO I CAN TAKE THIS ONE (EJD) Feb 2026 Send Conversion Form
+- Name of Client: Ken Grosjean Type of Account: Retirement Sponsor Company: FID IRA Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Transfer of Assests"] Notes: Ken had an old Lincoln account (~$24,500 )he was not aware of, we are going tor transfer it over to his FID IRA and then open a new GBU 5yr and transfer $25k from the FID IRA to the new GBU account. 03
+- Name of Client: Mark Belcik Type of Account: Retirement Sponsor Company: FID to GBU Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["TOA"] Notes: spoke with KSO about this, we are moving $14,500 from his FID IRA to his GBU policy 36965002
+- Name of Client: Matthew Zulch Type of Account: Retirement Sponsor Company: FID ROTH 636636998 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: I got a void check from him that I printed and put behind the ppwrk, I pulled a blank SPI in meeting. this form is now on KSOs desk. we need to connect his bank to the ROTH (might as well his other IRA), bc he wants to start adding contributions for 2026 from his phone. once his bank is set up, we need too let him know he should be good to start contributing from his end and just a reminder the max is 8k for 2026!
+- Name of Client: Sandra Metz Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Account Access Form"] Notes: Justin has accounts with us now and would like to view Sandra's account balance under his log in
+- Name of Client: Smith, Joanne Type of Account: Other Sponsor Company: Fidelity Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["CIDA"] Scott Borgio, sborgio@fruthpll.com, fruth and company in Fremont 222 N Clover StFremont, OH 43420 (419) 734
+- Name of Client: Susan & Kevin Korecki Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Online Access to see each others accounts"] Notes: Kevin popped in here with CONT checks today and asked about when he logs in, that he would like to see his wife's account as well. I let him know that there is a form to fill out 04
+- Name of Client: Thomas Moser Type of Account: Other Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Checkwriting"] Notes: I spoke with Moser about bene updates and he would like to add checkwriting to his River Road LLC accounts. 03
+- Name of Client: Tom Feyes Type of Account: Retirement Sponsor Company: FID IRA 655
+- Name of Client: Zell, Tim & Laurie Type of Account: Other Sponsor Company: FIDELITY Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Account Statement Consolidation"] Notes: 02
+- Name of Client: clair walters Type of Account: Other Sponsor Company: NFS Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["transfer"] Notes:
+- Need CIDA for Cheryl, Matt & Nicole for Mike Fioritto! A new Tax Request Form has been submitted. Please check the response and add any communication below. Client Name: Cheryl Silverhart Category: White Method of Sending Tax Information: Directly to CPA Preferred Contact Information: Which ever is fastest If sending to current CPA, is there a CIDA on file? CIDA for Mike is needed Any other information: Cheryl called in asking about her taxes if they were ready and being sent to Mike. Please look into this and give her a call back to confirm the next steps Pull CIDA and send to all three
+- Need updated drivers license info & new VOIDED check She has Automatic Investment Purchase (AIP) at AMF that will need turned off
+- OOPS I told them 1 signature each but it is going to be 2 signatures with the consolidation form as well. Ellen said she will probably never look at her Fidleity so only Tom needs access to her account. they can docusign
+- Patti and her daughter josie called to change info on the ppwk last night. I called Patti this morning to verify the changes. She verified taking Don off all ppwk, changing the amount to 40k, and changing the bene to 50% Josie and 50% Kelly. Kelly Lewandski birthday 09
+- Premiere Select IRA
+- Premiere Select IRA Application
+- Pulled Account access rights and statement consolidation, sent the docusign to Ian and Sarah. Sent the following MRC: Hi Ian, I just sent a docusign to your email iandhill18@gmail.com. There are two forms, one so that you will be able to view Sarah's Fidelity accounts, and another to combine both of your statements. The docusign will require an access code, which is SDC1234 and will also send you a text verification code. As soon as you are done signing, it will be immediately sent to Sarah. If you have any questions, please don't hesitate to reach out!
+- Pulled CIDA (3) for Cheryl, Matt, and Nicole and sent out docusigns indivdually to all three. Sent the following MRC to all three, Hi Nicole, hope you are doing well! I just sent you a form via DocuSign that will authorize Mr. Mike Fioritto to receive your tax information. I sent the docusign to your email of NICOLESILVERHART@GMAIL.COM . The access code is SDC1234 , and it will send a text verification code afterward. If you have any questions, please don’t hesitate to give me a call!
+- Pulled CIDA's for both Kathy and Rick, gave Rick a call to explain that we need these forms signed to send tax docs to Fioritto. He said docusign is good and I will send him MRC. Sent them both MRC, Kathy signed already. (ctb) 03
+- REACHED OUT TO FJD TO CONFIRM IF HE WANTED TO FREE UP CASH OR CONVERT A FUND (EJD)
+- Remove Advisor Premiere Select IRA
+- Rowe Monica $600k+ total Moved $500k into her ira and 30k into Roth, money will hit Wednesday also owens Corning stock will hit her jtod as well. We’re not moving the hsa fo now, we can void that ppwk, do we do ppwk for a new ira ?? BES SERVICE TEAM
+- Sent a follow up message to Nicole: Hi Nicole! I was just following up — I just resent the DocuSign, so it should be at the top of your inbox now. It’s the authorization form for Mike Fioritto to receive your tax information. The access code is SDC1234, and it will send a text verification code afterward. Whenever you get a chance, please take a look, and let me know if you have any questions!
+- Sent out Bene forms via snail mail to dennis(ctb) 1
+- Sent out checkwriting forms to Tom, I copied Carolyn Berryman's checkwriting form. Sent Tom the following MRC: Hi Tom, I just sent over another DocuSign for you. The instructions will be the same as the one I sent yesterday. The access code is SDC1234 and it will also send you a text verification. This form is to add checkwriting to your River Road LLC account that we spoke about yesterday. Once Fidelity processes the request, the checks usually arrive in about 2–4 weeks. As always, give me a call with any questions and enjoy your weekend!
+- Sent the following MRC (im sick of looking at this everyday): Hi Dennis, this is Collin with SD Capital. I’m still waiting on the beneficiary update forms I sent out in December. Just wanted to check—did you plan to send those back, or have you decided to keep your beneficiaries as they are? Please let me know either way. Thanks! (ctb) 03
+- Sent the forms on 03
+- Sent to Diane via DocuSign. (kso) UPDATE: Signed and went to FID. Pull and submit to CIR. (kso) 02
+- The expected transfer time for this request is 25 business days after it has been approved by the clearing firm. Submitted 10
+- They signed right away. Submitted to WC today. Closing out (ctb)
+- Tom stopped by the office today for a meeting, I printed off the checkwriting form and got his sig. Submitted to Fidelity
+- Transfer ID CFE
+- Transfer from GBU LIFE submitted for clearing firm approval.
+- Transfer of Assets 02
+- Transfer of Assets She is coming in WED to sign in person. (kso) 02
+- Updated Heathers DL info in RT and CLIC . waiting on heather to get us a voided check (baw). 02
+- Voided check received and saved to her clic folder. Pulled ppwk and sent via docusign. All notes in RT and planner updated (baw)
+- WealthPort Custodian Agreement and Application
+- WealthPort Custodian Agreement and Application ​​​​​​
+- Who filled this out: EJD Name of Client: Anthony Nastasi Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: New Account
+- Who filled this out: EJD Name of Client: Bret Keller Type of Account: Joint Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- Who filled this out: EJD Name of Client: Jose Rodriquez Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: New Account
+- Who filled this out: EJD Name of Client: Stacey Keller Type of Account: Retirement Sponsor Company: FID RO IRA Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Monica Rowe Type of Account: Other Sponsor Company: FID HSA Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Tim Zell Type of Account: Retirement Sponsor Company: FID IRA RO Type of Paperwork Being Pulled: New Account
+- Who filled this out: KSO Name of Client: Stanley Ostas Who is the FP: Brent Shimman Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- brent wanst to run a second model and split their monthly dists from each. if they can docusign, then we can do it that way. we hsould have a void check since his bank is connected to his current IRA 03
+- for Marg Meng Type of Account: Retirement Sponsor Company: FID TRAD IRA 655
+- hope you are doing well! This is Collin from SDC. I just sent you over a docusign to the email of kstuttle55@gmail.com . First, Keith will sign from his email. The docusign will be immediately sent over to your email after Keith signs. The form is to authorize our office to send tax information to Mr. Fioritto. The docusign will require an access code, which is SDC1234 , and will require a text verification code after. If you have any questions, please don't hesitate to reach out.
+- information in RT Make sure this has both Keith & Kathy's SSN on it (pull from a JT account) and that they both sign. (kso) 02
+- open a new GBU 5yr and transfer $25k from the FID IRA to the new GBU account. (kso)
+- ppwk submitted to WC, notes updated, added to WIP filed away in clic (baw)
+- ppwk was submitted to WC, added to WIP, all notes updated, and ppwk filed away in clic (baw)
+- sent account consolidation form to Tim & Laurie. (kso)
+- they are going to hold off on opening these accounts (ejd) CLIENT NAME – SPONSOR COMPANY ACCOUNT # Submit Paperwork via WebCapture. File away in CLIC Does the transfer have monthly contribution or distributions? Or SMFPP set up? Confirm BENEs Account is established Follow up on fee billing
+- turn off until after the 1st Transferring AMF TRAD IRA to FID TRAD IRA 01
+- updated RT (ejd) CLIENT NAME – SPONSOR COMPANY ACCOUNT # Submit Paperwork via WebCapture. File away in CLIC Does the transfer have monthly contribution or distributions? Or SMFPP set up? Confirm BENEs Account is established Follow up on fee billing
+- ​ we are doing an Add Advisor and bene update, because I'm seeing an account number on the ticket, but I do not see her in in FIWS currently. Will need: CIR Paperwork BIA Form CRS (both) Form ADV (kso) WRAPAPP FID Paperwork Add
+
+**Example tasks:**
+- Henry, Julie & Robert - NEW ACCT FID JOINT
+- Schwartz, Louise - PPWK POA
+- Korecki, Susan & Kevin - FID ACCT ACCESS RIGHTS
+
+---
+
+## Roth IRA — Fidelity
+**Tasks seen:** 70
+
+**Documents found in notes:**
+- # 250306055Retirement Name of Client: Eric Murphy Type of Account: Retirement Sponsor Company: FID IRA RO # 250306055 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- (PER stirpes please, this is how his other account was set up when we did add advisor): ANNA BOGGS : Non Spouse Individual (NSP) 10
+- ) Is this a new client? yes (daughter of clients) 2.) Type of Account: roth and ind tod 3.) Sponsor Company: FID for both 4.) Beneficiaries: cheryl & carey primary 50
+- 06 so we can get there 9.) Full Suitability Needed:
+- 0748 Beneficiaries: Nick primary dale succesor How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: n
+- 10 yrs) Annual Expenses: 30000 Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: transfer over in
+- 100% How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: N
+- 1130 Beneficiaries: brandy primary and then dad as successor if u are able to
+- 1952 Beneficiaries: Brooke Kervin 100% and Casey (Dale) Kervin Successor How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- 1958 100% How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- 1981 (44) How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- 2005 How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: NO
+- 2017 What is the Minor Beneficiary's SSN?: 833
+- 2018 100% C How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- 2018 What is the Minor Beneficiary's SSN?: 054
+- 2018 What is the Minor Beneficiary's SSN?: 676
+- 2019 What is the Minor Beneficiary's SSN?: 075
+- 2021 50% (after each other primary since. joint obvi lol) How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: I believe no, but like I. mentioned in the other activity, lets double check before transferring!
+- 2021 50% How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: YES!! this is in the other ticket. we will need to find out what is monthly is at AMF and hsut it off, and set it back up at FID.
+- 2021 50% How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: YES!!! BES said there was monthlys. we will need to turn them off once we are added (and note how much and when) before we move to FID
+- 2021 50% How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- 2023 What is the Minor Beneficiary's SSN?: 782
+- 2025 What is the Minor Beneficiary's SSN?: 740
+- 23 so we def want these done. also one of BES YPO buddies is how he found us! we can get started on all the other transfer ppwrk except the 403b until i hear back on that. that one may be a bit more tricky!!! (jek) 02
+- 2402 Beneficiaries: Nick primary dale as backup How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: n
+- 26 On what day of the month: 10th Which year is the CONT for (if Roth IRA): n
+- 2M: I think this may need to be updated in his existing CLIC, too Tax Bracket: 22% Net Investable Assets: over 1M
+- 302468, TRAD IRA 628
+- 426212, ROTH IRA 226
+- 426216, TRAD IRA 628
+- 426222, TRAD IRA 628
+- 4583 Beneficiaries: Brooke Kervin as custodian, Casey (Dale legal name) Kervin as successor How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- 50 (parents) How the Account being funded:RO AIP information: Any current AIPs at old account to be shut off: no
+- 50 5.) How is the account being funded: Transfer, RO or Check
+- 50 contingent (see JTOD account and info on RT for kids) How the Account being funded:Transfer
+- 566920 I assume How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- 572536, TO DO Legacy 636857784 (LLC), TO DO legacy 36857808 (LLC) Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: To start
+- 6 at 7:30a! they are bringing warren in toteach her about finacnes a bit and we need this ppwrk for then. we can sign onpaper since we are missing info like DL etc!! (jek)
+- 7k in each. we need statements for ALL of these. please feel free to get these as needed. PFP is what I typically use for secure document upload, or he could always drop off. We are adding ourselves as agent on these accounts. When this piece is complete, we will move forward with next step of opening FID ROTH IRAs. (kso) 1
+- 877908 FID TRAD IRA 628
+- 8870 Beneficiaries: same as otehrs How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- 998155 & PER SIMPLE IRA HGJ069507 Type of Account: Retirement Sponsor Company: FID & PER Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: I called josie and found we have had a mistake for her kids DOB
+- A unsure transfer in kind for now BP fee schedule. I need to get their SSN still and their special needs trust and see if they want that listed as contingent bene instead of Joshua. Giving a call meow. Here is the breakdown of accounts that need transferred from Thrivent to FID: Jon: 1. TRAD IRA 2. Roth IRA 3. Joint acct (with Kristen, he is primary it looks like) Kristen: 1. TRAD IRA 2. Roth IRA 3. Possibly her 403b..(waiting to hear back from district on vendor list aka platforms their 403b can be held at) UPDATE: actually i am wrong on the benes. do Jacob and Kateylnn contingent, they mentioned that Josh has enough from what i recall! we may add his portion to the trust but i need to get the docs from them. I just sent them an email and going to leave a call RN. also to note, all their accounts are in one statement, you kinda have to dig through for each account. but they are all there with account numbers and names and values
+- AIP information & CONTs:
+- AMF IS BEING MOVED TO FID, SO THAT DOES NOT NEED UPDATED.
+- Account Time Horizon: Annual Expenses: Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: Ed has a FID TRAD IRA
+- Account Time Horizon: Annual Expenses: Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: FJD asked to open a FID ROTH IRA and Transfer Jen's AMF ROTH In Kind. Please Link Bank Fifth Third 4484 (ejd) 10
+- Account Time Horizon: Long (>10 yrs) Annual Expenses: 100k Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: Roth will be in gorth etf model, but we are opening for FUTURE roth conversions
+- Account is established....well....actually two, because my computer timed out when I was submitting and I resubmitted, and now there are two IRA's open. ACS said to use whatever account I want lol. Using the one ending in 68. I added to WIP. (kso) UPDATE: Death cert was dropped off. (kso) 02
+- Add Advisor #268026438 Type of Paperwork Being Pulled: New Account
+- Add Advisor ACCT #244393143Retirement 02
+- Add Advisor FID ROTH IRA
+- Add Advisor. Accounts set up: IRA RO: 263597191 ​​​​​​​Sponsor Company: FID ROTH
+- Add Advisor. Accounts set up: ROTH: 258901040 Type of Paperwork Being Pulled: New Account
+- Add advisor, account is already set up n#224665334 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Beneficiaries: as of now, dennis 100%. she has to think. about contingent benes so we can leave blank, her daughter is kristen antuea and they have one other kid. How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- Add or Remove an Advisor 02
+- Additional Verification Information:
+- Basic Information:
+- Brokerage Account Application Personal Reg
+- Cambridge Investment Research Advisors Form CRS
+- Cambridge Investment Research, Inc. Form CRS
+- Checkwriting and Visa Classic Debit Card Request
+- Collin, Just as a follow up from today, I’d like to continue to make $25 contributions to the three 529 plans each month. I am not actively contributing to the Roth IRA, but will discuss with Brent on how to handle this account going forward. If you need banking information for the 529s, let me know. Thank you again, John I followed up with
+- Confirmation #: EDS202602270052942281 Updated WIP. Pulled routing slip, merged and submitted to CIR via WebCapture. (kso)
+- Confirmed with JOO that the new account numbers are set up and ready for bene change. Again, Donna is not listed anywhere on the trust so I am not sure if they have separate trust? I asked BES and he said to give him Tom a call but Tom answered and immediately hangup. I sent him MRC to give a call into the office. (ctb) 03
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Emailed via DocuSign Johns ppwk for ROTH IRA
+- FEE, FID ROTH IRA APP, SPI, BACU Savings statement. I emailed her to let her know that this was coming over via DocuSign and then sent it. (mrb)
+- FJD asked to open a FID ROTH IRA and Transfer Ed's Franklin Templeton ROTH over In Kind. Please Link Bank Fifth Third 4484. (ejd) 10
+- Form ADV Delivery Receipt
+- Got her ROTH IRA account number
+- HSA Beneficiary Designation 03
+- He does not want a ROTH IRA. Only processing the TRAD IRA w
+- Hi John, Thank you for the update—I appreciate you following up. That sounds great regarding the $25 monthly contributions to each of the three 529 plans. I will reach out to you next week with the necessary paperwork along with the bank link information. We can take care of the required signatures either via email or in person, whichever you prefer. Once the accounts are set up, we’ll follow up to confirm the $25 monthly contribution amount for each plan. One quick question as well—would you like your statements returned, or should I go ahead and shred them? Please let me know if you have any questions in the meantime. Best regards,(ctb) 1
+- How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- How the Account being funded:RO AIP information: Any current AIPs at old account to be shut off: n
+- I dont see why the K would be capital What is the Minor Beneficiary's DOB?: 08
+- I pulled a FID ROTH IRA, CRS,CRS,ADV2A,WRAPAPP
+- I reached out to JEK
+- I think this needs to be updated as well Investment Objectives: Risk Tolerance: moderate aggressive Primary Objective: Growth Seconday Objective: Outside Objective: Time and Horizon
+- IRA Designation of Beneficiary
+- Is this a new client? Add Advisor? Beneficiaries: Jennifer Hamilton 50% Delaney Hamilton 46% Garyn Stewart 1% Annabel Stewart 1% Bethany Stewart 1% Grant Stewart 1% How the Account being funded:Transfer
+- Is this a new client? No Add Advisor? Beneficiaries: Please set up Same as her FID TRAD IRA account How the Account being funded:Transfer
+- Is this a new client? No Add Advisor? Beneficiaries: Set Up Same as his FID TRAD IRA account How the Account being funded:Transfer
+- Is this a new client? No Beneficiaries: Laurie 100% P and then Nicholas and Lauren 50
+- Is this a new client? No Beneficiaries: benes on file alreadt DIana 100% so dont have to worry about it How the Account being funded:Transfer
+- Is this a new client? No Beneficiaries: pull ira bene form just in case, not sure if it as added in meeting: Benjamin Sarver 100% primary, Everett
+- Is this a new client? Yes Beneficiaries: Bruce and Tonya How the Account being funded:Check
+- Is this a new client? Yes Beneficiaries: Each other 100%. kids split even contingent, BUT, need to see if they want to list the trust for the kid joshua since he is special needs. they currently do not have that on file with their current accounts but were going to think on it. How the Account being funded:Transfer
+- Is this a new client? Yes Beneficiaries: Kyle Hutchins 100% How the Account being funded:Transfer
+- Is this a new client? Yes Beneficiaries: Wife is listed as primary bene, we want to add his kids as contingent How the Account being funded:Transfer
+- Left Redwood a VM to confirm what cambridge ppwk is needed for 529 Advisor change. (ctb) 1
+- Liquidity Needs: Account Time Horizon: Long (>10 yrs) Annual Expenses: 30k Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: there is 9k in the acct, this will probably go into PRWCX but will need confirmed! Transfer in kind for now
+- Liquidity Needs: Account Time Horizon: Long (>10 yrs) Annual Expenses: 50k Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: This will stay in FDRXX she is coming in next WED at 4pm to sign and ask questions. we had a check we sent to GBU that we can void to connect her bank to this with an SPI. We are leaving this all in FDRXX, as she wants to write Checks and use a debit card with it. I am not sure on the amount she wants to move, over the phone she said 75k but this may change. CHECKWRITING & DEBIT CARD need pulled with this. the only thing i need to confirm with BES is the fee schedule he wants to use. this can be paper printed and tabbed for when she comes in on wed if possible!! (JEK) 03
+- Morgan McMillin 33% UPDATE FID ROTH IRA & CHECK PENNMUTUAL
+- Morgan McMillin 33% UPDATE FID ROTH IRA & CHECK PENNMUTUAL.
+- Name of Client: AMBER BEHAM Type of Account: Retirement Sponsor Company: FIDELITY Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ROTH CONVERSION"] Notes: KSO I CAN DO THIS ONE (EJD) 02
+- Name of Client: Bobby Sabin IRA Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Beneficiaries: same as current sch ira. todd and matt i think How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no, should be off now with SCH, was gettting monthly dist
+- Name of Client: Bobby Sabin Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Beneficiaries: moving existing SCH to FID. move everything over as is. no monthly dist though. will docusign in person How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- Name of Client: Brandy Murphy Type of Account: Custodial Sponsor Company: FID UTMA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Brooke Kervin Type of Account: Custodial Sponsor Company: FID UTMA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Cliff Stricker Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: DAVID BEEBE Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Ellen Daniel Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Beneficiaries: Thomas 100% then split same as his with the kids How the Account being funded:RO AIP information: Any current AIPs at old account to be shut off: no
+- Name of Client: Eric Schroeder Type of Account: Retirement Sponsor Company: FID ROTH IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Guadalupe Garcia Type of Account: Retirement Sponsor Company: FID IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Guadalupe Type of Account: Retirement Sponsor Company: FID ROTH IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Jane Erdmann Type of Account: Individual Sponsor Company: FID IND TOD Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Jennifer Markewitz Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Account Access Form"] Notes: Ed emailed asking to be able to see Jen's ROTH IRA account
+- Name of Client: Jennifer Schroeder Type of Account: Retirement Sponsor Company: FID ROTH IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: KELLY JUDD BUSH Type of Account: Retirement Sponsor Company: FID ROTH IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Katharine Cirino Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Beneficiaries: husband tony and two daughters are contingent
+- Name of Client: Kelly Judd Bush (no hyphen) Type of Account: Individual Sponsor Company: FID IND TOD Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Kenneth Clocksin Type of Account: Retirement Sponsor Company: FID IRA TRAD Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Kevin & Kimberly Sheehy Type of Account: Joint Sponsor Company: a new FID JTWROS!!!!! (transferred from AMF #4003013382 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Kevin Sheehy Type of Account: Retirement Sponsor Company: Fidelity Roth IRA (transfer from AMF in another ticket) Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Kevin Sheehy Type of Account: Retirement Sponsor Company: ROTH IRA American Funds #4003837753 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Kevin Sheehy Type of Account: Retirement Sponsor Company: Rollover IRA Transfer from NFS to FID
+- Name of Client: Madison Shaw Type of Account: Individual Sponsor Company: FID TOD Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Marissa Ziviski Type of Account: Retirement Sponsor Company: FID ROTH IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: McMillin, Jobe Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Primary: Tiffany McMillin 100% Contingent: Beckett Hahn 34%
+- Name of Client: McMillin, Tiffany Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Primary: Jobe McMillin 100% Contingent: Beckett Hahn 34%
+- Name of Client: Michael Dudderar FID ROTH IRA 628
+- Name of Client: Nicholas Kervin Type of Account: Custodial Sponsor Company: FID UTMA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Nick Kervin Type of Account: Custodial Sponsor Company: FID UTMA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Paul ELvey Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Beneficiaries: Wiofe Cathleen 100%, then Emily Day listed on RT famly 100% contingent How the Account being funded:RO AIP information: Any current AIPs at old account to be shut off: no
+- Name of Client: Paula Malone Type of Account: Retirement Sponsor Company: Fidelity
+- Name of Client: Tom Moser Type of Account: Retirement Sponsor Company: FID TRAD IRA 636
+- Need statement for FID to TOA funds still. ZWB was to reach out earlier in the week to get updated statement. (kso)
+- Premiere Select IRA
+- Premiere Select IRA Application
+- Premiere Select IRA Application TO DO
+- Pulled BIA, suit, BRD change of registration form for all kids (3) and have the docusigns ready to go. Confirmed I do not need Wrapapp because it is commision. Also confirmed with KSO that a BIA will work and no RB needed. Gave John a call to let him know the Docusigns were coming and to make sure phone number and email are correct. I told him I will send instructions over via MRC for docusigns and send the ROTH transfer tomorrow. (ctb) UPDATE: Sent out the three BRD broker dealer changes out to John via Docusign with the following MRC: John, I just sent you over three docusigns to your email to get Brent added onto the Blackrock 529 accounts. Each one will require an access code which will be SDC1234 . It will also send you a verification code to your phone. I will get the Roth transfer application sent over to you tomorrow with instructions. If you have any questions or have problems with the Docusigns, please don't hesitate to give me a call. Have a great night!
+- Pulled IRA paperwork for both tom and Donna to get the trust updated as contingent bene. Sent them both a docusign and MRC. I also noticed that Donna's Fidelity accounts have the wrong middle initial. The accounts show I when her middle initial is J. Opening a service request to try to get this changed. (ctb) 03
+- Pulled ppwk for Jon's FID ROTH IRA. Waiting on KSO to fill out the TOA (baw) ​​​​​​
+- Remove Advisor (kso) 02
+- Roth IRA #268229732 Type of Paperwork Being Pulled: New Account
+- Suitability
+- Suitability: Description: Financial Data Refers to: primary Annual Income: 15k Net Worth: 10k Tax Bracket: 12% Net Investable Assets: 10k Investment Objectives Risk Tolerance: aggressive Primary Objective: growth Secondary Objective: Outside Objective: Time and Horizon Liquidity Needs Account Time Horizon: 10+ Annual Expenses: Est. Special Expenses: Special Expense Timeframe: Investment Experience Stocks: Bonds: Options: Commodities: Real Estate Investment: Mutual Funds: Ins
+- The form previosuly sent to me was wrong, it was to open a new account. I spoke with Nina and she directed me to the change of registration form on BRD page. We CAN docusign this, the sections that need filled out are 1, 4, 5a. No notary is needed on the form. They need to be faxed or sent in to the information on the top of the form with the docusign cert. All statements are saved in CLIC folder. Getting to the ppwk now, hoping to have the 529 sent out today and the Roth sent out THUR when in the office. (ctb) 01
+- Tom stopped by the office for a meeting, I grabbed wet sigs and submitted to Fidelity.
+- Transfer of Assets
+- Transfer of Assets 03
+- Transfer of Assets She is coming in WED to sign in person. (kso) 02
+- Transfer on Death
+- Transfer on Death 03
+- Transfer on Death 04
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: CHILDREN 50
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Cecil 100% and then her kids split (heather, cecil III, and thomas) all info on RT! How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: How the Account being funded: AIP information: Any current AIPs at old account to be shut off:
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Husband Eric and Contingent Logan Child How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Jeff & Bethany 50
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Kelly is Widow
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Kimberly Shaw
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Kimberly Sheehy 100% 09
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: P: JULIE CLOCKSIN (Primary) : Spouse (SPS) 18
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Primary Wife Jen Schroeder Contingent Logan Schroeder Child How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Rigoberto Garcia 09
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Rigoberto Garcia 100% P. no kids How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: do pull benes with this, I dont know if brent added any and zocks picked up that we will add benes to his RO IRA so yes. Brandy Murphy 100% P 01
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: kids Rylie Sheehy 11
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: no benes for these How the Account being funded: AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: same as his existing TRAD IRA #636
+- UTMA): Yes What is the Minor Beneficiary's Full Name?: Avery Kervin What is the Minor Beneficiary's DOB?: 05
+- UTMA): Yes What is the Minor Beneficiary's Full Name?: Hayes O Castilleja What is the Minor Beneficiary's DOB?: 08
+- UTMA): Yes What is the Minor Beneficiary's Full Name?: Jaxon T Caputo What is the Minor Beneficiary's DOB?: 04
+- UTMA): Yes What is the Minor Beneficiary's Full Name?: Lucy Kervin What is the Minor Beneficiary's DOB?: 10
+- UTMA): Yes What is the Minor Beneficiary's Full Name?: Mckinzie Kervin
+- UTMA): Yes What is the Minor Beneficiary's Full Name?: Sawyer A Murphy What is the Minor Beneficiary's DOB?: 09
+- Updated DL
+- Verification: Are we linking the bank: Do we have a voided check: Additional Verification Information: Copy of Current DL on file: Drivers License Upload: Full Suitability Needed?: How to Sign: Signature Method: Financial Data: Refers to: Annual Income: Net Worth: Tax Bracket: Net Investable Assets: Investment Objectives: Risk Tolerance: Primary Objective: Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: No Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Option 2 Annual Income: 200k
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: No Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: 150k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 50k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 180k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 15k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 230k Net Worth: 100
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 230k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 100
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 50k
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Household Annual Income: 40k Net Worth: 50k Tax Bracket: 10% Net Investable Assets: 100k Investment Objectives: Risk Tolerance: Moderate Primary Objective: Growth Seconday Objective: Income Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Household Annual Income: 40k Net Worth: 50k Tax Bracket: Net Investable Assets: 100k Investment Objectives: Risk Tolerance: Moderate Primary Objective: Growth Seconday Objective: Income Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Option 2 Annual Income: 60k Net Worth: 300k Tax Bracket: 12% Net Investable Assets: 250k Investment Objectives: Risk Tolerance: Moderate Primary Objective: Income Seconday Objective: Preservation Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: No Drivers License Upload: Full Suitability Needed?: No How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 250k
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 180k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 15k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Option 2 Annual Income: 120k hooushold Net Worth: 500k Tax Bracket: 12% Net Investable Assets: 100k Investment Objectives: Risk Tolerance: Moderate Primary Objective: Growth Seconday Objective: Preservation Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: $60k Net Worth: $25k Tax Bracket: 12% Net Investable Assets: $15k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Household Annual Income: 230k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 90k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: No Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: 25k Net Worth: 20k Tax Bracket: 12% Net Investable Assets: 10k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: No Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: 45k Net Worth: 50k Tax Bracket: 12% Net Investable Assets: 20k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: No How to Sign: Signature Method: Docusign Financial Data: Refers to: Annual Income: Net Worth: Tax Bracket: Net Investable Assets: Investment Objectives: Risk Tolerance: Primary Objective: Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: No How to Sign: Signature Method: Docusign in Person Financial Data: Refers to: Annual Income: 36000 Net Worth: 100000 Tax Bracket: 10% Net Investable Assets: 100000 Investment Objectives: Risk Tolerance: Moderate Primary Objective: Income Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: No How to Sign: Signature Method: Docusign in Person Financial Data: Refers to: Annual Income: Net Worth: Tax Bracket: Net Investable Assets: Investment Objectives: Risk Tolerance: Moderate Primary Objective: Income Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: $188K Net Worth: $700K Tax Bracket: 22% Net Investable Assets: $750K Investment Objectives: Risk Tolerance: Moderate Primary Objective: Growth Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: $188K Net Worth: $750K Tax Bracket: 22% Net Investable Assets: $750K Investment Objectives: Risk Tolerance: Moderate Primary Objective: Growth Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: $53K Net Worth: $350K Tax Bracket: 22% Net Investable Assets: $350K Investment Objectives: Risk Tolerance: Primary Objective: Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: 53K Net Worth: 350K Tax Bracket: 22% Net Investable Assets: 350K Investment Objectives: Risk Tolerance: Primary Objective: Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Household Annual Income: 100k Net Worth: 500k Tax Bracket: 12% Net Investable Assets: 120k Investment Objectives: Risk Tolerance: Moderate Primary Objective: Income Seconday Objective: Preservation Outside Objective: Time and Horizon
+- WealthPort Custodian Agreement and Application
+- WealthPort Custodian Agreement and Application ​​​​​​
+- Who filled this out: EJD Name of Client: Benjamin Williams Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: New Account
+- Who filled this out: EJD Name of Client: Edward Markewitz Who is the FP: Frank Dobnikar Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: New Account
+- Who filled this out: EJD Name of Client: Jennifer Markewitz Who is the FP: Frank Dobnikar Type of Account: Retirement Sponsor Company: Fidelity Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Jon & Kristen Meyer Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Katie Sarver Type of Account: Retirement Sponsor Company: FID RO IRA Add Advisor #263625909 Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Tim Zell Type of Account: Retirement Sponsor Company: FID ROTH IRA Type of Paperwork Being Pulled: New Account
+- Who filled this out: KSO Name of Client: Louise Schwartz Who is the FP: Brent Shimman Type of Account: Retirement Sponsor Company: Fidelity ROTH IRA Type of Paperwork Being Pulled: New Account
+- Will they be making monthly CONTs: How Much: On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- Will they be making monthly CONTs: No How Much: On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- Will they be making monthly CONTs: Yes How Much: ^^^Will match whatever he has going in monthly at AMF! it looks lik ehe was doing 100 3x a month?? he may have been addign on his own bc the amoutns change On what day of the month: Which year is the CONT for (if Roth IRA): depends when we move it. we will haevt o check this at AMF to make sure he doesn't go over the cont limit 2025! Bank Linking
+- are we able to add beneficiaries to Tom's LLC accounts? I am assuming not because none are listed
+- b Mercy Health Plan #95881 and BrokerageLink (BES already transefrred funds) #653526239Retirement Name of Client: Brandy Murphy Type of Account: Retirement Sponsor Company: FID 403b Mercy Health Plan #95881 and BrokerageLink (BES already transefrred funds) #653526239 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- basically what is happening here is that I found an old note from a 2024 review cover on this, when we sold BP BES wanted to open another IRA to run G&I for him. I am not sure if Cliff remembers this since it was 2 years ago so we may need to remind him what the ppwk is for. I tried my best to fill this out, any questions please see me or BES! 03
+- confirm with BES before trading but he is cenovus, 42 age, and it is IRA so 99% sure it will be core growth 03
+- each will be funded by 529 conversion. she has shown 1,259 NET (we want gross) in income this year, so that will go to this roth. the rest of the 7k will go to her ind tod. 6.) Any current AIP's at old acct that need to be shut off: n
+- he said to use BP fee schedule. I pulled routing slip, scanned CIR paperwork, merged with DocuSign paperwork from last week. Ran RB and submitted all to CIR via WebCapture. Filed away in clic. Added to WIP and reached out to BES for model
+- he wants an AMF CUST ROTH IRA instead. (kso)
+- holdings, so they should work for the transfers. also, this meeting was last week 1
+- i sent him a text, his wife has an old account and he wants to setup roth ira for his kids he is planning to stop in here wednesay with ira and wife's info. (acs) UPDATE
+- month On what day of the month: Which year is the CONT for (if Roth IRA): 2026 Bank Linking
+- month On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- okay i want to move that IRA (his AMF IRA, FYI) to fidelity fee based account, i will talk w him wed to get the simple setup for 2026, he will add his IRA contributions for 2025 to AMF first and then we can move it im not sure what she has, i know he wants roth ira and utma for the kids , those can go to fidelity as well. (acs) 03
+- paperwork signed, submitted to FID & CIR. Updated WIP. (kso)
+- ppwk submitted to FID and WC. Put into WIP and ppwk filed away in her clic and I emailed her copies of her ppwk she requested (baw) # Document Submission: Confirmation As of 30
+- ppwk submitted to FID and WC. ppwk filed away in her clic added to WIP all notes updated (baw) Document Submission: Confirmation As of 31
+- ppwk was submitted to WC and filed into his clic. I moved their folder out of prospect. Put into WIP and all notes updated in RT and planner. (baw)
+- ppwk was submitted to WC, added to WIP, and filed away in his clic folder. I let jjo know this account was established and good to go. All notes updated in RT and planner (baw)
+- pulled ppwk and filled out most. we need updated DL and voided check. Need kids birthdays for BENE Emailed to KSO for her to print off (baw)
+- pulled ppwk and filled out most. we need updated DL and voided check. Need kids birthdays for BENE. Emailed to KSO for her to print off (baw)
+- reason is operational due to death Also need the FID IRA TRANSFER REQUEST FOR SPOUSE BENEFICIARY 02
+- sent the Account access form via Wealthscape. I can take this activity already in RT (ejd)
+- so that will come soon as well. Who filled this out: JEK Name of Client: Buck Molnar Type of Account: Retirement Sponsor Company: FID IRA RO
+- statement in his misc notes CLIC folder!! Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- this is a prospect that will call us when ready to move forward. also, it is for OPerS lump sum in feb, 50k lump sum. then we will send 25k to GBU, so we will also need a GBU app for this one as well (IRA). no rush on this as we are waiting to hear back from him. discounted fee at 1% (BP). PAUL IS TALKING TO WIFE AND POSSIBLY ONE MORE ADVISOR
+- this will be at FID How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- totally fine. All his IRA accounts need to be updated to Donna as primary, then contingent their trust, their updated trust is saved into their CLIC folder. FID TRAD IRA 636
+- u meeting scheduled next Friday at noon to complete the RO for this account, and a RO for ben into his IRA he has .JO will be taking care of this meeting, and also grabbing info from Everett for his roth IRA. match same fee as their other accounts and let me know if any questions (jek)
+- waiting for amount and sof before sending. (kso) UPDATE: haha found it, oopsies. Sent to Mark! (kso) 02
+- we are still waiting on statement and DL information. She is going to reach out next week to reminder her we need info
+- we are transfering his AMF ROTH IRA 89090899 $35,137. Included CRS, ADV, WRAPAPPE, IRA App, Transfer of asstts and SPI linking Chase Bank ending in 7526 (ejd)
+- ​ we are doing an Add Advisor and bene update, because I'm seeing an account number on the ticket, but I do not see her in in FIWS currently. Will need: CIR Paperwork BIA Form CRS (both) Form ADV (kso) WRAPAPP FID Paperwork Add
+
+**Example tasks:**
+- Murphy, Brandy - NEW ACCT FID 403B BL
+- Murphy, Brandy - NEW ACCT FID UTMA FBO SAWYER
+- Sheehy, Kevin & Kimberly - NEW ACCT FID JTOD W/AMF TOA
+
+---
+
+## Unknown — Unknown
+**Tasks seen:** 34
+
+**Documents found in notes:**
+- 100% C: Ellie Stachowiak
+- 1Susan left a text: This is Susan Capucini for Clyde client Don Burroughs. He needs to update his bank account information so that future deposits go into the correct account. The account you have on file had to be closed last summer due to fraud and they reissued him a new number. He has a distribution coming in February and I don't know if it's by check or direct deposit, which he would prefer. I called n left her a vm that I will need a VOIDED check or a bank letter (sjc)
+- 50% How the Account being funded:Transfer
+- 50% Scarlett Stachowiak
+- AIP information & CONTs:
+- Account Time Horizon: Annual Expenses: Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: Copy suitability from existing IRA, Team directed (RPS), Bunke fee schedule, $150k Journal from existing IRA #QGK090287 and trade into Core Growth 02
+- Account Time Horizon: Annual Expenses: Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: Core Growth All The same Suitablity in CLIC, we will Journal over ~$54,000 from current IRA #QGK142211 (Leave $100k in current and journal the remainder)
+- Accounts: GBU IRA [26204800](https:
+- Additional Verification Information:
+- Basic Information:
+- Called Marie to let her know this is coming via snail mail and she will have some information to fill (SSN, relationship to owner, & phone #), this is sent out via snail mail with a return envelope and tabbed. (ctb)
+- Contact Info Change"] Notes: 02
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Copy of Current DL on file: No Drivers License Upload (if on file): Full Suitability Needed?: No
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: No
+- D Change"] Notes: We will need CLIC paperwork, and then PacLife Financial Professional and Broker
+- DXC"] Notes: we have divorce decree and need to get the annuitys split, I called brighthouse and this is the form needed. divorce decree says it gets split 50
+- Dealer Change Request Form. She is coming in on TUES 2
+- Gary called in, he is going to pick up the form right now, get Diane signature, and drop back off today. (ctb) 03
+- Got with JEK to fill out rest of ppwk, KSO pulled the transfer form for me and I submitted to GBU at newbusiness@gbu.org with a secure email. Pushing back to follow up. (ctb)
+- Her kids are split 25% on the IRA, with about ~1,300. The NQ is to Lenny 100% about ~29k. BES & I saw her passing on FB this morning and just putting this in so it is ready in queue
+- Is this a new client? Beneficiaries: How the Account being funded:
+- Is this a new client? No Beneficiaries: Bradley Wilkinson 50% Jason Wilkinson 50% How the Account being funded:Transfer
+- Is this a new client? No Beneficiaries: P: Lauren Stachowiak
+- Judy called in when I was out sick because the phone number was wrong, asked for a call back. I called her today and she is sending the form back today with the corrected phone number. (ctb) 03
+- KSO submitted, acct is transferred under BES and followed up with Laura, closing out. (ctb)
+- Name of Client: Burroughs, Donald Type of Account: Retirement Sponsor Company: GBU Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: 1
+- Name of Client: Hal Geiger Type of Account: Other Sponsor Company: Brighthouse #3205322843 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Divorce, form: Policy Service Request Due to Divorce Form IDPSR
+- Name of Client: JOHN KOSTA Type of Account: Retirement Sponsor Company: PER Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes:
+- Name of Client: Jon Janus Type of Account: Other Sponsor Company: MetLife Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Agent Change Form"] Notes: KSO
+- Name of Client: Judy St John Type of Account: Other Sponsor Company: GBU 28385904 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: BES said it needs updated to her nephew John 100% His info is on a change of bene from 2017 in her GBU folder, where he was changed to only 50%. We can use his info from there to update! 03
+- Name of Client: Marie Stanley Type of Account: Retirement Sponsor Company: John Hancock Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Sent CTB the bene form from JH website. Marie wants her bene's as follows: Keith Soper 11
+- Name of Client: Nancy Nichols (Todd Nichols) Type of Account: Retirement Sponsor Company: SCH Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Address
+- Name of Client: ROBERT SOPER Type of Account: Retirement Sponsor Company: INV Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes:
+- Pulled 4xQualified Annuity Claim Forms. CMB is going to call benes and get updated information to mail to or see if they want to come in and sign. (kso)
+- Pulled CIDA to add Mr. Rinker CIDA for John. I put the docusign together and sent John the following MRC: Hi John, I just sent a DocuSign to your email (jlariche@larichechevrolet.com). The form authorizes our office to send tax documents to Mr. Rinker. The DocuSign will require an access code, which is SDC1234, as well as a text verification code. Please let me know if you have any questions or trouble with the DocuSign. – Collin
+- Pulled GBU bene form for M Judy St. John. Confirmed he name with ZWB becuase the M seemed weird to me. I called and spoke with her to let her know the forms are coming and to confirm address. I NEED TO ADD SSN AFTER THIS IS RECEIVED BACK. (CTB) TRACKING # FOR WAY THERE
+- Todd called back in for me because he failed the docusign authentication. He let me know that HIS FATHER, RUSSELL, passed away this morning and he is currently in Maumee with his mother. I let him know not to worry about the docusign and I will be sending the forms to his home address. (1340 Cascade Circle West Canton OH 44708.) I gave him our condolences and they will be in our thoughts and prayers. (ctb) UPDATE: This has been sent out via snailmail for Todd. I also got with Missy and she will keep an eye for when the funeral is and possibly send flowers from us. 03
+- We will need a SCH change of address form sent to Todd Nichols (Nancy Nichols POA) to get Nancy's address updated. Make sure to use SCH docusign platform and CC them. (ctb) UPDATE: I was able to get into KSO SCH docusign and sent out the address form to Todd. I gave him a call to confirm email address and give him a heads up that the docusign is coming. I sent the following MRC: Hi Todd
+- Who filled this out: Briggs Name of Client: Jacob Stachowiak Type of Account: Retirement Sponsor Company: PER IRA (Team Directed) Type of Paperwork Being Pulled: New Account
+- Who filled this out: Briggs Name of Client: Jeff Wilkinson Type of Account: Retirement Sponsor Company: PER Type of Paperwork Being Pulled: New Account
+- Who filled this out: EJD Name of Client: Bret Keller Type of Account: Other Sponsor Company: CIR FPE Type of Paperwork Being Pulled: New Account
+- can be for either IRA
+- he passed away in 2014. I pulled the Fortitude bene update form, updated her name and removed Matt and then gave it to her w a return envelope to send it back to me once Bill signs (sjc)
+- this is Collin with SD Capital. I just sent a docusign to your email hayleymilne@outlook.com. The docusign requires an access code, which is SDC1234 and will also send you a text verification. This form is to allow our office to share tax information with Ray Burns. If you have any questions, please don't hesitate to reach out! (ctb) 03
+- this is Collin with SDC. I just sent you over the address update form we spoke about to the email address of nick3tmn@aol.com. It will ask you a verification question and send you a verification code to your phone. If you have any questions, please don't hesitate to reach out! Thank you!
+
+**Example tasks:**
+- Brown, Margaret - DEATH CLAIM
+- Mugler, Jon
+- Geiger, Hal - AIG #P55G1507819
+
+---
+
+## Individual TOD — Fidelity
+**Tasks seen:** 13
+
+**Documents found in notes:**
+- ) Is this a new client? yes (daughter of clients) 2.) Type of Account: roth and ind tod 3.) Sponsor Company: FID for both 4.) Beneficiaries: cheryl & carey primary 50
+- 06 so we can get there 9.) Full Suitability Needed:
+- 1982 How the Account being funded:Transfer
+- 21 for it. If he doesnt call back by tomorrow I will start ppwk without it and he can add via his fidelity.com once account is established (baw) 01
+- 50 5.) How is the account being funded: Transfer, RO or Check
+- 50 How the Account being funded:Transfer
+- 6 at 7:30a! they are bringing warren in toteach her about finacnes a bit and we need this ppwrk for then. we can sign onpaper since we are missing info like DL etc!! (jek)
+- 9000 with your routing and account number. We can then prepare a DocuSign for you, which will also give you the option to upload a voided check directly to Fidelity. Let us know if you have any questions! 02
+- AIP information & CONTs:
+- Account Time Horizon: Long (>10 yrs) Annual Expenses: Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: This account will be funded with share transfers (Computer share
+- Add or Remove an Advisor 02
+- Additional Verification Information:
+- BP fee schedule, pull suitability from previous paperwork
+- Basic Information:
+- Brokerage Account Application Personal Reg
+- Cambridge Investment Research Advisors Form CRS
+- Cambridge Investment Research, Inc. Form CRS
+- Colin called Mike for me (my phone is not working today) and left a voicemail letting Mike know ppwk for Sophia is done and ready to be signed. He printed ppwk and flagged it and put at the front . We need a DL or state id and a voided check (baw) 03
+- Confirmation #: EDS202601260051543961 FID TRAD IRA:
+- Copy of Current DL on file: No Drivers License Upload (if on file): Full Suitability Needed?: No
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: No
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- FID IND TOD #655362953. I sent a text message to Nevin Hello Nevin
+- FID IND TOD:
+- Form ADV Delivery Receipt
+- Haliburton Shares) and posible prudential shares. Might even fund with some Thrivent brokeage transfer (TOA with this) as well. This is NOT needed for a while...Mike Dunn isnt back until 03
+- I sent a MRC to Mike letting him know to have Sophia stop in to sign paperwork. He said she should be stopping in today (baw) 03
+- Is this a new client? No Beneficiaries: jessica Saum 100%, Harper and Declan saum contingent 50
+- Is this a new client? Yes Add Advisor? No Beneficiaries: Kids: Heather D. Revill 05
+- Is this a new client? Yes Add Advisor? No Beneficiaries: unsure. I just want this in the ppwrk planner, benes need confirmed! How the Account being funded:Transfer
+- Left Nevin another voicemail asking for him to either go on Fidelity.com and add his bank or to call in and give us his bank info (baw) 02
+- Name of Client: BRENDA MAHL Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["TRANSFER"] Notes:
+- Name of Client: Brenda Mahl Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["transfer"] Notes:
+- Remove Advisor Form JEK said she will confirm TOMORROW that DocuSign is good
+- Remove Advisor Form. CIDA is already on file. This will be similar to paperwork we just did for YOUNG CIR: CRS (both) Form ADV WRAP APP FID: Add
+- Resent PFP request to upload document. (kso) 01
+- Sent Nevin a MRC chat (baw) Hi Nevin! Just checking in on linking your bank to your Fidelity TOD account. If you’d like to add it directly from your Fidelity login, we’re happy to send over step
+- Standing Payment Instructions I submitted the FID IND TOD Application, Transfer on Death and HUNTINGTON SPI to Fidelity via Document Submission: Confirmation #: EDS202603090053371841 The CIR paperwork was not signed, and I do not have DL information. Put paperwork in BES "TO SIGN" box. (kso) 03
+- Suitability
+- Suitability: Description: Financial Data Refers to: primary Annual Income: 15k Net Worth: 10k Tax Bracket: 12% Net Investable Assets: 10k Investment Objectives Risk Tolerance: aggressive Primary Objective: growth Secondary Objective: Outside Objective: Time and Horizon Liquidity Needs Account Time Horizon: 10+ Annual Expenses: Est. Special Expenses: Special Expense Timeframe: Investment Experience Stocks: Bonds: Options: Commodities: Real Estate Investment: Mutual Funds: Ins
+- Transfer of Assets
+- Transfer on Death
+- Transfer on Death 01
+- Transfer on Death 03
+- Transfer on Death TO DO
+- WealthPort Custodian Agreement and Application
+- WealthPort Custodian Agreement and Application ​​​​​​
+- Who filled this out: JEK Name of Client: Barbara Hersch Who is the FP: Brent Shimman Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Cathy Meyer Who is the FP: Brent Shimman Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEK Name of Client: Nevin Saum Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- but you can start getting information in and getting paperwork pulled. Make sure when account is added to CLIC that you include the account number so it populates into paperwork!! (kso) 02
+- consolidate these things. I do not have a lot of information on her but I do have DOB, SSN, address. (no contact info or DL). I want to get this in the pipeline so it doesn't feel last minute, but really it will be almost a full blank app whenever he gets scheduled
+- digital.fidelity.com
+- each will be funded by 529 conversion. she has shown 1,259 NET (we want gross) in income this year, so that will go to this roth. the rest of the 7k will go to her ind tod. 6.) Any current AIP's at old acct that need to be shut off: n
+- great news! Your Fidelity Individual TOD account has been successfully established. The remaining step is to link your bank account. There are a couple of easy options: you can log in to your Fidelity.com account and link the bank directly, or you’re welcome to give our office a quick call at 419
+- i sold his BP shares, $37k and opened a new FID IND ACCOUNT i put dawn on as bene, we need add advisr and also log in as him to journal the money from the BP Ind account to the one i set up [IndividualZ53311235](https:
+- it does not need pulled until then! I will update as more comes!! paper copies blank will work for this, with TOD Bene, with 2 TOAs and Computer share transfer form for the physical shares. SEE notes as this is not for a bit but I do not want to make someone have this ready last minute! 03
+- need DL information
+- ppwk was pulled and sent via docusign. all notes in RT and planner updated (baw) ​​​​​​
+- pulled ppwk need alot of information when she comes in. pulled a CIDA also incase she wants to add Mike. Pulled an SPI too. Pulled 2 TOA (baw)
+- step instructions. Let us know what’s easiest for you! UPDATE: NEVIN CALLED IN! He spoke with BAW and expressed some hesitation on moving forward. BAW and I discussed, I said that this sounds like BES should step in. I sent the following message via BES PRIORITY TEAMS Channel: ⁠Brent Shimman ⁠Jaiden Karrick Nevin’s FID Individual TOD account is open and has been established. We have made multiple attempts to link his bank account in order to fund the account and set up monthly distributions. He has now responded, but indicated he is still deciding on next steps and does not want to provide bank information at this time. He mentioned uncertainty around whether he wants to pay off his house and referenced having stock options, but did not go into detail. Given the hesitation and questions around stock options and overall direction, I think this would be best addressed with a phone call from you to clarify his goals, answer questions, and determine how he would like to proceed. (kso) TO DO: Bank account needs linked 03
+- we need to open a FID IND TOD in Sophia's name to Mike & Jess. there are some more notes in Teams, but we should just be able to open this new FID TOD and journal the $$ from the FID Guardianship acct. we did this for Matt and Nicole Silverhart. (acs) 03
+- we need to open account, link bank (he confirmed we do not have bank information, need to get) and then once account is open, he will fund with cash from bank link. (kso) UPDATE: BAW is pulling account opening paperwork. We sent PFP Upload request. (kso baw) 01
+
+**Example tasks:**
+- Mahr, Sophia - FID IND TOD w/ Guardianship Journal
+- Hersch, Barbara - NEW ACCT FID IND TOD
+- MAHL, BRENDA -FID IND TOD TOA
+
+---
+
+## Roth IRA — AMF/Guardian
+**Tasks seen:** 10
+
+**Documents found in notes:**
+- 0180 EX42 case #16010041. We spoke with Deandra who informed us that Riana's Edward Jones account has a restriction no activity on it. She gave us EWJ number to call 614
+- 0180 and talked with Oscar who told me ppwk I would need is reqest transfer of assets. Once we looked at her EDJ statement seeing it is hartford funds we called AMF back and talked with Robin who told us we would need to liquidate to do the transfer. I than called CIR 866
+- 0180 x42 and the case ID is 15916130. EJD called AMF back and put on speaker so I could listen we spoke with Mariah (ex 32956) On ppwk I did not put how to split the funds. Her shares were split evenly so EJD told them to split the transfer evenly among the shares. To Do Alyssa transfer looks like its been completed all notes are in FJD WIP
+- 2004 How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- 2026 Remi gave me this message Not sure if this would be for Frank or you, but someone from American Funds just called and was asking for you or Frank. Frank was busy when she called. She is asking for some sort of confirmation about Riana McVicker. I saw on RT that you are handing that transfer, the call back number is 800
+- 9863 and talked with Lydia to see what ppwk they needed. She said with us liquidating we would beed to do investment exchange disclosure. I asked if RB was needed and she said it is NOT PPWK was pulled and sent to Riana via Docusign
+- Collin And the following MRC to Jobe: Hey Jobe — just a quick heads up regarding Pierson’s American Funds Roth IRA. I’ve sent him a DocuSign that will also require your signature to acknowledge that you will no longer be listed as custodian on the account. Once Pierson completes his portion, it will automatically route to you. The access code is SDC1234 and you’ll receive a text message with a verification code to access the document. Please let me know if you have any questions!
+- EJD is going to reach out to Riana and set up a time for her and Frank to call EWJ together. (baw
+- I called and spoke with Lindsey at AMF this morning and she said that we will just need new acct ppwk and letter of instruction. I gave Pierson a call to introduce myself and make sure Jobe filled him in on the process. I asked for his DL and bene through MRC and he sent the DL and just Jobe as the bene. I pulled CRS, ADV, NAF, reg BI, AMF new ROTH ppwk, LOI, and also a blank SDC header on the last page for Pierson to attach his bank statement
+- Investment exchange disclosure When pulling ppwk I noticed Riana address in RT and CIR did not match. She was still link to her familes on RT I asked ejd if the CIR address was correct which she confirmed and she updated her in RT Updated in planner and all notes (baw mrb) ​​​​​​01
+- Liquidity Needs: Account Time Horizon: Long (>10 yrs) Annual Expenses: 30k Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: add advisor so I believe we dont need a RB? let me know if not.
+- Name of Client: BEn Warnke FBO Evionna Type of Account: Custodial Sponsor Company: AMF minor Roth Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Ben Warnke Calla Type of Account: Custodial Sponsor Company: AMF Minor ROth Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Ben Warnke FBO Luke Type of Account: Custodial Sponsor Company: AMF Minor Roth Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Bn Warnke FBO Jacob Type of Account: Custodial Sponsor Company: AMF Minor Roth Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Charles Miller Type of Account: Other Sponsor Company: AMF 529 (waiting for brent to confirm AMF and not College Advantage) Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Beneficiaries: married to alyssa miller
+- Name of Client: KATHY MEHLOW Type of Account: Other Sponsor Company: AMF Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Is this a Minor Custodial Account? (UGMA
+- Name of Client: KIM DANIEL Type of Account: Other Sponsor Company: AMF Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Name of Client: Kevin & Kimberly Sheehy Type of Account: Joint Sponsor Company: AMF JTWROS #4003013382 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- Name of Client: Riana McVicker Type of Account: Retirement Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACAT Transfer of Assets"] Notes: Riana called and said she'd like to consolidate her roth ira accounts
+- Pierson's account is set up with the funds transferred over. I sent him a MRC letting him know that he should be able to contribute on his own. Closing out! (ctb)
+- Request transfer of assets
+- Spoke with Riana's Mom Nikki today and she said the Riana is expected back from Europe Mid March. When she talks to Riana she will let her know that she needs to be on the phone in order for us to call Edward Jones regarding the restrictions on her account (ejd) 03
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: How the Account being funded: AIP information: Any current AIPs at old account to be shut off:
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Jen can be succesor if needed How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Jen if needed How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: n
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: n.a this is add advisor How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: from statement, it does not look like it. But when we are added, lets double check their is no AIP before moving over!!
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: same How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- UTMA): What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: How the Account being funded: AIP information: Any current AIPs at old account to be shut off:
+- Verification: Are we linking the bank: Do we have a voided check: Additional Verification Information: Copy of Current DL on file: Drivers License Upload: Full Suitability Needed?: How to Sign: Signature Method: Financial Data: Refers to: Annual Income: Net Worth: Tax Bracket: Net Investable Assets: Investment Objectives: Risk Tolerance: Primary Objective: Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Option 2 Annual Income: Household
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Household Annual Income: 180k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 15k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: No How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Annual Income: Net Worth: Tax Bracket: Net Investable Assets: Investment Objectives: Risk Tolerance: Primary Objective: Seconday Objective: Outside Objective: Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Primary Investor Annual Income: 100k Net Worth: 3 mill Tax Bracket: 22% Net Investable Assets: 300k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Will they be making monthly CONTs: How Much: On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- Will they be making monthly CONTs: No How Much: On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- her dad opened an edward jones roth for her and she'd like that to be rolled into her amf roth ira with us (ejd) 01
+- jobe mcmillin cust Type of Account: Retirement Sponsor Company: AMF ROTH Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: 03
+- voided check. Jobe needs to sign the LOI so he is also on the docusign. I sent the following MRC to Pierson;Pierson, I just sent you over the docusign to get the American Funds ROTH IRA opened to your email. It will require an access code to get in, which will be SDC1234 as well as sending you a texting verification code. It is also going to prompt you to enter your bank information and to attach either a voided check or bank statement on the last page. If you have any questions or problems with the docusign, please don't hesitate to reach out to the office. Have a great night!
+- you will need to call AMF and see what is needed to transfer an account to her existing AMF ROTH IRA. (kso) 1
+
+**Example tasks:**
+- Warnke, Benjamin - NEW ACCT FBO Evionna AMF CUST ROTH
+- Warnke, Benjamin - NEW ACCT FBO Jacob AMF CUST ROTH
+- Warnke, Benjamin - NEW ACCT FBO Luke AMF CUST ROTH
+
+---
+
+## Individual — Fidelity
+**Tasks seen:** 9
+
+**Documents found in notes:**
+- 50 contingent. Use the fid template and cc fidelity on paperwork and send
+- Beneficiary TREY TSCHERNE Beneficiary Type Contingent (S) Rolaionship to Account Non Spouse Individual (NSP) SSN
+- Bob morrissey Type of Account: Individual Sponsor Company: FID JTOD 628874531
+- Check his account and bene have been updated! (baw) ​​​​​​ Beneficiaries (3) HEATHER TSCHERNE (Primary) : Spouse (SPS) Beneficiary HEATHER TSCHERNE Beneficiary Type Primary (P) Folationship to Account Spouse (SPS) DECKER TSCHERNE : Non Spouse Individual (NSP) Beneficiary DECKER TSCHERNE Beneficiary Type Contingent (S) Rotatonship to Account Non Spouse Individual (NSP) TREY TSCHERNE : Non Spouse Individual (NSP)
+- HSA Beneficiary Designation
+- HSA Beneficiary Designation Form
+- I pulled the CIDA and called Marcia. She thought I was a scammer or something and didn't beleive I was with SDC because this form was not expained to her and she said she thought the tax docs were already sent out to Myra. I explained that the tax form has been sent already but this is authorizatin to share account information and we need to do it whenever we send tax information. I sent her the docusign and an MRC with instructions on how to open. (ctb) 03
+- Name of Client: JACKIE HALL Type of Account: Individual Sponsor Company: INV & FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes:
+- Name of Client: Leslie Martin Type of Account: Individual Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: Leslie called in for a DIST but does not have a bank on file
+- Name of Client: Patrick Karl Type of Account: Individual Sponsor Company: FID IND 636961327 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: no bene on his IND, he knows this is coming: Beneficiary JEANINE KARL Beneficiary Type Primary (P) Relationship to Account Holder Non Spouse Individual (NSP) Date of Birth (Age) 15
+- Name of Client: Stager, Marcia Type of Account: Individual Sponsor Company: Fidelity Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["CIDA"] Notes: Myra Pompili, CPA 1948 East Starmount Way Decatur GA 30032 myrap@email.com Sending tax docs to Myra for Marcia
+- Name of Client: Tscherne, Brett Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Add Decker & Trey as contingent to his FID IRA
+- Premiere Select IRA
+- Pulled CIDA and sent to Tom via docusign and sent him the following MRC: Hi Tom! I just sent you a docusign to the email of tdorr12@aol.com. This form is to authorize our office to send out tax information to external CPA's. The docusign will require an access code, which is sdc1234 and it will also send you a verification code to your cell. If you have any questions or run into any problems, please reach out. Have a great night!
+- Pulled statement consolidation form, left Patty a VM, and sent an MRC to see if she would rather wet sign or docusign. (ctb) 03
+- SO alreayd has an activity for this Type of Account: Individual Sponsor Company: FID IND 636961327 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: he is going to need a possible 50k dist, so we need a bank on file. I believe the best way to do this could be through ICP since he banks at Wells Fargo (might not even need a stmnt
+- matt@performance
+- still not in FID household so they are getting 2 statements Individual Notes: this other account needs added to their household. I made this activity back in 2025 and CTB did it but submitted the blank forms and not the signed ones so it. got cancelled adn never added lol . 03
+- still not in FID household so they are getting 2 statements Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["statement of consolidation"] morrisseyFID JTOD 628874531
+- then just shoot brett a text that says that we noticed his didn't have the boys listed as contingent and we wanted to make sure it had complete beneficiary information, etc. (kso) 02
+- to be put into RT. updated RT with Trey added to family (baw) 02
+- you will need the Premiere Select IRA
+
+**Example tasks:**
+- HALL, JACKIE - PPWK BENE UPDATE INV & FID
+- Morrissey, Patty/Bob - ACCT CONSOLIDATION FORM
+- Karl, Patrick - FID SPI
+
+---
+
+## SIMPLE IRA — AMF/Guardian
+**Tasks seen:** 7
+
+**Documents found in notes:**
+- Name of Client: BREANNA ATHERTON Type of Account: Retirement Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update","Beneficiary Change"] Notes: Adding Contingent BENE to Simple IRA and getting Business Bank Account linked. KSO I can take this one (ejd)
+- Name of Client: Brian Patrilla Type of Account: Retirement Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: Brian wants to do a 60
+- Name of Client: Jacob Gibson Type of Account: Retirement Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["ACH Update"] Notes: Jacob wants to do a 60
+- Name of Client: Lindsey Echt Type of Account: Retirement Sponsor Company: American Funds Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Lindsey is going through a divorce and wants to update BENE. She has not updated her name yet so only doing bene at this time. She has Simple IRA and 401k. Updating to her mom Michelle Stark. KSO I Can take this one (ejd)
+- Pulled the AMF Add Bank Form. Flagged for signature, added note to provide VOIDED check and put in holding box up front. Sent following message: Hello! 😊 The paperwork to link your bank account to your American Funds Simple IRA is prepared and ready for you to sign here at the office. We’re open Monday
+- Your SDC Team (kso) UPDATE: Brian came in and signed. Scanned and submitted to AMF via Faxage: Your fax job has completed. Details are below: To: American Funds Number: (888)421
+- bank is linked. let him know via mrc: Hey Jake! Just a quick update — your bank has been successfully linked with your American Funds account. For security purposes, there’s a 10
+- day RO from his AMF SIMPLE IRA, but he does not have a bank on file & does not want to have to wait for a check in the mail. He would rather link his bank & have the funds to there. Can you please prepare ppwk to add his bank & communicate with him
+- day waiting period before it can be used, which will be around March 11th. Reach out if you have any questions! let T&D know and updated their activity. (kso)
+
+**Example tasks:**
+- Collazo-Martinez, Trinity - New Account Paperwork   AMF | Simple IRA for Miracle K9 Dog Ass TrainerRetirement
+- SCHUSTER MERCI - NEW ACCT AMF SIMPLE IRA
+- Echt, Lindsey - AMF BENE UPDATE
+
+---
+
+## Trust — Fidelity
+**Tasks seen:** 6
+
+**Documents found in notes:**
+- 875441 (RO IRA) & 628
+- 875443(Roth) , GBU 33108606 (IRA) NQ (33108507) & JNL IND (1010282086)! Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: BES sent me and KSO an amended trust
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- CIDA came back along with the bene updates today. I submitted to WC under the index key: 205984920. Closing out
+- Called Linda to make sure she received the forms, she confirmed and getting back into the mail tomorrow. (ctb) 04
+- Collin She signed already, submitted TOD to WC. Submitted IRA to WC as well. Pushing back to follow up (ctb)
+- Confirmation #: EDS202604070054658561 SUBMITTED JNL, FID IRA, FID TOD, AND CIDA TO WC. (CTB) FOLLOW UP ON ALL BENE UPDATES. (CTB)
+- Confirmed with JOO that the new account numbers are set up and ready for bene change. Again, Donna is not listed anywhere on the trust so I am not sure if they have separate trust? I asked BES and he said to give him Tom a call but Tom answered and immediately hangup. I sent him MRC to give a call into the office. (ctb) 03
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Forms came back today, I gave Linda a call to let her know I received it back. We joked about the weather because she said FL was cold. She wanted to make sure CMB sent her tax ppwk to Tax Tyme. She also asked for Taxtyme's number so she could give them a call and make sure everything is moving along smoothly. (ctb) Need to process FID IRA & TOD bene updates, all GBU policy forms, and CIDA, and JNL bene update. (ctb) Faxed GBU bene updates using JEK faxage for the following policy #: 33108507 , 36057909 , 24566804. Submitted JNL bene update using the customercare@jackson.com email and attached the trust. (ctb) Submitted FID TOD and IRA
+- Gave Tari a call to let her know I was getting ready to send over the Docusign and see which email to use. Went straight to VM and wouldnt let me leave a VM. I sent an MRC to see where she wanted me to send. She said it didn't matter. I sent her a docusign to her gmail and an MRC with instructions. Also attached the trust to the docusign and gave FID access. (ctb) 02
+- HSA bene update to Wealthscape: # Document Submission: Confirmation As of 07
+- I just sent you over two docusigns to your email shawnellejohns@bex.net. They will both require an access code, which is SDC1234 and it will also send you a text verification code. The forms are to get your contingent beneficiaries updated to the trust for your Fidelity accounts. I do apologize for the delay in getting these forms sent out, I have been out of the office with a cold. If you have any questions or issues with the docusign, please don't hesitate to reach out. Have a great day!
+- I pulled the forms but realized the trust is not signed at all, I called Shawnelle and she said the version she gave us is just copies but she has the signature version and will be stopping by next week for someone to make a copy. If she stops by, please make a copy of the signed trust and let CTB know. (ctb) 03
+- Is this a new client? No Beneficiaries: match other accts...but we are going to be updating benes friday so maybe leave this sectioon blank for now. How the Account being funded:RO
+- Name of Client: Donna Moser Type of Account: Retirement Sponsor Company: FID IRA 233137841, FID ROTH 221603109 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Same for donna, Thomas still 100% but contingents need updated to trust saved in thier CLIC folder FID IRA 233137841, FID ROTH 221603109 Retirement 02
+- Name of Client: Linda Kilgus Type of Account: Retirement Sponsor Company: FID 628875439 (TOD), 628
+- Name of Client: Shawnelle Johns Type of Account: Retirement Sponsor Company: FID IND 655215677, FID IRA RO 655215679, FID ROTH 655215678, FID BENE IRA 655249082 Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Update contingent benes all to the trust, saved in their CLIC MISC NOTES!!! SHAWNELLE L. JOHNS TRUST dtd 01
+- Name of Client: Tari Cecil Type of Account: Other Sponsor Company: FID Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Brent~ I forgot to mention that I put my home into a trust with the kids as the beneficiaries. Should we move any of my other accounts into the trust as well? If you want a call to discuss, let me know. 01
+- Pulled FID bene update forms, JNL bene update form, and GBU policies ending in 909, [804](https:
+- Pulled IRA paperwork for both tom and Donna to get the trust updated as contingent bene. Sent them both a docusign and MRC. I also noticed that Donna's Fidelity accounts have the wrong middle initial. The accounts show I when her middle initial is J. Opening a service request to try to get this changed. (ctb) 03
+- Pulled both TOD & IRA bene forms, sent docusign to Shawnelle and the following MRC;Hi Shawnelle
+- Trust is now listed as Bene for her FID TOD 636755592 Submitted to WC, everything is all set, closing out. (ctb)
+- Updated everywhere, middle initial is also changed, closing out(ctb)
+- Who filled this out: JEK Name of Client: Bryan Gladieux Type of Account: Retirement Sponsor Company: FID Type of Paperwork Being Pulled: New Account
+- not 100% positive but we may have to update it everywhere? or just send into FID? KSO said she was going to look into it but getting this into planner meow 03
+- policy?PolicyNumber=24566804&LineOfBusiness=U), & 507 (these are the policies with the trust currently listed as bene). Left Linda a Vm to let her know the forms are coming and did USPS priority mail. Tracking # for way there, 9405550105796021680151 . Tracking for way back to office, 9400111969000940000011. Pulled CIDA as well. (ctb) 03
+- we are taking a look at benes. their special needs daughter Bethany shoulndt be listed as a bene, it will either rend up being her trust OR their trust depending on how the wording is. they are bringing their trust in this Friday for us to look at. feel free to leave benes blank on this IRA app in case we switch 01
+
+**Example tasks:**
+- Kilgus, Linda - CIDA
+- Kilgus, Linda - BENE UPDATES
+- Johns, Shawnelle - BENE UPDATES
+
+---
+
+## Unknown — AMF/Guardian
+**Tasks seen:** 6
+
+**Documents found in notes:**
+- I called AMF n spoke w Alexis, she sent me the name change request she said it will need to be wet signature and I will need either her Marriage License or a copy of her drivers license. She will need to sign her former name n her current name n then I can fax back to AMF. She also let me know that when Aleana has chosen a school they can send the money via check directly to the school I called Jessica n left her a vm as I will need to know if she wants me to email her the AMF form n she can sign,scan n email back to me or if she wants me to send to her. I will also need her marriage license or DL to submit w it. (sjc)
+- JRR called n let me know that he needs an AMF IND app pulled. Once we get the acct open we need to procss some excess distribution forms. JRR sent me the form in TEAMS (sjc) 2
+- Name of Client: EMILEIGH PENNINGTON Type of Account: Custodial Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["EXCESS CONTRIBUTION"] Notes:
+- Name of Client: GARY CUPP Type of Account: Retirement Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes:
+- Name of Client: Ryan Brandeberry Type of Account: Retirement Sponsor Company: AMF Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change","SOI"] Notes: Ryan's Two AMF accounts add Contingent BENE to his accounts also he signed the Statement of Intent Form (SOI) KSO I can take this one and its already in RT (ejd)
+
+**Example tasks:**
+- Clayton, Jessica - Name Change Paperwork
+- Walker, Deb - NEW ACCT AMF IND
+- Cupp, Gary - AMF BENE CHANGE
+
+---
+
+## UTMA/UGMA — Fidelity
+**Tasks seen:** 6
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Account Time Horizon: Long (>10 yrs) Annual Expenses: 80k Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: 2 shares of AAPL with initial $600 transfer from Monicas new TOD for all of these UTMAs for monica, we are moving money from her TOD to the UTMAs
+- Account Time Horizon: Long (>10 yrs) Annual Expenses: 96,000 Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: PER BES:i setup $300 a month going into each UTMA account and did an auto purchase on FXAIX of $275 I need an AA for the other kids UTMA account too which is [(UTMA)Z53139877](https:
+- Add Advisor. Accounts set up: IRA RO: 263597191 ​​​​​​​Sponsor Company: FID ROTH
+- Add Advisor. Accounts set up: ROTH: 258901040 Type of Paperwork Being Pulled: New Account
+- Additional Verification Information:
+- Any current AIPs at old account to be shut off: BES set up an AIP so bank shoudl be connected: i setup $300 a month going into each UTMA account and did an auto purchase on FXAIX of $275 Will they be making monthly CONTs: Yes How Much (if CONTs are made): done On what day of the month (if CONTs are made): Which year is the CONT for (if CONTS are made): n
+- Basic Information:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Hurst Logan's birthday done for each kid
+- Is this a new client? Yes Beneficiaries: Wife is listed as primary bene, we want to add his kids as contingent How the Account being funded:Transfer
+- Is this a new client? Yes Beneficiaries: keep as is I am sure they are on there How the Account being funded:Transfer
+- Is this a new client? Yes Beneficiaries: n
+- Ryan signed Leytons's FID UTMA add advisor but not Brayden's. If he doesnt get to it over the weekend, I will reach out next week to resend the docusign and follow up. I submitted Leyton's app to WC, not set up on FID's end yet. (ctb) 02
+- Sent docusing to Ryan last week, he failed so I resent today and left a VM. (ctb) 02
+- Who filled this out: JEK Name of Client: Monica Calmes fbo Aubree Struffolino Type of Account: Individual Sponsor Company: FID UTMA Type of Paperwork Being Pulled: New Account
+- Who filled this out: JEKJ= Name of Client: Ryan toneff Uniform Transfers to Minors (UTMA)Z31354949 Type of Account: Individual Sponsor Company: Fidelity
+- a monica owner How the Account being funded:Transfer
+- digital.fidelity.com
+- do we need a 3rd party journal form for this? also, noted in one that mike will be picking up all this paperwork oonce ready fo rhimself and monica to sign!!!! moniacs UTMAs (3) are each being funded with a $600 transfer from her TOD (new one that needs opened, with debit card and checkwriting) and will buy 2 AAPL shares. also, once this is set up and bought, make an activity or let mrb know to make a stock certificate like she does for silverhart for each kid to give to mike!!!! Mike would like a sheet like Marv did for Hesselbart
+- so that will come soon as well. Who filled this out: JEK Name of Client: Buck Molnar Type of Account: Retirement Sponsor Company: FID IRA RO
+- summary)., everything the same as above. to note again, BES set up a monthly SMFPP it looks like!!! text BROOKE once it is sent, they share the same email!!! so TWO total Add Advisors, one for eczh kid! 01
+- we need add advisor Z31354949 Type of Paperwork Being Pulled: New Account
+
+**Example tasks:**
+- Calmes, Monica - NEW ACCT FID UTMA fbo Elliot Struffolino
+- Calmes, Monica - NEW ACCT FID UTMA fbo Aubree Struffolino
+- Calmes, Monica - NEW ACCT FID UTMA fbo Bauer Struffolino
+
+---
+
+## 529 — Unknown
+**Tasks seen:** 5
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Is this a new client? Beneficiaries: How the Account being funded:
+- Jeremy came in and wants to transfer the ~$400 in adams 529 to claires! looks like adam is the sole owner of his BRD, and claires owner may be jeremy! added kso to this to take care of the ppwrk (jek) UPDATE: I think this can be done via a registration
+- Name of Client: Adam Pfeiffer Type of Account: Other Sponsor Company: BRD Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Registration Change"] Notes: 1
+- Name of Client: Ronald Lumbrezer Type of Account: Other Sponsor Company: BlackRock Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: FJD talked to RJ Lumbrezer and he'd like to update BRD 529 54153482 beneficiary to be Jordan Lumbrezer so she can use funds for grad school. Current BENE is Walker Lumbrezer. Jordan info in RT 02
+- Who filled this out: EJD Name of Client: Bret Keller FBO Julia and Natalie Keller Type of Account: Custodial Sponsor Company: Ohio 529 Add Agent Authorization Type of Paperwork Being Pulled: New Account
+- account change form??? (kso)
+- sorry for the delay, this went out via docusign today. (kso)
+- update Janelle
+
+**Example tasks:**
+- Lumbrezer, Ronald - BENE CHANGE BRD 529
+- Bailey, Michelle - 529 FBO WINSTON
+- Keller, Bret - Ohio 529 fbo Julia & Natalie Add Agent Authorization 
+
+---
+
+## Roth IRA — Unknown
+**Tasks seen:** 4
+
+**Documents found in notes:**
+- 1 GBU MYGA IRA app
+- 10 yrs) Annual Expenses: same as other form Estimated Special Expenses: same as other form Special Expense Timeline: same as other form If not in a model, what trades are needed: n
+- Erin Type of Account: Individual Sponsor Company: SCH Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Beneficiaries: Erin 100% How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- IRA – 5yr, 08
+- Name of Client: Paula Malone Type of Account: Retirement Sponsor Company: GBU IRA 5 YR Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Beneficiaries: Dennis 100%, leave benes blank for this one until she decides. rn she has kristen 100% contingent but has another kid she coudl list How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- Name of Client: Sawyer Murphy (brandy Murphy as custodian) Type of Account: Other Sponsor Company: Ohio BRD blackrock 529 Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? Yes Is this a Minor Custodial Account? (UGMA
+- ROTH IRA – 8yr, 12
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: I believe the kdi is the beneficiary, make brandy primary custodian and eric can be second if there is an option How the Account being funded:Check AIP information: Any current AIPs at old account to be shut off: no
+- Verification: Are we linking the bank: No Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: No How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Option 2 Annual Income: same as other form Net Worth: same as other form Tax Bracket: Net Investable Assets: same as other form Investment Objectives: Risk Tolerance: Moderate Primary Objective: Income Seconday Objective: Preservation Outside Objective: same as other form Time and Horizon
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Option 2 Annual Income: 100k
+- Verification: Are we linking the bank: Yes Do we have a voided check: No Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Sign in Office Financial Data: Refers to: Primary Investor Annual Income: 230k Net Worth: 200k Tax Bracket: 22% Net Investable Assets: 90k Investment Objectives: Risk Tolerance: High Primary Objective: Growth Seconday Objective: Growth Outside Objective: Time and Horizon
+- Will they be making monthly CONTs: No How Much: On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- Will they be making monthly CONTs: possibly. pull a add bank form for this. How Much: unnsure On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- Will they be making monthly CONTs: unsure, but Erin will be funding the initial with 500$ How Much: On what day of the month: Which year is the CONT for (if Roth IRA): Bank Linking
+- i need a new app for each one that is
+
+**Example tasks:**
+- Murphy, Brandy - NEW ACCT BRD 529 FBO SAWYER
+- Malone, Paula - NEW ACCOUNT GBU IRA 5 YR
+- McGee, Cindy - GBU MYGA IRA APP
+
+---
+
+## Individual TOD — AMF/Guardian
+**Tasks seen:** 4
+
+**Documents found in notes:**
+- 05 and the 5th of each month going fwd
+- 1966 50% How the Account being funded:Transfer
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Is this a new client? Yes Beneficiaries: Mom
+- JRR sent me AMF Excess Contribution Forms for 2023, 2024 & 2025. I emailed to Emileigh for her to Docusign n let her know I sent them to her (sjc)
+- Who filled this out: JEK Name of Client: Myah Twohill Type of Account: Individual Sponsor Company: AMF IND TOD Type of Paperwork Being Pulled: New Account
+
+**Example tasks:**
+- NEUMANN, MIKE - NEW ACCT AMF IND TOD
+- Twohill, Myah - NEW ACCCT AMF IND TOD
+- Pennington, Emileigh - FIN IND TOD
+
+---
+
+## 529 — AMF/Guardian
+**Tasks seen:** 3
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Account Time Horizon: Annual Expenses: Estimated Special Expenses: Special Expense Timeline: If not in a model, what trades are needed: AMF Target Date Closest to 2044 All Suitability info is in her CLIC for the other 529's, she has an online login that she has the bank connected to and will use to fund after the account is open so we don't need to worry about any of that, she just adds when she can. We don't have Gemma's SSN, they did not have that on them today so if you can just put a Required txt box in that spot she can fill it out. LMK if you need anything else
+- Additional Verification Information:
+- Basic Information:
+- College America Type of Paperwork Being Pulled: New Account
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Copy of Current DL on file: No Drivers License Upload (if on file): Full Suitability Needed?: No
+- Got with EJD to confirm I wasn't touching the 529, she confirmed. I pulled the AMF IRA bene update form and filled out with Aaliyah info. Left Joshua a VM and then sent docusign with the following text: Hey Joshua
+- I just sent you a Docusign to your email davis8207@ymail.com. This form is to get Aaliyah updated as your beneficiary on the American Fund IRA account. The docusign will require an access code, which is SDC1234 and will send you a text verification code. If you have any questions please don't hesitate to reach out!
+- Is this a new client? Beneficiaries: How the Account being funded:
+- Is this a new client? No Beneficiaries: FBO Gemma Stachowiak How the Account being funded:
+- Name of Client: Joshua Davis Type of Account: Retirement Sponsor Company: American Funds Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Joshua is divorced from Jennifer. He asked this his daughter Aaliyah Davis be listed as his Primary BENE 100%. Aaliyah's info is in RT thank you EJD 02
+- Who filled this out: Briggs Name of Client: Lauren Stachowiak FBO Gemma Stachowiak Type of Account: Custodial Sponsor Company: AMF 529
+- Who filled this out: EJD Name of Client: Ryan Brandeberry FBO River Brandeberry Type of Account: Individual Sponsor Company: AMF 529 College America Type of Paperwork Being Pulled: New Account
+
+**Example tasks:**
+- Stachowiak, Lauren - NEW ACCT AMF 529 fbo Gemma
+- Davis, Joshua - AMF UPDATE BENE
+- Brandeberry, Ryan - NEW ACCT AMF 529 FBO River
+
+---
+
+## SIMPLE IRA — Unknown
+**Tasks seen:** 2
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: No Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- IRA Designation of Beneficiary 03
+- Is this a new client? Yes Add Advisor? No Beneficiaries: How the Account being funded:Check
+- Name of Client: Josie Dudderar PER SIMPLE IRA HGJ075629 Type of Account: Retirement Sponsor Company: PER Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: I called josie and found we have had a mistake for her kids DOB
+- Who filled this out: KSO Name of Client: Pawlowski, Cole Who is the FP: Brent Shimman Type of Account: Retirement Sponsor Company: PER Type of Paperwork Being Pulled: New Account
+- that is the only update for these! 03
+
+**Example tasks:**
+- Pawlowski, Cole - NEW ACCT PER SIMPLE IRA
+- Dudderar, Josie - PER SIMPLE IRA BENE UPDATE
+
+---
+
+## Individual — Unknown
+**Tasks seen:** 2
+
+**Documents found in notes:**
+- Name of Client: ROBERT SOPER Type of Account: Individual Sponsor Company: INV Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes:
+
+**Example tasks:**
+- Tewers, Amy - NEW ACCT GBU 5YR MYGAIndividual
+- SOPER, ROBERT - INV IND BENE UDPATE
+
+---
+
+## Joint TOD — Fidelity
+**Tasks seen:** 2
+
+**Documents found in notes:**
+- Cristina is also missing contingent on her FID IRA. On all their accounts (FID IRA 628852903
+- Cristina, AIG IRA P55G0521945
+- I submitted both FID bene updates, JNL bene update, and LIN bene update. (ctb)
+- Jobe called in and they have an AMF JTOD(JTWROS) account that has approx $147k in it, just sitting in a money market. Job would like to move this to FID so he doesn't have to bounce all over the place. I spoke with BES and he said it's ok to move it to FID SDC Growth & Income and keep some in cash so is accessible. I let Job know this and he would like to move it into their current Joint account.... put $100k into the market so it has growth, I explained to him that BES wanted to put him into the Growth & Income (model) and keep ~$47k in cash
+- Name of Client: Thomas & Cristina Gruppi Type of Account: Retirement Sponsor Company: FID & AIG Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Beneficiary Change"] Notes: Bene needs updated on accounts
+- Pulled both of their FID IRA bene update forms, called into AIG and spoke with juan. He is sending me over the forms now via email. (ctb) Pulled AIG bene update but we will need phone and email from Britni as well as SSN but I will get that via phone from Tom and not via ppwk. (ctb) Found the JNL bene update form on the website, called in and spoke with Blake to see how to fill the form out with it being a Joint and "living spouse" is the primary. He said to just fill out the form with Britni as the contingent and no primaries. I called Tom and let him know the forms are being sent out today and to keep an eye. I also asked if he could please get britni's SSN over to the office by calling in. He said he will get it over to us within the next week or two. I tabbed up all the forms and sent a note reminder Tom to get the SSN and a return envelope. Will keep my eye out for this coming back.
+- This is what Jobe would like as well. Transfer AMF JTOD to current FID JTOD
+- Tom, FID IRA 628935694
+- Tom, JNL Joint 1012627420): Spouses need to tay primary as each other (this is already set), but all the contingents need updated to BRITNI BRYANT DOB 02
+
+**Example tasks:**
+- Gruppi, Thomas & Cristina - BENE UPDATES
+- McMillin, Jobe & Tiffany - Transfer AMF JTOD current FID JTOD
+
+---
+
+## 401(k) — Unknown
+**Tasks seen:** 2
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Fee, No Charge Type of Paperwork Being Pulled: New Account
+- Is this a new client? Add Advisor? Beneficiaries: How the Account being funded:
+- ppwk submitted to WC, all notes updated in planner and RT, ppwk filed away in clic (baw)
+
+**Example tasks:**
+- Markewitz, Jennifer - PPWK FPE Engagement (NO FEE)
+- Markewitz, Edward - PPWK FPE (NO FEE)
+
+---
+
+## SIMPLE IRA — Fidelity
+**Tasks seen:** 2
+
+**Documents found in notes:**
+- 1954 (71) % of Share 100% How the Account being funded:Transfer
+- AIP information & CONTs:
+- Additional Verification Information:
+- Any current AIPs at old account to be shut off: no Will they be making monthly CONTs: Yes How Much (if CONTs are made): ~100 On what day of the month (if CONTs are made): Which year is the CONT for (if CONTS are made): I am not sure if WE set up simple IRA conts, or if SHE has to at FID. usually the client does from what I remember, Chey is the pro on this
+- Basic Information:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Is this a new client? No Beneficiaries: DEBORAH MERRITT (Primary) : Non Spouse Individual (NSP) Beneficiary DEBORAH MERRITT Beneficiary Type Primary (P) 29
+- Who filled this out: JEK Name of Client: Kim Merritt Type of Account: Retirement Sponsor Company: either FID or AMF, SIMPLE IRA acct. assumign FID bc that is where everything for her is Type of Paperwork Being Pulled: New Account
+- a, simple ira for her to start saving more for retirement
+
+**Example tasks:**
+- Merritt, Kim - NEW ACCT FID SIMPLE IRA
+- Goodera LLC - FID Simple IRA PLAN
+
+---
+
+## Roth IRA — WealthPort/Cambridge
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- 2018 50% How the Account being funded:Transfer AIP information: Any current AIPs at old account to be shut off: no
+- Cambridge Investment Research Advisors Form CRS
+- Cambridge Investment Research, Inc. Form CRS
+- Investment Ex. Disclosure
+- Name of Client: Devan Reilly Type of Account: Retirement Sponsor Company: AMF Roth IRA Type of Paperwork Being Pulled: New Account Basic Information: Is this a new client? No Is this a Minor Custodial Account? (UGMA
+- Regulation BI Disclosure
+- Request for Transfer of Assets or Direct Rollover
+- Roth IRA Application 03
+- UTMA): No What is the Minor Beneficiary's Full Name?: What is the Minor Beneficiary's DOB?: What is the Minor Beneficiary's SSN?: Beneficiaries: Spouse Brianna Reilly 04
+- Verification: Are we linking the bank: Yes Do we have a voided check: Yes Additional Verification Information: Copy of Current DL on file: Yes Drivers License Upload: Full Suitability Needed?: Yes How to Sign: Signature Method: Docusign Financial Data: Refers to: Primary Investor Annual Income: 45k Net Worth: 50k
+- Will they be making monthly CONTs: Yes How Much: $100 On what day of the month: 10th Which year is the CONT for (if Roth IRA): if we get it before april 15th then the ones before the deadline are going to 2025. Bank Linking
+- ppwk submitted to WC and filed away in clic. Added to WIP and all notes updated (baw)
+
+**Example tasks:**
+- Reilly, Devan - NEW ACCT AMF ROTH IRA
+
+---
+
+## Individual TOD — Schwab
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Is this a new client? Yes Beneficiaries: Evan Schmidt 100% How the Account being funded:Transfer
+- SCH Add Advisor & Add Bene (no bene on file!) Type of Account: Individual Sponsor Company: SCH ind acct Type of Paperwork Being Pulled: New Account
+
+**Example tasks:**
+- Bailey, Amber - SCH IND TOD AA & BENE UPDATE
+
+---
+
+## 403(b) — Fidelity
+**Tasks seen:** 1
+
+_No document names parsed from notes — manual review needed_
+
+**Example tasks:**
+- Vislay, Cheryl - NEW ACCT FID 403b BL
+
+---
+
+## Individual TOD — Pershing
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- Name of Client: Charmaine Dolatowski Type of Account: Individual Sponsor Company: Pershing Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["TOA (3)"] Notes: Transferring PRU, KEY Bank, FRK
+- PUTNAM into PER IND TOD
+
+**Example tasks:**
+- Dolatowski, Charmaine - PRU/KEY/FRK/PUT TOA TO PER
+
+---
+
+## Rollover IRA — Fidelity
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- 50 contingent (see JTOD account and info on RT for kids) How the Account being funded:RO
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Is this a new client? No Beneficiaries: Laurie 100% P and then Nicholas and Lauren 50
+- Who filled this out: JEK Name of Client: Tim Zell Type of Account: Retirement Sponsor Company: FID IRA RO (yes, opening TWO rollover IRAs for him to run diff models) Type of Paperwork Being Pulled: New Account
+
+**Example tasks:**
+- Zell, Timothy - NEW ACCT FID IRA RO GROWTH ETF (2 of 2)
+
+---
+
+## Unknown — WealthPort/Cambridge
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- Called Mary Ann and let her know that we need signatures for additional signers form. I am sending them out via snail mail because Mary Ann is going to get Melissa's signature when she sees her soon. (ctb) 02
+- Got BES to sign, submitted to WC but under a diff trade key. I updated trade review and uploaded the additional signers form there as well! (ctb)
+- Name of Client: Mary Ann Coleman & Charles Coleman Type of Account: Other Sponsor Company: Cambridge Type of Paperwork Being Pulled: Existing Account Maintenance Type of Maintenance: ["Additional Signers form"] Notes: We forgot to pull additional signers form when pulling POA docs so this is in trade review. Need a signed additional signers form sent out to Mary Ann and to Charles. (ctb) 01
+
+**Example tasks:**
+- Coleman, Mary Ann & Chic - CIR ADDITIONAL SIGNERS FORM
+
+---
+
+## 401(k) — Fidelity
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Account Time Horizon: Long (>10 yrs) Annual Expenses: 40k Estimated Special Expenses: 0 Special Expense Timeline: 0 If not in a model, what trades are needed: Growth ETF these forms were already signed, IRA #258956219
+- Add Advisor to RO IRA Type of Paperwork Being Pulled: New Account
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Is this a new client? Yes Add Advisor? Yes Beneficiaries: benes already listed on account as wife 100%
+- MRB quickly pulled blank ones bc he came back within 10 minutes of appt. i got BES signature on them as well. ADV, WRAPAPP, and FID add advisor is signed but BLANK. these are in my office, but all the info will need filled out. new client, Growth ETF for RB, 3 rollovers going into this account: ~117k from BP that BES already sent to the IRA, ~$35k from BP RAP (submitted today), and then boilermakers ~143k 401k that i will mail tomorrow! this is also already in WIP since i have 3 RO's for it
+
+**Example tasks:**
+- Cogswell, David -  FID ADD ADVISOR
+
+---
+
+## 529 — Fidelity
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Account is established....well....actually two, because my computer timed out when I was submitting and I resubmitted, and now there are two IRA's open. ACS said to use whatever account I want lol. Using the one ending in 68. I added to WIP. (kso) UPDATE: Death cert was dropped off. (kso) 02
+- Additional Verification Information:
+- Basic Information:
+- Confirmation #: EDS202602270052942281 Updated WIP. Pulled routing slip, merged and submitted to CIR via WebCapture. (kso)
+- Copy of Current DL on file: Yes Drivers License Upload (if on file): Full Suitability Needed?: Yes
+- Is this a new client? Add Advisor? Beneficiaries: Jennifer Hamilton 50% Delaney Hamilton 46% Garyn Stewart 1% Annabel Stewart 1% Bethany Stewart 1% Grant Stewart 1% How the Account being funded:Transfer
+- Who filled this out: KSO Name of Client: Louise Schwartz Who is the FP: Brent Shimman Type of Account: Retirement Sponsor Company: Fidelity TRAD IRA Type of Paperwork Being Pulled: New Account
+- reason is operational due to death Also need the FID IRA TRANSFER REQUEST FOR SPOUSE BENEFICIARY 2026 RMD $43,101.52
+
+**Example tasks:**
+- Schwartz, Louise - NEW ACCT FID TRAD IRA
+
+---
+
+## Individual TOD — Unknown
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- BIA, ADV, CRS, WRAPAPPE, Brokerage App, Transfer on Death (listing his 3 brothers as bene) and SPI linking his Chase Bank ending in 7526.
+- sent via DocuSign Johns ppwk to open IND TOD
+
+**Example tasks:**
+- New Account Paperwork  John Tiffee FIWIndividual 
+
+---
+
+## UTMA/UGMA — AMF/Guardian
+**Tasks seen:** 1
+
+**Documents found in notes:**
+- AIP information & CONTs:
+- Additional Verification Information:
+- Basic Information:
+- Copy of Current DL on file: Drivers License Upload (if on file): Full Suitability Needed?:
+- Is this a new client? Yes Beneficiaries: How the Account being funded:
+- Who filled this out: EJD Name of Client: Ryan Brandeberry FBO River Brandeberry Type of Account: Individual Sponsor Company: AMF UTMA Type of Paperwork Being Pulled: New Account
+
+**Example tasks:**
+- Brandeberry, Ryan - NEW ACCT AMF UTMA FBO River
+
+---
+

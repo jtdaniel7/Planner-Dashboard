@@ -1,0 +1,52 @@
+name: Paperwork Automation
+
+on:
+  schedule:
+    # Runs every 30 minutes during business hours Mon-Fri Eastern
+    - cron: '*/30 13-21 * * 1-5'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  fill-forms:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install pymupdf
+
+      - name: Install Node dependencies
+        run: npm install
+        working-directory: .
+
+      - name: Run paperwork automation
+        env:
+          AZURE_TENANT_ID:       ${{ secrets.AZURE_TENANT_ID }}
+          AZURE_CLIENT_ID:       ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_CLIENT_SECRET:   ${{ secrets.AZURE_CLIENT_SECRET }}
+          REDTAIL_API_KEY:       ${{ secrets.REDTAIL_API_KEY }}
+          SHAREPOINT_SITE_URL:   ${{ secrets.SHAREPOINT_SITE_URL }}
+          SHAREPOINT_FOLDER_PATH: ${{ secrets.SHAREPOINT_FOLDER_PATH }}
+          PLANNER_PLAN_ID:       cZbzO4Musk2xh4XhQBvfK2UACK_v
+        run: node --experimental-vm-modules Paperwork/fill-forms.js
+
+      - name: Commit processed task log
+        run: |
+          git config user.name "SDC Automation"
+          git config user.email "automation@sdccapital.com"
+          git add Paperwork/processed-tasks.json || true
+          git diff --staged --quiet || git commit -m "Update processed tasks log [skip ci]"
+          git push || true
