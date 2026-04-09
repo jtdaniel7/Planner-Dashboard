@@ -34,13 +34,13 @@ jobs:
 
       - name: Run paperwork automation
         env:
-          AZURE_TENANT_ID:       ${{ secrets.AZURE_TENANT_ID }}
-          AZURE_CLIENT_ID:       ${{ secrets.AZURE_CLIENT_ID }}
-          AZURE_CLIENT_SECRET:   ${{ secrets.AZURE_CLIENT_SECRET }}
+          AZURE_TENANT_ID:       ${{ secrets.TENANT_ID }}
+          AZURE_CLIENT_ID:       ${{ secrets.CLIENT_ID }}
+          AZURE_CLIENT_SECRET:   ${{ secrets.CLIENT_SECRET }}
           REDTAIL_API_KEY:       ${{ secrets.REDTAIL_API_KEY }}
           SHAREPOINT_SITE_URL:   ${{ secrets.SHAREPOINT_SITE_URL }}
           SHAREPOINT_FOLDER_PATH: ${{ secrets.SHAREPOINT_FOLDER_PATH }}
-          PLANNER_PLAN_ID:       cZbzO4Musk2xh4XhQBvfK2UACK_v
+          PLANNER_PLAN_ID:        ${{ secrets.PLAN_ID_PAPERWORK }}
         run: node --experimental-vm-modules Paperwork/fill-forms.js
 
       - name: Commit processed task log
