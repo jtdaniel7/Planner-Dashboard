@@ -2,47 +2,44 @@ name: Paperwork Automation
 
 on:
   schedule:
-    # Runs every 30 minutes during business hours Mon-Fri Eastern
     - cron: '*/30 13-21 * * 1-5'
   workflow_dispatch:
-    # Allow manual trigger from GitHub Actions UI
 
 jobs:
   fill-forms:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install Python dependencies
         run: pip install pymupdf
-
       - name: Install Node dependencies
         run: npm install
-        working-directory: .
-
+      - name: Test Redtail connectivity
+        env:
+          REDTAIL_API_KEY: ${{ secrets.REDTAIL_API_KEY }}
+        run: node -e "const auth=Buffer.from('jtdaniel:'+process.env.REDTAIL_API_KEY).toString('base64');fetch('https://api.redtailtechnology.com/crm/v1/contacts?keyword=Benedict',{headers:{'Authorization':'Basic '+auth,'Accept':'application/json'}}).then(r=>{console.log('Redtail Status:',r.status);return r.text();}).then(t=>console.log(t.slice(0,500))).catch(e=>console.log('Redtail Error:',e.message));"
       - name: Run paperwork automation
         env:
-          AZURE_TENANT_ID:       ${{ secrets.TENANT_ID }}
-          AZURE_CLIENT_ID:       ${{ secrets.CLIENT_ID }}
-          AZURE_CLIENT_SECRET:   ${{ secrets.CLIENT_SECRET }}
-          REDTAIL_API_KEY:       ${{ secrets.REDTAIL_API_KEY }}
-          SHAREPOINT_SITE_URL:   ${{ secrets.SHAREPOINT_SITE_URL }}
+          AZURE_TENANT_ID: ${{ secrets.TENANT_ID }}
+          AZURE_CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          AZURE_CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          REDTAIL_API_KEY: ${{ secrets.REDTAIL_API_KEY }}
+          REDTAIL_USERNAME: jtdaniel
+          SHAREPOINT_SITE_URL: ${{ secrets.SHAREPOINT_SITE_URL }}
           SHAREPOINT_FOLDER_PATH: ${{ secrets.SHAREPOINT_FOLDER_PATH }}
-          PLANNER_PLAN_ID:        ${{ secrets.PLAN_ID_PAPERWORK }}
+          PLANNER_PLAN_ID: ${{ secrets.PLAN_ID_PAPERWORK }}
         run: node --experimental-vm-modules Paperwork/fill-forms.js
-
       - name: Commit processed task log
         run: |
           git config user.name "SDC Automation"
