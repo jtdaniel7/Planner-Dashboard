@@ -376,6 +376,7 @@ async function main() {
     wip:                {},
     overdueTasks:       [],
     possibleDuplicates: [],
+    aiMerges:           [], // { from: "alt name", to: "canonical name" }
     stats: { totalOpen: 0, completedToday: 0, overdue: 0, waitingOnClient: 0, wipClients: 0 },
   };
 
@@ -592,6 +593,8 @@ async function main() {
             const altEntry = wipArray.find(w => w.client === altName);
             if (altEntry && altEntry.client !== canonical) {
               console.log(`  Merging "${altName}" → "${canonical}"`);
+              // Record for dashboard to apply client-side
+              plannerData.aiMerges.push({ from: altName, to: canonical });
 
               // Find or create the canonical entry
               let canonEntry = wipArray.find(w => w.client === canonical);
