@@ -80,41 +80,70 @@ Your job: Given a client's active tasks across multiple planners, determine:
 4. urgency — "high" (overdue or blocking), "normal" (on track), or "waiting" (client-dependent, nothing ops can do)
 `;
 
-// ── AI Assessment ─────────────────────────────────────────────────────────────
-async function assessClientStage(client, plannerGroups) {
-  if (!GITHUB_TOKEN) {
-    return { currentStage: null, nextAction: null, blockers: null, urgency: 'normal' };
+// ── AI Client Grouping ───────────────────────────────────────────────────────
+/**
+ * Single AI call that takes all active tasks across all planners
+ * and returns an intelligent parent/child grouping by client.
+ * Handles name variations (Becca/Rebecca, Murphy/Murphy Brandy etc.)
+ * and produces a clean canonical client name for each group.
+ */
+async function aiGroupClients(wipArray, allTasks) {
+  if (!GITHUB_TOKEN) return null;
+
+  // Build a flat list of all active tasks for the AI to group
+  const taskList = allTasks
+    .filter(t => t.status !== 'complete' && t.clientName)
+    .map(t => ({
+      id:          t.id,
+      title:       t.title,
+      clientName:  t.clientName,
+      planner:     t.plannerKey,
+      bucket:      t.bucketName,
+      status:      t.status,
+      assignee:    t.assigneeNames?.[0] || null,
+      due:         t.dueDateFormatted || null,
+    }));
+
+  if (!taskList.length) return null;
+
+  // Also provide the current normalized names so AI can see what we have
+  const currentClients = wipArray.map(w => ({
+    name:     w.client,
+    taskCount: w.totalItems,
+    planners:  w.planners,
+  }));
+
+  const prompt = `You are reviewing active client tasks at SD Capital Advisors.
+
+Current client groups (from name normalization):
+${JSON.stringify(currentClients, null, 2)}
+
+All active tasks:
+${JSON.stringify(taskList, null, 2)}
+
+Your job:
+1. Identify any clients that appear under different names and should be merged into one parent
+   (e.g. "Becca Ferguson" and "Ferguson, Rebecca" are the same person)
+2. For each final client group, provide:
+   - canonicalName: the best display name (prefer "Lastname, Firstname" format)
+   - merges: array of other names that should merge into this one (empty array if none)
+   - currentStage: one sentence — where is this client in the process right now?
+   - nextAction: the single most important next step for ops
+   - blockers: anything blocking progress, or null
+   - urgency: "high" (overdue/blocked), "normal" (on track), or "waiting" (pending client)
+
+Only include clients that actually need merging or have meaningful stage info.
+Respond with ONLY valid JSON array (no markdown):
+[
+  {
+    "canonicalName": "Smith, John",
+    "merges": ["John Smith", "SMITH, JOHN"],
+    "currentStage": "New account paperwork submitted to Fidelity, waiting for account number",
+    "nextAction": "Confirm account established, then initiate transfer",
+    "blockers": null,
+    "urgency": "normal"
   }
-
-  // Build a concise summary of this client's tasks for the AI
-  const taskSummary = plannerGroups.map(g => {
-    const activeTasks = g.items.filter(i => i.status !== 'complete');
-    if (!activeTasks.length) return null;
-    return `${g.label}:\n` + activeTasks.map(t =>
-      `  - "${t.title}" | Bucket: ${t.bucketName} | Status: ${t.status}` +
-      (t.dueDateFormatted ? ` | Due: ${t.dueDateFormatted}` : '') +
-      (t.assigneeNames?.length ? ` | Assigned: ${t.assigneeNames.join(', ')}` : '') +
-      (t.notes ? `\n    Notes: ${t.notes.slice(0, 200)}${t.notes.length > 200 ? '...' : ''}` : '')
-    ).join('\n');
-  }).filter(Boolean).join('\n\n');
-
-  if (!taskSummary) return { currentStage: null, nextAction: null, blockers: null, urgency: 'normal' };
-
-  const messages = [
-    { role: 'system', content: WIP_STAGE_CONTEXT },
-    { role: 'user', content: `Client: ${client}
-
-Active tasks across planners:
-${taskSummary}
-
-Based on SDC's WIP workflow, respond with ONLY valid JSON (no markdown, no explanation):
-{
-  "currentStage": "one sentence describing exactly where this client is in the process",
-  "nextAction": "the single most important next step for the ops team",
-  "blockers": "any blockers or null if none",
-  "urgency": "high|normal|waiting"
-}` }
-  ];
+]`;
 
   try {
     const res = await fetch('https://models.inference.ai.azure.com/chat/completions', {
@@ -125,8 +154,11 @@ Based on SDC's WIP workflow, respond with ONLY valid JSON (no markdown, no expla
       },
       body: JSON.stringify({
         model: 'gpt-4o-mini',
-        messages,
-        max_tokens: 300,
+        messages: [
+          { role: 'system', content: WIP_STAGE_CONTEXT },
+          { role: 'user',   content: prompt },
+        ],
+        max_tokens: 4000,
         temperature: 0.1,
         response_format: { type: 'json_object' },
       }),
@@ -134,17 +166,20 @@ Based on SDC's WIP workflow, respond with ONLY valid JSON (no markdown, no expla
 
     if (!res.ok) {
       const err = await res.text();
-      console.log(`AI assessment failed for ${client}: ${res.status} ${err}`);
-      return { currentStage: null, nextAction: null, blockers: null, urgency: 'normal' };
+      console.log(`AI grouping failed: ${res.status} ${err}`);
+      return null;
     }
 
     const data = await res.json();
-    const text = data.choices?.[0]?.message?.content || '{}';
-    const clean = text.replace(/```json|```/g, '').trim();
-    return JSON.parse(clean);
+    let text = data.choices?.[0]?.message?.content || '[]';
+    text = text.replace(/```json|```/g, '').trim();
+
+    // GPT-4o-mini with json_object returns an object, extract array if wrapped
+    const parsed = JSON.parse(text);
+    return Array.isArray(parsed) ? parsed : (parsed.clients || parsed.groups || Object.values(parsed)[0] || []);
   } catch (e) {
-    console.log(`AI parse error for ${client}: ${e.message}`);
-    return { currentStage: null, nextAction: null, blockers: null, urgency: 'normal' };
+    console.log(`AI grouping parse error: ${e.message}`);
+    return null;
   }
 }
 
@@ -512,43 +547,79 @@ async function main() {
     entry.plannerGroups = Object.values(entry.byPlanner);
   }
 
-  // ── AI Stage Assessment ─────────────────────────────────────────────────────
-  // Prioritize: overdue first, then multi-planner, then others
-  // Cap at 25 clients per run to stay within 6-minute Action limit
-  const MAX_AI_CLIENTS = 25;
-  const allActive = wipArray.filter(w =>
-    w.plannerGroups.some(g => g.items.some(i => i.status !== 'complete'))
+  // ── AI Client Grouping & Stage Assessment (single call) ────────────────────
+  // Collect all active tasks across all planners for the AI to process at once
+  const allActiveTasks = plannerData.planners.flatMap(p =>
+    p.tasks
+      .filter(t => t.status !== 'complete' && t.clientName)
+      .map(t => ({ ...t, plannerKey: p.key }))
   );
 
-  // Sort priority: overdue > multi-planner > single-planner
-  const prioritized = [
-    ...allActive.filter(w => w.hasOverdue),
-    ...allActive.filter(w => !w.hasOverdue && w.planners.length > 1),
-    ...allActive.filter(w => !w.hasOverdue && w.planners.length === 1),
-  ].slice(0, MAX_AI_CLIENTS);
-
-  // Mark skipped clients with null so dashboard handles gracefully
-  allActive.forEach(entry => {
+  // Initialize all WIP entries with null AI fields
+  wipArray.forEach(entry => {
     entry.currentStage = null;
     entry.nextAction   = null;
     entry.blockers     = null;
     entry.aiUrgency    = null;
   });
 
-  if (GITHUB_TOKEN) {
-    console.log(`Running AI assessment for ${prioritized.length} of ${allActive.length} active clients...`);
-    // Sequential processing — no parallel to avoid rate limits
-    for (const entry of prioritized) {
-      const assessment = await assessClientStage(entry.client, entry.plannerGroups);
-      entry.currentStage = assessment.currentStage;
-      entry.nextAction   = assessment.nextAction;
-      entry.blockers     = assessment.blockers;
-      entry.aiUrgency    = assessment.urgency;
-      console.log(`  ✓ ${entry.client}: ${assessment.currentStage || 'no assessment'}`);
-      await sleep(300); // small pause between calls
+  if (GITHUB_TOKEN && allActiveTasks.length > 0) {
+    console.log(`Running AI grouping for ${wipArray.length} clients, ${allActiveTasks.length} active tasks...`);
+    const groupings = await aiGroupClients(wipArray, allActiveTasks);
+
+    if (groupings && groupings.length > 0) {
+      console.log(`AI returned ${groupings.length} client groupings`);
+
+      for (const group of groupings) {
+        const canonical = group.canonicalName;
+
+        // Apply merges — remap any merged names to the canonical name
+        if (group.merges && group.merges.length > 0) {
+          for (const altName of group.merges) {
+            const altEntry = wipArray.find(w => w.client === altName);
+            if (altEntry && altEntry.client !== canonical) {
+              console.log(`  Merging "${altName}" → "${canonical}"`);
+
+              // Find or create the canonical entry
+              let canonEntry = wipArray.find(w => w.client === canonical);
+              if (!canonEntry) {
+                // Rename the alt entry to canonical
+                altEntry.client = canonical;
+                canonEntry = altEntry;
+              } else {
+                // Merge alt's planner groups into canonical
+                for (const pg of altEntry.plannerGroups || []) {
+                  const existing = canonEntry.plannerGroups.find(g => g.key === pg.key);
+                  if (existing) existing.items.push(...pg.items);
+                  else canonEntry.plannerGroups.push(pg);
+                }
+                for (const p of altEntry.planners) {
+                  if (!canonEntry.planners.includes(p)) canonEntry.planners.push(p);
+                }
+                if (altEntry.hasOverdue) canonEntry.hasOverdue = true;
+                if (altEntry.hasWaitingOnClient) canonEntry.hasWaitingOnClient = true;
+                canonEntry.totalItems += altEntry.totalItems;
+                canonEntry.doneItems  += altEntry.doneItems;
+                // Remove alt entry — mark for deletion
+                altEntry._merged = true;
+              }
+            }
+          }
+        }
+
+        // Apply AI stage assessment to the canonical entry
+        const entry = wipArray.find(w => w.client === canonical);
+        if (entry) {
+          entry.currentStage = group.currentStage || null;
+          entry.nextAction   = group.nextAction   || null;
+          entry.blockers     = group.blockers      || null;
+          entry.aiUrgency    = group.urgency       || 'normal';
+          console.log(`  ✓ ${canonical}: ${group.currentStage || 'grouped'}`);
+        }
+      }
     }
   } else {
-    console.log('GITHUB_TOKEN not available — skipping AI assessment');
+    console.log('GITHUB_TOKEN not available — skipping AI grouping');
   }
 
   // ── Duplicate detection ─────────────────────────────────────────────────────
@@ -573,7 +644,7 @@ async function main() {
 
   // ── Sort & write ────────────────────────────────────────────────────────────
   plannerData.wip = wipArray
-    .filter(w => w.plannerGroups.some(g => g.items.some(i => i.status !== 'complete')))
+    .filter(w => !w._merged && w.plannerGroups.some(g => g.items.some(i => i.status !== 'complete')))
     .sort((a, b) => {
       // AI urgency sort: high → normal → waiting
       const urgencyOrder = { high: 0, normal: 1, waiting: 2 };
