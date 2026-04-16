@@ -611,6 +611,7 @@ function buildCard(entry) {
       </div>
       <div class="card-items">${preview}</div>
       ${more}
+      ${aiBlock}
     </div>`;
 }
 
@@ -716,8 +717,27 @@ function openPanel(clientName) {
   const allItems = panelClient.plannerGroups.flatMap(g=>g.items.filter(i=>i.status!=='complete'));
   const overdue  = allItems.filter(i=>i.status==='late').length;
   const waiting  = allItems.filter(i=>i.status==='waiting-on-client').length;
-  document.getElementById('panel-client-meta').textContent =
-    `${allItems.length} active items · ${overdue} overdue · ${waiting} waiting on client`;
+  const metaParts = [`${allItems.length} active items`, `${overdue} overdue`, `${waiting} waiting on client`];
+  document.getElementById('panel-client-meta').textContent = metaParts.join(' · ');
+
+  // Show AI assessment in panel if available
+  const existingAI = document.getElementById('panel-ai-block');
+  if (existingAI) existingAI.remove();
+  if (panelClient.currentStage || panelClient.nextAction) {
+    const aiDiv = document.createElement('div');
+    aiDiv.id = 'panel-ai-block';
+    aiDiv.style.cssText = 'padding:12px 24px;border-bottom:0.5px solid var(--border,#e2e5ea);background:var(--surface2,#f7f8fa)';
+    const urgencyBadge = panelClient.aiUrgency
+      ? `<span class="ai-badge ${panelClient.aiUrgency}" style="margin-bottom:6px;display:inline-flex">${{high:'⚠ High priority',normal:'On track',waiting:'Waiting on client'}[panelClient.aiUrgency]||panelClient.aiUrgency}</span>`
+      : '';
+    aiDiv.innerHTML = `
+      ${urgencyBadge}
+      ${panelClient.currentStage ? `<div class="ai-stage" style="margin-top:4px">${panelClient.currentStage}</div>` : ''}
+      ${panelClient.nextAction ? `<div class="ai-next" style="margin-top:4px"><span class="ai-next-label">Next →</span>${panelClient.nextAction}</div>` : ''}
+      ${panelClient.blockers ? `<div class="ai-blocker" style="margin-top:3px"><span class="ai-blocker-label">⚠ Blocker:</span>${panelClient.blockers}</div>` : ''}
+    `;
+    document.getElementById('panel-filters').before(aiDiv);
+  }
 
   renderPanel();
   document.getElementById('panel-overlay').classList.add('open');
