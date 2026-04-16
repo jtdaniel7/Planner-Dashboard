@@ -90,58 +90,65 @@ Your job: Given a client's active tasks across multiple planners, determine:
 async function aiGroupClients(wipArray, allTasks) {
   if (!GITHUB_TOKEN) return null;
 
-  // Build a flat list of all active tasks for the AI to group
-  const taskList = allTasks
-    .filter(t => t.status !== 'complete' && t.clientName)
-    .map(t => ({
-      id:          t.id,
-      title:       t.title,
-      clientName:  t.clientName,
-      planner:     t.plannerKey,
-      bucket:      t.bucketName,
-      status:      t.status,
-      assignee:    t.assigneeNames?.[0] || null,
-      due:         t.dueDateFormatted || null,
-    }));
+  // Send only client names + compact task summaries — stay well under 8000 token limit
+  // Group tasks by client name for a compact representation
+  const clientSummaries = {};
+  for (const t of allTasks.filter(t => t.status !== 'complete' && t.clientName)) {
+    const name = t.clientName;
+    if (!clientSummaries[name]) clientSummaries[name] = { planners: new Set(), buckets: [], statuses: [] };
+    clientSummaries[name].planners.add(t.plannerKey);
+    clientSummaries[name].buckets.push(t.bucketName);
+    clientSummaries[name].statuses.push(t.status);
+  }
 
-  if (!taskList.length) return null;
-
-  // Also provide the current normalized names so AI can see what we have
-  const currentClients = wipArray.map(w => ({
-    name:     w.client,
-    taskCount: w.totalItems,
-    planners:  w.planners,
+  // Convert to compact array — just enough for grouping + stage assessment
+  const compactClients = Object.entries(clientSummaries).map(([name, data]) => ({
+    name,
+    planners: [...data.planners],
+    buckets:  [...new Set(data.buckets)],
+    statuses: [...new Set(data.statuses)],
+    taskCount: data.buckets.length,
   }));
 
-  const prompt = `You are reviewing active client tasks at SD Capital Advisors.
+  if (!compactClients.length) return null;
 
-Current client groups (from name normalization):
-${JSON.stringify(currentClients, null, 2)}
+  // Process in chunks of 100 clients to stay under token limit
+  // Only send clients that might need merging OR have overdue status
+  const needsAttention = compactClients.filter(c =>
+    c.statuses.includes('late') ||
+    c.planners.length > 1 ||
+    c.taskCount > 2
+  );
+  const others = compactClients.filter(c => !needsAttention.includes(c));
+  // Send needsAttention first, cap at 150 total
+  const toProcess = [...needsAttention, ...others].slice(0, 150);
 
-All active tasks:
-${JSON.stringify(taskList, null, 2)}
+  const prompt = `You are reviewing active client work at SD Capital Advisors, a financial advisory firm.
 
-Your job:
-1. Identify any clients that appear under different names and should be merged into one parent
-   (e.g. "Becca Ferguson" and "Ferguson, Rebecca" are the same person)
-2. For each final client group, provide:
-   - canonicalName: the best display name (prefer "Lastname, Firstname" format)
-   - merges: array of other names that should merge into this one (empty array if none)
-   - currentStage: one sentence — where is this client in the process right now?
-   - nextAction: the single most important next step for ops
-   - blockers: anything blocking progress, or null
-   - urgency: "high" (overdue/blocked), "normal" (on track), or "waiting" (pending client)
+Client list (name, planners involved, bucket stages, task count):
+${JSON.stringify(toProcess, null, 1)}
 
-Only include clients that actually need merging or have meaningful stage info.
-Respond with ONLY valid JSON array (no markdown):
+Your job — TWO things only:
+1. MERGE: Identify names that refer to the same person/household. Common patterns:
+   - Same last name, different first name format: "Becca Ferguson" = "Ferguson, Rebecca"
+   - Couple/household tasks: "Kuch, Earl" + "Reineke-Kuch, Donna" + "Kuch, Earl & Reineke-Kuch, donna" = same household
+   - Nickname vs legal name: "Bob" = "Robert", "Becca" = "Rebecca", "Mike" = "Michael"
+   - Format differences: "SMITH JOHN" = "Smith, John"
+
+2. ASSESS: For merged groups and multi-planner clients, provide a brief stage summary.
+
+Respond with ONLY a JSON array of clients needing merges or with meaningful stage info.
+Skip clients that are clearly standalone and on track.
+Max 50 entries in response.
+
 [
   {
-    "canonicalName": "Smith, John",
-    "merges": ["John Smith", "SMITH, JOHN"],
-    "currentStage": "New account paperwork submitted to Fidelity, waiting for account number",
-    "nextAction": "Confirm account established, then initiate transfer",
+    "canonicalName": "Kuch, Earl & Donna",
+    "merges": ["Kuch, Earl", "Reineke-Kuch, Donna", "Kuch, Earl & Reineke-Kuch, Donna 03/23"],
+    "currentStage": "Multiple items across Paperwork and Advisor Flow",
+    "nextAction": "Review overdue paperwork items",
     "blockers": null,
-    "urgency": "normal"
+    "urgency": "high"
   }
 ]`;
 
@@ -158,7 +165,7 @@ Respond with ONLY valid JSON array (no markdown):
           { role: 'system', content: WIP_STAGE_CONTEXT },
           { role: 'user',   content: prompt },
         ],
-        max_tokens: 4000,
+        max_tokens: 2000,
         temperature: 0.1,
         response_format: { type: 'json_object' },
       }),
