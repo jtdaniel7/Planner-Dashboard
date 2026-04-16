@@ -577,35 +577,42 @@ function buildCard(entry) {
   const dupFlag = entry._isDup
     ? `<span class="dup-flag" onclick="event.stopPropagation();openMergeModalFor('${entry.client.replace(/'/g,"\'")}')">⚠ Possible duplicate</span>` : '';
 
-  // Show up to 3 items as preview
-  const preview = allItems.slice(0,3).map(item => {
-    const dotColor = item.status==='late' ? 'var(--red)' : item.status==='waiting-on-client' ? 'var(--purple)' : 'var(--amber)';
-    const badgeCls = item.status==='late' ? 'late' : item.status==='waiting-on-client' ? 'waiting' : item.status==='in-progress' ? 'prog' : 'ns';
-    const plannerColor = PC[item.plannerKey] || '#6b7280';
+  // Show ALL active items grouped by planner — compact rows
+  const groupedItems = entry.plannerGroups.map(g => {
+    const activeItems = g.items.filter(i => i.status !== 'complete');
+    if (!activeItems.length) return '';
+    const plannerColor = PC[g.key] || '#6b7280';
+    const rows = activeItems.map(item => {
+      const statusDot = {
+        late:               'var(--red)',
+        'waiting-on-client':'var(--purple)',
+        'in-progress':      'var(--amber)',
+        'not-started':      'var(--muted2,#9ca3af)',
+      }[item.status] || 'var(--muted2,#9ca3af)';
+      const bucketShort = item.bucketName === 'Unknown' ? '' : item.bucketName;
+      return `
+        <div class="card-activity-row">
+          <div class="car-dot" style="background:${statusDot}"></div>
+          <div class="car-title" title="${item.title}">${item.title}</div>
+          ${bucketShort ? `<div class="car-bucket">${bucketShort}</div>` : ''}
+        </div>`;
+    }).join('');
     return `
-      <div class="card-item">
-        <div class="item-dot" style="background:${dotColor}"></div>
-        <div class="item-title" title="${item.title}">${item.title}</div>
-        <span class="item-badge" style="background:${plannerColor}18;color:${plannerColor};border:1px solid ${plannerColor}30">${PLANNER_LABEL[item.plannerKey]||''}</span>
-        <span class="item-badge ${badgeCls}">${chipLabel(item.status)}</span>
+      <div class="card-planner-group">
+        <div class="card-planner-label" style="color:${plannerColor}">${g.label}</div>
+        ${rows}
       </div>`;
   }).join('');
 
-  const more = allItems.length > 3 ? `<div class="card-more">+ ${allItems.length-3} more item${allItems.length-3!==1?'s':''} — click to view all</div>` : '';
+  const more = '';  // All items shown — click to open panel for full detail
 
-  // AI assessment block — always defined
+  // AI assessment — one compact line only
   let aiBlock = '';
-  if (entry.currentStage || entry.nextAction) {
-    const urgencyBadge = entry.aiUrgency
-      ? `<span class="ai-badge ${entry.aiUrgency}">${{high:'⚠ High priority',normal:'On track',waiting:'Waiting on client'}[entry.aiUrgency]||entry.aiUrgency}</span>`
-      : '';
-    aiBlock = `
-      <div class="ai-assessment">
-        <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px">${urgencyBadge}</div>
-        ${entry.currentStage ? `<div class="ai-stage">${entry.currentStage}</div>` : ''}
-        ${entry.nextAction ? `<div class="ai-next"><span class="ai-next-label">Next →</span>${entry.nextAction}</div>` : ''}
-        ${entry.blockers ? `<div class="ai-blocker"><span class="ai-blocker-label">⚠ Blocker:</span>${entry.blockers}</div>` : ''}
-      </div>`;
+  if (entry.nextAction || entry.blockers) {
+    const icon = entry.aiUrgency === 'high' ? '⚠' : entry.aiUrgency === 'waiting' ? '⏳' : '→';
+    const text = entry.blockers ? entry.blockers : entry.nextAction;
+    const color = entry.aiUrgency === 'high' ? 'var(--red,#dc2626)' : entry.aiUrgency === 'waiting' ? 'var(--purple,#7c3aed)' : 'var(--blue,#2563eb)';
+    aiBlock = `<div class="ai-oneliner" style="color:${color}">${icon} ${text}</div>`;
   }
 
   return `
@@ -624,8 +631,7 @@ function buildCard(entry) {
           </div>
         </div>
       </div>
-      <div class="card-items">${preview}</div>
-      ${more}
+      <div class="card-activities">${groupedItems}</div>
       ${aiBlock}
     </div>`;
 }
