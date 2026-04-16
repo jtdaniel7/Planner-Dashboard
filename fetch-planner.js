@@ -1,7 +1,8 @@
 /**
  * fetch-planner.js
- * Pulls tasks from all 4 Planners, resolves assignee names,
- * handles client-dependent buckets, groups WIP by client.
+ * Pulls tasks from all 5 Planners, resolves assignee names,
+ * normalizes client names for cross-planner grouping,
+ * detects possible duplicate clients for manual merging.
  */
 
 const fs = require('fs');
@@ -11,11 +12,11 @@ const CLIENT_ID     = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 const PLANNERS = [
-  { key: 'trades',    label: 'Trades & Distributions', planId: process.env.PLAN_ID_TRADES,     color: '#4f9cf9' },
-  { key: 'paperwork', label: 'Paperwork',               planId: process.env.PLAN_ID_PAPERWORK,  color: '#f9a84f' },
-  { key: 'advisor',   label: 'Advisor Flow',            planId: process.env.PLAN_ID_ADVISOR,    color: '#7fd8a0' },
-  { key: 'locations', label: 'Locations',               planId: process.env.PLAN_ID_LOCATIONS,  color: '#c084fc' },
-  { key: 'conts',     label: 'CONTs & Checks',          planId: process.env.PLAN_ID_CONTS,      color: '#f97b7b' },
+  { key: 'trades',    label: 'Trades & Distributions', planId: process.env.PLAN_ID_TRADES,     color: '#2563eb' },
+  { key: 'paperwork', label: 'Paperwork',               planId: process.env.PLAN_ID_PAPERWORK,  color: '#d97706' },
+  { key: 'advisor',   label: 'Advisor Flow',            planId: process.env.PLAN_ID_ADVISOR,    color: '#16a34a' },
+  { key: 'locations', label: 'Locations',               planId: process.env.PLAN_ID_LOCATIONS,  color: '#7c3aed' },
+  { key: 'conts',     label: 'CONTs & Checks',          planId: process.env.PLAN_ID_CONTS,      color: '#dc2626' },
 ];
 
 // Buckets that are client-dependent — never count as overdue
@@ -35,7 +36,109 @@ function isClientDependent(bucketName) {
   return CLIENT_DEPENDENT_BUCKETS.some(b => bucketName.toLowerCase().includes(b));
 }
 
+// ── Name normalization ────────────────────────────────────────────────────────
+/**
+ * Normalize any client name format to "Lastname, Firstname" canonical form.
+ * Handles:
+ *   "Brandy Murphy"           → "Murphy, Brandy"
+ *   "Murphy, Brandy"          → "Murphy, Brandy"
+ *   "Murphy, Brandy & Eric"   → "Murphy, Brandy & Eric"  (joint — keep as-is after lastname)
+ *   "Becca Ferguson"          → "Ferguson, Becca"        (nickname preserved, Redtail resolves later)
+ *   "MURPHY, BRANDY"          → "Murphy, Brandy"         (normalize casing)
+ *   "Murphy, Brandy L"        → "Murphy, Brandy"         (strip middle initial)
+ *   "Smith, John & Mary"      → "Smith, John & Mary"     (joint preserved)
+ */
+function normalizeName(raw) {
+  if (!raw) return null;
+  let name = raw.trim();
 
+  // Strip trailing account/task suffixes that sometimes bleed through
+  // e.g. "Brandy Murphy 529" or "Murphy, Brandy L TOD"
+  // Remove trailing words that look like account types or initials
+  name = name
+    .replace(/\s+(TOD|NQ|IRA|ROTH|401K|403B|529|UTMA|BL|NW|FID|AMF|NFS|BES|FJD|ZWB|CMB|KSO|ACS|JEK|EJD|BAW|MRB)\b.*/i, '')
+    .replace(/\s+[A-Z]{2,4}$/, '') // trailing 2-4 letter all-caps word (initials/codes)
+    .trim();
+
+  // Already in "Lastname, Firstname" format
+  if (name.includes(',')) {
+    // Normalize casing: "MURPHY, BRANDY" → "Murphy, Brandy"
+    const parts = name.split(',').map(p => p.trim());
+    const last  = toTitleCase(parts[0]);
+    const first = toTitleCase(parts.slice(1).join(',').trim());
+    return first ? `${last}, ${first}` : last;
+  }
+
+  // "Firstname Lastname" format — flip to "Lastname, Firstname"
+  const words = name.split(/\s+/).filter(Boolean);
+  if (words.length === 1) return toTitleCase(words[0]);
+  if (words.length === 2) {
+    return `${toTitleCase(words[1])}, ${toTitleCase(words[0])}`;
+  }
+
+  // 3+ words — could be "First Middle Last", "First Last Jr", or joint "First Last & Second"
+  // Check for joint account: "Brandy & Eric Murphy" or "Brandy Murphy & Eric"
+  const ampIdx = words.findIndex(w => w === '&' || w === 'and');
+  if (ampIdx !== -1) {
+    // Keep joint names as-is but normalize casing
+    return words.map(toTitleCase).join(' ');
+  }
+
+  // "First Middle Last" → "Last, First Middle"
+  // "First Last Jr" → "Last, First Jr"
+  const last  = toTitleCase(words[words.length - 1]);
+  const first = words.slice(0, -1).map(toTitleCase).join(' ');
+  return `${last}, ${first}`;
+}
+
+function toTitleCase(str) {
+  if (!str) return '';
+  // Handle hyphenated names: "Toneff-Cotner" → "Toneff-Cotner"
+  return str.toLowerCase().replace(/(?:^|[-\s])(\w)/g, c => c.toUpperCase());
+}
+
+/**
+ * Compute a similarity score between two normalized names (0–1).
+ * Used to detect possible duplicates for the manual merge UI.
+ */
+function nameSimilarity(a, b) {
+  if (!a || !b) return 0;
+  const na = a.toLowerCase().replace(/[^a-z]/g, '');
+  const nb = b.toLowerCase().replace(/[^a-z]/g, '');
+  if (na === nb) return 1;
+
+  // Check if one name starts with the other (e.g. "Ferguson, Becca" vs "Ferguson, Rebecca")
+  const lastA = a.split(',')[0]?.toLowerCase().trim() || '';
+  const lastB = b.split(',')[0]?.toLowerCase().trim() || '';
+  if (lastA !== lastB) return 0; // Different last names — not a duplicate
+
+  // Same last name — compare first names
+  const firstA = (a.split(',')[1] || '').toLowerCase().trim().split(/\s+/)[0] || '';
+  const firstB = (b.split(',')[1] || '').toLowerCase().trim().split(/\s+/)[0] || '';
+  if (!firstA || !firstB) return 0;
+
+  // Check if one first name contains the other (Becca/Rebecca, Bob/Robert, etc.)
+  if (firstA.includes(firstB) || firstB.includes(firstA)) return 0.85;
+
+  // Levenshtein distance for close spellings
+  const dist = levenshtein(firstA, firstB);
+  const maxLen = Math.max(firstA.length, firstB.length);
+  const similarity = 1 - dist / maxLen;
+  return similarity > 0.5 ? similarity : 0;
+}
+
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  const dp = Array.from({length: m+1}, (_, i) => Array.from({length: n+1}, (_, j) => i === 0 ? j : j === 0 ? i : 0));
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1] : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+    }
+  }
+  return dp[m][n];
+}
+
+// ── Auth ──────────────────────────────────────────────────────────────────────
 
 async function getAccessToken() {
   const url  = `https://login.microsoftonline.com/${TENANT_ID}/oauth2/v2.0/token`;
@@ -59,16 +162,13 @@ async function graphGet(token, path, retries = 4) {
       headers: { Authorization: `Bearer ${token}` },
     });
     if (res.ok) return res.json();
-
     if (res.status === 429) {
-      // Respect Retry-After header if present, otherwise back off exponentially
       const retryAfter = parseInt(res.headers.get('Retry-After') || '0', 10);
       const wait = retryAfter > 0 ? retryAfter * 1000 : Math.pow(2, attempt) * 2000;
       console.log(`Rate limited on ${path} — waiting ${wait}ms (attempt ${attempt + 1})`);
       await sleep(wait);
       continue;
     }
-
     throw new Error(`Graph ${path} → ${res.status}`);
   }
   throw new Error(`Graph ${path} → exceeded retries`);
@@ -79,9 +179,7 @@ const userCache = {};
 async function resolveUserName(token, userId) {
   if (userCache[userId]) return userCache[userId];
   try {
-    // Use $select to ensure displayName is returned, works for members and guests
     const data = await graphGet(token, `/users/${userId}?$select=displayName,userPrincipalName,mail`);
-    // displayName is most reliable; fall back to mail prefix or UPN prefix
     let name = data.displayName;
     if (!name || name === 'Unknown') {
       const email = data.mail || data.userPrincipalName || '';
@@ -99,78 +197,78 @@ async function resolveUserName(token, userId) {
 function deriveStatus(task, bucketName) {
   const pct = task.percentComplete ?? 0;
   if (pct === 100) return 'complete';
-
-  // Client-dependent bucket — never overdue regardless of due date
   if (isClientDependent(bucketName)) return 'waiting-on-client';
-
   if (task.dueDateTime && new Date(task.dueDateTime) < new Date()) return 'late';
   if (pct > 0) return 'in-progress';
   return 'not-started';
 }
 
 /**
- * Extract client name from task title based on planner format.
- *
- * paperwork: "LASTNAME, Firstname - Task Description"
- *            "LASTNAME, First & Last - Task Description" (joint accounts)
- *            Regular hyphen separator
- *
- * advisor:   "Lastname, Firstname - Task Description" (same as paperwork)
- *            or "Lastname, Firstname || Notes"
- *
- * trades:    "FirstName LastName TaskType BES" (no separator)
- *            Take first two words as client name
- *
- * locations: "FirstName LastName - Task Description"
+ * Extract raw client name from task title per planner format.
+ * Returns raw string — normalizeName() is called separately.
  */
 function extractClient(title, plannerKey) {
   if (!title) return null;
 
-  // Universal: try em dash or en dash first
+  // Universal: em dash or en dash separator
   const emDash = title.match(/^(.+?)\s*[—–]\s*.+/);
   if (emDash) return emDash[1].trim();
 
   // paperwork, locations, advisor: "Client Name - Task Description"
-  // Also handle advisor's || separator
-  if (plannerKey === 'paperwork' || plannerKey === 'locations' || plannerKey === 'advisor') {
-    // Try " - " separator
+  if (['paperwork', 'locations', 'advisor'].includes(plannerKey)) {
     const hyphen = title.match(/^(.+?)\s+-\s+.{2,}/);
     if (hyphen) return hyphen[1].trim();
-
-    // Try " || " separator (advisor uses this)
     const pipe = title.match(/^(.+?)\s*\|\|\s*.+/);
     if (pipe) return pipe[1].trim();
   }
 
-  // trades & conts: no separator — take first two words
-  if (plannerKey === 'trades' || plannerKey === 'conts') {
+  // trades & conts: first two words = client name
+  if (['trades', 'conts'].includes(plannerKey)) {
     const words = title.trim().split(/\s+/);
-    if (words.length >= 2) return (words[0] + ' ' + words[1]);
+    if (words.length >= 2) return `${words[0]} ${words[1]}`;
     return words[0] || null;
   }
 
   return null;
 }
+
+/**
+ * Extract advisor name from assignee list.
+ * Advisors: Brent Shimman, Frank Dobnikar, Zach, Cheyenne, Katie, Melissa, Elizabeth
+ * Returns display name or null.
+ */
+function extractAdvisor(assigneeNames) {
+  const ADVISOR_KEYWORDS = ['brent', 'frank', 'zach', 'cheyenne', 'katie', 'melissa', 'elizabeth', 'jaiden'];
+  for (const name of assigneeNames) {
+    const lower = name.toLowerCase();
+    if (ADVISOR_KEYWORDS.some(k => lower.includes(k))) return name;
+  }
+  return null;
+}
+
 function formatDueDate(iso) {
   if (!iso) return null;
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
+
+// ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
   console.log('Authenticating with Microsoft Graph...');
   const token = await getAccessToken();
 
   const plannerData = {
-    fetchedAt: new Date().toISOString(),
-    planners:  [],
-    wip:       {},
-    overdueTasks: [],  // flat list of genuinely overdue tasks across all planners
+    fetchedAt:    new Date().toISOString(),
+    planners:     [],
+    wip:          {},
+    overdueTasks: [],
+    possibleDuplicates: [], // pairs of client names that might be the same person
     stats: { totalOpen: 0, completedToday: 0, overdue: 0, waitingOnClient: 0, wipClients: 0 },
   };
 
   for (const planner of PLANNERS) {
     console.log(`Fetching: ${planner.label}`);
-    await sleep(500); // brief pause between planners
+    await sleep(500);
 
     const [tasksRes, bucketsRes] = await Promise.all([
       graphGet(token, `/planner/plans/${planner.planId}/tasks`),
@@ -191,20 +289,21 @@ async function main() {
     const plannerLastUpdated = new Date().toISOString();
 
     const tasks = await Promise.all((tasksRes.value ?? []).map(async t => {
-      const bucketName  = bucketMap[t.bucketId] ?? 'Unknown';
-      const status      = deriveStatus(t, bucketName);
-      const clientName  = extractClient(t.title, planner.key);
-      const assigneeIds = Object.keys(t.assignments ?? {});
+      const bucketName    = bucketMap[t.bucketId] ?? 'Unknown';
+      const status        = deriveStatus(t, bucketName);
+      const rawClient     = extractClient(t.title, planner.key);
+      const clientName    = rawClient ? normalizeName(rawClient) : null;
+      const assigneeIds   = Object.keys(t.assignments ?? {});
       const assigneeNames = assigneeIds.map(uid => userCache[uid] || 'Unknown');
+      const advisor       = extractAdvisor(assigneeNames);
       const completedToday = status === 'complete' && t.completedDateTime &&
         new Date(t.completedDateTime).toDateString() === today;
 
-      if (status !== 'complete')            plannerData.stats.totalOpen++;
-      if (completedToday)                   plannerData.stats.completedToday++;
-      if (status === 'late')                plannerData.stats.overdue++;
-      if (status === 'waiting-on-client')   plannerData.stats.waitingOnClient++;
+      if (status !== 'complete')          plannerData.stats.totalOpen++;
+      if (completedToday)                 plannerData.stats.completedToday++;
+      if (status === 'late')              plannerData.stats.overdue++;
+      if (status === 'waiting-on-client') plannerData.stats.waitingOnClient++;
 
-      // Add to overdue flat list
       if (status === 'late') {
         plannerData.overdueTasks.push({
           plannerKey:   planner.key,
@@ -214,12 +313,13 @@ async function main() {
           clientName,
           bucketName,
           assigneeNames,
+          advisor,
           isUnassigned: assigneeIds.length === 0,
           dueDateFormatted: formatDueDate(t.dueDateTime),
         });
       }
 
-      // Fetch notes — small delay between calls to avoid rate limiting
+      // Fetch notes
       let notes = null;
       try {
         await sleep(200);
@@ -232,8 +332,10 @@ async function main() {
         title:            t.title,
         status,
         clientName,
+        rawClientName:    rawClient,
         bucketName,
         assigneeNames,
+        advisor,
         isUnassigned:     assigneeIds.length === 0,
         dueDateTime:      t.dueDateTime ?? null,
         dueDateFormatted: formatDueDate(t.dueDateTime),
@@ -242,20 +344,25 @@ async function main() {
         percentComplete:  t.percentComplete ?? 0,
       };
 
-      // WIP grouping — keyed by client name
+      // WIP grouping — keyed by normalized client name
       if (clientName) {
         if (!plannerData.wip[clientName]) {
           plannerData.wip[clientName] = {
-            client:   clientName,
-            planners: [],
-            byPlanner: {},  // items grouped by planner key
-            hasOverdue: false,
+            client:             clientName,
+            advisor:            advisor || null,
+            planners:           [],
+            byPlanner:          {},
+            hasOverdue:         false,
             hasWaitingOnClient: false,
-            totalItems: 0,
-            doneItems: 0,
+            totalItems:         0,
+            doneItems:          0,
           };
         }
         const wip = plannerData.wip[clientName];
+
+        // Update advisor if not yet set
+        if (!wip.advisor && advisor) wip.advisor = advisor;
+
         if (!wip.byPlanner[planner.key]) {
           wip.byPlanner[planner.key] = {
             key:   planner.key,
@@ -265,10 +372,12 @@ async function main() {
           };
         }
         wip.byPlanner[planner.key].items.push({
+          plannerKey:   planner.key,
           title:        t.title,
           status,
           bucketName,
           assigneeNames,
+          advisor,
           isUnassigned: assigneeIds.length === 0,
           dueDateFormatted: formatDueDate(t.dueDateTime),
           notes,
@@ -300,10 +409,28 @@ async function main() {
   plannerData.stats.wipClients = wipArray.filter(w => w.planners.length > 1).length;
 
   for (const entry of wipArray) {
-    entry.progress = entry.totalItems > 0
-      ? Math.round((entry.doneItems / entry.totalItems) * 100) : 0;
-    // Convert byPlanner object to array for easier rendering
+    entry.progress      = entry.totalItems > 0 ? Math.round((entry.doneItems / entry.totalItems) * 100) : 0;
     entry.plannerGroups = Object.values(entry.byPlanner);
+  }
+
+  // Detect possible duplicates — pairs with same last name and similar first name
+  const clientNames = wipArray.map(w => w.client);
+  const seenPairs   = new Set();
+  for (let i = 0; i < clientNames.length; i++) {
+    for (let j = i + 1; j < clientNames.length; j++) {
+      const score = nameSimilarity(clientNames[i], clientNames[j]);
+      if (score >= 0.75 && score < 1) {
+        const key = [clientNames[i], clientNames[j]].sort().join('|||');
+        if (!seenPairs.has(key)) {
+          seenPairs.add(key);
+          plannerData.possibleDuplicates.push({
+            nameA: clientNames[i],
+            nameB: clientNames[j],
+            score: Math.round(score * 100),
+          });
+        }
+      }
+    }
   }
 
   plannerData.wip = wipArray
@@ -315,6 +442,10 @@ async function main() {
 
   fs.writeFileSync('planner-data.json', JSON.stringify(plannerData, null, 2));
   console.log('planner-data.json written. Stats:', plannerData.stats);
+  if (plannerData.possibleDuplicates.length) {
+    console.log(`Possible duplicates found: ${plannerData.possibleDuplicates.length}`);
+    plannerData.possibleDuplicates.forEach(d => console.log(`  ${d.nameA} ↔ ${d.nameB} (${d.score}%)`));
+  }
 }
 
 main().catch(err => { console.error('Error:', err); process.exit(1); });
