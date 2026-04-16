@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-16T15:24:35.079Z",
+  "fetchedAt": "2026-04-16T15:29:18.188Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-16T15:24:36.541Z",
+      "lastUpdated": "2026-04-16T15:29:19.583Z",
       "tasks": [
         {
           "id": "ure9wu5ax0ORbyJHiJ2YPWUADKYL",
@@ -7666,7 +7666,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-16T15:24:47.986Z",
+      "lastUpdated": "2026-04-16T15:29:31.355Z",
       "tasks": [
         {
           "id": "O5LQYbiDDUymIIHzkW6YEmUAA09n",
@@ -15228,7 +15228,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-16T15:25:54.438Z",
+      "lastUpdated": "2026-04-16T15:30:38.794Z",
       "tasks": [
         {
           "id": "R_H6ZiM5rUWUvlnoqoqEFGUAA4e_",
@@ -20913,7 +20913,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-16T15:26:40.495Z",
+      "lastUpdated": "2026-04-16T15:31:26.313Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28442,7 +28442,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-16T15:27:07.145Z",
+      "lastUpdated": "2026-04-16T15:31:54.161Z",
       "tasks": [
         {
           "id": "ZlD1wdJ26UKq3NGgOcrfX2UAOqki",
@@ -29154,6 +29154,573 @@
   ],
   "wip": [
     {
+      "client": "Murphy, Brandy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Brandy Murphy Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": "Who filled this out: AL\nClient Name: Brandy Murphy\nAccount: FID IND TOD\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: FDRXX (for now) \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / RestrictionsLPL transfer hit, FDRXX. (Acs)"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT FID IND TOD",
+              "status": "waiting-on-client",
+              "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT FID 403B BL",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT BRD 529 FBO SAWYER",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT FID UTMA FBO SAWYER",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": true,
+      "totalItems": 5,
+      "doneItems": 3,
+      "progress": 60,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Brandy Murphy Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": "Who filled this out: AL\nClient Name: Brandy Murphy\nAccount: FID IND TOD\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: FDRXX (for now) \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / RestrictionsLPL transfer hit, FDRXX. (Acs)"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT FID IND TOD",
+              "status": "waiting-on-client",
+              "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT FID 403B BL",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT BRD 529 FBO SAWYER",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Murphy, Brandy - NEW ACCT FID UTMA FBO SAWYER",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Kuss, Michael",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": "Who filled this out?: AL\r\nClient Name: Michael Kuss\r\nFrom Account (IRA): FID IRA #655-167863\r\nTo Account (Roth): FID ROTH IRA #628-906521\r\nDollar Amount: Full Amount\r\nTax W/H: n/a - unless BES says otherwise.\r\nIf Cash DIST - Any Trades? all in cash!\r\nIf In-Kind DIST, what's the ticker and # of shares (not $): \r\nBIA on File? No\r\nTrades for ROTH? Model rebalance. (acs)"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 6, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 3, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jan 30, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kuss, Michael - FID RETURN OF EXCESS",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 8, 2026",
+              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": true,
+      "totalItems": 6,
+      "doneItems": 4,
+      "progress": 67,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": "Who filled this out?: AL\r\nClient Name: Michael Kuss\r\nFrom Account (IRA): FID IRA #655-167863\r\nTo Account (Roth): FID ROTH IRA #628-906521\r\nDollar Amount: Full Amount\r\nTax W/H: n/a - unless BES says otherwise.\r\nIf Cash DIST - Any Trades? all in cash!\r\nIf In-Kind DIST, what's the ticker and # of shares (not $): \r\nBIA on File? No\r\nTrades for ROTH? Model rebalance. (acs)"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 6, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 3, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jan 30, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kuss, Michael - FID RETURN OF EXCESS",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 8, 2026",
+              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Cowell, Jessica",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jessica Cowell Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 13, 2026",
+              "notes": "Who filled this out: AL\r\nClient Name: Jessica Cowell\r\nAccount: FID JTOD #655-418479\r\nSells / Amount / Ticker / Holding Name: \r\nBuys / Amount / Ticker / Holding Name: per WIP: ½ into AOR and ½ into TCAF (acs)\r\nSolicited?: Yes\r\nDiscretion?: Yes\r\nCharge Commission? (HHG accounts): \r\nRecommended Strategy: \r\nNotes / Comments / Special Instructions / Restrictions04/10/26 - pulled $20k in, per WIP: ½ into AOR and ½ into TCAF. (acs)"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jessica Cowell Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 13, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Cowell, Jessica - FID BENE UPDATE",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 9, 2026",
+              "notes": "Name of Client: Jessica Cowell\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"Beneficiary Change\"]\r\n\r\nNotes: We just need to add their new kid Jett as contingent to make it 50/50 since we are setting up other accounts with the split! so Jacob 100, Jett 50 and Jasper 50\r\n\r\n03/02/2026 -per Jaiden I changed net Investable assets to $80,000 & annual expenses to $60,000 ppwk was pulling and filled out   will sign ppwk when they come into the office (baw)\r\n- Premiere Select IRA/HSA Beneficiary Designation\r\n- Standing Payment Instructions\r\n\r\n04/09/2026 - sent Jessica MRC letting her know we still needed ppwk signed.  ppwk was sent via docusing (baw)\r\n\r\n04/10//2026 - resent docusign (baw)\r\n\r\n04/13/2026 - resent docusign and sent Jessica a MRC (baw)\r\n\r\n04/14/2026 - ppwk was submitted to WC and filed away in her clic (baw)\r\n\r\n| | **DIY eSignature Submission > Success Notification ** | 13-Apr-2026 09:33 PM ET |<br>| :--- | ---: | |\r\n| :--- |\r\n| | Your submission is received and sent for processing. |<br>| :--- |<br>|  |<br>| | **DocuSign Envelope ID:** | **Confirmation Number:** |<br>| :--- | :--- |<br>| c5f4f153-f90d-84fa-801c-3e6e048d8d1b | DJA26041303044048 | |<br>|  | |"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Cowell, Jessica - NEW ACCT FID ROTH IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 9, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": true,
+      "totalItems": 4,
+      "doneItems": 2,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jessica Cowell Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 13, 2026",
+              "notes": "Who filled this out: AL\r\nClient Name: Jessica Cowell\r\nAccount: FID JTOD #655-418479\r\nSells / Amount / Ticker / Holding Name: \r\nBuys / Amount / Ticker / Holding Name: per WIP: ½ into AOR and ½ into TCAF (acs)\r\nSolicited?: Yes\r\nDiscretion?: Yes\r\nCharge Commission? (HHG accounts): \r\nRecommended Strategy: \r\nNotes / Comments / Special Instructions / Restrictions04/10/26 - pulled $20k in, per WIP: ½ into AOR and ½ into TCAF. (acs)"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jessica Cowell Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 13, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Cowell, Jessica - FID BENE UPDATE",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 9, 2026",
+              "notes": "Name of Client: Jessica Cowell\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"Beneficiary Change\"]\r\n\r\nNotes: We just need to add their new kid Jett as contingent to make it 50/50 since we are setting up other accounts with the split! so Jacob 100, Jett 50 and Jasper 50\r\n\r\n03/02/2026 -per Jaiden I changed net Investable assets to $80,000 & annual expenses to $60,000 ppwk was pulling and filled out   will sign ppwk when they come into the office (baw)\r\n- Premiere Select IRA/HSA Beneficiary Designation\r\n- Standing Payment Instructions\r\n\r\n04/09/2026 - sent Jessica MRC letting her know we still needed ppwk signed.  ppwk was sent via docusing (baw)\r\n\r\n04/10//2026 - resent docusign (baw)\r\n\r\n04/13/2026 - resent docusign and sent Jessica a MRC (baw)\r\n\r\n04/14/2026 - ppwk was submitted to WC and filed away in her clic (baw)\r\n\r\n| | **DIY eSignature Submission > Success Notification ** | 13-Apr-2026 09:33 PM ET |<br>| :--- | ---: | |\r\n| :--- |\r\n| | Your submission is received and sent for processing. |<br>| :--- |<br>|  |<br>| | **DocuSign Envelope ID:** | **Confirmation Number:** |<br>| :--- | :--- |<br>| c5f4f153-f90d-84fa-801c-3e6e048d8d1b | DJA26041303044048 | |<br>|  | |"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Cowell, Jessica - NEW ACCT FID ROTH IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 9, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Kuch, Earl",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -29253,10 +29820,10 @@
           ]
         }
       ],
-      "currentStage": "The client's paperwork for the FID ROTH return of excess is currently being pulled and is late.",
-      "nextAction": "Continue preparing the paperwork for submission.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Meyer, Cathy",
@@ -29386,10 +29953,10 @@
           ]
         }
       ],
-      "currentStage": "Paperwork has been requested but not yet started for the disclosure form.",
-      "nextAction": "Prepare the disclosure form paperwork for the client.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Gladieux, Deborah",
@@ -29493,10 +30060,10 @@
           ]
         }
       ],
-      "currentStage": "The client is currently in the 'In Progress - Being Pulled' stage for a new GBU account, but the task is overdue.",
-      "nextAction": "Obtain the necessary GBU information to proceed with the paperwork.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Trade, Osf",
@@ -29555,10 +30122,10 @@
           ]
         }
       ],
-      "currentStage": "The client is in the 'Queue / Task Recognized' stage for a trade request that is overdue.",
-      "nextAction": "Prepare and submit the trade request for processing.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "+, Jessica",
@@ -29617,10 +30184,10 @@
           ]
         }
       ],
-      "currentStage": "Paperwork has been requested but not yet started for the transfer of funds from FID JTOD -216 to FID JTOD -479.",
-      "nextAction": "Begin preparing the paperwork for the transfer.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Cousino, Mary",
@@ -29679,10 +30246,10 @@
           ]
         }
       ],
-      "currentStage": "The client is currently in the 'Trades / Link to Model' stage, with a trade request that is late and due on April 15, 2026.",
-      "nextAction": "Ensure the trade is executed or linked to the investment model as soon as possible.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Tobias, Connie",
@@ -29741,10 +30308,10 @@
           ]
         }
       ],
-      "currentStage": "The distribution request for Connie Tobias is recognized but has not yet been started.",
-      "nextAction": "Initiate the distribution request process for Connie Tobias.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Leonard, Garry",
@@ -29803,10 +30370,10 @@
           ]
         }
       ],
-      "currentStage": "The client is in the 'In Progress' stage for a distribution request from their GBU ROTH IRA account.",
-      "nextAction": "Complete the distribution request by processing the necessary trades or linking to the investment model.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Schroeder, Marty",
@@ -29865,10 +30432,10 @@
           ]
         }
       ],
-      "currentStage": "Paperwork has been requested for a distribution, but it is overdue.",
-      "nextAction": "Prepare the distribution paperwork for submission.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Reineke- Kuch, Donna",
@@ -29927,10 +30494,10 @@
           ]
         }
       ],
-      "currentStage": "The client's paperwork for the FID ROTH IRA return of excess is currently being pulled and is overdue.",
-      "nextAction": "Continue preparing the paperwork for submission.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Geiger, Jill",
@@ -29989,10 +30556,10 @@
           ]
         }
       ],
-      "currentStage": "The client's paperwork for ACH & DIST forms for their BTH/AIG Retirement account is in the Queue stage and is overdue.",
-      "nextAction": "Prepare the requested paperwork for the client.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Kusz, John",
@@ -30051,10 +30618,10 @@
           ]
         }
       ],
-      "currentStage": "The paperwork for updating John Kusz's contact information is completed but overdue.",
-      "nextAction": "Ensure that the completed paperwork is submitted to the custodian.",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Chisholm, Nick",
@@ -30116,7 +30683,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Klewer, Zachery",
@@ -30178,7 +30745,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Halprin, Chloe",
@@ -30268,7 +30835,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Kohler, Timothy",
@@ -30328,7 +30895,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Fernbaugh, Gina",
@@ -30418,7 +30985,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Dobnikar, Frank",
@@ -30508,7 +31075,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Martin, Jeffrey",
@@ -30572,7 +31139,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Pasch, Jonathan",
@@ -30662,7 +31229,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Keech, Matthew",
@@ -30722,7 +31289,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Schaefer, Neal",
@@ -30784,7 +31351,7 @@
       "currentStage": null,
       "nextAction": null,
       "blockers": null,
-      "aiUrgency": "normal"
+      "aiUrgency": null
     },
     {
       "client": "Halprin, Chloe (g) 04/10 8am || Notes",
@@ -43987,573 +44554,6 @@
       "nextAction": null,
       "blockers": null,
       "aiUrgency": null
-    },
-    {
-      "client": "Murphy, Brandy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Brandy Murphy Trade Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": "Who filled this out: AL\nClient Name: Brandy Murphy\nAccount: FID IND TOD\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: FDRXX (for now) \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / RestrictionsLPL transfer hit, FDRXX. (Acs)"
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT FID IND TOD",
-              "status": "waiting-on-client",
-              "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT FID 403B BL",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT BRD 529 FBO SAWYER",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT FID UTMA FBO SAWYER",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 5,
-      "doneItems": 3,
-      "progress": 60,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Brandy Murphy Trade Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": "Who filled this out: AL\nClient Name: Brandy Murphy\nAccount: FID IND TOD\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: FDRXX (for now) \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / RestrictionsLPL transfer hit, FDRXX. (Acs)"
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT FID IND TOD",
-              "status": "waiting-on-client",
-              "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT FID 403B BL",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT BRD 529 FBO SAWYER",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Murphy, Brandy - NEW ACCT FID UTMA FBO SAWYER",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 20, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "The client is waiting on signatures for the new account paperwork while a trade request is overdue.",
-      "nextAction": "Follow up with the client to obtain the necessary signatures for the new account paperwork.",
-      "blockers": "Waiting on client signatures for new account paperwork.",
-      "aiUrgency": "waiting"
-    },
-    {
-      "client": "Kuss, Michael",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": "Who filled this out?: AL\r\nClient Name: Michael Kuss\r\nFrom Account (IRA): FID IRA #655-167863\r\nTo Account (Roth): FID ROTH IRA #628-906521\r\nDollar Amount: Full Amount\r\nTax W/H: n/a - unless BES says otherwise.\r\nIf Cash DIST - Any Trades? all in cash!\r\nIf In-Kind DIST, what's the ticker and # of shares (not $): \r\nBIA on File? No\r\nTrades for ROTH? Model rebalance. (acs)"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 3, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jan 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kuss, Michael - FID RETURN OF EXCESS",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 8, 2026",
-              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 6,
-      "doneItems": 4,
-      "progress": 67,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": "Who filled this out?: AL\r\nClient Name: Michael Kuss\r\nFrom Account (IRA): FID IRA #655-167863\r\nTo Account (Roth): FID ROTH IRA #628-906521\r\nDollar Amount: Full Amount\r\nTax W/H: n/a - unless BES says otherwise.\r\nIf Cash DIST - Any Trades? all in cash!\r\nIf In-Kind DIST, what's the ticker and # of shares (not $): \r\nBIA on File? No\r\nTrades for ROTH? Model rebalance. (acs)"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 3, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jan 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kuss, Michael - FID RETURN OF EXCESS",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 8, 2026",
-              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Client is waiting on signatures for the FID RETURN OF EXCESS paperwork while a Roth conversion task is recognized but overdue.",
-      "nextAction": "Follow up with the client to obtain the necessary signatures for the FID RETURN OF EXCESS paperwork.",
-      "blockers": "Waiting on client signatures for the FID RETURN OF EXCESS paperwork.",
-      "aiUrgency": "waiting"
-    },
-    {
-      "client": "Cowell, Jessica",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jessica Cowell Trade Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 13, 2026",
-              "notes": "Who filled this out: AL\r\nClient Name: Jessica Cowell\r\nAccount: FID JTOD #655-418479\r\nSells / Amount / Ticker / Holding Name: \r\nBuys / Amount / Ticker / Holding Name: per WIP: ½ into AOR and ½ into TCAF (acs)\r\nSolicited?: Yes\r\nDiscretion?: Yes\r\nCharge Commission? (HHG accounts): \r\nRecommended Strategy: \r\nNotes / Comments / Special Instructions / Restrictions04/10/26 - pulled $20k in, per WIP: ½ into AOR and ½ into TCAF. (acs)"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jessica Cowell Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 13, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Cowell, Jessica - FID BENE UPDATE",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 9, 2026",
-              "notes": "Name of Client: Jessica Cowell\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"Beneficiary Change\"]\r\n\r\nNotes: We just need to add their new kid Jett as contingent to make it 50/50 since we are setting up other accounts with the split! so Jacob 100, Jett 50 and Jasper 50\r\n\r\n03/02/2026 -per Jaiden I changed net Investable assets to $80,000 & annual expenses to $60,000 ppwk was pulling and filled out   will sign ppwk when they come into the office (baw)\r\n- Premiere Select IRA/HSA Beneficiary Designation\r\n- Standing Payment Instructions\r\n\r\n04/09/2026 - sent Jessica MRC letting her know we still needed ppwk signed.  ppwk was sent via docusing (baw)\r\n\r\n04/10//2026 - resent docusign (baw)\r\n\r\n04/13/2026 - resent docusign and sent Jessica a MRC (baw)\r\n\r\n04/14/2026 - ppwk was submitted to WC and filed away in her clic (baw)\r\n\r\n| | **DIY eSignature Submission > Success Notification ** | 13-Apr-2026 09:33 PM ET |<br>| :--- | ---: | |\r\n| :--- |\r\n| | Your submission is received and sent for processing. |<br>| :--- |<br>|  |<br>| | **DocuSign Envelope ID:** | **Confirmation Number:** |<br>| :--- | :--- |<br>| c5f4f153-f90d-84fa-801c-3e6e048d8d1b | DJA26041303044048 | |<br>|  | |"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Cowell, Jessica - NEW ACCT FID ROTH IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 9, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 4,
-      "doneItems": 2,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jessica Cowell Trade Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 13, 2026",
-              "notes": "Who filled this out: AL\r\nClient Name: Jessica Cowell\r\nAccount: FID JTOD #655-418479\r\nSells / Amount / Ticker / Holding Name: \r\nBuys / Amount / Ticker / Holding Name: per WIP: ½ into AOR and ½ into TCAF (acs)\r\nSolicited?: Yes\r\nDiscretion?: Yes\r\nCharge Commission? (HHG accounts): \r\nRecommended Strategy: \r\nNotes / Comments / Special Instructions / Restrictions04/10/26 - pulled $20k in, per WIP: ½ into AOR and ½ into TCAF. (acs)"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jessica Cowell Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 13, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Cowell, Jessica - FID BENE UPDATE",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 9, 2026",
-              "notes": "Name of Client: Jessica Cowell\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"Beneficiary Change\"]\r\n\r\nNotes: We just need to add their new kid Jett as contingent to make it 50/50 since we are setting up other accounts with the split! so Jacob 100, Jett 50 and Jasper 50\r\n\r\n03/02/2026 -per Jaiden I changed net Investable assets to $80,000 & annual expenses to $60,000 ppwk was pulling and filled out   will sign ppwk when they come into the office (baw)\r\n- Premiere Select IRA/HSA Beneficiary Designation\r\n- Standing Payment Instructions\r\n\r\n04/09/2026 - sent Jessica MRC letting her know we still needed ppwk signed.  ppwk was sent via docusing (baw)\r\n\r\n04/10//2026 - resent docusign (baw)\r\n\r\n04/13/2026 - resent docusign and sent Jessica a MRC (baw)\r\n\r\n04/14/2026 - ppwk was submitted to WC and filed away in her clic (baw)\r\n\r\n| | **DIY eSignature Submission > Success Notification ** | 13-Apr-2026 09:33 PM ET |<br>| :--- | ---: | |\r\n| :--- |\r\n| | Your submission is received and sent for processing. |<br>| :--- |<br>|  |<br>| | **DocuSign Envelope ID:** | **Confirmation Number:** |<br>| :--- | :--- |<br>| c5f4f153-f90d-84fa-801c-3e6e048d8d1b | DJA26041303044048 | |<br>|  | |"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Cowell, Jessica - NEW ACCT FID ROTH IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 9, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "Client Jessica Cowell has a trade request recognized but is overdue, and paperwork for a beneficiary update has been submitted and is waiting on client signatures.",
-      "nextAction": "Follow up with the client to obtain signatures for the beneficiary update paperwork.",
-      "blockers": "Waiting on client signatures for the beneficiary update paperwork.",
-      "aiUrgency": "waiting"
     }
   ],
   "overdueTasks": [
