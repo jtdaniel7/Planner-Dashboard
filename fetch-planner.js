@@ -384,12 +384,8 @@ async function main() {
         });
       }
 
+      // Notes fetched separately after all tasks are processed (see below)
       let notes = null;
-      try {
-        await sleep(200);
-        const detail = await graphGet(token, `/planner/tasks/${t.id}/details`);
-        notes = detail.description || null;
-      } catch { /* optional */ }
 
       const taskObj = {
         id:                t.id,
@@ -453,6 +449,48 @@ async function main() {
       return taskObj;
     }));
 
+    // Fetch notes only for active tasks — with respectful rate limiting
+    const activeTasks = tasks.filter(t => t.status !== 'complete');
+    console.log(`  Fetching notes for ${activeTasks.length} active tasks in ${planner.label}...`);
+    for (const task of activeTasks) {
+      try {
+        await sleep(400); // respectful delay — slower but avoids 429s
+        const notesRes = await fetch(`https://graph.microsoft.com/v1.0/planner/tasks/${task.id}/details`, {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        if (notesRes.ok) {
+          const detail = await notesRes.json();
+          task.notes = detail.description || null;
+
+          // Also update the notes in WIP byPlanner items
+          if (task.clientName && plannerData.wip[task.clientName]?.byPlanner[planner.key]) {
+            const wipItem = plannerData.wip[task.clientName].byPlanner[planner.key].items
+              .find(i => i.title === task.title);
+            if (wipItem) wipItem.notes = task.notes;
+          }
+        } else if (notesRes.status === 429) {
+          const retryAfter = parseInt(notesRes.headers.get('Retry-After') || '10', 10);
+          console.log(`  Rate limited on notes — waiting ${retryAfter}s before continuing...`);
+          await sleep(retryAfter * 1000);
+          // Retry once after waiting
+          const retry = await fetch(`https://graph.microsoft.com/v1.0/planner/tasks/${task.id}/details`, {
+            headers: { Authorization: `Bearer ${token}` },
+          });
+          if (retry.ok) {
+            const detail = await retry.json();
+            task.notes = detail.description || null;
+            if (task.clientName && plannerData.wip[task.clientName]?.byPlanner[planner.key]) {
+              const wipItem = plannerData.wip[task.clientName].byPlanner[planner.key].items
+                .find(i => i.title === task.title);
+              if (wipItem) wipItem.notes = task.notes;
+            }
+          }
+        }
+      } catch (e) {
+        console.log(`  Notes fetch error for ${task.id.slice(0,8)}: ${e.message}`);
+      }
+    }
+
     plannerData.planners.push({
       key:          planner.key,
       label:        planner.label,
@@ -475,36 +513,42 @@ async function main() {
   }
 
   // ── AI Stage Assessment ─────────────────────────────────────────────────────
-  // Only run for active clients (have incomplete tasks)
-  const activeWip = wipArray.filter(w =>
+  // Prioritize: overdue first, then multi-planner, then others
+  // Cap at 25 clients per run to stay within 6-minute Action limit
+  const MAX_AI_CLIENTS = 25;
+  const allActive = wipArray.filter(w =>
     w.plannerGroups.some(g => g.items.some(i => i.status !== 'complete'))
   );
 
+  // Sort priority: overdue > multi-planner > single-planner
+  const prioritized = [
+    ...allActive.filter(w => w.hasOverdue),
+    ...allActive.filter(w => !w.hasOverdue && w.planners.length > 1),
+    ...allActive.filter(w => !w.hasOverdue && w.planners.length === 1),
+  ].slice(0, MAX_AI_CLIENTS);
+
+  // Mark skipped clients with null so dashboard handles gracefully
+  allActive.forEach(entry => {
+    entry.currentStage = null;
+    entry.nextAction   = null;
+    entry.blockers     = null;
+    entry.aiUrgency    = null;
+  });
+
   if (GITHUB_TOKEN) {
-    console.log(`Running AI assessment for ${activeWip.length} active clients...`);
-    // Process in batches of 5 to avoid rate limits
-    const BATCH_SIZE = 5;
-    for (let i = 0; i < activeWip.length; i += BATCH_SIZE) {
-      const batch = activeWip.slice(i, i + BATCH_SIZE);
-      await Promise.all(batch.map(async entry => {
-        const assessment = await assessClientStage(entry.client, entry.plannerGroups);
-        entry.currentStage = assessment.currentStage;
-        entry.nextAction   = assessment.nextAction;
-        entry.blockers     = assessment.blockers;
-        entry.aiUrgency    = assessment.urgency;
-        console.log(`  ✓ ${entry.client}: ${assessment.currentStage || 'no assessment'}`);
-      }));
-      // Small pause between batches
-      if (i + BATCH_SIZE < activeWip.length) await sleep(1000);
+    console.log(`Running AI assessment for ${prioritized.length} of ${allActive.length} active clients...`);
+    // Sequential processing — no parallel to avoid rate limits
+    for (const entry of prioritized) {
+      const assessment = await assessClientStage(entry.client, entry.plannerGroups);
+      entry.currentStage = assessment.currentStage;
+      entry.nextAction   = assessment.nextAction;
+      entry.blockers     = assessment.blockers;
+      entry.aiUrgency    = assessment.urgency;
+      console.log(`  ✓ ${entry.client}: ${assessment.currentStage || 'no assessment'}`);
+      await sleep(300); // small pause between calls
     }
   } else {
     console.log('GITHUB_TOKEN not available — skipping AI assessment');
-    activeWip.forEach(entry => {
-      entry.currentStage = null;
-      entry.nextAction   = null;
-      entry.blockers     = null;
-      entry.aiUrgency    = null;
-    });
   }
 
   // ── Duplicate detection ─────────────────────────────────────────────────────
@@ -548,7 +592,5 @@ async function main() {
     console.log(`Possible duplicates: ${plannerData.possibleDuplicates.length}`);
   }
 }
-
-main().catch(err => { console.error('Error:', err); process.exit(1); });
 
 main().catch(err => { console.error('Error:', err); process.exit(1); });
