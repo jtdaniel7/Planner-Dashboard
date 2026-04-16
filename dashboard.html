@@ -593,6 +593,21 @@ function buildCard(entry) {
 
   const more = allItems.length > 3 ? `<div class="card-more">+ ${allItems.length-3} more item${allItems.length-3!==1?'s':''} — click to view all</div>` : '';
 
+  // AI assessment block — always defined
+  let aiBlock = '';
+  if (entry.currentStage || entry.nextAction) {
+    const urgencyBadge = entry.aiUrgency
+      ? `<span class="ai-badge ${entry.aiUrgency}">${{high:'⚠ High priority',normal:'On track',waiting:'Waiting on client'}[entry.aiUrgency]||entry.aiUrgency}</span>`
+      : '';
+    aiBlock = `
+      <div class="ai-assessment">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px">${urgencyBadge}</div>
+        ${entry.currentStage ? `<div class="ai-stage">${entry.currentStage}</div>` : ''}
+        ${entry.nextAction ? `<div class="ai-next"><span class="ai-next-label">Next →</span>${entry.nextAction}</div>` : ''}
+        ${entry.blockers ? `<div class="ai-blocker"><span class="ai-blocker-label">⚠ Blocker:</span>${entry.blockers}</div>` : ''}
+      </div>`;
+  }
+
   return `
     <div class="client-card ${borderCls}" onclick="openPanel('${entry.client.replace(/'/g,"\\'")}')">
       <div class="card-header">
