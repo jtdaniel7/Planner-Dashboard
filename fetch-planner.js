@@ -90,8 +90,8 @@ Your job: Given a client's active tasks across multiple planners, determine:
 async function aiGroupClients(wipArray, allTasks) {
   if (!GITHUB_TOKEN) return null;
 
-  // Send only client names + compact task summaries — stay well under 8000 token limit
-  // Group tasks by client name for a compact representation
+  // Build compact client list — only clients worth AI analysis
+  // Hard cap at 60 to stay well under 8000 token limit
   const clientSummaries = {};
   for (const t of allTasks.filter(t => t.status !== 'complete' && t.clientName)) {
     const name = t.clientName;
@@ -101,32 +101,37 @@ async function aiGroupClients(wipArray, allTasks) {
     clientSummaries[name].statuses.push(t.status);
   }
 
-  // Convert to compact array — just enough for grouping + stage assessment
-  const compactClients = Object.entries(clientSummaries).map(([name, data]) => ({
+  const allCompact = Object.entries(clientSummaries).map(([name, data]) => ({
     name,
-    planners: [...data.planners],
-    buckets:  [...new Set(data.buckets)],
-    statuses: [...new Set(data.statuses)],
+    planners:  [...data.planners],
+    buckets:   [...new Set(data.buckets)].slice(0, 3), // max 3 buckets
+    overdue:   data.statuses.includes('late'),
     taskCount: data.buckets.length,
   }));
 
-  if (!compactClients.length) return null;
+  if (!allCompact.length) return null;
 
-  // Process in chunks of 100 clients to stay under token limit
-  // Only send clients that might need merging OR have overdue status
-  const needsAttention = compactClients.filter(c =>
-    c.statuses.includes('late') ||
-    c.planners.length > 1 ||
-    c.taskCount > 2
-  );
-  const others = compactClients.filter(c => !needsAttention.includes(c));
-  // Send needsAttention first, cap at 150 total
-  const toProcess = [...needsAttention, ...others].slice(0, 150);
+  // Only send clients that genuinely need AI attention:
+  // 1. Overdue clients
+  // 2. Multi-planner clients (likely household grouping candidates)
+  // 3. Clients with unusual name formats that may be duplicates
+  const priority = allCompact
+    .filter(c => c.overdue || c.planners.length > 1)
+    .sort((a, b) => (b.overdue ? 1 : 0) - (a.overdue ? 1 : 0))
+    .slice(0, 60); // hard cap at 60
+
+  // Also include all client names for duplicate detection only (just names, no details)
+  const allNames = allCompact.map(c => c.name);
+
+  const toProcess = priority;
 
   const prompt = `You are reviewing active client work at SD Capital Advisors, a financial advisory firm.
 
-Client list (name, planners involved, bucket stages, task count):
+Priority clients (overdue or multi-planner) — analyze for grouping and stage:
 ${JSON.stringify(toProcess, null, 1)}
+
+All client names (for duplicate/nickname detection only):
+${allNames.join(', ')}
 
 Your job — TWO things only:
 1. MERGE: Identify names that refer to the same person/household. Common patterns:
@@ -571,7 +576,8 @@ async function main() {
   });
 
   if (GITHUB_TOKEN && allActiveTasks.length > 0) {
-    console.log(`Running AI grouping for ${wipArray.length} clients, ${allActiveTasks.length} active tasks...`);
+    const priorityCount = allActiveTasks.filter(t => t.status !== 'complete' && t.clientName).length;
+    console.log(`Running AI grouping — ${wipArray.length} total clients, sending ${Math.min(60, wipArray.filter(w => w.hasOverdue || w.planners.length > 1).length)} priority clients...`);
     const groupings = await aiGroupClients(wipArray, allActiveTasks);
 
     if (groupings && groupings.length > 0) {
