@@ -589,37 +589,47 @@ async function main() {
 
         // Apply merges — remap any merged names to the canonical name
         if (group.merges && group.merges.length > 0) {
+          let canonEntry = wipArray.find(w => w.client === canonical);
+
           for (const altName of group.merges) {
             const altEntry = wipArray.find(w => w.client === altName);
-            if (altEntry && altEntry.client !== canonical) {
-              console.log(`  Merging "${altName}" → "${canonical}"`);
-              // Record for dashboard to apply client-side
-              plannerData.aiMerges.push({ from: altName, to: canonical });
+            if (!altEntry) continue;
+            if (altEntry.client === canonical) continue;
 
-              // Find or create the canonical entry
-              let canonEntry = wipArray.find(w => w.client === canonical);
-              if (!canonEntry) {
-                // Rename the alt entry to canonical
-                altEntry.client = canonical;
-                canonEntry = altEntry;
-              } else {
-                // Merge alt's planner groups into canonical
-                for (const pg of altEntry.plannerGroups || []) {
-                  const existing = canonEntry.plannerGroups.find(g => g.key === pg.key);
-                  if (existing) existing.items.push(...pg.items);
-                  else canonEntry.plannerGroups.push(pg);
-                }
-                for (const p of altEntry.planners) {
-                  if (!canonEntry.planners.includes(p)) canonEntry.planners.push(p);
-                }
-                if (altEntry.hasOverdue) canonEntry.hasOverdue = true;
-                if (altEntry.hasWaitingOnClient) canonEntry.hasWaitingOnClient = true;
-                canonEntry.totalItems += altEntry.totalItems;
-                canonEntry.doneItems  += altEntry.doneItems;
-                // Remove alt entry — mark for deletion
-                altEntry._merged = true;
+            console.log(`  Merging "${altName}" → "${canonical}"`);
+            plannerData.aiMerges.push({ from: altName, to: canonical });
+
+            if (!canonEntry) {
+              // Canonical name is new — rename first alt entry to canonical
+              altEntry.client = canonical;
+              canonEntry = altEntry;
+            } else {
+              // Merge alt into canonical
+              for (const pg of (altEntry.plannerGroups || [])) {
+                const existing = canonEntry.plannerGroups.find(g => g.key === pg.key);
+                if (existing) existing.items.push(...pg.items);
+                else canonEntry.plannerGroups.push(pg);
               }
+              for (const p of altEntry.planners) {
+                if (!canonEntry.planners.includes(p)) canonEntry.planners.push(p);
+              }
+              if (altEntry.hasOverdue)         canonEntry.hasOverdue = true;
+              if (altEntry.hasWaitingOnClient) canonEntry.hasWaitingOnClient = true;
+              canonEntry.totalItems += altEntry.totalItems;
+              canonEntry.doneItems  += altEntry.doneItems;
+              // Recalculate progress
+              canonEntry.progress = canonEntry.totalItems > 0
+                ? Math.round((canonEntry.doneItems / canonEntry.totalItems) * 100) : 0;
+              altEntry._merged = true;
             }
+          }
+
+          // Apply AI assessment to canonical entry
+          if (canonEntry) {
+            canonEntry.currentStage = group.currentStage || canonEntry.currentStage;
+            canonEntry.nextAction   = group.nextAction   || canonEntry.nextAction;
+            canonEntry.blockers     = group.blockers      || canonEntry.blockers;
+            canonEntry.aiUrgency    = group.urgency       || canonEntry.aiUrgency;
           }
         }
 
