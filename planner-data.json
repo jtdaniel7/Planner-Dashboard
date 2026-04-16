@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-16T15:49:27.961Z",
+  "fetchedAt": "2026-04-16T15:56:34.446Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-16T15:49:29.454Z",
+      "lastUpdated": "2026-04-16T15:56:35.830Z",
       "tasks": [
         {
           "id": "KYOgbE6PhUOgXYCfoOEImmUAJjCO",
@@ -63,25 +63,6 @@
           "dueDateFormatted": "Apr 20, 2026",
           "completedDateTime": null,
           "notes": "Who filled this out: CMB\nName: Vic Haas\nAcct: FID IRA RO #628-854904\n\nDistribution Information\nGross Amount: \nNet Amount: 4,000\nTax W/H: usual 32% fed 0% St\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n",
-          "percentComplete": 0
-        },
-        {
-          "id": "DN3jHEDQY0qZVZgVQZrTfmUAJeil",
-          "title": "Jennifer Schroeder Trade Request FJD",
-          "status": "not-started",
-          "clientName": "Schroeder, Jennifer",
-          "rawClientName": "Jennifer Schroeder",
-          "bucketName": "Task Recognized",
-          "assigneeNames": [
-            "Ryan Juhasz",
-            "Jennifer Ottney"
-          ],
-          "advisor": null,
-          "isUnassigned": false,
-          "dueDateTime": "2026-04-17T10:00:00Z",
-          "dueDateFormatted": "Apr 17, 2026",
-          "completedDateTime": null,
-          "notes": "Who filled this out: EJD\nClient Name: Jennifer Schroeder\nAccount: FID ROTH IRA 655-417585\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $1K to fund account and $100 / month on the 30th. FJD asked to use Fidelity Contrafund for 98% and set up AIP. thx \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: \n",
           "percentComplete": 0
         },
         {
@@ -425,6 +406,25 @@
           "completedDateTime": null,
           "notes": "Name: Marty Schroeder\r\n\r\nAcct: FID IRA RO 628-835617\r\n\r\nDistribution Information\r\nGross Amount: 25,000\r\nNet Amount: \r\nTax W/H: 15 fed / 3 state\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Cash available- this is for car purchase in spring of 2026. we are doing part of it now and part of it in Jan 2026 for tax purposes!",
           "percentComplete": 0
+        },
+        {
+          "id": "DN3jHEDQY0qZVZgVQZrTfmUAJeil",
+          "title": "Jennifer Schroeder Trade Request FJD",
+          "status": "complete",
+          "clientName": "Schroeder, Jennifer",
+          "rawClientName": "Jennifer Schroeder",
+          "bucketName": "Completed",
+          "assigneeNames": [
+            "Ryan Juhasz",
+            "Jennifer Ottney"
+          ],
+          "advisor": null,
+          "isUnassigned": false,
+          "dueDateTime": "2026-04-17T10:00:00Z",
+          "dueDateFormatted": "Apr 17, 2026",
+          "completedDateTime": "2026-04-16T15:55:39.6380582Z",
+          "notes": null,
+          "percentComplete": 100
         },
         {
           "id": "3mahdmEV7E2TmPYPryOMC2UAELQv",
@@ -7657,7 +7657,7 @@
           "percentComplete": 100
         }
       ],
-      "openCount": 22,
+      "openCount": 21,
       "overdueCount": 9,
       "waitingCount": 0
     },
@@ -7665,7 +7665,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-16T15:49:41.188Z",
+      "lastUpdated": "2026-04-16T15:56:46.861Z",
       "tasks": [
         {
           "id": "O5LQYbiDDUymIIHzkW6YEmUAA09n",
@@ -15227,7 +15227,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-16T15:50:45.011Z",
+      "lastUpdated": "2026-04-16T15:57:52.105Z",
       "tasks": [
         {
           "id": "R_H6ZiM5rUWUvlnoqoqEFGUAA4e_",
@@ -20912,7 +20912,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-16T15:51:29.757Z",
+      "lastUpdated": "2026-04-16T15:58:38.332Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28441,7 +28441,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-16T15:51:56.010Z",
+      "lastUpdated": "2026-04-16T15:59:04.634Z",
       "tasks": [
         {
           "id": "ZlD1wdJ26UKq3NGgOcrfX2UAOqki",
@@ -29337,7 +29337,7 @@
         }
       ],
       "currentStage": "Multiple items across Paperwork and Advisor Flow",
-      "nextAction": "Review overdue paperwork and advisor tasks",
+      "nextAction": "Address overdue paperwork and advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29665,8 +29665,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Paperwork and Advisor Flow",
-      "nextAction": "Review overdue paperwork items",
+      "currentStage": "Multiple items across Advisor Flow",
+      "nextAction": "Review overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29784,7 +29784,7 @@
         }
       ],
       "currentStage": "Multiple items across Advisor Flow",
-      "nextAction": "Follow up on overdue advisor tasks",
+      "nextAction": "Address overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -38596,68 +38596,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Schroeder, Jennifer",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jennifer Schroeder Trade Request FJD",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 17, 2026",
-              "notes": "Who filled this out: EJD\nClient Name: Jennifer Schroeder\nAccount: FID ROTH IRA 655-417585\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $1K to fund account and $100 / month on the 30th. FJD asked to use Fidelity Contrafund for 98% and set up AIP. thx \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: \n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jennifer Schroeder Trade Request FJD",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 17, 2026",
-              "notes": "Who filled this out: EJD\nClient Name: Jennifer Schroeder\nAccount: FID ROTH IRA 655-417585\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $1K to fund account and $100 / month on the 30th. FJD asked to use Fidelity Contrafund for 98% and set up AIP. thx \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: \n"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Schroeder, Eric",
       "advisor": null,
       "planners": [
@@ -46800,9 +46738,35 @@
       "score": 85
     }
   ],
+  "aiMerges": [
+    {
+      "from": "Kuch, Earl",
+      "to": "Kuch, Earl & Donna"
+    },
+    {
+      "from": "Reineke-Kuch, Donna",
+      "to": "Kuch, Earl & Donna"
+    },
+    {
+      "from": "Murphy, Brandy",
+      "to": "Murphy, Eric & Brandy"
+    },
+    {
+      "from": "Geiger, Jill",
+      "to": "Geiger, Hal & Jill"
+    },
+    {
+      "from": "Mcginty, Claudine",
+      "to": "Mcginty, Claudine & Michael"
+    },
+    {
+      "from": "Mcginty, Michael",
+      "to": "Mcginty, Claudine & Michael"
+    }
+  ],
   "stats": {
-    "totalOpen": 315,
-    "completedToday": 3,
+    "totalOpen": 314,
+    "completedToday": 4,
     "overdue": 104,
     "waitingOnClient": 72,
     "wipClients": 77
