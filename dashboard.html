@@ -969,6 +969,16 @@ async function loadData() {
     document.getElementById('main').style.display = 'block';
     document.getElementById('sync-label').textContent = 'Synced ' + timeAgo(DATA.fetchedAt);
 
+    // Apply AI merges from planner-data.json into the local mergeMap
+    // These are server-side merges the AI detected (Kuch, Earl → Kuch, Earl & Donna etc.)
+    if (DATA.aiMerges && DATA.aiMerges.length > 0) {
+      DATA.aiMerges.forEach(m => {
+        if (m.from && m.to && !mergeMap[m.from]) {
+          mergeMap[m.from] = m.to;
+        }
+      });
+    }
+
     renderStats(DATA.stats);
     populateAdvisorFilter(DATA.wip);
     updateDupBanner();
