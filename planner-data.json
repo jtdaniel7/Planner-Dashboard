@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-17T04:51:05.336Z",
+  "fetchedAt": "2026-04-17T06:55:02.044Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-17T04:51:06.958Z",
+      "lastUpdated": "2026-04-17T06:55:03.661Z",
       "tasks": [
         {
           "id": "-9TS3-H3N0-0fAS3kAC9ZWUANJgb",
@@ -7662,7 +7662,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-17T04:51:17.399Z",
+      "lastUpdated": "2026-04-17T06:55:14.042Z",
       "tasks": [
         {
           "id": "6_tCl_-H5EeL7QFyW2KPemUADlpb",
@@ -15222,7 +15222,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-17T04:52:23.691Z",
+      "lastUpdated": "2026-04-17T06:56:19.346Z",
       "tasks": [
         {
           "id": "gFJiRTdT8UKw1vV0gdonBWUALRtC",
@@ -20997,7 +20997,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-17T04:53:10.347Z",
+      "lastUpdated": "2026-04-17T06:57:07.276Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28526,7 +28526,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-17T04:53:36.302Z",
+      "lastUpdated": "2026-04-17T06:57:33.740Z",
       "tasks": [
         {
           "id": "ZlD1wdJ26UKq3NGgOcrfX2UAOqki",
@@ -29238,7 +29238,7 @@
   ],
   "wip": [
     {
-      "client": "Murphy, Brandy",
+      "client": "Murphy, Brandy & Eric",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "trades",
@@ -29421,8 +29421,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Task Recognized and In Progress Activities",
-      "nextAction": "Follow up on overdue tasks",
+      "currentStage": "Multiple items across Paperwork and Advisor Flow",
+      "nextAction": "Review overdue paperwork items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29672,6 +29672,117 @@
       "aiUrgency": "high"
     },
     {
+      "client": "Halprin, Chloe",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 26, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 2, 2026",
+              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 26, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 2, 2026",
+              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In-Progress Activities",
+      "nextAction": "Follow up on overdue tasks",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
       "client": "Geiger, Hal & Jill",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -29750,18 +29861,68 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Schedule Meeting and Paperwork",
-      "nextAction": "Schedule overdue meetings",
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Set up a meeting with the Geiger household",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Halprin, Chloe",
-      "advisor": "Cheyenne Boyd",
+      "client": "Feyes, Tom & Diane",
+      "advisor": "Katie Rower-Osborn",
       "planners": [
+        "trades",
         "paperwork"
       ],
       "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Thomas Feyes Journal BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 9, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Thomas Feyes Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 9, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Thomas Feyes Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 9, 2026",
+              "notes": null
+            }
+          ]
+        },
         "paperwork": {
           "key": "paperwork",
           "label": "Paperwork",
@@ -29769,121 +29930,29 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "late",
-              "bucketName": "Queue ",
+              "title": "Feyes, Thomas - BIA FOR ROTH CONVERSION",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
+                "Katie Rower-Osborn"
               ],
-              "advisor": "Cheyenne Boyd",
+              "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
+              "dueDateFormatted": null,
+              "notes": "Name of Client: Thomas Feyes\r\nType of Account: Retirement\r\nSponsor Company: FID TRAD 636988282 to FID ROTH 636988280\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: BIA for a 20k roth conversion\r\n\r\nFID TRAD 636988282 to FID ROTH 636988280 Retirement"
             },
             {
               "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
-            }
-          ]
-        }
-      ],
-      "currentStage": "Multiple items across Queue and In Progress Activities",
-      "nextAction": "Review overdue tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Belkofer, David & Debbie",
-      "advisor": null,
-      "planners": [
-        "paperwork",
-        "trades"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
+              "title": "Feyes, Thomas - ADD ACH FID IRA#655-224296",
               "status": "complete",
               "bucketName": "Completed Tasks",
               "assigneeNames": [
-                "Collin Berryman",
+                "Brooke Wertenbach",
                 "Alyssa Shimman"
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
+              "dueDateFormatted": "Mar 13, 2026",
               "notes": null
             }
           ]
@@ -29891,45 +29960,10 @@
       },
       "hasOverdue": false,
       "hasWaitingOnClient": false,
-      "totalItems": 8,
+      "totalItems": 5,
       "doneItems": 4,
-      "progress": 50,
+      "progress": 80,
       "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        },
         {
           "key": "trades",
           "label": "Trades & Distributions",
@@ -29937,63 +29971,7 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "Name: David Belkofer\r\nAcct: GBU 36139004\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed? void check in their CLIC folder!!!!"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer  Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "Name: David Belkofer \r\nAcct: GBU 35295401\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown yet\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed?"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer  Distribution Request BES",
+              "title": "Thomas Feyes Journal BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -30002,12 +29980,12 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
+              "dueDateFormatted": "Apr 9, 2026",
               "notes": null
             },
             {
               "plannerKey": "trades",
-              "title": "David Belkofer Trade Request BES",
+              "title": "Thomas Feyes Trade Request BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -30016,80 +29994,25 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
+              "dueDateFormatted": "Apr 9, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Thomas Feyes Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 9, 2026",
               "notes": null
             }
           ]
-        }
-      ],
-      "currentStage": "Multiple items across In Progress Activities and Prep Materials",
-      "nextAction": "Address overdue tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Fowler, Randy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Fowler, Randy - FID UTMA FBO HARLEY",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "Name of Client: Randall FOwler fbo Harley Mclaughlin\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Harley Mclaughlin\nWhat is the Minor Beneficiary's DOB?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nWhat is the Minor Beneficiary's SSN?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nBeneficiaries: Britney Mclaughlin successor- we also do not have her DOB, he needs to bring. this is her kid, we need her DOB and her kids DOB& SSN (harley)\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: pry AAPL shares- this willbe funded with a 5k check. same as other, pull an SPI!"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Fowler, Randy - NEW ACCT FID UTMA FBO OLIVER STEVENS",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "Name of Client: Randy Fowler fbo Oliver Stevens\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Oliver Stevens\nWhat is the Minor Beneficiary's DOB?: 01/24/2016\nWhat is the Minor Beneficiary's SSN?: 132080249\nBeneficiaries: Blake Stevens as successor, Randall Fowler as main custodian\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: will probably buy some AAPL- his will be funded with 10k check randy will bring, and pull an SPI bc we might as well add a bank with teh check after"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Fowler, Randy - NEW ACCT FID TRAD IRA WITH LPL TOA",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "Name of Client: Randy Fowler\nType of Account: Retirement\nSponsor Company: FID TRAD IRA WITH LPL TOA #24292334\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: wife Heidi fowler DOB 01/14/1971  100%, then step daughters Britney Mclaughlin (do not have DOB yet, will need blank) 50%. and Blake Stevens 05/11/1994\nHow the Account being funded:Transfer\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: No\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: move to ETF growth once transfer moves- statement is in his CLIC folder"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
+        },
         {
           "key": "paperwork",
           "label": "Paperwork",
@@ -30097,56 +30020,41 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Fowler, Randy - FID UTMA FBO HARLEY",
+              "title": "Feyes, Thomas - BIA FOR ROTH CONVERSION",
               "status": "not-started",
               "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
+                "Katie Rower-Osborn"
               ],
               "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "Name of Client: Randall FOwler fbo Harley Mclaughlin\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Harley Mclaughlin\nWhat is the Minor Beneficiary's DOB?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nWhat is the Minor Beneficiary's SSN?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nBeneficiaries: Britney Mclaughlin successor- we also do not have her DOB, he needs to bring. this is her kid, we need her DOB and her kids DOB& SSN (harley)\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: pry AAPL shares- this willbe funded with a 5k check. same as other, pull an SPI!"
+              "dueDateFormatted": null,
+              "notes": "Name of Client: Thomas Feyes\r\nType of Account: Retirement\r\nSponsor Company: FID TRAD 636988282 to FID ROTH 636988280\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: BIA for a 20k roth conversion\r\n\r\nFID TRAD 636988282 to FID ROTH 636988280 Retirement"
             },
             {
               "plannerKey": "paperwork",
-              "title": "Fowler, Randy - NEW ACCT FID UTMA FBO OLIVER STEVENS",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
+              "title": "Feyes, Thomas - ADD ACH FID IRA#655-224296",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
               "assigneeNames": [
-                "Katie Rower-Osborn",
+                "Brooke Wertenbach",
                 "Alyssa Shimman"
               ],
-              "advisor": "Katie Rower-Osborn",
+              "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "Name of Client: Randy Fowler fbo Oliver Stevens\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Oliver Stevens\nWhat is the Minor Beneficiary's DOB?: 01/24/2016\nWhat is the Minor Beneficiary's SSN?: 132080249\nBeneficiaries: Blake Stevens as successor, Randall Fowler as main custodian\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: will probably buy some AAPL- his will be funded with 10k check randy will bring, and pull an SPI bc we might as well add a bank with teh check after"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Fowler, Randy - NEW ACCT FID TRAD IRA WITH LPL TOA",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "Name of Client: Randy Fowler\nType of Account: Retirement\nSponsor Company: FID TRAD IRA WITH LPL TOA #24292334\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: wife Heidi fowler DOB 01/14/1971  100%, then step daughters Britney Mclaughlin (do not have DOB yet, will need blank) 50%. and Blake Stevens 05/11/1994\nHow the Account being funded:Transfer\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: No\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: move to ETF growth once transfer moves- statement is in his CLIC folder"
+              "dueDateFormatted": "Mar 13, 2026",
+              "notes": null
             }
           ]
         }
       ],
-      "currentStage": "Multiple items across Ready for Meeting and In Progress Activities",
-      "nextAction": "Prepare for upcoming meetings",
+      "currentStage": "In-Progress Activities",
+      "nextAction": "Follow up on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Mcginty, Claudine",
+      "client": "Mcginty, Claudine & Michael",
       "advisor": null,
       "planners": [
         "paperwork"
@@ -30258,7 +30166,7 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across In Progress Activities",
+      "currentStage": "In-Progress Activities",
       "nextAction": "Follow up on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
@@ -31839,66 +31747,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Aug 15, 2025",
               "notes": "07/28/25 - Colleen Dooley, Law office 419-517-4073 called in about Neal\nSchaefer, stated that he is getting a divorce, and has QDRO regarding his AMF\nROTH IRA #4004244225. She will be mailing a letter to (confirm the account) our\noffice attn: MRB. I will pass it along once I have it in hand. (mrb)\r\n\r\n08/07/25 - adding KSO in case there is ppwk needed and it needs to filter\nthrough doc ops! (acs)\r\n\r\n12/01/25 - The Divorce papers showed up today, so I reopened this\nactivity. I gave these to JRR to give to SJC - Please make sure that they get\nscanned into his folder. His wife's name is Lydia and she is not in RT (mrb)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Halprin, Chloe (g) 04/10 8am || Notes",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
             }
           ]
         }
@@ -37109,8 +36957,8 @@
       "aiUrgency": null
     },
     {
-      "client": "Feyes, Thomas",
-      "advisor": "Katie Rower-Osborn",
+      "client": "Belkofer, David",
+      "advisor": null,
       "planners": [
         "trades",
         "paperwork"
@@ -37123,7 +36971,63 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "Thomas Feyes Journal BES",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "Name: David Belkofer\r\nAcct: GBU 36139004\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed? void check in their CLIC folder!!!!"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer  Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "Name: David Belkofer \r\nAcct: GBU 35295401\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown yet\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed?"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer  Distribution Request BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -37132,12 +37036,12 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 9, 2026",
+              "dueDateFormatted": "Mar 6, 2026",
               "notes": null
             },
             {
               "plannerKey": "trades",
-              "title": "Thomas Feyes Trade Request BES",
+              "title": "David Belkofer Trade Request BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -37146,21 +37050,7 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 9, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Thomas Feyes Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 9, 2026",
+              "dueDateFormatted": "Mar 6, 2026",
               "notes": null
             }
           ]
@@ -37172,29 +37062,16 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Feyes, Thomas - BIA FOR ROTH CONVERSION",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "Name of Client: Thomas Feyes\r\nType of Account: Retirement\r\nSponsor Company: FID TRAD 636988282 to FID ROTH 636988280\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: BIA for a 20k roth conversion\r\n\r\nFID TRAD 636988282 to FID ROTH 636988280 Retirement"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Feyes, Thomas - ADD ACH FID IRA#655-224296",
+              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
               "status": "complete",
               "bucketName": "Completed Tasks",
               "assigneeNames": [
-                "Brooke Wertenbach",
+                "Collin Berryman",
                 "Alyssa Shimman"
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
+              "dueDateFormatted": null,
               "notes": null
             }
           ]
@@ -37202,9 +37079,9 @@
       },
       "hasOverdue": false,
       "hasWaitingOnClient": false,
-      "totalItems": 5,
-      "doneItems": 4,
-      "progress": 80,
+      "totalItems": 7,
+      "doneItems": 3,
+      "progress": 43,
       "plannerGroups": [
         {
           "key": "trades",
@@ -37213,7 +37090,63 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "Thomas Feyes Journal BES",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "Name: David Belkofer\r\nAcct: GBU 36139004\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed? void check in their CLIC folder!!!!"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer  Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "Name: David Belkofer \r\nAcct: GBU 35295401\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown yet\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed?"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer  Distribution Request BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -37222,12 +37155,12 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 9, 2026",
+              "dueDateFormatted": "Mar 6, 2026",
               "notes": null
             },
             {
               "plannerKey": "trades",
-              "title": "Thomas Feyes Trade Request BES",
+              "title": "David Belkofer Trade Request BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -37236,21 +37169,7 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 9, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Thomas Feyes Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 9, 2026",
+              "dueDateFormatted": "Mar 6, 2026",
               "notes": null
             }
           ]
@@ -37262,29 +37181,16 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Feyes, Thomas - BIA FOR ROTH CONVERSION",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "Name of Client: Thomas Feyes\r\nType of Account: Retirement\r\nSponsor Company: FID TRAD 636988282 to FID ROTH 636988280\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: BIA for a 20k roth conversion\r\n\r\nFID TRAD 636988282 to FID ROTH 636988280 Retirement"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Feyes, Thomas - ADD ACH FID IRA#655-224296",
+              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
               "status": "complete",
               "bucketName": "Completed Tasks",
               "assigneeNames": [
-                "Brooke Wertenbach",
+                "Collin Berryman",
                 "Alyssa Shimman"
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
+              "dueDateFormatted": null,
               "notes": null
             }
           ]
@@ -38685,6 +38591,124 @@
               "isUnassigned": false,
               "dueDateFormatted": null,
               "notes": "Name of Client: Eric and Meghan Hart\r\nType of Account: Joint\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: Eric has an individual account at Edward Jones from his father. Eric asked to Transfer to his and Meghan's FID JTOD account with us. I sent to them via DocuSign the TOA form. I will take this one KSO thx"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Fowler, Randy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - FID UTMA FBO HARLEY",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "Name of Client: Randall FOwler fbo Harley Mclaughlin\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Harley Mclaughlin\nWhat is the Minor Beneficiary's DOB?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nWhat is the Minor Beneficiary's SSN?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nBeneficiaries: Britney Mclaughlin successor- we also do not have her DOB, he needs to bring. this is her kid, we need her DOB and her kids DOB& SSN (harley)\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: pry AAPL shares- this willbe funded with a 5k check. same as other, pull an SPI!"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID UTMA FBO OLIVER STEVENS",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "Name of Client: Randy Fowler fbo Oliver Stevens\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Oliver Stevens\nWhat is the Minor Beneficiary's DOB?: 01/24/2016\nWhat is the Minor Beneficiary's SSN?: 132080249\nBeneficiaries: Blake Stevens as successor, Randall Fowler as main custodian\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: will probably buy some AAPL- his will be funded with 10k check randy will bring, and pull an SPI bc we might as well add a bank with teh check after"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID TRAD IRA WITH LPL TOA",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "Name of Client: Randy Fowler\nType of Account: Retirement\nSponsor Company: FID TRAD IRA WITH LPL TOA #24292334\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: wife Heidi fowler DOB 01/14/1971  100%, then step daughters Britney Mclaughlin (do not have DOB yet, will need blank) 50%. and Blake Stevens 05/11/1994\nHow the Account being funded:Transfer\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: No\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: move to ETF growth once transfer moves- statement is in his CLIC folder"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - FID UTMA FBO HARLEY",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "Name of Client: Randall FOwler fbo Harley Mclaughlin\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Harley Mclaughlin\nWhat is the Minor Beneficiary's DOB?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nWhat is the Minor Beneficiary's SSN?: do not have- leave blank and when he comes in to sign, we remind him to bring the SSN & DOB!!!!\nBeneficiaries: Britney Mclaughlin successor- we also do not have her DOB, he needs to bring. this is her kid, we need her DOB and her kids DOB& SSN (harley)\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: pry AAPL shares- this willbe funded with a 5k check. same as other, pull an SPI!"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID UTMA FBO OLIVER STEVENS",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "Name of Client: Randy Fowler fbo Oliver Stevens\nType of Account: Custodial\nSponsor Company: FID UTMA\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\nWhat is the Minor Beneficiary's Full Name?: Oliver Stevens\nWhat is the Minor Beneficiary's DOB?: 01/24/2016\nWhat is the Minor Beneficiary's SSN?: 132080249\nBeneficiaries: Blake Stevens as successor, Randall Fowler as main custodian\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: will probably buy some AAPL- his will be funded with 10k check randy will bring, and pull an SPI bc we might as well add a bank with teh check after"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID TRAD IRA WITH LPL TOA",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "Name of Client: Randy Fowler\nType of Account: Retirement\nSponsor Company: FID TRAD IRA WITH LPL TOA #24292334\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? Yes\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: wife Heidi fowler DOB 01/14/1971  100%, then step daughters Britney Mclaughlin (do not have DOB yet, will need blank) 50%. and Blake Stevens 05/11/1994\nHow the Account being funded:Transfer\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: No\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Sign in Office\n\nFinancial Data:\nRefers to: Primary Investor\nAnnual Income: 75k\nNet Worth: 200k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 40k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: move to ETF growth once transfer moves- statement is in his CLIC folder"
             }
           ]
         }
@@ -46272,13 +46296,23 @@
       "score": 85
     },
     {
-      "nameA": "Owens, Bob & Cindy",
+      "nameA": "Owens, Bob",
       "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
       "score": 85
     },
     {
       "nameA": "Hayes, John",
       "nameB": "Hayes, John & Lori  03/27 10am (w) || Review",
+      "score": 85
+    },
+    {
+      "nameA": "Feyes, Tom & Diane",
+      "nameB": "Feyes, Tom",
+      "score": 85
+    },
+    {
+      "nameA": "Feyes, Tom & Diane",
+      "nameB": "Feyes, Tom & Diane 03/05 12pm (w)",
       "score": 85
     },
     {
@@ -46552,7 +46586,7 @@
       "score": 85
     },
     {
-      "nameA": "Mcginty, Claudine",
+      "nameA": "Mcginty, Claudine & Michael",
       "nameB": "Mcginty, Claudine 04/13 2:15pm (p)",
       "score": 85
     },
@@ -46767,20 +46801,28 @@
       "to": "Kuch, Earl & Donna"
     },
     {
-      "from": "Belkofer, David",
-      "to": "Belkofer, David & Debbie"
+      "from": "Murphy, Brandy",
+      "to": "Murphy, Brandy & Eric"
     },
     {
       "from": "Geiger, Jill",
       "to": "Geiger, Hal & Jill"
     },
     {
-      "from": "Mcginty, Michael",
-      "to": "Mcginty, Claudine"
+      "from": "Feyes, Thomas",
+      "to": "Feyes, Tom & Diane"
     },
     {
-      "from": "Owens, Bob",
-      "to": "Owens, Bob & Cindy"
+      "from": "Mcginty, Claudine",
+      "to": "Mcginty, Claudine & Michael"
+    },
+    {
+      "from": "Mcginty, Michael",
+      "to": "Mcginty, Claudine & Michael"
+    },
+    {
+      "from": "Halprin, Chloe (g) 04/10 8am || Notes",
+      "to": "Halprin, Chloe"
     }
   ],
   "stats": {
