@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-19T13:56:24.602Z",
+  "fetchedAt": "2026-04-19T14:37:57.777Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-19T13:56:26.356Z",
+      "lastUpdated": "2026-04-19T14:37:59.386Z",
       "tasks": [
         {
           "id": "I0QhmUJ50ECz3wdG9Ej5HGUAGkWX",
@@ -7661,7 +7661,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-19T13:56:36.394Z",
+      "lastUpdated": "2026-04-19T14:38:07.982Z",
       "tasks": [
         {
           "id": "mhuP3l6oV0ePFD6HLHc8e2UAKecO",
@@ -15221,7 +15221,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-19T13:57:49.795Z",
+      "lastUpdated": "2026-04-19T14:39:13.717Z",
       "tasks": [
         {
           "id": "gFJiRTdT8UKw1vV0gdonBWUALRtC",
@@ -20996,7 +20996,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-19T13:58:44.944Z",
+      "lastUpdated": "2026-04-19T14:40:01.347Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28525,7 +28525,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-19T13:59:15.873Z",
+      "lastUpdated": "2026-04-19T14:40:28.127Z",
       "tasks": [
         {
           "id": "ZlD1wdJ26UKq3NGgOcrfX2UAOqki",
@@ -29420,8 +29420,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items in Advisor Flow",
-      "nextAction": "Review overdue advisor tasks",
+      "currentStage": "Multiple items across Paperwork and Advisor Flow",
+      "nextAction": "Review overdue paperwork items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29776,8 +29776,104 @@
           ]
         }
       ],
-      "currentStage": "Multiple items in Advisor Flow",
-      "nextAction": "Review overdue advisor tasks",
+      "currentStage": "In-Progress Activities",
+      "nextAction": "Follow up on overdue tasks",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Belkofer, David & Debbie",
+      "advisor": null,
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 1,
+      "progress": 33,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 04/02 3pm (R) || NOTES F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 26, 2026",
+              "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In-Progress Activities",
+      "nextAction": "Review overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29860,8 +29956,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items in Advisor Flow",
-      "nextAction": "Follow up on overdue advisor tasks",
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Set up overdue meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32239,66 +32335,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Belkofer, David & Debbie 04/02 3pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 04/02 3pm (R) || NOTES F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 26, 2026",
-              "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 04/02 3pm (R) || NOTES F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 26, 2026",
-              "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Hugueley, Dan & Beth 03/30 1pm (r)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32469,66 +32505,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 30, 2026",
               "notes": "zocks notes saved adn f/u email sent 4/7 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Belkofer, David & Debbie 03/05 3pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
@@ -46235,6 +46211,14 @@
     {
       "from": "Halprin, Chloe (g) 04/10 8am || Notes",
       "to": "Halprin, Chloe"
+    },
+    {
+      "from": "Belkofer, David & Debbie 04/02 3pm (r)",
+      "to": "Belkofer, David & Debbie"
+    },
+    {
+      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "to": "Belkofer, David & Debbie"
     },
     {
       "from": "Murphy, Brandy",
