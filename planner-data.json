@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-18T23:28:18.001Z",
+  "fetchedAt": "2026-04-19T00:01:14.874Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-18T23:28:19.415Z",
+      "lastUpdated": "2026-04-19T00:01:16.219Z",
       "tasks": [
         {
           "id": "I0QhmUJ50ECz3wdG9Ej5HGUAGkWX",
@@ -7661,7 +7661,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-18T23:28:28.243Z",
+      "lastUpdated": "2026-04-19T00:01:24.963Z",
       "tasks": [
         {
           "id": "mhuP3l6oV0ePFD6HLHc8e2UAKecO",
@@ -15221,7 +15221,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-18T23:29:30.835Z",
+      "lastUpdated": "2026-04-19T00:02:28.018Z",
       "tasks": [
         {
           "id": "gFJiRTdT8UKw1vV0gdonBWUALRtC",
@@ -20996,7 +20996,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-18T23:30:18.240Z",
+      "lastUpdated": "2026-04-19T00:03:16.144Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28525,7 +28525,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-18T23:30:44.566Z",
+      "lastUpdated": "2026-04-19T00:03:42.742Z",
       "tasks": [
         {
           "id": "ZlD1wdJ26UKq3NGgOcrfX2UAOqki",
@@ -29241,7 +29241,8 @@
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "trades",
-        "paperwork"
+        "paperwork",
+        "advisor"
       ],
       "byPlanner": {
         "trades": {
@@ -29331,9 +29332,9 @@
       },
       "hasOverdue": true,
       "hasWaitingOnClient": true,
-      "totalItems": 5,
+      "totalItems": 6,
       "doneItems": 3,
-      "progress": 60,
+      "progress": 50,
       "plannerGroups": [
         {
           "key": "trades",
@@ -29418,10 +29419,30 @@
               "notes": null
             }
           ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Murphy, Eric & Brandy  03/13 1PM (P) || Intro",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 13, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/16 jek"
+            }
+          ]
         }
       ],
-      "currentStage": "Multiple items across Paperwork and Advisor Flow",
-      "nextAction": "Review overdue paperwork items",
+      "currentStage": "Multiple items across Advisor Flow",
+      "nextAction": "Review overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29845,19 +29866,6 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
-            },
-            {
-              "plannerKey": "advisor",
               "title": "Belkofer, David & Debbie 04/02 3pm (R) || NOTES F/U",
               "status": "late",
               "bucketName": "In- Progress Activities",
@@ -29868,12 +29876,25 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 26, 2026",
               "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
       ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Review overdue activities",
+      "currentStage": "Multiple items across Advisor Flow",
+      "nextAction": "Review overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32145,66 +32166,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 19, 2026",
               "notes": "zocks notes svaed adn f/u emal sent (jek) 3/27"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Murphy, Eric & Brandy  03/13 1pm (p)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Murphy, Eric & Brandy  03/13 1PM (P) || Intro",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/16 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Murphy, Eric & Brandy  03/13 1PM (P) || Intro",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/16 jek"
             }
           ]
         }
@@ -46213,15 +46174,19 @@
       "to": "Halprin, Chloe"
     },
     {
-      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
-      "to": "Belkofer, David & Debbie"
-    },
-    {
       "from": "Belkofer, David & Debbie 04/02 3pm (r)",
       "to": "Belkofer, David & Debbie"
     },
     {
+      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "to": "Belkofer, David & Debbie"
+    },
+    {
       "from": "Murphy, Brandy",
+      "to": "Murphy, Brandy & Eric"
+    },
+    {
+      "from": "Murphy, Eric & Brandy  03/13 1pm (p)",
       "to": "Murphy, Brandy & Eric"
     },
     {
