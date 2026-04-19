@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-19T08:30:43.986Z",
+  "fetchedAt": "2026-04-19T09:40:36.827Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-19T08:30:45.361Z",
+      "lastUpdated": "2026-04-19T09:40:38.481Z",
       "tasks": [
         {
           "id": "I0QhmUJ50ECz3wdG9Ej5HGUAGkWX",
@@ -7661,7 +7661,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-19T08:30:53.870Z",
+      "lastUpdated": "2026-04-19T09:40:47.099Z",
       "tasks": [
         {
           "id": "mhuP3l6oV0ePFD6HLHc8e2UAKecO",
@@ -15221,7 +15221,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-19T08:31:57.143Z",
+      "lastUpdated": "2026-04-19T09:41:48.073Z",
       "tasks": [
         {
           "id": "gFJiRTdT8UKw1vV0gdonBWUALRtC",
@@ -20996,7 +20996,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-19T08:32:44.720Z",
+      "lastUpdated": "2026-04-19T09:42:34.212Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28525,7 +28525,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-19T08:33:11.189Z",
+      "lastUpdated": "2026-04-19T09:42:59.779Z",
       "tasks": [
         {
           "id": "ZlD1wdJ26UKq3NGgOcrfX2UAOqki",
@@ -29237,7 +29237,7 @@
   ],
   "wip": [
     {
-      "client": "Murphy, Brandy & Eric",
+      "client": "Murphy, Eric & Brandy",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "trades",
@@ -29776,8 +29776,8 @@
           ]
         }
       ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Follow up on overdue activities",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Follow up on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29872,8 +29872,8 @@
           ]
         }
       ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Review overdue activities",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Address overdue meeting documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29957,7 +29957,67 @@
         }
       ],
       "currentStage": "Schedule Meeting",
-      "nextAction": "Schedule overdue meeting",
+      "nextAction": "Set up overdue meeting",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Owens, Bob & Cindy",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Complete overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31665,66 +31725,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 30, 2026",
               "notes": "zocoks notes saved and f//u email sent (jek) 4/7"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Owens, Bob & Cindy 04/13 11am (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
             }
           ]
         }
@@ -45664,6 +45664,16 @@
       "score": 85
     },
     {
+      "nameA": "Murphy, Eric & Brandy",
+      "nameB": "Murphy, Eric",
+      "score": 85
+    },
+    {
+      "nameA": "Murphy, Eric & Brandy",
+      "nameB": "Murphy, Eric & Brandy  03/13 1pm (p)",
+      "score": 85
+    },
+    {
       "nameA": "Belkofer, David",
       "nameB": "Belkofer, David & Debbie",
       "score": 85
@@ -45715,7 +45725,7 @@
     },
     {
       "nameA": "Owens, Bob",
-      "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
+      "nameB": "Owens, Bob & Cindy",
       "score": 85
     },
     {
@@ -46221,8 +46231,12 @@
       "to": "Belkofer, David & Debbie"
     },
     {
+      "from": "Owens, Bob & Cindy 04/13 11am (r)",
+      "to": "Owens, Bob & Cindy"
+    },
+    {
       "from": "Murphy, Brandy",
-      "to": "Murphy, Brandy & Eric"
+      "to": "Murphy, Eric & Brandy"
     },
     {
       "from": "Geiger, Jill",
