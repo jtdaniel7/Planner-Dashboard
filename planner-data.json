@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-21T10:15:09.964Z",
+  "fetchedAt": "2026-04-21T11:37:13.903Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-21T10:15:11.356Z",
+      "lastUpdated": "2026-04-21T11:37:15.552Z",
       "tasks": [
         {
           "id": "DALXFSO9iEC595y1IWCcdGUAAaU4",
@@ -7646,7 +7646,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-21T10:15:21.306Z",
+      "lastUpdated": "2026-04-21T11:37:26.565Z",
       "tasks": [
         {
           "id": "zS6BaAaG6Uuun2kxXionrWUAAqve",
@@ -15207,7 +15207,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-21T10:16:25.157Z",
+      "lastUpdated": "2026-04-21T11:38:39.376Z",
       "tasks": [
         {
           "id": "DebOkQgeY0SlyTeu63e3zGUADcaU",
@@ -21000,7 +21000,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-21T10:17:11.823Z",
+      "lastUpdated": "2026-04-21T11:39:32.170Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28529,7 +28529,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-21T10:17:39.509Z",
+      "lastUpdated": "2026-04-21T11:40:03.526Z",
       "tasks": [
         {
           "id": "WW8zXANnvEWM_XW7Oe1HB2UAMNzL",
@@ -29436,7 +29436,210 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled for trades",
-      "nextAction": "Place trades as soon as paperwork is completed",
+      "nextAction": "Place trades as soon as paperwork is finalized",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Belkofer, David & Debbie",
+      "advisor": null,
+      "planners": [
+        "paperwork",
+        "trades",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 9,
+      "doneItems": 4,
+      "progress": 44,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "Name: David Belkofer\r\nAcct: GBU 36139004\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed? void check in their CLIC folder!!!!"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer  Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "Name: David Belkofer \r\nAcct: GBU 35295401\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown yet\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed?"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer  Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 6, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "David Belkofer Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 6, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 04/02 3pm (R) || NOTES F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 26, 2026",
+              "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Schedule a follow-up meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29764,91 +29967,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Follow up on pending items",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Geiger, Jill & Hal",
-      "advisor": null,
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick",
-                "Melissa Benedict"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Queue for paperwork",
-      "nextAction": "Review and process paperwork",
+      "nextAction": "Finalize meeting notes",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29958,8 +30077,8 @@
           ]
         }
       ],
-      "currentStage": "Queue for paperwork and advisor follow-up",
-      "nextAction": "Check on paperwork status",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Complete post-meeting documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30039,68 +30158,47 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Review and process paperwork",
+      "currentStage": "Task Recognized",
+      "nextAction": "Review paperwork status",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Belkofer, David & Debbie",
-      "advisor": null,
+      "client": "Geiger, Hal & Jill",
+      "advisor": "Jaiden Karrick",
       "planners": [
-        "paperwork",
-        "advisor"
+        "advisor",
+        "paperwork"
       ],
       "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
           "items": [
             {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
+              "plannerKey": "advisor",
+              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
               "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
+                "Jaiden Karrick",
+                "Melissa Benedict"
               ],
-              "advisor": null,
+              "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
             }
           ]
         }
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 1,
-      "progress": 33,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
       "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David & Debbie - FID & GBU & Delaware Life Retirement",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        },
         {
           "key": "advisor",
           "label": "Advisor Flow",
@@ -30108,35 +30206,44 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 04/02 3pm (R) || NOTES F/U",
+              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
               "status": "late",
-              "bucketName": "In- Progress Activities",
+              "bucketName": "Schedule Meeting",
               "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 26, 2026",
-              "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
-            },
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
+                "Jaiden Karrick",
+                "Melissa Benedict"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
+              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)"
             }
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Prepare for upcoming meetings",
+      "currentStage": "Queue for paperwork",
+      "nextAction": "Prepare and send paperwork for signatures",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30886,7 +30993,7 @@
         }
       ],
       "currentStage": "Completed Tasks",
-      "nextAction": "Review completed tasks for any follow-ups",
+      "nextAction": "Confirm completion of all tasks",
       "blockers": null,
       "aiUrgency": "normal"
     },
@@ -32483,6 +32590,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 30, 2026",
               "notes": "zocks notes saved adn f/u email sent 4/7 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
@@ -34806,251 +34973,6 @@
               "isUnassigned": false,
               "dueDateFormatted": null,
               "notes": "Name of Client: Frank Wright\nType of Account: Retirement\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"BIA\"]\n\nNotes: this is for a conversion: Roth conversion: From Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross- we will be doing this over the next 4 years (including this year so 3 more after this) to convert almost his whole IRA to Roth to beat RMDs, he has no taxable income besides SS!"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Belkofer, David",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "Name: David Belkofer\r\nAcct: GBU 36139004\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed? void check in their CLIC folder!!!!"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer  Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "Name: David Belkofer \r\nAcct: GBU 35295401\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown yet\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed?"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer  Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 7,
-      "doneItems": 3,
-      "progress": 43,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "Name: David Belkofer\r\nAcct: GBU 36139004\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed? void check in their CLIC folder!!!!"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer  Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "Name: David Belkofer \r\nAcct: GBU 35295401\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown yet\r\nACH on file? No\r\nCheck Request? \r\nAny Trades Needed?"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer  Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "David Belkofer Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Belkofer, David - NEW ACCT GBU IRA 5 YR IND",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
             }
           ]
         }
@@ -44923,18 +44845,14 @@
     },
     {
       "from": "Geiger, Jill",
-      "to": "Geiger, Jill & Hal"
+      "to": "Geiger, Hal & Jill"
     },
     {
-      "from": "Geiger, Hal & Jill",
-      "to": "Geiger, Jill & Hal"
-    },
-    {
-      "from": "Belkofer, David & Debbie 04/02 3pm (r)",
+      "from": "Belkofer, David",
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "from": "Belkofer, David & Debbie 04/02 3pm (r)",
       "to": "Belkofer, David & Debbie"
     },
     {
@@ -44946,12 +44864,12 @@
       "to": "Owens, Bob & Cindy"
     },
     {
-      "from": "Fowler, Randy 04/14 12pm (p)",
-      "to": "Fowler, Randy"
-    },
-    {
       "from": "Kohler, Tim 05/07 12pm (w)",
       "to": "Kohler, Timothy"
+    },
+    {
+      "from": "Fowler, Randy 04/14 12pm (p)",
+      "to": "Fowler, Randy"
     },
     {
       "from": "Kusz, John",
