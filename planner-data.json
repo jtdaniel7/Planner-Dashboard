@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-21T21:09:44.917Z",
+  "fetchedAt": "2026-04-21T22:05:35.227Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-21T21:09:46.273Z",
+      "lastUpdated": "2026-04-21T22:05:36.752Z",
       "tasks": [
         {
           "id": "5cz3Uq4zxUaxbHYO1i5AFWUAGl4W",
@@ -7644,7 +7644,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-21T21:09:54.843Z",
+      "lastUpdated": "2026-04-21T22:05:45.281Z",
       "tasks": [
         {
           "id": "hMSnFoLlBka15Cpx53Tlj2UAET3B",
@@ -15205,8 +15205,26 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-21T21:10:53.386Z",
+      "lastUpdated": "2026-04-21T22:06:46.315Z",
       "tasks": [
+        {
+          "id": "4rMvRZa6HEmm7quvqQpNKWUAMquY",
+          "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+          "status": "late",
+          "clientName": "Sheehy, Kevin 04/21 (t)",
+          "rawClientName": "Sheehy, Kevin 04/21 (T)",
+          "bucketName": "Post-Meeting Documentation/ Delegate",
+          "assigneeNames": [
+            "Jaiden Karrick"
+          ],
+          "advisor": "Jaiden Karrick",
+          "isUnassigned": false,
+          "dueDateTime": "2026-04-21T10:00:00Z",
+          "dueDateFormatted": "Apr 21, 2026",
+          "completedDateTime": null,
+          "notes": null,
+          "percentComplete": 0
+        },
         {
           "id": "CkHG7Aesl0uDQg0XNiqJSmUAFQ7B",
           "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
@@ -15600,7 +15618,7 @@
           "dueDateTime": "2026-04-20T10:00:00Z",
           "dueDateFormatted": "Apr 20, 2026",
           "completedDateTime": null,
-          "notes": null,
+          "notes": "follow up email sent",
           "percentComplete": 0
         },
         {
@@ -16113,7 +16131,7 @@
           "status": "late",
           "clientName": "Hummel, Roger & Chris 04/21 1:30pm (r)",
           "rawClientName": "Hummel, Roger & Chris 04/21 1:30pm (R)",
-          "bucketName": "Ready for Meeting",
+          "bucketName": "Post-Meeting Documentation/ Delegate",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -16194,7 +16212,7 @@
           "dueDateTime": "2026-04-20T10:00:00Z",
           "dueDateFormatted": "Apr 20, 2026",
           "completedDateTime": null,
-          "notes": null,
+          "notes": "zocks notes saved and f/u email sent 4/21 jek",
           "percentComplete": 0
         },
         {
@@ -16257,7 +16275,7 @@
           "status": "late",
           "clientName": "Hotz, Ben 04/21 12pm (g)",
           "rawClientName": "Hotz, Ben 04/21 12pm (G)",
-          "bucketName": "Ready for Meeting",
+          "bucketName": "Post-Meeting Documentation/ Delegate",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -21080,15 +21098,15 @@
           "percentComplete": 100
         }
       ],
-      "openCount": 97,
-      "overdueCount": 64,
+      "openCount": 98,
+      "overdueCount": 65,
       "waitingCount": 0
     },
     {
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-21T21:11:38.734Z",
+      "lastUpdated": "2026-04-21T22:07:33.993Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28617,7 +28635,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-21T21:12:04.778Z",
+      "lastUpdated": "2026-04-21T22:08:00.943Z",
       "tasks": [
         {
           "id": "WW8zXANnvEWM_XW7Oe1HB2UAMNzL",
@@ -29524,7 +29542,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled for trades",
-      "nextAction": "Place trades for the account",
+      "nextAction": "Place trades as soon as paperwork is completed",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29667,8 +29685,8 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized for advisor activities",
-      "nextAction": "Review overdue tasks for the account",
+      "currentStage": "Task Recognized for paperwork",
+      "nextAction": "Follow up on paperwork status",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29883,8 +29901,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities for advisor tasks",
-      "nextAction": "Complete overdue advisor activities",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Complete overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30073,7 +30091,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork and trades",
-      "nextAction": "Initiate paperwork for account setup",
+      "nextAction": "Initiate paperwork process for account setup",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30211,69 +30229,20 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities for advisor tasks",
-      "nextAction": "Complete overdue advisor activities",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Complete overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Geiger, Jill & Hal",
-      "advisor": null,
+      "client": "Geiger, Hal & Jill",
+      "advisor": "Jaiden Karrick",
       "planners": [
-        "paperwork",
-        "advisor"
+        "advisor",
+        "paperwork"
       ],
       "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)"
-            }
-          ]
-        },
-        {
+        "advisor": {
           "key": "advisor",
           "label": "Advisor Flow",
           "color": "#16a34a",
@@ -30294,151 +30263,6 @@
             }
           ]
         }
-      ],
-      "currentStage": "Queue for paperwork",
-      "nextAction": "Prepare paperwork for submission",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Halprin, Chloe",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Queue for paperwork",
-      "nextAction": "Prepare paperwork for submission",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Kohler, Timothy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
@@ -30447,6 +30271,61 @@
       "progress": 0,
       "plannerGroups": [
         {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick",
+                "Melissa Benedict"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Set up meeting with both clients",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Kohler, Timothy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
           "key": "paperwork",
           "label": "Paperwork",
           "color": "#d97706",
@@ -30463,60 +30342,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Feb 13, 2026",
               "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Initiate paperwork for account setup",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Tobias, Connie",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Connie Tobias Distribution Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": "Who filled this out: BES\r\nName: Connie Tobias\r\nAcct: JT account\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: 15,000\r\nTax W/H: \r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? bay area on file?  use discreiton if cash raise needed"
             }
           ]
         }
@@ -30528,29 +30353,28 @@
       "progress": 0,
       "plannerGroups": [
         {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
           "items": [
             {
-              "plannerKey": "trades",
-              "title": "Connie Tobias Distribution Request BES",
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
               "status": "late",
               "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
+                "Katie Rower-Osborn"
               ],
-              "advisor": null,
+              "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": "Who filled this out: BES\r\nName: Connie Tobias\r\nAcct: JT account\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: 15,000\r\nTax W/H: \r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? bay area on file?  use discreiton if cash raise needed"
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
             }
           ]
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Initiate paperwork for account setup",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30678,6 +30502,68 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 13, 2026",
               "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Tobias, Connie",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Connie Tobias Distribution Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": "Who filled this out: BES\r\nName: Connie Tobias\r\nAcct: JT account\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: 15,000\r\nTax W/H: \r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? bay area on file?  use discreiton if cash raise needed"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Connie Tobias Distribution Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": "Who filled this out: BES\r\nName: Connie Tobias\r\nAcct: JT account\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: 15,000\r\nTax W/H: \r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? bay area on file?  use discreiton if cash raise needed"
             }
           ]
         }
@@ -30931,7 +30817,7 @@
         }
       ],
       "currentStage": "Completed Tasks",
-      "nextAction": "Review completed tasks for accuracy",
+      "nextAction": "Review completed tasks for any follow-ups",
       "blockers": null,
       "aiUrgency": "normal"
     },
@@ -31112,6 +30998,96 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 20, 2026",
               "notes": "Name of Client: Zachary Klewer\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mike and Josie Dudderar 50/50 primary (They are his parents, she said he is in a serious relationship but they are not married yet so this could get changed but much later)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: Yes\r\nHow Much: josie has not confirmed yet\r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): depends when we get this set up! if we get it in time for 2025, we will start in 2025 and after 04/15 itll go to 2026 \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Primary Investor\r\nAnnual Income: 30k\r\nNet Worth: 15k\r\nTax Bracket: 10%\r\nNet Investable Assets: 10k\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: \r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 8k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: we will probably set up an SMFPP for this since it will be monthly conts.\r\n\r\n03/17/2026 - ppwk was pulled. It is in my folder.  per jaiden we are waiting on Josie to call with bank info before sending this docusign (baw)\r\n- Form ADV Delivery Receipt\r\n- Client Information Disclosure Authorization\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- WealthPort Custodian Agreement and Application\r\n- Premiere Select IRA Application\r\n- Standing Payment Instructions"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Halprin, Chloe",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 26, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 2, 2026",
+              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 26, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 2, 2026",
+              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
             }
           ]
         }
@@ -31578,6 +31554,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Sheehy, Kevin 04/21 (t)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Jones, Jeanna 04/20 11am (g)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -31600,7 +31636,7 @@
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
-              "notes": null
+              "notes": "follow up email sent"
             }
           ]
         }
@@ -31627,7 +31663,67 @@
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
-              "notes": null
+              "notes": "follow up email sent"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Halprin, Chloe (g) 04/10 8am || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
             }
           ]
         }
@@ -32493,7 +32589,7 @@
               "plannerKey": "advisor",
               "title": "Hummel, Roger & Chris 04/21 1:30pm (R) || NOTES Review",
               "status": "late",
-              "bucketName": "Ready for Meeting",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -32520,7 +32616,7 @@
               "plannerKey": "advisor",
               "title": "Hummel, Roger & Chris 04/21 1:30pm (R) || NOTES Review",
               "status": "late",
-              "bucketName": "Ready for Meeting",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -32680,7 +32776,7 @@
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
-              "notes": null
+              "notes": "zocks notes saved and f/u email sent 4/21 jek"
             }
           ]
         }
@@ -32707,7 +32803,7 @@
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
-              "notes": null
+              "notes": "zocks notes saved and f/u email sent 4/21 jek"
             }
           ]
         }
@@ -32793,7 +32889,7 @@
               "plannerKey": "advisor",
               "title": "Hotz, Ben 04/21 12pm (G) || NOTES -Review",
               "status": "late",
-              "bucketName": "Ready for Meeting",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -32820,7 +32916,7 @@
               "plannerKey": "advisor",
               "title": "Hotz, Ben 04/21 12pm (G) || NOTES -Review",
               "status": "late",
-              "bucketName": "Ready for Meeting",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -42661,6 +42757,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Kohler, Tim 05/07 12pm (w)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "not-started",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "not-started",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Kuch, Donna & Earl 06/10 11am (b)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -43595,6 +43751,20 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
+      "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+      "clientName": "Sheehy, Kevin 04/21 (t)",
+      "bucketName": "Post-Meeting Documentation/ Delegate",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "advisor": "Jaiden Karrick",
+      "isUnassigned": false,
+      "dueDateFormatted": "Apr 21, 2026"
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
       "title": "Perry, Tracy and Lonnie 04/10",
       "clientName": null,
       "bucketName": "In- Progress Activities",
@@ -43905,7 +44075,7 @@
       "plannerColor": "#16a34a",
       "title": "Hummel, Roger & Chris 04/21 1:30pm (R) || NOTES Review",
       "clientName": "Hummel, Roger & Chris 04/21 1:30pm (r)",
-      "bucketName": "Ready for Meeting",
+      "bucketName": "Post-Meeting Documentation/ Delegate",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -43989,7 +44159,7 @@
       "plannerColor": "#16a34a",
       "title": "Hotz, Ben 04/21 12pm (G) || NOTES -Review",
       "clientName": "Hotz, Ben 04/21 12pm (g)",
-      "bucketName": "Ready for Meeting",
+      "bucketName": "Post-Meeting Documentation/ Delegate",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -44740,6 +44910,11 @@
     },
     {
       "nameA": "Sheehy, Kevin",
+      "nameB": "Sheehy, Kevin 04/21 (t)",
+      "score": 85
+    },
+    {
+      "nameA": "Sheehy, Kevin",
       "nameB": "Sheehy, Kevin & Kimberly 03/13 8:15am (p)",
       "score": 85
     },
@@ -44980,6 +45155,11 @@
     },
     {
       "nameA": "Sheehy, Kevin & Kimberly",
+      "nameB": "Sheehy, Kevin 04/21 (t)",
+      "score": 85
+    },
+    {
+      "nameA": "Sheehy, Kevin & Kimberly",
       "nameB": "Sheehy, Kevin & Kimberly 03/13 8:15am (p)",
       "score": 85
     },
@@ -45064,6 +45244,11 @@
       "score": 85
     },
     {
+      "nameA": "Sheehy, Kevin 04/21 (t)",
+      "nameB": "Sheehy, Kevin & Kimberly 03/13 8:15am (p)",
+      "score": 85
+    },
+    {
       "nameA": "Karoly, Al & Diane 05/15 2pm (r)",
       "nameB": "Karoly, Al & Diane 04/06 4pm (w)",
       "score": 85
@@ -45128,14 +45313,6 @@
       "to": "Hayes, John & Lori"
     },
     {
-      "from": "Geiger, Jill",
-      "to": "Geiger, Jill & Hal"
-    },
-    {
-      "from": "Geiger, Hal & Jill",
-      "to": "Geiger, Jill & Hal"
-    },
-    {
       "from": "Belkofer, David",
       "to": "Belkofer, David & Debbie"
     },
@@ -45148,12 +45325,8 @@
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Kohler, Tim 05/07 12pm (w)",
-      "to": "Kohler, Timothy"
-    },
-    {
-      "from": "Halprin, Chloe (g) 04/10 8am || Notes",
-      "to": "Halprin, Chloe"
+      "from": "Geiger, Jill",
+      "to": "Geiger, Hal & Jill"
     },
     {
       "from": "Fowler, Randy 04/14 12pm (p)",
@@ -45165,9 +45338,9 @@
     }
   ],
   "stats": {
-    "totalOpen": 295,
+    "totalOpen": 296,
     "completedToday": 10,
-    "overdue": 98,
+    "overdue": 99,
     "waitingOnClient": 69,
     "wipClients": 77
   }
