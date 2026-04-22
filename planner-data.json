@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-22T07:10:15.224Z",
+  "fetchedAt": "2026-04-22T09:03:34.047Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-22T07:10:16.937Z",
+      "lastUpdated": "2026-04-22T09:03:35.627Z",
       "tasks": [
         {
           "id": "5cz3Uq4zxUaxbHYO1i5AFWUAGl4W",
@@ -7644,7 +7644,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-22T07:10:26.697Z",
+      "lastUpdated": "2026-04-22T09:03:45.633Z",
       "tasks": [
         {
           "id": "hMSnFoLlBka15Cpx53Tlj2UAET3B",
@@ -15205,7 +15205,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-22T07:11:35.706Z",
+      "lastUpdated": "2026-04-22T09:04:54.612Z",
       "tasks": [
         {
           "id": "4rMvRZa6HEmm7quvqQpNKWUAMquY",
@@ -21106,7 +21106,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-22T07:12:29.855Z",
+      "lastUpdated": "2026-04-22T09:05:49.530Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28635,7 +28635,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-22T07:13:00.069Z",
+      "lastUpdated": "2026-04-22T09:06:19.559Z",
       "tasks": [
         {
           "id": "WW8zXANnvEWM_XW7Oe1HB2UAMNzL",
@@ -29542,7 +29542,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled for trades",
-      "nextAction": "Place trades as soon as paperwork is finalized",
+      "nextAction": "Place trades for the account",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29686,7 +29686,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Review overdue paperwork items",
+      "nextAction": "Follow up on paperwork status",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29737,9 +29737,9 @@
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 9,
+      "totalItems": 10,
       "doneItems": 4,
-      "progress": 44,
+      "progress": 40,
       "plannerGroups": [
         {
           "key": "paperwork",
@@ -29884,12 +29884,25 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 26, 2026",
               "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Prepare for upcoming meeting",
+      "nextAction": "Schedule a follow-up meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30078,7 +30091,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork and trades",
-      "nextAction": "Follow up on paperwork status",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30301,7 +30314,118 @@
         }
       ],
       "currentStage": "Queue for paperwork",
-      "nextAction": "Initiate paperwork process",
+      "nextAction": "Review and process paperwork",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Halprin, Chloe",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 26, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 2, 2026",
+              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 26, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 2, 2026",
+              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Queue for paperwork",
+      "nextAction": "Review and process paperwork",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30361,7 +30485,67 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Follow up on paperwork status",
+      "nextAction": "Initiate paperwork process",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Owens, Bob & Cindy",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Prepare for upcoming meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30421,7 +30605,7 @@
         }
       ],
       "currentStage": "Schedule Meeting",
-      "nextAction": "Set up meeting with client",
+      "nextAction": "Confirm meeting details",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31055,96 +31239,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Halprin, Chloe",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": "02/10 - I spoke with Chloe Halprin today. She is switching jobs and wants to move her current Simple IRA that she has with LPL. She begins her new job on 02/23, so not sure if this has to wait until after then or not.\r\n\r\nAlso the rules on Simple I believe if she's had it more than 2 years, it can go into a regular TRAD IRA... If not it will need to be a Simple, but please double check. o notes in RT about having a Simple. Does BES remember anything about this?\r\n\r\nOnce we have this account open, if a RO is needed, JEK can help her. She is available on 02/19 & 02/20, but does know that it may take some time to get this going.\r\n\r\nShe will look at scheduling with BES later in March, but told me that she would call me back."
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Fernbaugh, Gina",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -31721,66 +31815,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Halprin, Chloe (g) 04/10 8am || Notes",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Stager, Marcia 04/22 9:30am (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32011,66 +32045,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Owens, Bob & Cindy 04/13 11am (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
             }
           ]
         }
@@ -32731,66 +32705,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 30, 2026",
               "notes": "zocks notes saved adn f/u email sent 4/7 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Belkofer, David & Debbie 03/05 3pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
@@ -44882,7 +44796,7 @@
     },
     {
       "nameA": "Owens, Bob",
-      "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
+      "nameB": "Owens, Bob & Cindy",
       "score": 85
     },
     {
@@ -45376,8 +45290,20 @@
       "to": "Belkofer, David & Debbie"
     },
     {
+      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "to": "Belkofer, David & Debbie"
+    },
+    {
       "from": "Fowler, Randy 04/14 12pm (p)",
       "to": "Fowler, Randy"
+    },
+    {
+      "from": "Halprin, Chloe (g) 04/10 8am || Notes",
+      "to": "Halprin, Chloe"
+    },
+    {
+      "from": "Owens, Bob & Cindy 04/13 11am (r)",
+      "to": "Owens, Bob & Cindy"
     }
   ],
   "stats": {
