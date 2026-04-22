@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-21T23:04:21.977Z",
+  "fetchedAt": "2026-04-21T23:58:48.793Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-21T23:04:23.593Z",
+      "lastUpdated": "2026-04-21T23:58:50.377Z",
       "tasks": [
         {
           "id": "5cz3Uq4zxUaxbHYO1i5AFWUAGl4W",
@@ -7644,7 +7644,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-21T23:04:33.057Z",
+      "lastUpdated": "2026-04-21T23:58:59.621Z",
       "tasks": [
         {
           "id": "hMSnFoLlBka15Cpx53Tlj2UAET3B",
@@ -15205,7 +15205,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-21T23:05:37.511Z",
+      "lastUpdated": "2026-04-22T00:00:00.528Z",
       "tasks": [
         {
           "id": "4rMvRZa6HEmm7quvqQpNKWUAMquY",
@@ -21106,7 +21106,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-21T23:06:27.115Z",
+      "lastUpdated": "2026-04-22T00:00:47.990Z",
       "tasks": [
         {
           "id": "iAHRnYahZU2YWaDOp2Vv7WUAFDPK",
@@ -28635,7 +28635,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-21T23:06:56.464Z",
+      "lastUpdated": "2026-04-22T00:01:13.756Z",
       "tasks": [
         {
           "id": "WW8zXANnvEWM_XW7Oe1HB2UAMNzL",
@@ -29686,7 +29686,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Review overdue paperwork items",
+      "nextAction": "Follow up on paperwork status",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29902,7 +29902,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Complete overdue tasks",
+      "nextAction": "Schedule a follow-up meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30091,90 +30091,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork and trades",
-      "nextAction": "Follow up on paperwork status",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Dunn, Mike",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "advisor"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Mike Dunn Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 26, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Mike Dunn Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 26, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Dunn, Mike 2/24 2:30pm (B) || NOTES: Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 24, 2026",
-              "notes": "**2/25/26- meeting f/u sent and notes saved, everythign filed. he will need a f/u appt with his mom once he is back**"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Complete overdue tasks",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30313,7 +30230,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Complete overdue tasks",
+      "nextAction": "Follow up on pending items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30397,7 +30314,7 @@
         }
       ],
       "currentStage": "Queue for paperwork",
-      "nextAction": "Prepare paperwork for submission",
+      "nextAction": "Review and process paperwork",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30508,7 +30425,7 @@
         }
       ],
       "currentStage": "Queue for paperwork",
-      "nextAction": "Prepare paperwork for submission",
+      "nextAction": "Review and process paperwork",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30568,67 +30485,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Prepare paperwork for submission",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Killy, Scott & Cindy",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "I spoke with JOO - and Scott will be 73 this tax year so instead of keeping a list for next year just get him taken care of for this year."
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "I spoke with JOO - and Scott will be 73 this tax year so instead of keeping a list for next year just get him taken care of for this year."
-            }
-          ]
-        }
-      ],
-      "currentStage": "Prep Materials",
-      "nextAction": "Prepare for upcoming meeting",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30688,7 +30545,7 @@
         }
       ],
       "currentStage": "Schedule Meeting",
-      "nextAction": "Schedule overdue meeting",
+      "nextAction": "Schedule a meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31074,7 +30931,7 @@
       "aiUrgency": null
     },
     {
-      "client": "Kusz, John",
+      "client": "Kus, John",
       "advisor": "Zachery Briggs",
       "planners": [
         "paperwork"
@@ -31130,10 +30987,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Completed Tasks",
+      "nextAction": "Confirm completion of tasks",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "normal"
     },
     {
       "client": "Chisholm, Nick",
@@ -32258,6 +32115,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "I spoke with JOO - and Scott will be 73 this tax year so instead of keeping a list for next year just get him taken care of for this year."
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "I spoke with JOO - and Scott will be 73 this tax year so instead of keeping a list for next year just get him taken care of for this year."
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Siebert, Todd & Megan 03/26 1pm  (r)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33328,6 +33245,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 11, 2026",
               "notes": "zocks notes saved and f/u email sent 3/12 (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Dunn, Mike 2/24 2:30pm (b)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Dunn, Mike 2/24 2:30pm (B) || NOTES: Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 24, 2026",
+              "notes": "**2/25/26- meeting f/u sent and notes saved, everythign filed. he will need a f/u appt with his mom once he is back**"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Dunn, Mike 2/24 2:30pm (B) || NOTES: Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 24, 2026",
+              "notes": "**2/25/26- meeting f/u sent and notes saved, everythign filed. he will need a f/u appt with his mom once he is back**"
             }
           ]
         }
@@ -45325,17 +45302,13 @@
       "to": "Halprin, Chloe"
     },
     {
-      "from": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
-      "to": "Killy, Scott & Cindy"
-    },
-    {
-      "from": "Dunn, Mike 2/24 2:30pm (b)",
-      "to": "Dunn, Mike"
+      "from": "Kusz, John",
+      "to": "Kus, John"
     }
   ],
   "stats": {
     "totalOpen": 296,
-    "completedToday": 10,
+    "completedToday": 9,
     "overdue": 99,
     "waitingOnClient": 69,
     "wipClients": 77
