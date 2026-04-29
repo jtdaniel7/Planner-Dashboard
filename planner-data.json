@@ -1,12 +1,31 @@
 {
-  "fetchedAt": "2026-04-29T14:00:30.203Z",
+  "fetchedAt": "2026-04-29T16:10:18.301Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-29T14:00:31.749Z",
+      "lastUpdated": "2026-04-29T16:10:19.705Z",
       "tasks": [
+        {
+          "id": "DURA8bspZkW_UJC4SUwuOWUAPuuB",
+          "title": "Jeanna Jones Trade Request BES",
+          "status": "not-started",
+          "clientName": "Jones, Jeanna",
+          "rawClientName": "Jeanna Jones",
+          "bucketName": "Unknown",
+          "assigneeNames": [
+            "Ryan Juhasz",
+            "Jennifer Ottney"
+          ],
+          "advisor": null,
+          "isUnassigned": false,
+          "dueDateTime": null,
+          "dueDateFormatted": null,
+          "completedDateTime": null,
+          "notes": "Who filled this out: AL\nClient Name: Jeanna Jones\nAccount: FID IRA #655-419898\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/29/26 - $16,367.26 OPERS RO hit. Rebalance in current model. (acs)",
+          "percentComplete": 0
+        },
         {
           "id": "w8YUVqMAz0uMO-VWEy49EGUAAMF9",
           "title": "Michael Moon Trade Request BES",
@@ -7614,28 +7633,9 @@
           "completedDateTime": "2026-02-06T16:38:40.9119861Z",
           "notes": null,
           "percentComplete": 100
-        },
-        {
-          "id": "yfvP0EGq6EuhAT9Ll_e6OWUAIRqh",
-          "title": "ANDREW SEREDA Trade Request JRR",
-          "status": "complete",
-          "clientName": "Sereda, Andrew",
-          "rawClientName": "ANDREW SEREDA",
-          "bucketName": "Completed",
-          "assigneeNames": [
-            "Ryan Juhasz",
-            "Jennifer Ottney"
-          ],
-          "advisor": null,
-          "isUnassigned": false,
-          "dueDateTime": "2026-02-09T10:00:00Z",
-          "dueDateFormatted": "Feb 9, 2026",
-          "completedDateTime": "2026-02-06T14:58:42.0229049Z",
-          "notes": null,
-          "percentComplete": 100
         }
       ],
-      "openCount": 21,
+      "openCount": 22,
       "overdueCount": 10,
       "waitingCount": 0
     },
@@ -7643,7 +7643,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-29T14:00:45.064Z",
+      "lastUpdated": "2026-04-29T16:10:31.804Z",
       "tasks": [
         {
           "id": "MOxbeo5YgkGOkzxrX1mVfWUAHRyF",
@@ -7781,10 +7781,10 @@
         {
           "id": "FBxoi1spl0ePUNxhSMJhNmUACjsP",
           "title": "Hotz, Benjamin - PPWK FID ROTH REP CODE",
-          "status": "not-started",
+          "status": "waiting-on-client",
           "clientName": "Hotz, Benjamin",
           "rawClientName": "Hotz, Benjamin",
-          "bucketName": "Queue ",
+          "bucketName": "Waiting on Signatures",
           "assigneeNames": [
             "Alyssa Shimman",
             "Melissa Benedict"
@@ -8088,7 +8088,7 @@
           "status": "waiting-on-client",
           "clientName": "Wilkinson, Jeffrey",
           "rawClientName": "Wilkinson, Jeffrey",
-          "bucketName": "Paperwork Submitted",
+          "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
           "assigneeNames": [
             "Zachery Briggs",
             "Melissa Benedict"
@@ -15192,32 +15192,14 @@
       ],
       "openCount": 129,
       "overdueCount": 15,
-      "waitingCount": 73
+      "waitingCount": 74
     },
     {
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-29T14:01:56.595Z",
+      "lastUpdated": "2026-04-29T16:11:35.498Z",
       "tasks": [
-        {
-          "id": "4WTyC_l1vkul5xuPyW_RgGUAISbr",
-          "title": "Brown, McClain 04/28 11:30AM (g) || Convo",
-          "status": "late",
-          "clientName": "Brown, Mcclain 04/28 11:30am (g)",
-          "rawClientName": "Brown, McClain 04/28 11:30AM (g)",
-          "bucketName": "Ready for Meeting",
-          "assigneeNames": [
-            "Jaiden Karrick"
-          ],
-          "advisor": "Jaiden Karrick",
-          "isUnassigned": false,
-          "dueDateTime": "2026-04-28T10:00:00Z",
-          "dueDateFormatted": "Apr 28, 2026",
-          "completedDateTime": null,
-          "notes": null,
-          "percentComplete": 0
-        },
         {
           "id": "n2emovLaZ0i7YfBZZ9bZjWUAP_Fr",
           "title": "Koester, Donna 05/19 12pm (G) || NOTES",
@@ -15260,7 +15242,7 @@
           "status": "late",
           "clientName": "Fernbaugh, Gina 04/29 8:30am (b)",
           "rawClientName": "Fernbaugh, Gina 04/29 8:30am (B)",
-          "bucketName": "Prep Materials",
+          "bucketName": "Post-Meeting Documentation/ Delegate",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -15270,24 +15252,6 @@
           "dueDateFormatted": "Apr 29, 2026",
           "completedDateTime": null,
           "notes": "- I would like to see a comparison of CY2025 earnings\n     compared to SP500\r\n- Look at my tax situation for CY26\r\n- Questions about RMD",
-          "percentComplete": 0
-        },
-        {
-          "id": "RqrfLPOVV0a9St1mNj7gXmUABSh3",
-          "title": "Sheehy, Kevin + Kim - 04/28 10am || NOTES Below -JEK CALL",
-          "status": "not-started",
-          "clientName": "Sheehy, Kevin + Kim",
-          "rawClientName": "Sheehy, Kevin + Kim",
-          "bucketName": "Post-Meeting Documentation/ Delegate",
-          "assigneeNames": [
-            "Jaiden Karrick"
-          ],
-          "advisor": "Jaiden Karrick",
-          "isUnassigned": false,
-          "dueDateTime": null,
-          "dueDateFormatted": null,
-          "completedDateTime": null,
-          "notes": "04/22/26 - Kim has a FID BL we need to move money into and he has payroll/VNG changes that need to be done. per Brent, call and bring them back in next week to get this done:\r\n\r\n- Complete BL setup for Kim's Promedica account to move approximately $75,000 of the existing $93,000 balance. KSO has ppwk in Planner.\r\n- Adjust Kim's Promedica 401(k) allocation from 80% blended/20% stock to 100% stock (80% S&P 500/20% international)\r\n- Update Kevin's Cenovus allocations to remove bond and money market positions\r\n- Reduce Kevin's 401(k) contribution from 12% to 7% and adjust bonus contributions to match\r\n\r\nHer FID info - KSheehy2224 | Cole12989!\r\nKevin's VNG info - KSheehy42 | TobyDog2242!\r\n\r\n(acs)\r\n\r\n04/22/26 - Spoke with JEK, she will run a call on Tues at 10am (mrb)",
           "percentComplete": 0
         },
         {
@@ -15350,7 +15314,7 @@
           "status": "late",
           "clientName": "Kuss, Michael 04/29 2:30 (g)",
           "rawClientName": "Kuss, Michael 04/29 2:30 (G)",
-          "bucketName": "Prep Materials",
+          "bucketName": "Ready for Meeting",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -15386,7 +15350,7 @@
           "status": "late",
           "clientName": "Mugler, Jon & Nora 04/29 10am (p)",
           "rawClientName": "Mugler, Jon & Nora 04/29 10am (P)",
-          "bucketName": "Prep Materials",
+          "bucketName": "Post-Meeting Documentation/ Delegate",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -15404,7 +15368,7 @@
           "status": "late",
           "clientName": "Straube, Barb 04/28 1pm (w)",
           "rawClientName": "Straube, Barb 04/28 1pm (W)",
-          "bucketName": "Ready for Meeting",
+          "bucketName": "In- Progress Activities",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -15413,7 +15377,7 @@
           "dueDateTime": "2026-04-28T10:00:00Z",
           "dueDateFormatted": "Apr 28, 2026",
           "completedDateTime": null,
-          "notes": null,
+          "notes": "zocks notes saved and f/u email sent 4/29 jek",
           "percentComplete": 0
         },
         {
@@ -15422,7 +15386,7 @@
           "status": "late",
           "clientName": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
           "rawClientName": "McKnight, Brian & Sarah 04/29 12:15 (G)",
-          "bucketName": "Prep Materials",
+          "bucketName": "Post-Meeting Documentation/ Delegate",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -15530,7 +15494,7 @@
           "status": "late",
           "clientName": "Kennedy, Brian 04/29 1pm (r)",
           "rawClientName": "Kennedy, Brian 04/29 1pm (R)",
-          "bucketName": "Prep Materials",
+          "bucketName": "Ready for Meeting",
           "assigneeNames": [
             "Jaiden Karrick"
           ],
@@ -15666,24 +15630,6 @@
           "dueDateFormatted": "Apr 24, 2026",
           "completedDateTime": null,
           "notes": "zocks notes saved adn f/u eamil sent 4/27 jek",
-          "percentComplete": 0
-        },
-        {
-          "id": "GTUAbeshAUG4cQfknAyU32UADx3g",
-          "title": "Swanson, Nick 04/28 12pm (R) || Review",
-          "status": "late",
-          "clientName": "Swanson, Nick 04/28 12pm (r)",
-          "rawClientName": "Swanson, Nick 04/28 12pm (R)",
-          "bucketName": "Ready for Meeting",
-          "assigneeNames": [
-            "Jaiden Karrick"
-          ],
-          "advisor": "Jaiden Karrick",
-          "isUnassigned": false,
-          "dueDateTime": "2026-04-28T10:00:00Z",
-          "dueDateFormatted": "Apr 28, 2026",
-          "completedDateTime": null,
-          "notes": null,
           "percentComplete": 0
         },
         {
@@ -17072,6 +17018,60 @@
           "completedDateTime": null,
           "notes": "zocks notes saved, checked BES review cover. sent f/u email! 11/20 jek",
           "percentComplete": 0
+        },
+        {
+          "id": "RqrfLPOVV0a9St1mNj7gXmUABSh3",
+          "title": "Sheehy, Kevin + Kim - 04/28 10am || NOTES Below -JEK CALL",
+          "status": "complete",
+          "clientName": "Sheehy, Kevin + Kim",
+          "rawClientName": "Sheehy, Kevin + Kim",
+          "bucketName": "Complete",
+          "assigneeNames": [
+            "Jaiden Karrick"
+          ],
+          "advisor": "Jaiden Karrick",
+          "isUnassigned": false,
+          "dueDateTime": null,
+          "dueDateFormatted": null,
+          "completedDateTime": "2026-04-29T15:26:54.9488893Z",
+          "notes": null,
+          "percentComplete": 100
+        },
+        {
+          "id": "GTUAbeshAUG4cQfknAyU32UADx3g",
+          "title": "Swanson, Nick 04/28 12pm (R) || Review",
+          "status": "complete",
+          "clientName": "Swanson, Nick 04/28 12pm (r)",
+          "rawClientName": "Swanson, Nick 04/28 12pm (R)",
+          "bucketName": "Complete",
+          "assigneeNames": [
+            "Jaiden Karrick"
+          ],
+          "advisor": "Jaiden Karrick",
+          "isUnassigned": false,
+          "dueDateTime": "2026-04-28T10:00:00Z",
+          "dueDateFormatted": "Apr 28, 2026",
+          "completedDateTime": "2026-04-29T15:25:00.4226071Z",
+          "notes": null,
+          "percentComplete": 100
+        },
+        {
+          "id": "4WTyC_l1vkul5xuPyW_RgGUAISbr",
+          "title": "Brown, McClain 04/28 11:30AM (g) || Convo",
+          "status": "complete",
+          "clientName": "Brown, Mcclain 04/28 11:30am (g)",
+          "rawClientName": "Brown, McClain 04/28 11:30AM (g)",
+          "bucketName": "Complete",
+          "assigneeNames": [
+            "Jaiden Karrick"
+          ],
+          "advisor": "Jaiden Karrick",
+          "isUnassigned": false,
+          "dueDateTime": "2026-04-28T10:00:00Z",
+          "dueDateFormatted": "Apr 28, 2026",
+          "completedDateTime": "2026-04-29T14:42:07.874134Z",
+          "notes": null,
+          "percentComplete": 100
         },
         {
           "id": "aOMOjRUtjEKZN7umc9S36GUAJWc_",
@@ -21217,15 +21217,15 @@
           "percentComplete": 100
         }
       ],
-      "openCount": 104,
-      "overdueCount": 77,
+      "openCount": 101,
+      "overdueCount": 75,
       "waitingCount": 0
     },
     {
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-29T14:02:54.526Z",
+      "lastUpdated": "2026-04-29T16:12:24.707Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28751,7 +28751,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-29T14:03:26.949Z",
+      "lastUpdated": "2026-04-29T16:12:52.622Z",
       "tasks": [
         {
           "id": "4vH81kSKF0u8tA3rHFPhRWUACEIs",
@@ -31393,66 +31393,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Brown, Mcclain 04/28 11:30am (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Brown, McClain 04/28 11:30AM (g) || Convo",
-              "status": "late",
-              "bucketName": "Ready for Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Brown, McClain 04/28 11:30AM (g) || Convo",
-              "status": "late",
-              "bucketName": "Ready for Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Fernbaugh, Gina 04/29 8:30am (b)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -31468,7 +31408,7 @@
               "plannerKey": "advisor",
               "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31495,7 +31435,7 @@
               "plannerKey": "advisor",
               "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31588,7 +31528,7 @@
               "plannerKey": "advisor",
               "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Ready for Meeting",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31615,7 +31555,7 @@
               "plannerKey": "advisor",
               "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Ready for Meeting",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31648,7 +31588,7 @@
               "plannerKey": "advisor",
               "title": "Mugler, Jon & Nora 04/29 10am (P) || Into",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31675,7 +31615,7 @@
               "plannerKey": "advisor",
               "title": "Mugler, Jon & Nora 04/29 10am (P) || Into",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31708,14 +31648,14 @@
               "plannerKey": "advisor",
               "title": "Straube, Barb 04/28 1pm (W) || Discussion Security safety",
               "status": "late",
-              "bucketName": "Ready for Meeting",
+              "bucketName": "In- Progress Activities",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
+              "notes": "zocks notes saved and f/u email sent 4/29 jek"
             }
           ]
         }
@@ -31735,14 +31675,14 @@
               "plannerKey": "advisor",
               "title": "Straube, Barb 04/28 1pm (W) || Discussion Security safety",
               "status": "late",
-              "bucketName": "Ready for Meeting",
+              "bucketName": "In- Progress Activities",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
+              "notes": "zocks notes saved and f/u email sent 4/29 jek"
             }
           ]
         }
@@ -31768,7 +31708,7 @@
               "plannerKey": "advisor",
               "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31795,7 +31735,7 @@
               "plannerKey": "advisor",
               "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31888,7 +31828,7 @@
               "plannerKey": "advisor",
               "title": "Kennedy, Brian 04/29 1pm (R) || Prospect",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Ready for Meeting",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -31915,7 +31855,7 @@
               "plannerKey": "advisor",
               "title": "Kennedy, Brian 04/29 1pm (R) || Prospect",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "Ready for Meeting",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
@@ -32103,66 +32043,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 24, 2026",
               "notes": "zocks notes saved adn f/u eamil sent 4/27 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Swanson, Nick 04/28 12pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Swanson, Nick 04/28 12pm (R) || Review",
-              "status": "late",
-              "bucketName": "Ready for Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Swanson, Nick 04/28 12pm (R) || Review",
-              "status": "late",
-              "bucketName": "Ready for Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
             }
           ]
         }
@@ -35715,6 +35595,167 @@
       "aiUrgency": null
     },
     {
+      "client": "Jones, Jeanna",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jeanna Jones Trade Request BES",
+              "status": "not-started",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": "Who filled this out: AL\nClient Name: Jeanna Jones\nAccount: FID IRA #655-419898\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/29/26 - $16,367.26 OPERS RO hit. Rebalance in current model. (acs)"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jeanna Jones Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jeanna Jones Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Jones, Jeanna - NEW ACCT FID IND TOD",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": false,
+      "totalItems": 4,
+      "doneItems": 3,
+      "progress": 75,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jeanna Jones Trade Request BES",
+              "status": "not-started",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": "Who filled this out: AL\nClient Name: Jeanna Jones\nAccount: FID IRA #655-419898\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/29/26 - $16,367.26 OPERS RO hit. Rebalance in current model. (acs)"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jeanna Jones Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jeanna Jones Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Jones, Jeanna - NEW ACCT FID IND TOD",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Moon, Michael",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -37980,7 +38021,7 @@
               "plannerKey": "paperwork",
               "title": "Wilkinson, Jeffrey - PPWK PER TOD #HHG",
               "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
+              "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
               "assigneeNames": [
                 "Zachery Briggs",
                 "Melissa Benedict"
@@ -38045,7 +38086,7 @@
               "plannerKey": "paperwork",
               "title": "Wilkinson, Jeffrey - PPWK PER TOD #HHG",
               "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
+              "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
               "assigneeNames": [
                 "Zachery Briggs",
                 "Melissa Benedict"
@@ -38957,8 +38998,8 @@
             {
               "plannerKey": "paperwork",
               "title": "Hotz, Benjamin - PPWK FID ROTH REP CODE",
-              "status": "not-started",
-              "bucketName": "Queue ",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
               "assigneeNames": [
                 "Alyssa Shimman",
                 "Melissa Benedict"
@@ -38972,7 +39013,7 @@
         }
       },
       "hasOverdue": false,
-      "hasWaitingOnClient": false,
+      "hasWaitingOnClient": true,
       "totalItems": 1,
       "doneItems": 0,
       "progress": 0,
@@ -38985,8 +39026,8 @@
             {
               "plannerKey": "paperwork",
               "title": "Hotz, Benjamin - PPWK FID ROTH REP CODE",
-              "status": "not-started",
-              "bucketName": "Queue ",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
               "assigneeNames": [
                 "Alyssa Shimman",
                 "Melissa Benedict"
@@ -43261,66 +43302,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Sheehy, Kevin + Kim",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Sheehy, Kevin + Kim - 04/28 10am || NOTES Below -JEK CALL",
-              "status": "not-started",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "04/22/26 - Kim has a FID BL we need to move money into and he has payroll/VNG changes that need to be done. per Brent, call and bring them back in next week to get this done:\r\n\r\n- Complete BL setup for Kim's Promedica account to move approximately $75,000 of the existing $93,000 balance. KSO has ppwk in Planner.\r\n- Adjust Kim's Promedica 401(k) allocation from 80% blended/20% stock to 100% stock (80% S&P 500/20% international)\r\n- Update Kevin's Cenovus allocations to remove bond and money market positions\r\n- Reduce Kevin's 401(k) contribution from 12% to 7% and adjust bonus contributions to match\r\n\r\nHer FID info - KSheehy2224 | Cole12989!\r\nKevin's VNG info - KSheehy42 | TobyDog2242!\r\n\r\n(acs)\r\n\r\n04/22/26 - Spoke with JEK, she will run a call on Tues at 10am (mrb)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Sheehy, Kevin + Kim - 04/28 10am || NOTES Below -JEK CALL",
-              "status": "not-started",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "04/22/26 - Kim has a FID BL we need to move money into and he has payroll/VNG changes that need to be done. per Brent, call and bring them back in next week to get this done:\r\n\r\n- Complete BL setup for Kim's Promedica account to move approximately $75,000 of the existing $93,000 balance. KSO has ppwk in Planner.\r\n- Adjust Kim's Promedica 401(k) allocation from 80% blended/20% stock to 100% stock (80% S&P 500/20% international)\r\n- Update Kevin's Cenovus allocations to remove bond and money market positions\r\n- Reduce Kevin's 401(k) contribution from 12% to 7% and adjust bonus contributions to match\r\n\r\nHer FID info - KSheehy2224 | Cole12989!\r\nKevin's VNG info - KSheehy42 | TobyDog2242!\r\n\r\n(acs)\r\n\r\n04/22/26 - Spoke with JEK, she will run a call on Tues at 10am (mrb)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Dannells, Mike & Consolvo,camille 05/27 10am (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -45440,23 +45421,9 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
-      "title": "Brown, McClain 04/28 11:30AM (g) || Convo",
-      "clientName": "Brown, Mcclain 04/28 11:30am (g)",
-      "bucketName": "Ready for Meeting",
-      "assigneeNames": [
-        "Jaiden Karrick"
-      ],
-      "advisor": "Jaiden Karrick",
-      "isUnassigned": false,
-      "dueDateFormatted": "Apr 28, 2026"
-    },
-    {
-      "plannerKey": "advisor",
-      "plannerLabel": "Advisor Flow",
-      "plannerColor": "#16a34a",
       "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
       "clientName": "Fernbaugh, Gina 04/29 8:30am (b)",
-      "bucketName": "Prep Materials",
+      "bucketName": "Post-Meeting Documentation/ Delegate",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -45484,7 +45451,7 @@
       "plannerColor": "#16a34a",
       "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
       "clientName": "Kuss, Michael 04/29 2:30 (g)",
-      "bucketName": "Prep Materials",
+      "bucketName": "Ready for Meeting",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -45498,7 +45465,7 @@
       "plannerColor": "#16a34a",
       "title": "Mugler, Jon & Nora 04/29 10am (P) || Into",
       "clientName": "Mugler, Jon & Nora 04/29 10am (p)",
-      "bucketName": "Prep Materials",
+      "bucketName": "Post-Meeting Documentation/ Delegate",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -45512,7 +45479,7 @@
       "plannerColor": "#16a34a",
       "title": "Straube, Barb 04/28 1pm (W) || Discussion Security safety",
       "clientName": "Straube, Barb 04/28 1pm (w)",
-      "bucketName": "Ready for Meeting",
+      "bucketName": "In- Progress Activities",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -45526,7 +45493,7 @@
       "plannerColor": "#16a34a",
       "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
       "clientName": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
-      "bucketName": "Prep Materials",
+      "bucketName": "Post-Meeting Documentation/ Delegate",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -45554,7 +45521,7 @@
       "plannerColor": "#16a34a",
       "title": "Kennedy, Brian 04/29 1pm (R) || Prospect",
       "clientName": "Kennedy, Brian 04/29 1pm (r)",
-      "bucketName": "Prep Materials",
+      "bucketName": "Ready for Meeting",
       "assigneeNames": [
         "Jaiden Karrick"
       ],
@@ -45617,20 +45584,6 @@
       "advisor": "Jaiden Karrick",
       "isUnassigned": false,
       "dueDateFormatted": "Apr 24, 2026"
-    },
-    {
-      "plannerKey": "advisor",
-      "plannerLabel": "Advisor Flow",
-      "plannerColor": "#16a34a",
-      "title": "Swanson, Nick 04/28 12pm (R) || Review",
-      "clientName": "Swanson, Nick 04/28 12pm (r)",
-      "bucketName": "Ready for Meeting",
-      "assigneeNames": [
-        "Jaiden Karrick"
-      ],
-      "advisor": "Jaiden Karrick",
-      "isUnassigned": false,
-      "dueDateFormatted": "Apr 28, 2026"
     },
     {
       "plannerKey": "advisor",
@@ -46616,6 +46569,11 @@
   ],
   "possibleDuplicates": [
     {
+      "nameA": "Jones, Jeanna",
+      "nameB": "Jones, Jeanna 04/20 11am (g)",
+      "score": 85
+    },
+    {
       "nameA": "Straube, Barb",
       "nameB": "Straube, Barb 04/28 1pm (w)",
       "score": 85
@@ -46687,12 +46645,12 @@
     },
     {
       "nameA": "Sheehy, Kevin",
-      "nameB": "Sheehy, Kevin + Kim",
+      "nameB": "Sheehy, Kevin 04/21 (t)",
       "score": 85
     },
     {
       "nameA": "Sheehy, Kevin",
-      "nameB": "Sheehy, Kevin 04/21 (t)",
+      "nameB": "Sheehy, Kevin + Kim",
       "score": 85
     },
     {
@@ -46713,11 +46671,6 @@
     {
       "nameA": "Burgess, Rebecca",
       "nameB": "Burgess, Becca",
-      "score": 85
-    },
-    {
-      "nameA": "Jones, Jeanna",
-      "nameB": "Jones, Jeanna 04/20 11am (g)",
       "score": 85
     },
     {
@@ -47082,12 +47035,12 @@
     },
     {
       "nameA": "Sheehy, Kevin & Kimberly",
-      "nameB": "Sheehy, Kevin + Kim",
+      "nameB": "Sheehy, Kevin 04/21 (t)",
       "score": 85
     },
     {
       "nameA": "Sheehy, Kevin & Kimberly",
-      "nameB": "Sheehy, Kevin 04/21 (t)",
+      "nameB": "Sheehy, Kevin + Kim",
       "score": 85
     },
     {
@@ -47171,18 +47124,13 @@
       "score": 85
     },
     {
-      "nameA": "Sheehy, Kevin + Kim",
-      "nameB": "Sheehy, Kevin 04/21 (t)",
-      "score": 85
-    },
-    {
-      "nameA": "Sheehy, Kevin + Kim",
-      "nameB": "Sheehy, Kevin & Kimberly 03/13 8:15am (p)",
-      "score": 85
-    },
-    {
       "nameA": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
       "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
+      "score": 85
+    },
+    {
+      "nameA": "Sheehy, Kevin 04/21 (t)",
+      "nameB": "Sheehy, Kevin + Kim",
       "score": 85
     },
     {
@@ -47231,6 +47179,11 @@
       "score": 85
     },
     {
+      "nameA": "Sheehy, Kevin + Kim",
+      "nameB": "Sheehy, Kevin & Kimberly 03/13 8:15am (p)",
+      "score": 85
+    },
+    {
       "nameA": "Orr, Tom 04/08 12:30 (r) || Notes",
       "nameB": "Orr, Tom 10/31 10am ||6mo Check In",
       "score": 85
@@ -47248,10 +47201,10 @@
   ],
   "aiMerges": [],
   "stats": {
-    "totalOpen": 317,
-    "completedToday": 7,
-    "overdue": 110,
-    "waitingOnClient": 73,
+    "totalOpen": 315,
+    "completedToday": 10,
+    "overdue": 108,
+    "waitingOnClient": 74,
     "wipClients": 79
   }
 }
