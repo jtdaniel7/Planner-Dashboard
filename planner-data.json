@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-30T10:22:50.005Z",
+  "fetchedAt": "2026-04-30T11:56:55.552Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-04-30T10:22:51.618Z",
+      "lastUpdated": "2026-04-30T11:56:57.139Z",
       "tasks": [
         {
           "id": "d0d49_6yQkaXip3XVmJJd2UAOHYs",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-04-30T10:23:07.854Z",
+      "lastUpdated": "2026-04-30T11:57:12.563Z",
       "tasks": [
         {
           "id": "bIj_VAV_mEOhLDi_86tqSGUABYna",
@@ -15195,7 +15195,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-04-30T10:24:19.807Z",
+      "lastUpdated": "2026-04-30T11:58:21.589Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21240,7 +21240,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-04-30T10:25:14.931Z",
+      "lastUpdated": "2026-04-30T11:59:14.571Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28766,7 +28766,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-04-30T10:25:46.177Z",
+      "lastUpdated": "2026-04-30T11:59:44.410Z",
       "tasks": [
         {
           "id": "4vH81kSKF0u8tA3rHFPhRWUACEIs",
@@ -29868,8 +29868,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress with multiple tasks in Advisor Flow",
-      "nextAction": "Address overdue advisor tasks",
+      "currentStage": "In Progress with multiple tasks in Trades",
+      "nextAction": "Place overdue trades",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30078,8 +30078,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress with tasks in both Paperwork and Advisor Flow",
-      "nextAction": "Follow up on overdue paperwork and advisor tasks",
+      "currentStage": "In Progress with tasks in Paperwork and Trades",
+      "nextAction": "Follow up on waiting signatures",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30232,8 +30232,190 @@
           ]
         }
       ],
-      "currentStage": "In Progress with multiple tasks in Paperwork and Advisor Flow",
-      "nextAction": "Complete paperwork and follow up on advisor tasks",
+      "currentStage": "In Progress with multiple tasks in Paperwork and Trades",
+      "nextAction": "Complete paperwork and link trades",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcginty, Claudine",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Claudine McGinty Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Claudine McGinty Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "McGinty, Claudine - PPWK FID IRA ADD ADISOR",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "McGinty, Claudine - ADD ADVISOR FID IND TOD",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 5,
+      "doneItems": 4,
+      "progress": 80,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Claudine McGinty Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Claudine McGinty Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "McGinty, Claudine - PPWK FID IRA ADD ADISOR",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "McGinty, Claudine - ADD ADVISOR FID IND TOD",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McGinty, Claudine 04/13 2:15pm (P) || Intro",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent on 4/14 (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress with tasks in Advisor Flow",
+      "nextAction": "Complete overdue documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30376,8 +30558,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress with overdue tasks",
-      "nextAction": "Complete overdue tasks",
+      "currentStage": "In Progress with tasks in Advisor Flow",
+      "nextAction": "Review overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30592,8 +30774,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress with multiple overdue advisor tasks",
-      "nextAction": "Review and complete overdue tasks",
+      "currentStage": "In Progress with multiple tasks in Advisor Flow",
+      "nextAction": "Complete overdue documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30731,91 +30913,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress with overdue tasks",
-      "nextAction": "Complete overdue tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Killy, Scott & Cindy",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "advisor"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Scott Killy Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Scott Killy Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f.u email sent 4/27"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress with overdue tasks",
-      "nextAction": "Address overdue tasks",
+      "currentStage": "In Progress with tasks in Advisor Flow",
+      "nextAction": "Complete overdue documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30897,8 +30996,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress with overdue tasks in Advisor Flow",
-      "nextAction": "Follow up on overdue tasks",
+      "currentStage": "In Progress with tasks in Advisor Flow",
+      "nextAction": "Complete overdue documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30978,8 +31077,68 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized with overdue items",
-      "nextAction": "Review and complete overdue tasks",
+      "currentStage": "In Progress with tasks in Advisor Flow",
+      "nextAction": "Complete overdue documentation",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Killy, Scott & Cindy",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f.u email sent 4/27"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f.u email sent 4/27"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress with tasks in Advisor Flow",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -33045,66 +33204,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 15, 2026",
               "notes": "zocks notes saved and f/u email sent 4/23 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Mcginty, Claudine 04/13 2:15pm (p)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McGinty, Claudine 04/13 2:15pm (P) || Intro",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent on 4/14 (jek)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McGinty, Claudine 04/13 2:15pm (P) || Intro",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent on 4/14 (jek)"
             }
           ]
         }
@@ -46626,13 +46725,13 @@
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
+      "nameA": "Killy, Scott",
       "nameB": "Killy, Scott & Cynthia",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
-      "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "nameA": "Killy, Scott",
+      "nameB": "Killy, Scott & Cindy",
       "score": 85
     },
     {
@@ -46932,7 +47031,7 @@
     },
     {
       "nameA": "Killy, Scott & Cynthia",
-      "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "nameB": "Killy, Scott & Cindy",
       "score": 85
     },
     {
@@ -47209,10 +47308,6 @@
       "to": "Johns, Shawnelle & Steve"
     },
     {
-      "from": "Kohler, Tim 05/07 12pm (w)",
-      "to": "Kohler, Timothy"
-    },
-    {
       "from": "Fowler, Randy 04/14 12pm (p)",
       "to": "Fowler, Randall"
     },
@@ -47229,6 +47324,10 @@
       "to": "Belkofer, David & Debbie"
     },
     {
+      "from": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "to": "Killy, Scott & Cindy"
+    },
+    {
       "from": "Mugler, Jon & Nora 04/29 10am (p)",
       "to": "Mugler, Jon & Nora"
     },
@@ -47237,20 +47336,20 @@
       "to": "Hayes, John & Lori"
     },
     {
-      "from": "Killy, Scott",
-      "to": "Killy, Scott & Cindy"
-    },
-    {
-      "from": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
-      "to": "Killy, Scott & Cindy"
-    },
-    {
       "from": "Rasar, Jack",
       "to": "Rasar, Jack & Tracey"
     },
     {
       "from": "Rasar, Jack & Tracey04/20 1pm (w)",
       "to": "Rasar, Jack & Tracey"
+    },
+    {
+      "from": "Mcginty, Claudine 04/13 2:15pm (p)",
+      "to": "Mcginty, Claudine"
+    },
+    {
+      "from": "Kohler, Tim 05/07 12pm (w)",
+      "to": "Kohler, Timothy"
     }
   ],
   "stats": {
