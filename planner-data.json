@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-02T03:57:42.997Z",
+  "fetchedAt": "2026-05-02T06:07:09.090Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-02T03:57:44.668Z",
+      "lastUpdated": "2026-05-02T06:07:10.989Z",
       "tasks": [
         {
           "id": "O7gqKxvmBU2mTTYxTghG_GUAHWye",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-02T03:57:56.274Z",
+      "lastUpdated": "2026-05-02T06:07:21.399Z",
       "tasks": [
         {
           "id": "ZLUVc8j1TEuqG4DYvqp42GUAJeHc",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-02T03:59:02.290Z",
+      "lastUpdated": "2026-05-02T06:08:24.192Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21246,7 +21246,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-02T03:59:56.448Z",
+      "lastUpdated": "2026-05-02T06:09:15.055Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28772,7 +28772,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-02T04:00:26.806Z",
+      "lastUpdated": "2026-05-02T06:09:43.937Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -29887,7 +29887,7 @@
         }
       ],
       "currentStage": "In Progress - Trades",
-      "nextAction": "Complete overdue trades for Chloe",
+      "nextAction": "Complete trades for Chloe",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30069,7 +30069,7 @@
         }
       ],
       "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Finalize documentation for Michael",
+      "nextAction": "Finalize post-meeting documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30247,20 +30247,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 6, 2026",
               "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Deborah Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
             }
           ]
         },
@@ -30281,12 +30267,25 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 26, 2026",
               "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue activities for David & Debbie",
+      "nextAction": "Continue with ongoing activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30369,7 +30368,7 @@
         }
       ],
       "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Finalize documentation for Jon & Nora",
+      "nextAction": "Finalize post-meeting documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30450,7 +30449,7 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Start paperwork for Timothy",
+      "nextAction": "Start paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30560,7 +30559,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue activities for Jack & Tracey",
+      "nextAction": "Continue with ongoing activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30622,7 +30621,7 @@
         }
       ],
       "currentStage": "In Progress - Trades",
-      "nextAction": "Complete overdue trades for Marsha",
+      "nextAction": "Complete trades for Marsha",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30741,6 +30740,66 @@
       ],
       "currentStage": "Queue - Paperwork not yet started",
       "nextAction": "Initiate paperwork for both clients",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcmanaway, Steve",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Schedule a meeting with Steve",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -33665,66 +33724,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Belkofer, David & Debbie 03/05 3pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Mcstay, Cheryl  04/22 2:30pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33775,66 +33774,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 15, 2026",
               "notes": "zocks notes saved adn f/u emial sent 4/23 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Mcmanaway, Steve",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
             }
           ]
         }
@@ -38273,6 +38212,68 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 5, 2026",
               "notes": "Who filled this out: CTB\r\nName: Janet Pawlowski\r\nAcct: FID TOD 655035057\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: $1,700\r\nTax W/H: None\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Confirmed CU info, tax w/h, and account. Janet was off the rocker today, we had a lengthy call about how her deceased husbands sister is \"dating\" a Syrian general who is scamming her off of Facebook and she keeps begging for money, Janet is not giving in. Now, her deceased husbands niece is also asking for money because she is lazy and doesn't work. She is giving this $1,700 is her niece and sounds like she will not be in communication with her after this. She feels guilty because this is their brother/uncles money."
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Belkofer, Deborah",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Deborah Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Deborah Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
             }
           ]
         }
@@ -46227,7 +46228,7 @@
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Belkofer, Deborah",
+      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
       "to": "Belkofer, David & Debbie"
     },
     {
