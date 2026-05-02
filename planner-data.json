@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-02T12:55:03.360Z",
+  "fetchedAt": "2026-05-02T14:07:53.638Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-02T12:55:04.964Z",
+      "lastUpdated": "2026-05-02T14:07:55.376Z",
       "tasks": [
         {
           "id": "O7gqKxvmBU2mTTYxTghG_GUAHWye",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-02T12:55:15.708Z",
+      "lastUpdated": "2026-05-02T14:08:04.977Z",
       "tasks": [
         {
           "id": "ZLUVc8j1TEuqG4DYvqp42GUAJeHc",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-02T12:56:21.326Z",
+      "lastUpdated": "2026-05-02T14:09:05.761Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21246,7 +21246,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-02T12:57:14.933Z",
+      "lastUpdated": "2026-05-02T14:09:54.915Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28772,7 +28772,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-02T12:57:45.077Z",
+      "lastUpdated": "2026-05-02T14:10:22.774Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -29886,8 +29886,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Follow up on paperwork status",
+      "currentStage": "In Progress - Trades",
+      "nextAction": "Follow up on trades for Chloe",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -29969,8 +29969,8 @@
           ]
         }
       ],
-      "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Complete post-meeting documentation",
+      "currentStage": "In Progress - Advisor Flow",
+      "nextAction": "Complete documentation for Jon & Nora",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30050,8 +30050,8 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Start paperwork process",
+      "currentStage": "Task Recognized - Paperwork not started",
+      "nextAction": "Start paperwork for Timothy",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30146,8 +30146,70 @@
           ]
         }
       ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Review overdue activities",
+      "currentStage": "In Progress - Advisor Flow",
+      "nextAction": "Review overdue items for David & Debbie",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Gould, Marsha",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marsha Gould Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marsha Gould Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress - Trades",
+      "nextAction": "Finalize trades for Marsha",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30264,8 +30326,68 @@
           ]
         }
       ],
-      "currentStage": "Queue - Paperwork not yet started",
+      "currentStage": "Queue - Paperwork not started",
       "nextAction": "Initiate paperwork for both clients",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcknight, Brian & Sarah",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress - Advisor Flow",
+      "nextAction": "Finalize documentation for Brian & Sarah",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30324,8 +30446,8 @@
           ]
         }
       ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Follow up on overdue activities",
+      "currentStage": "In Progress - Advisor Flow",
+      "nextAction": "Complete documentation for Bob & Cindy",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30384,8 +30506,8 @@
           ]
         }
       ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Complete overdue activities",
+      "currentStage": "In Progress - Advisor Flow",
+      "nextAction": "Complete documentation for Jack & Tracey",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30444,8 +30566,8 @@
           ]
         }
       ],
-      "currentStage": "Schedule Meeting",
-      "nextAction": "Schedule a meeting",
+      "currentStage": "Schedule Meeting - Overdue",
+      "nextAction": "Schedule meeting with Steve",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30976,68 +31098,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 29, 2026",
               "notes": "Who filled this out: AL\nClient Name: Daniel M O'Connell\nAccount: FID IND TOD #628-884971\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD - 12 holdings, not in a model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/28/26 - deposited a ~$4300 check. his FID TOD is not in a model - holds (5) VNG ETFs, SPTM, SPEM, PRWCX, PONPX, BND and AAANX. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Gould, Marsha",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marsha Gould Distribution Request BES",
-              "status": "late",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marsha Gould Distribution Request BES",
-              "status": "late",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
             }
           ]
         }
@@ -31982,66 +32042,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 28, 2026",
               "notes": "zocks notes saved and f/u email sent 4/29 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": null
             }
           ]
         }
@@ -46460,12 +46460,16 @@
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Owens, Bob & Cindy 04/13 11am (r)",
-      "to": "Owens, Bob & Cindy"
-    },
-    {
       "from": "Rasar, Jack & Tracey04/20 1pm (w)",
       "to": "Rasar, Jack & Tracey"
+    },
+    {
+      "from": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
+      "to": "Mcknight, Brian & Sarah"
+    },
+    {
+      "from": "Owens, Bob & Cindy 04/13 11am (r)",
+      "to": "Owens, Bob & Cindy"
     }
   ],
   "stats": {
