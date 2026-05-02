@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-02T06:07:09.090Z",
+  "fetchedAt": "2026-05-02T08:04:42.804Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-02T06:07:10.989Z",
+      "lastUpdated": "2026-05-02T08:04:44.769Z",
       "tasks": [
         {
           "id": "O7gqKxvmBU2mTTYxTghG_GUAHWye",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-02T06:07:21.399Z",
+      "lastUpdated": "2026-05-02T08:04:54.340Z",
       "tasks": [
         {
           "id": "ZLUVc8j1TEuqG4DYvqp42GUAJeHc",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-02T06:08:24.192Z",
+      "lastUpdated": "2026-05-02T08:05:55.336Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21246,7 +21246,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-02T06:09:15.055Z",
+      "lastUpdated": "2026-05-02T08:06:44.262Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28772,7 +28772,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-02T06:09:43.937Z",
+      "lastUpdated": "2026-05-02T08:07:12.542Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -29887,7 +29887,7 @@
         }
       ],
       "currentStage": "In Progress - Trades",
-      "nextAction": "Complete trades for Chloe",
+      "nextAction": "Follow up on trades for Chloe",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30069,7 +30069,7 @@
         }
       ],
       "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Finalize post-meeting documentation",
+      "nextAction": "Finalize documentation for Michael",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30247,6 +30247,20 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 6, 2026",
               "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Deborah Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
             }
           ]
         },
@@ -30267,108 +30281,12 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 26, 2026",
               "notes": "Pension forms- no meeting review cover needed for this! (jek)- no zocks notes or email needed!"
-            },
-            {
-              "plannerKey": "advisor",
-              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Continue with ongoing activities",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Mugler, Jon & Nora",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Mugler, Jon & Nora - PPWK ACH UPDATE",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Zachery Briggs"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "Name of Client: Jon & Nora Mugler\r\nType of Account: Retirement\r\nSponsor Company: PER\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"ACH Update\"]\r\n\r\nNotes: ACH Update on Both of their PER accounts\r\n\r\n4/7/26 - Both of these have been sent via docusign (zwb)\r\n\r\nUPDATE: got both of these back and submitted to web capture (zwb)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Mugler, Jon & Nora - PPWK ACH UPDATE",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Zachery Briggs"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "Name of Client: Jon & Nora Mugler\r\nType of Account: Retirement\r\nSponsor Company: PER\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"ACH Update\"]\r\n\r\nNotes: ACH Update on Both of their PER accounts\r\n\r\n4/7/26 - Both of these have been sent via docusign (zwb)\r\n\r\nUPDATE: got both of these back and submitted to web capture (zwb)"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Mugler, Jon & Nora 04/29 10am (P) || Into",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Finalize post-meeting documentation",
+      "currentStage": "In Progress - Activities",
+      "nextAction": "Complete activities for the Belkofer household",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30377,7 +30295,7 @@
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "paperwork",
-        "advisor"
+        "trades"
       ],
       "byPlanner": {
         "paperwork": {
@@ -30404,8 +30322,8 @@
       "hasOverdue": true,
       "hasWaitingOnClient": false,
       "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
+      "doneItems": 1,
+      "progress": 50,
       "plannerGroups": [
         {
           "key": "paperwork",
@@ -30428,28 +30346,29 @@
           ]
         },
         {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
           "items": [
             {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "Prep Materials",
+              "plannerKey": "trades",
+              "title": "Tim Kohler Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
               "assigneeNames": [
-                "Jaiden Karrick"
+                "Ryan Juhasz",
+                "Jennifer Ottney"
               ],
-              "advisor": "Jaiden Karrick",
+              "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
+              "dueDateFormatted": "Feb 11, 2026",
               "notes": null
             }
           ]
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Start paperwork process",
+      "nextAction": "Initiate paperwork for Timothy",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30558,8 +30477,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Continue with ongoing activities",
+      "currentStage": "In Progress - Activities",
+      "nextAction": "Complete activities for the Rasar household",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30739,7 +30658,127 @@
         }
       ],
       "currentStage": "Queue - Paperwork not yet started",
-      "nextAction": "Initiate paperwork for both clients",
+      "nextAction": "Start paperwork for both clients",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Owens, Bob & Cindy",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress - Activities",
+      "nextAction": "Complete activities for the Owens household",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Hugueley, Dan & Beth",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Hugueley, Dan & Beth 03/30 1pm (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 30, 2026",
+              "notes": "not sending a f/u email bc I was not in mtg, but zocks notes saved! (jek)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Hugueley, Dan & Beth 03/30 1pm (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 30, 2026",
+              "notes": "not sending a f/u email bc I was not in mtg, but zocks notes saved! (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress - Activities",
+      "nextAction": "Complete activities for the Hugueley household",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30800,6 +30839,68 @@
       ],
       "currentStage": "Schedule Meeting",
       "nextAction": "Schedule a meeting with Steve",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mugler, Jon & Nora",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Mugler, Jon & Nora - PPWK ACH UPDATE",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Zachery Briggs"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": "Name of Client: Jon & Nora Mugler\r\nType of Account: Retirement\r\nSponsor Company: PER\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"ACH Update\"]\r\n\r\nNotes: ACH Update on Both of their PER accounts\r\n\r\n4/7/26 - Both of these have been sent via docusign (zwb)\r\n\r\nUPDATE: got both of these back and submitted to web capture (zwb)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": true,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Mugler, Jon & Nora - PPWK ACH UPDATE",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Zachery Briggs"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": "Name of Client: Jon & Nora Mugler\r\nType of Account: Retirement\r\nSponsor Company: PER\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"ACH Update\"]\r\n\r\nNotes: ACH Update on Both of their PER accounts\r\n\r\n4/7/26 - Both of these have been sent via docusign (zwb)\r\n\r\nUPDATE: got both of these back and submitted to web capture (zwb)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Post-Meeting Documentation/ Delegate",
+      "nextAction": "Complete post-meeting documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32164,6 +32265,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Mugler, Jon & Nora 04/29 10am (p)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Mugler, Jon & Nora 04/29 10am (P) || Into",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Mugler, Jon & Nora 04/29 10am (P) || Into",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Straube, Barb 04/28 1pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32644,6 +32805,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Kohler, Tim 05/07 12pm (w)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Stager, Marcia 04/22 9:30am (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32994,66 +33215,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 27, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Owens, Bob & Cindy 04/13 11am (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
             }
           ]
         }
@@ -33544,66 +33705,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Hugueley, Dan & Beth 03/30 1pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Hugueley, Dan & Beth 03/30 1pm (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 30, 2026",
-              "notes": "not sending a f/u email bc I was not in mtg, but zocks notes saved! (jek)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Hugueley, Dan & Beth 03/30 1pm (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 30, 2026",
-              "notes": "not sending a f/u email bc I was not in mtg, but zocks notes saved! (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Hummel, Roger & Chris 04/21 1:30pm (r)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33714,6 +33815,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 30, 2026",
               "notes": "zocks notes saved adn f/u email sent 4/7 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Belkofer, David & Debbie 03/05 3pm (R) || GBU Ppwk In-Serv-Dist",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "zocks notes saved and f/u email sent 3/10 jek"
             }
           ]
         }
@@ -38212,68 +38373,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 5, 2026",
               "notes": "Who filled this out: CTB\r\nName: Janet Pawlowski\r\nAcct: FID TOD 655035057\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: $1,700\r\nTax W/H: None\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Confirmed CU info, tax w/h, and account. Janet was off the rocker today, we had a lengthy call about how her deceased husbands sister is \"dating\" a Syrian general who is scamming her off of Facebook and she keeps begging for money, Janet is not giving in. Now, her deceased husbands niece is also asking for money because she is lazy and doesn't work. She is giving this $1,700 is her niece and sounds like she will not be in communication with her after this. She feels guilty because this is their brother/uncles money."
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Belkofer, Deborah",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Deborah Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Deborah Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
             }
           ]
         }
@@ -45724,7 +45823,7 @@
     },
     {
       "nameA": "Owens, Bob",
-      "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
+      "nameB": "Owens, Bob & Cindy",
       "score": 85
     },
     {
@@ -46212,14 +46311,6 @@
       "to": "Halprin, Chloe"
     },
     {
-      "from": "Mugler, Jon & Nora 04/29 10am (p)",
-      "to": "Mugler, Jon & Nora"
-    },
-    {
-      "from": "Kohler, Tim 05/07 12pm (w)",
-      "to": "Kohler, Timothy"
-    },
-    {
       "from": "Belkofer, David",
       "to": "Belkofer, David & Debbie"
     },
@@ -46228,8 +46319,12 @@
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Belkofer, David & Debbie 03/05 3pm (r)",
+      "from": "Belkofer, Deborah",
       "to": "Belkofer, David & Debbie"
+    },
+    {
+      "from": "Kohler, Tim",
+      "to": "Kohler, Timothy"
     },
     {
       "from": "Kuss, Michael 04/29 2:30 (g)",
@@ -46242,6 +46337,14 @@
     {
       "from": "Rasar, Jack",
       "to": "Rasar, Jack & Tracey"
+    },
+    {
+      "from": "Hugueley, Dan & Beth 03/30 1pm (r)",
+      "to": "Hugueley, Dan & Beth"
+    },
+    {
+      "from": "Owens, Bob & Cindy 04/13 11am (r)",
+      "to": "Owens, Bob & Cindy"
     }
   ],
   "stats": {
