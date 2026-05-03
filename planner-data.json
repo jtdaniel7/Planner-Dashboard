@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-03T02:12:11.278Z",
+  "fetchedAt": "2026-05-03T05:42:03.286Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-03T02:12:13.028Z",
+      "lastUpdated": "2026-05-03T05:42:04.755Z",
       "tasks": [
         {
           "id": "1Al9i30L4EqHxtaPF0GhV2UAPbMJ",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-03T02:12:22.891Z",
+      "lastUpdated": "2026-05-03T05:42:16.157Z",
       "tasks": [
         {
           "id": "ZLUVc8j1TEuqG4DYvqp42GUAJeHc",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-03T02:13:23.571Z",
+      "lastUpdated": "2026-05-03T05:43:26.575Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21246,7 +21246,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-03T02:14:12.716Z",
+      "lastUpdated": "2026-05-03T05:44:24.839Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28772,7 +28772,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-03T02:14:40.735Z",
+      "lastUpdated": "2026-05-03T05:44:57.487Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -29723,7 +29723,8 @@
       "planners": [
         "paperwork",
         "conts",
-        "trades"
+        "trades",
+        "advisor"
       ],
       "byPlanner": {
         "paperwork": {
@@ -29784,9 +29785,9 @@
       },
       "hasOverdue": true,
       "hasWaitingOnClient": true,
-      "totalItems": 4,
+      "totalItems": 5,
       "doneItems": 2,
-      "progress": 50,
+      "progress": 40,
       "plannerGroups": [
         {
           "key": "paperwork",
@@ -29863,6 +29864,26 @@
               "notes": "Who filled this out: AL\r\nClient Name: Chloe Halrpin\r\nAccount: FID IND TOD #655-065767\r\nSells / Amount / Ticker / Holding Name: \r\nBuys / Amount / Ticker / Holding Name: \r\nSolicited?: Yes\r\nDiscretion?: Yes\r\nCharge Commission? (HHG accounts): \r\nRecommended Strategy: \r\nNotes / Comments / Special Instructions / Restrictions04/30/26 - Chloe asked to pull $3500 into her FID TOD. messaging for trades, see thread! (acs)"
             }
           ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
         }
       ],
       "currentStage": "In Progress - Trades",
@@ -29875,7 +29896,7 @@
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "paperwork",
-        "trades"
+        "advisor"
       ],
       "byPlanner": {
         "paperwork": {
@@ -29902,8 +29923,8 @@
       "hasOverdue": true,
       "hasWaitingOnClient": false,
       "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
+      "doneItems": 0,
+      "progress": 0,
       "plannerGroups": [
         {
           "key": "paperwork",
@@ -29926,13 +29947,108 @@
           ]
         },
         {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork for Tim",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Rasar, Jack & Tracey",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor",
+        "trades"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f/u email sent 4/21 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 4,
+      "doneItems": 2,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f/u email sent 4/21 jek"
+            }
+          ]
+        },
+        {
           "key": "trades",
           "label": "Trades & Distributions",
           "color": "#2563eb",
           "items": [
             {
               "plannerKey": "trades",
-              "title": "Tim Kohler Roth Conversion BES",
+              "title": "Jack Rasar Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 10, 2026",
+              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -29941,76 +30057,28 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Feb 11, 2026",
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
               "notes": null
             }
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Start paperwork for Timothy",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Gould, Marsha",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marsha Gould Distribution Request BES",
-              "status": "late",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marsha Gould Distribution Request BES",
-              "status": "late",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress - Trades",
-      "nextAction": "Complete trades for Marsha",
+      "currentStage": "In Progress - Activities",
+      "nextAction": "Complete activities for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30128,7 +30196,67 @@
         }
       ],
       "currentStage": "Queue - Paperwork not yet started",
-      "nextAction": "Initiate paperwork for both clients",
+      "nextAction": "Prepare paperwork for both clients",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcmanaway, Steve",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Schedule meeting for Steve",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30310,125 +30438,7 @@
         }
       ],
       "currentStage": "In Progress - Activities",
-      "nextAction": "Review overdue activities for both clients",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Rasar, Jack & Tracey",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 10, 2026",
-              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 2,
-      "progress": 67,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 10, 2026",
-              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress - Activities",
-      "nextAction": "Follow up on activities for both clients",
+      "nextAction": "Complete activities for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31021,6 +31031,68 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 29, 2026",
               "notes": "Who filled this out: AL\nClient Name: Daniel M O'Connell\nAccount: FID IND TOD #628-884971\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD - 12 holdings, not in a model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/28/26 - deposited a ~$4300 check. his FID TOD is not in a model - holds (5) VNG ETFs, SPTM, SPEM, PRWCX, PONPX, BND and AAANX. (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Gould, Marsha",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marsha Gould Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marsha Gould Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
             }
           ]
         }
@@ -32455,126 +32527,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Halprin, Chloe (g) 04/10 8am || Notes",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Tim 05/07 12pm (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Stager, Marcia 04/22 9:30am (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33825,126 +33777,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 15, 2026",
               "notes": "zocks notes saved adn f/u emial sent 4/23 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Rasar, Jack & Tracey04/20 1pm (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/21 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/21 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Mcmanaway, Steve",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
             }
           ]
         }
@@ -46114,13 +45946,13 @@
       "score": 85
     },
     {
-      "nameA": "Rasar, Jack & Tracey",
+      "nameA": "Rasar, Jack",
       "nameB": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
       "score": 85
     },
     {
-      "nameA": "Rasar, Jack & Tracey",
-      "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
+      "nameA": "Rasar, Jack",
+      "nameB": "Rasar, Jack & Tracey",
       "score": 85
     },
     {
@@ -46154,12 +45986,12 @@
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
+      "nameA": "Killy, Scott",
       "nameB": "Killy, Scott & Cynthia",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
+      "nameA": "Killy, Scott",
       "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
       "score": 85
     },
@@ -46244,7 +46076,7 @@
       "score": 85
     },
     {
-      "nameA": "Owens, Bob",
+      "nameA": "Owens, Bob & Cindy",
       "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
       "score": 85
     },
@@ -46645,7 +46477,7 @@
     },
     {
       "nameA": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
-      "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
+      "nameB": "Rasar, Jack & Tracey",
       "score": 85
     },
     {
@@ -46729,20 +46561,28 @@
       "to": "Halprin, Chloe"
     },
     {
+      "from": "Halprin, Chloe (g) 04/10 8am || Notes",
+      "to": "Halprin, Chloe"
+    },
+    {
       "from": "Belkofer, David",
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Kohler, Tim",
+      "from": "Kohler, Tim 05/07 12pm (w)",
       "to": "Kohler, Timothy"
     },
     {
-      "from": "Killy, Scott",
-      "to": "Killy, Scott & Cindy"
+      "from": "Rasar, Jack & Tracey04/20 1pm (w)",
+      "to": "Rasar, Jack & Tracey"
     },
     {
       "from": "Rasar, Jack",
       "to": "Rasar, Jack & Tracey"
+    },
+    {
+      "from": "Owens, Bob",
+      "to": "Owens, Bob & Cindy"
     }
   ],
   "stats": {
