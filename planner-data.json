@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-03T15:40:20.222Z",
+  "fetchedAt": "2026-05-03T16:41:13.433Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-03T15:40:21.979Z",
+      "lastUpdated": "2026-05-03T16:41:14.920Z",
       "tasks": [
         {
           "id": "1Al9i30L4EqHxtaPF0GhV2UAPbMJ",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-03T15:40:32.611Z",
+      "lastUpdated": "2026-05-03T16:41:25.712Z",
       "tasks": [
         {
           "id": "ZLUVc8j1TEuqG4DYvqp42GUAJeHc",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-03T15:41:38.059Z",
+      "lastUpdated": "2026-05-03T16:42:32.396Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21246,7 +21246,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-03T15:42:30.719Z",
+      "lastUpdated": "2026-05-03T16:43:25.961Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28772,7 +28772,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-03T15:43:00.514Z",
+      "lastUpdated": "2026-05-03T16:43:56.221Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -29895,7 +29895,7 @@
         }
       ],
       "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Finalize documentation for Michael",
+      "nextAction": "Finalize overdue documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30047,8 +30047,147 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Trades",
-      "nextAction": "Follow up on trades for Chloe",
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Continue paperwork preparation",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Rasar, Jack & Tracey",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 10, 2026",
+              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 4,
+      "doneItems": 2,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 10, 2026",
+              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f/u email sent 4/21 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Complete overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30130,35 +30269,64 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Start paperwork for Tim",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Rasar, Jack & Tracey",
-      "advisor": "Jaiden Karrick",
+      "client": "Fowler, Randy",
+      "advisor": "Katie Rower-Osborn",
       "planners": [
-        "advisor",
-        "trades"
+        "paperwork",
+        "advisor"
       ],
       "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
           "items": [
             {
-              "plannerKey": "advisor",
-              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID TRAD IRA WITH LPL TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
               "assigneeNames": [
-                "Jaiden Karrick"
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
               ],
-              "advisor": "Jaiden Karrick",
+              "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/21 jek"
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID UTMA FBO OLIVER STEVENS",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - FID UTMA FBO HARLEY",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
             }
           ]
         }
@@ -30166,9 +30334,58 @@
       "hasOverdue": true,
       "hasWaitingOnClient": false,
       "totalItems": 4,
-      "doneItems": 2,
-      "progress": 50,
+      "doneItems": 3,
+      "progress": 75,
       "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID TRAD IRA WITH LPL TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - NEW ACCT FID UTMA FBO OLIVER STEVENS",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Fowler, Randy - FID UTMA FBO HARLEY",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            }
+          ]
+        },
         {
           "key": "advisor",
           "label": "Advisor Flow",
@@ -30176,7 +30393,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
+              "title": "Fowler, Randy 04/14 12pm (P) || Intro",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -30184,63 +30401,14 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/21 jek"
-            }
-          ]
-        },
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 10, 2026",
-              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Jack Rasar Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
+              "dueDateFormatted": "Apr 7, 2026",
+              "notes": "zocks notes saved, no f/u email sent. sent a check in email tho today just bc we need some things still! 4/20 jek"
             }
           ]
         }
       ],
-      "currentStage": "In Progress - Activities",
-      "nextAction": "Review activities for Jack & Tracey",
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Address overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30301,8 +30469,70 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Trades",
-      "nextAction": "Complete trades for Marsha",
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Complete paperwork preparation",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Schroeder, Marty",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marty Schroeder Distribution Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jan 8, 2026",
+              "notes": "Name: Marty Schroeder\r\n\r\nAcct: FID IRA RO 628-835617\r\n\r\nDistribution Information\r\nGross Amount: 25,000\r\nNet Amount: \r\nTax W/H: 15 fed / 3 state\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Cash available- this is for car purchase in spring of 2026. we are doing part of it now and part of it in Jan 2026 for tax purposes!"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marty Schroeder Distribution Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jan 8, 2026",
+              "notes": "Name: Marty Schroeder\r\n\r\nAcct: FID IRA RO 628-835617\r\n\r\nDistribution Information\r\nGross Amount: 25,000\r\nNet Amount: \r\nTax W/H: 15 fed / 3 state\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Cash available- this is for car purchase in spring of 2026. we are doing part of it now and part of it in Jan 2026 for tax purposes!"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Start paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30419,8 +30649,8 @@
           ]
         }
       ],
-      "currentStage": "Queue - Paperwork not yet started",
-      "nextAction": "Initiate paperwork for both clients",
+      "currentStage": "Queue / Task Recognized",
+      "nextAction": "Start paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30470,9 +30700,9 @@
       },
       "hasOverdue": false,
       "hasWaitingOnClient": false,
-      "totalItems": 9,
+      "totalItems": 8,
       "doneItems": 4,
-      "progress": 44,
+      "progress": 50,
       "plannerGroups": [
         {
           "key": "paperwork",
@@ -30597,26 +30827,12 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 6, 2026",
               "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Deborah Belkofer Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 1, 2026",
-              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
             }
           ]
         }
       ],
-      "currentStage": "In Progress - Activities",
-      "nextAction": "Review overdue activities for both clients",
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30678,7 +30894,7 @@
         }
       ],
       "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Complete documentation for both clients",
+      "nextAction": "Complete documentation for overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31209,68 +31425,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 29, 2026",
               "notes": "Who filled this out: AL\nClient Name: Daniel M O'Connell\nAccount: FID IND TOD #628-884971\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD - 12 holdings, not in a model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/28/26 - deposited a ~$4300 check. his FID TOD is not in a model - holds (5) VNG ETFs, SPTM, SPEM, PRWCX, PONPX, BND and AAANX. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Schroeder, Marty",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marty Schroeder Distribution Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jan 8, 2026",
-              "notes": "Name: Marty Schroeder\r\n\r\nAcct: FID IRA RO 628-835617\r\n\r\nDistribution Information\r\nGross Amount: 25,000\r\nNet Amount: \r\nTax W/H: 15 fed / 3 state\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Cash available- this is for car purchase in spring of 2026. we are doing part of it now and part of it in Jan 2026 for tax purposes!"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marty Schroeder Distribution Request BES",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jan 8, 2026",
-              "notes": "Name: Marty Schroeder\r\n\r\nAcct: FID IRA RO 628-835617\r\n\r\nDistribution Information\r\nGross Amount: 25,000\r\nNet Amount: \r\nTax W/H: 15 fed / 3 state\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Cash available- this is for car purchase in spring of 2026. we are doing part of it now and part of it in Jan 2026 for tax purposes!"
             }
           ]
         }
@@ -33293,66 +33447,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 19, 2026",
               "notes": "zocks ntoes saved adn f/u email sent 3/27 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Fowler, Randy 04/14 12pm (p)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Fowler, Randy 04/14 12pm (P) || Intro",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 7, 2026",
-              "notes": "zocks notes saved, no f/u email sent. sent a check in email tho today just bc we need some things still! 4/20 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Fowler, Randy 04/14 12pm (P) || Intro",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 7, 2026",
-              "notes": "zocks notes saved, no f/u email sent. sent a check in email tho today just bc we need some things still! 4/20 jek"
             }
           ]
         }
@@ -38640,6 +38734,68 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 5, 2026",
               "notes": "Who filled this out: CTB\r\nName: Janet Pawlowski\r\nAcct: FID TOD 655035057\r\n\r\nDistribution Information\r\nGross Amount: \r\nNet Amount: $1,700\r\nTax W/H: None\r\nACH on file? Yes\r\nCheck Request? \r\nAny Trades Needed? Confirmed CU info, tax w/h, and account. Janet was off the rocker today, we had a lengthy call about how her deceased husbands sister is \"dating\" a Syrian general who is scamming her off of Facebook and she keeps begging for money, Janet is not giving in. Now, her deceased husbands niece is also asking for money because she is lazy and doesn't work. She is giving this $1,700 is her niece and sounds like she will not be in communication with her after this. She feels guilty because this is their brother/uncles money."
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Belkofer, Deborah",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Deborah Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Deborah Belkofer Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 1, 2026",
+              "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
             }
           ]
         }
@@ -45959,13 +46115,13 @@
       "score": 85
     },
     {
-      "nameA": "Rasar, Jack",
+      "nameA": "Rasar, Jack & Tracey",
       "nameB": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
       "score": 85
     },
     {
-      "nameA": "Rasar, Jack",
-      "nameB": "Rasar, Jack & Tracey",
+      "nameA": "Rasar, Jack & Tracey",
+      "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
       "score": 85
     },
     {
@@ -46490,7 +46646,7 @@
     },
     {
       "nameA": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
-      "nameB": "Rasar, Jack & Tracey",
+      "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
       "score": 85
     },
     {
@@ -46578,10 +46734,6 @@
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Belkofer, Deborah",
-      "to": "Belkofer, David & Debbie"
-    },
-    {
       "from": "Kohler, Tim",
       "to": "Kohler, Timothy"
     },
@@ -46590,11 +46742,15 @@
       "to": "Kuss, Michael"
     },
     {
-      "from": "Rasar, Jack & Tracey04/20 1pm (w)",
-      "to": "Rasar, Jack & Tracey"
+      "from": "Fowler, Randy 04/14 12pm (p)",
+      "to": "Fowler, Randy"
     },
     {
       "from": "Rasar, Jack",
+      "to": "Rasar, Jack & Tracey"
+    },
+    {
+      "from": "Rasar, Jack & Tracey04/20 1pm (w)",
       "to": "Rasar, Jack & Tracey"
     }
   ],
