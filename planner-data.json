@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-03T05:42:03.286Z",
+  "fetchedAt": "2026-05-03T07:52:19.562Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-03T05:42:04.755Z",
+      "lastUpdated": "2026-05-03T07:52:21.028Z",
       "tasks": [
         {
           "id": "1Al9i30L4EqHxtaPF0GhV2UAPbMJ",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-03T05:42:16.157Z",
+      "lastUpdated": "2026-05-03T07:52:31.158Z",
       "tasks": [
         {
           "id": "ZLUVc8j1TEuqG4DYvqp42GUAJeHc",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-03T05:43:26.575Z",
+      "lastUpdated": "2026-05-03T07:53:30.849Z",
       "tasks": [
         {
           "id": "r6BH9j6Mj026kep-aXP-0GUAHxGD",
@@ -21246,7 +21246,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-03T05:44:24.839Z",
+      "lastUpdated": "2026-05-03T07:54:18.924Z",
       "tasks": [
         {
           "id": "r8SeHkqq0Uam6Jx6M6i1AmUAC5dM",
@@ -28772,7 +28772,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-03T05:44:57.487Z",
+      "lastUpdated": "2026-05-03T07:54:46.678Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -29718,13 +29718,194 @@
   ],
   "wip": [
     {
+      "client": "Kuss, Michael",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 6, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kuss, Michael - FID RETURN OF EXCESS",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 8, 2026",
+              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": true,
+      "totalItems": 5,
+      "doneItems": 3,
+      "progress": 60,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Michael Kuss Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 6, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kuss, Michael - FID RETURN OF EXCESS",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 8, 2026",
+              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": "**From: **Michael Kuss <mikeakuss@gmail.com>\r\n\n**Date: **Friday, April 17, 2026 at 1:54 PM\r\n\n**To: **Jennifer Ottney <jennifer@sdcadvisors.com>\r\n\n**Cc: **Alyssa Shimman <Alyssa@sdcadvisors.com>\r\n\n**Subject: **Re: Roth IRA\r\n\r\nGreat, thanks for the\nupdate.\r\n\r\nI’m sorry to beat this dead\nhorse, but i am still confused about my 2025 Roth Contributions. When i log\ninto Fidelity, I can see that recent transaction where we removed the excess\nthat made it be over the contribution limit. However, Fidelity still tells me\nthe account is still $2000 over the 2025 contribution limit. I had to file an\nextension on my taxes because I do not yet feel comfortable to file with that\nmessage on my account. Could i request someone to Zoom in with me to make some\nsense of that account and why that message is still there?"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Post-Meeting Documentation/ Delegate",
+      "nextAction": "Complete post-meeting documentation",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
       "client": "Halprin, Chloe",
       "advisor": "Cheyenne Boyd",
       "planners": [
         "paperwork",
         "conts",
-        "trades",
-        "advisor"
+        "trades"
       ],
       "byPlanner": {
         "paperwork": {
@@ -29785,9 +29966,9 @@
       },
       "hasOverdue": true,
       "hasWaitingOnClient": true,
-      "totalItems": 5,
+      "totalItems": 4,
       "doneItems": 2,
-      "progress": 40,
+      "progress": 50,
       "plannerGroups": [
         {
           "key": "paperwork",
@@ -29864,170 +30045,22 @@
               "notes": "Who filled this out: AL\r\nClient Name: Chloe Halrpin\r\nAccount: FID IND TOD #655-065767\r\nSells / Amount / Ticker / Holding Name: \r\nBuys / Amount / Ticker / Holding Name: \r\nSolicited?: Yes\r\nDiscretion?: Yes\r\nCharge Commission? (HHG accounts): \r\nRecommended Strategy: \r\nNotes / Comments / Special Instructions / Restrictions04/30/26 - Chloe asked to pull $3500 into her FID TOD. messaging for trades, see thread! (acs)"
             }
           ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
         }
       ],
-      "currentStage": "In Progress - Trades",
-      "nextAction": "Follow up on trades for Chloe",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Kohler, Timothy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Initiate paperwork for Tim",
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Continue paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
       "client": "Rasar, Jack & Tracey",
-      "advisor": "Jaiden Karrick",
+      "advisor": null,
       "planners": [
-        "advisor",
-        "trades"
+        "trades",
+        "advisor"
       ],
       "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/21 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 4,
-      "doneItems": 2,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/21 jek"
-            }
-          ]
-        },
-        {
+        "trades": {
           "key": "trades",
           "label": "Trades & Distributions",
           "color": "#2563eb",
@@ -30076,9 +30109,229 @@
             }
           ]
         }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 4,
+      "doneItems": 2,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Distribution Request BES",
+              "status": "in-progress",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 10, 2026",
+              "notes": "Who filled this out: JEK\nName: Jack Rasar\nAcct: FID IRA 636-548935\n\nDistribution Information\nGross Amount: \nNet Amount: 5k- starting on 6/10\nTax W/H: this needs to be evaluated by me, tax return in holistiplan. I will get to it next week\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Jack Rasar Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Rasar, Jack & Tracey04/20 1pm (W) || Retiring 05/01",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f/u email sent 4/21 jek"
+            }
+          ]
+        }
       ],
-      "currentStage": "In Progress - Activities",
-      "nextAction": "Complete activities for both clients",
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Kohler, Timothy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork",
+        "trades"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 1,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        },
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Tim Kohler Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 11, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Start paperwork preparation",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Gould, Marsha",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marsha Gould Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Marsha Gould Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Continue paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30196,67 +30449,7 @@
         }
       ],
       "currentStage": "Queue - Paperwork not yet started",
-      "nextAction": "Prepare paperwork for both clients",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Mcmanaway, Steve",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "Schedule Meeting",
-      "nextAction": "Schedule meeting for Steve",
+      "nextAction": "Start paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30437,8 +30630,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Activities",
-      "nextAction": "Complete activities for both clients",
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30500,7 +30693,7 @@
         }
       ],
       "currentStage": "Post-Meeting Documentation/ Delegate",
-      "nextAction": "Complete documentation for both clients",
+      "nextAction": "Complete post-meeting documentation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31031,68 +31224,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 29, 2026",
               "notes": "Who filled this out: AL\nClient Name: Daniel M O'Connell\nAccount: FID IND TOD #628-884971\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD - 12 holdings, not in a model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions04/28/26 - deposited a ~$4300 check. his FID TOD is not in a model - holds (5) VNG ETFs, SPTM, SPEM, PRWCX, PONPX, BND and AAANX. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Gould, Marsha",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marsha Gould Distribution Request BES",
-              "status": "late",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Marsha Gould Distribution Request BES",
-              "status": "late",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "Who filled this out: Marv\nName: Marsha Gould\nAcct: GBU - AMF ???\n\nDistribution Information\nGross Amount: \nNet Amount: $3550 Net - DOUBLE CHECK WIT HER ON THIS...\nTax W/H: NO\nACH on file? \nCheck Request? \nAny Trades Needed? Marsha called in requesting her RMD & would like to take extra out like she does every year. She is not sure how much is in her GBU, he did not get a March statement. She said that she has about $2k in her AMF account.. Should she just take some from here and close it out or move it to GBU? She wasn't sure and wanted suggestions. She did mention no taxes withheld. Please call her back 419-410-7499. She has an appt between 2-3:30 today\n\n"
             }
           ]
         }
@@ -31927,66 +32058,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Kuss, Michael 04/29 2:30 (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "**From: **Michael Kuss <mikeakuss@gmail.com>\r\n\n**Date: **Friday, April 17, 2026 at 1:54 PM\r\n\n**To: **Jennifer Ottney <jennifer@sdcadvisors.com>\r\n\n**Cc: **Alyssa Shimman <Alyssa@sdcadvisors.com>\r\n\n**Subject: **Re: Roth IRA\r\n\r\nGreat, thanks for the\nupdate.\r\n\r\nI’m sorry to beat this dead\nhorse, but i am still confused about my 2025 Roth Contributions. When i log\ninto Fidelity, I can see that recent transaction where we removed the excess\nthat made it be over the contribution limit. However, Fidelity still tells me\nthe account is still $2000 over the 2025 contribution limit. I had to file an\nextension on my taxes because I do not yet feel comfortable to file with that\nmessage on my account. Could i request someone to Zoom in with me to make some\nsense of that account and why that message is still there?"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kuss, Michael 04/29 2:30 (G) || NOTES ROTH CONV",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "**From: **Michael Kuss <mikeakuss@gmail.com>\r\n\n**Date: **Friday, April 17, 2026 at 1:54 PM\r\n\n**To: **Jennifer Ottney <jennifer@sdcadvisors.com>\r\n\n**Cc: **Alyssa Shimman <Alyssa@sdcadvisors.com>\r\n\n**Subject: **Re: Roth IRA\r\n\r\nGreat, thanks for the\nupdate.\r\n\r\nI’m sorry to beat this dead\nhorse, but i am still confused about my 2025 Roth Contributions. When i log\ninto Fidelity, I can see that recent transaction where we removed the excess\nthat made it be over the contribution limit. However, Fidelity still tells me\nthe account is still $2000 over the 2025 contribution limit. I had to file an\nextension on my taxes because I do not yet feel comfortable to file with that\nmessage on my account. Could i request someone to Zoom in with me to make some\nsense of that account and why that message is still there?"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Mugler, Jon & Nora 04/29 10am (p)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32517,6 +32588,126 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
               "notes": "follow up email sent"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Halprin, Chloe (g) 04/10 8am || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Kohler, Tim 05/07 12pm (w)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
             }
           ]
         }
@@ -33777,6 +33968,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 15, 2026",
               "notes": "zocks notes saved adn f/u emial sent 4/23 (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Mcmanaway, Steve",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
             }
           ]
         }
@@ -37178,167 +37429,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 20, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kuss, Michael",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kuss, Michael - FID RETURN OF EXCESS",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 8, 2026",
-              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": true,
-      "totalItems": 4,
-      "doneItems": 3,
-      "progress": 75,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Michael Kuss Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 6, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kuss, Michael - FID RETURN OF EXCESS",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 8, 2026",
-              "notes": "04/06/26 - email from Mike: Ok thanks for helping sort this out. Let’s send the $2000 in excess Roth to the Non Qualified. Let’s keep the $7000 in the IRA until it is time to move it to the Roth. Or we can move it to the Roth now, whenever is most prime for market predictions. Would you advise making that back door contribution now?  (acs)\r\n\r\n04/0826 - messaged Brent in teams to advise on a response / action items for Mike. (acs)\r\nUPDATE - per Brent - do all of this now. (acs)\r\nUPDATE: I pulled the FID IRA One-Time Dist Request Form and completed for $2044 of excess cont in 2025 (the amount shown in ICP) to move to his FID IND TOD.  Gave to BES to sign - does not need client signature, BES can sign on his behalf. (kso)\r\n\r\nto do:\r\n- remove the excess from his FID ROTH & move into his FID NQ"
             }
           ]
         }
@@ -45946,13 +46036,13 @@
       "score": 85
     },
     {
-      "nameA": "Rasar, Jack",
+      "nameA": "Rasar, Jack & Tracey",
       "nameB": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
       "score": 85
     },
     {
-      "nameA": "Rasar, Jack",
-      "nameB": "Rasar, Jack & Tracey",
+      "nameA": "Rasar, Jack & Tracey",
+      "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
       "score": 85
     },
     {
@@ -46076,7 +46166,7 @@
       "score": 85
     },
     {
-      "nameA": "Owens, Bob & Cindy",
+      "nameA": "Owens, Bob",
       "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
       "score": 85
     },
@@ -46477,7 +46567,7 @@
     },
     {
       "nameA": "Rasar, Jack & Tracy 05/27 2pm (w) || Notes",
-      "nameB": "Rasar, Jack & Tracey",
+      "nameB": "Rasar, Jack & Tracey04/20 1pm (w)",
       "score": 85
     },
     {
@@ -46561,28 +46651,24 @@
       "to": "Halprin, Chloe"
     },
     {
-      "from": "Halprin, Chloe (g) 04/10 8am || Notes",
-      "to": "Halprin, Chloe"
-    },
-    {
       "from": "Belkofer, David",
       "to": "Belkofer, David & Debbie"
     },
     {
-      "from": "Kohler, Tim 05/07 12pm (w)",
+      "from": "Kohler, Tim",
       "to": "Kohler, Timothy"
     },
     {
-      "from": "Rasar, Jack & Tracey04/20 1pm (w)",
-      "to": "Rasar, Jack & Tracey"
+      "from": "Kuss, Michael 04/29 2:30 (g)",
+      "to": "Kuss, Michael"
     },
     {
       "from": "Rasar, Jack",
       "to": "Rasar, Jack & Tracey"
     },
     {
-      "from": "Owens, Bob",
-      "to": "Owens, Bob & Cindy"
+      "from": "Rasar, Jack & Tracey04/20 1pm (w)",
+      "to": "Rasar, Jack & Tracey"
     }
   ],
   "stats": {
