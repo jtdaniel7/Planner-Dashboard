@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-07T21:50:14.753Z",
+  "fetchedAt": "2026-05-07T22:55:40.683Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-07T21:50:17.523Z",
+      "lastUpdated": "2026-05-07T22:55:42.151Z",
       "tasks": [
         {
           "id": "leI7IcIFIEC1Pn0Kjqc-g2UAOCJw",
@@ -7644,7 +7644,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-07T21:50:25.702Z",
+      "lastUpdated": "2026-05-07T22:55:50.075Z",
       "tasks": [
         {
           "id": "LKHUfCbYgEC87E6f3_En_2UAExyr",
@@ -15194,7 +15194,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-07T21:51:26.874Z",
+      "lastUpdated": "2026-05-07T22:56:52.067Z",
       "tasks": [
         {
           "id": "wzfUUx9DYUCZbeZvBs3XeWUAMCnH",
@@ -21365,7 +21365,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-07T21:52:19.253Z",
+      "lastUpdated": "2026-05-07T22:57:43.230Z",
       "tasks": [
         {
           "id": "Pvi6WiMIUEa-ZrRgIhJ1q2UAOJuS",
@@ -28889,7 +28889,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-07T21:52:44.019Z",
+      "lastUpdated": "2026-05-07T22:58:08.383Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -30218,89 +30218,6 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Killy, Scott & Cindy",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "advisor"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Scott Killy Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Scott Killy Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f.u email sent 4/27"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In- Progress Activities",
-      "nextAction": "Complete overdue activities",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
       "client": "Owens, Bob & Cindy",
       "advisor": null,
       "planners": [
@@ -30726,6 +30643,66 @@
       ],
       "currentStage": "In- Progress Activities",
       "nextAction": "Complete overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcmanaway, Steve",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Schedule overdue meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32894,6 +32871,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f.u email sent 4/27"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f.u email sent 4/27"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Siebert, Todd & Megan 03/26 1pm  (r)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33604,66 +33641,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 15, 2026",
               "notes": "zocks notes saved adn f/u emial sent 4/23 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Mcmanaway, Steve",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
             }
           ]
         }
@@ -45569,12 +45546,12 @@
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
+      "nameA": "Killy, Scott",
       "nameB": "Killy, Scott & Cynthia",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
+      "nameA": "Killy, Scott",
       "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
       "score": 85
     },
@@ -46132,14 +46109,6 @@
     {
       "from": "Owens, Bob & Cindy 04/13 11am (r)",
       "to": "Owens, Bob & Cindy"
-    },
-    {
-      "from": "Killy, Scott",
-      "to": "Killy, Scott & Cindy"
-    },
-    {
-      "from": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
-      "to": "Killy, Scott & Cindy"
     }
   ],
   "stats": {
