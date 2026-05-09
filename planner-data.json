@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-09T17:43:10.469Z",
+  "fetchedAt": "2026-05-09T18:50:53.677Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-09T17:43:12.076Z",
+      "lastUpdated": "2026-05-09T18:50:55.724Z",
       "tasks": [
         {
           "id": "9QP_STVeC02XKRxqnx7XhmUABSuT",
@@ -7643,7 +7643,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-09T17:43:20.219Z",
+      "lastUpdated": "2026-05-09T18:51:03.643Z",
       "tasks": [
         {
           "id": "bkNk0O58mU2OtLQ3HSVf1GUABqe8",
@@ -15197,7 +15197,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-09T17:44:19.003Z",
+      "lastUpdated": "2026-05-09T18:52:00.944Z",
       "tasks": [
         {
           "id": "nAjTjmrbeUq-9mUb-RzyjGUACqOH",
@@ -21440,7 +21440,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-09T17:45:11.106Z",
+      "lastUpdated": "2026-05-09T18:52:52.999Z",
       "tasks": [
         {
           "id": "Pvi6WiMIUEa-ZrRgIhJ1q2UAOJuS",
@@ -28964,7 +28964,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-09T17:45:36.142Z",
+      "lastUpdated": "2026-05-09T18:53:17.637Z",
       "tasks": [
         {
           "id": "52o5zZv_ikKsTE6-ScBE-2UACK6d",
@@ -30148,10 +30148,303 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Sheehy, Kevin",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Kevin Sheehy Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Kevin Sheehy Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 2, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Sheehy, Kevin - NEW ACCT FID IRA RO W/NFS TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Sheehy, Kevin - NEW ACCT FID ROTH W/AMF TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 27, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Sheehy, Kevin - AA ROTH IRA American Funds #4003837753",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 6,
+      "doneItems": 5,
+      "progress": 83,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Kevin Sheehy Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Kevin Sheehy Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 2, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Sheehy, Kevin - NEW ACCT FID IRA RO W/NFS TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Sheehy, Kevin - NEW ACCT FID ROTH W/AMF TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 27, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Sheehy, Kevin - AA ROTH IRA American Funds #4003837753",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 20, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 21, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Fernbaugh, Gina",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 6, 2026",
+              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 6, 2026",
+              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": "- zocks notes saevd and f/u email sent 5/4 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
+      "blockers": null,
+      "aiUrgency": "high"
     },
     {
       "client": "Basinger, Janice",
@@ -30210,10 +30503,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Follow up on paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Straube, Barb",
@@ -30272,10 +30565,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Follow up on paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Schroeder, Marty",
@@ -30334,10 +30627,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Bailey, Brian & Michelle",
@@ -30396,10 +30689,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Follow up on paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Mcknight, Brian",
@@ -30458,10 +30751,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Follow up on paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Geiger, Jill",
@@ -30520,10 +30813,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Kohler, Timothy",
@@ -30580,72 +30873,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Fernbaugh, Gina",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 6, 2026",
-              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 6, 2026",
-              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Dobnikar, Frank",
@@ -30732,10 +30963,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Martin, Jeffrey",
@@ -30796,10 +31027,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Pasch, Jonathan",
@@ -30886,10 +31117,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Keech, Matthew",
@@ -30946,13 +31177,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "La Voy, Loren 05/04 12pm (w)",
+      "client": "La Voy, Loren",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31006,13 +31237,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Fernbaugh, Gina 04/29 8:30am (b)",
+      "client": "Rowe, Mike",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31025,7 +31256,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
+              "title": "Rowe, Mike 4/23 Zoom (TH) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31033,8 +31264,8 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "- zocks notes saevd and f/u email sent 5/4 jek"
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "zocks notes saved and f/u email sent (jek) 4/23"
             }
           ]
         }
@@ -31052,7 +31283,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
+              "title": "Rowe, Mike 4/23 Zoom (TH) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31060,19 +31291,19 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "- zocks notes saevd and f/u email sent 5/4 jek"
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": "zocks notes saved and f/u email sent (jek) 4/23"
             }
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Sheehy, Kevin 04/21 (t)",
+      "client": "Erdmann, Jeremy & Kelly",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31085,7 +31316,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+              "title": "Erdmann, Jeremy & Kelly 04/27 10:30am (B) || NOTES - Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31093,7 +31324,127 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 21, 2026",
+              "dueDateFormatted": "Apr 27, 2026",
+              "notes": "zocks notes saved and f/u email sent 4/27 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Jeremy & Kelly 04/27 10:30am (B) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 27, 2026",
+              "notes": "zocks notes saved and f/u email sent 4/27 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Kohler, Tim",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcmanaway, Steve",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 10, 2026",
               "notes": null
             }
           ]
@@ -31112,24 +31463,86 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Sheehy, Kevin 04/21 (T) || F/U Prospect Appt",
+              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
               "status": "late",
-              "bucketName": "In- Progress Activities",
+              "bucketName": "Schedule Meeting",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 21, 2026",
+              "dueDateFormatted": "Mar 10, 2026",
               "notes": null
             }
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Schedule overdue meeting",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Geiger, Hal & Jill",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick",
+                "Melissa Benedict"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
+              "status": "late",
+              "bucketName": "Schedule Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick",
+                "Melissa Benedict"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 4, 2026",
+              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Schedule Meeting",
+      "nextAction": "Schedule overdue meeting",
+      "blockers": null,
+      "aiUrgency": "high"
     },
     {
       "client": "Straube, Barb 04/28 1pm (w)",
@@ -31242,126 +31655,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 29, 2026",
               "notes": "zocks notes saved and f/u email sent 5/4 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Rowe, Mike 4/23 Zoom (th)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Rowe, Mike 4/23 Zoom (TH) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "zocks notes saved and f/u email sent (jek) 4/23"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Rowe, Mike 4/23 Zoom (TH) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": "zocks notes saved and f/u email sent (jek) 4/23"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Erdmann, Jeremy & Kelly 04/27 10:30am (b) || Notes",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Erdmann, Jeremy & Kelly 04/27 10:30am (B) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 27, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/27 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Erdmann, Jeremy & Kelly 04/27 10:30am (B) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 27, 2026",
-              "notes": "zocks notes saved and f/u email sent 4/27 jek"
             }
           ]
         }
@@ -31662,66 +31955,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 4, 2026",
               "notes": "zocks. notes saved and f/u email sent 5/4 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Tim 05/07 12pm (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
             }
           ]
         }
@@ -33052,66 +33285,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Mcmanaway, Steve",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McManaway, Steve - NEEDS RESCHEDULED /READY FOR MEETING || Prospect",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 10, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Hotz, Ben 04/21 12pm (g)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33462,68 +33635,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Mar 31, 2026",
               "notes": "Zocks ntoes saved and f/u email sent 4/8 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Geiger, Hal & Jill",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick",
-                "Melissa Benedict"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Geiger, Hal & Jill - NEEDS RESCHEDULED (R) || NOTES",
-              "status": "late",
-              "bucketName": "Schedule Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick",
-                "Melissa Benedict"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 4, 2026",
-              "notes": "Divorce is final, need to separate the 401k's.\r\n\r\nWas cancelled on 03/04 - waiting for answers on his Annutities!\r\n\r\n03/24/26 - Waiting on the team to let me know to reschedule (mrb)"
             }
           ]
         }
@@ -46154,7 +46265,7 @@
     },
     {
       "nameA": "Kohler, Timothy",
-      "nameB": "Kohler, Tim 05/07 12pm (w)",
+      "nameB": "Kohler, Tim",
       "score": 85
     },
     {
@@ -46363,7 +46474,32 @@
       "score": 85
     }
   ],
-  "aiMerges": [],
+  "aiMerges": [
+    {
+      "from": "Fernbaugh, Gina 04/29 8:30am (b)",
+      "to": "Fernbaugh, Gina"
+    },
+    {
+      "from": "La Voy, Loren 05/04 12pm (w)",
+      "to": "La Voy, Loren"
+    },
+    {
+      "from": "Sheehy, Kevin 04/21 (t)",
+      "to": "Sheehy, Kevin"
+    },
+    {
+      "from": "Rowe, Mike 4/23 Zoom (th)",
+      "to": "Rowe, Mike"
+    },
+    {
+      "from": "Erdmann, Jeremy & Kelly 04/27 10:30am (b) || Notes",
+      "to": "Erdmann, Jeremy & Kelly"
+    },
+    {
+      "from": "Kohler, Tim 05/07 12pm (w)",
+      "to": "Kohler, Tim"
+    }
+  ],
   "stats": {
     "totalOpen": 298,
     "completedToday": 0,
