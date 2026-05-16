@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-16T02:24:31.075Z",
+  "fetchedAt": "2026-05-16T05:38:54.851Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-16T02:24:32.678Z",
+      "lastUpdated": "2026-05-16T05:38:56.378Z",
       "tasks": [
         {
           "id": "p2tdhBcQn0-0DNOGqsHufmUAFtzW",
@@ -7645,7 +7645,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-16T02:24:40.389Z",
+      "lastUpdated": "2026-05-16T05:39:04.032Z",
       "tasks": [
         {
           "id": "_cpfIv_gqkKMsYhNHeOF2GUAE7SJ",
@@ -15200,7 +15200,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-16T02:25:39.799Z",
+      "lastUpdated": "2026-05-16T05:40:02.272Z",
       "tasks": [
         {
           "id": "wLAT3rIGvEqzjJChYxWfwGUAFmps",
@@ -21713,7 +21713,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-16T02:26:38.218Z",
+      "lastUpdated": "2026-05-16T05:40:58.588Z",
       "tasks": [
         {
           "id": "AvuQn5cwYEOW_LQpEAXIGGUADfB1",
@@ -29237,7 +29237,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-16T02:27:02.652Z",
+      "lastUpdated": "2026-05-16T05:41:21.956Z",
       "tasks": [
         {
           "id": "2-tMq1A6lUmjHRq5neAzOmUAESj5",
@@ -30345,6 +30345,130 @@
   ],
   "wip": [
     {
+      "client": "Wright, Frank",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Frank Wright Roth Conversion BES",
+              "status": "late",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "Client Name: Frank Wright\nFrom Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross\nTax W/H: 10/2\nIf Cash DIST - Any Trades? rebal to free up cash for this\nIf In-Kind DIST, what's the ticker and # of shares (not $): \nBIA on File? No\nTrades for ROTH? rebal in roth model core mod"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Wright, Frank - BIA",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": "Name of Client: Frank Wright\nType of Account: Retirement\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"BIA\"]\n\nNotes: this is for a conversion: Roth conversion: From Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross- we will be doing this over the next 4 years (including this year so 3 more after this) to convert almost his whole IRA to Roth to beat RMDs, he has no taxable income besides SS!"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Frank Wright Roth Conversion BES",
+              "status": "late",
+              "bucketName": "On Hold / Future Dated",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "Client Name: Frank Wright\nFrom Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross\nTax W/H: 10/2\nIf Cash DIST - Any Trades? rebal to free up cash for this\nIf In-Kind DIST, what's the ticker and # of shares (not $): \nBIA on File? No\nTrades for ROTH? rebal in roth model core mod"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Wright, Frank - BIA",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": "Name of Client: Frank Wright\nType of Account: Retirement\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"BIA\"]\n\nNotes: this is for a conversion: Roth conversion: From Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross- we will be doing this over the next 4 years (including this year so 3 more after this) to convert almost his whole IRA to Roth to beat RMDs, he has no taxable income besides SS!"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Wright, Frank 05/11 1pm (R) || Review F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks ntoes saved and f/u email sent!!! 5/11 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "On Hold / Future Dated and Task Recognized",
+      "nextAction": "Address the paperwork task recognized",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
       "client": "Hayes, John",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -30511,10 +30635,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Lane, Richard",
@@ -30616,40 +30740,19 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In Progress - Being Pulled",
+      "nextAction": "Complete the paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Wright, Frank",
+      "client": "Kohler, Timothy",
       "advisor": "Katie Rower-Osborn",
       "planners": [
-        "trades",
-        "paperwork"
+        "paperwork",
+        "advisor"
       ],
       "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Frank Wright Roth Conversion BES",
-              "status": "late",
-              "bucketName": "On Hold / Future Dated",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "Client Name: Frank Wright\nFrom Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross\nTax W/H: 10/2\nIf Cash DIST - Any Trades? rebal to free up cash for this\nIf In-Kind DIST, what's the ticker and # of shares (not $): \nBIA on File? No\nTrades for ROTH? rebal in roth model core mod"
-            }
-          ]
-        },
         "paperwork": {
           "key": "paperwork",
           "label": "Paperwork",
@@ -30657,16 +30760,16 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Wright, Frank - BIA",
-              "status": "not-started",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
               "bucketName": "Task Recognized",
               "assigneeNames": [
                 "Katie Rower-Osborn"
               ],
               "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "Name of Client: Frank Wright\nType of Account: Retirement\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"BIA\"]\n\nNotes: this is for a conversion: Roth conversion: From Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross- we will be doing this over the next 4 years (including this year so 3 more after this) to convert almost his whole IRA to Roth to beat RMDs, he has no taxable income besides SS!"
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
             }
           ]
         }
@@ -30678,26 +30781,87 @@
       "progress": 0,
       "plannerGroups": [
         {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
           "items": [
             {
-              "plannerKey": "trades",
-              "title": "Frank Wright Roth Conversion BES",
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
               "status": "late",
-              "bucketName": "On Hold / Future Dated",
+              "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
+                "Katie Rower-Osborn"
               ],
-              "advisor": null,
+              "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "Client Name: Frank Wright\nFrom Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross\nTax W/H: 10/2\nIf Cash DIST - Any Trades? rebal to free up cash for this\nIf In-Kind DIST, what's the ticker and # of shares (not $): \nBIA on File? No\nTrades for ROTH? rebal in roth model core mod"
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
             }
           ]
         },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Start paperwork process",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Fernbaugh, Gina",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 6, 2026",
+              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
         {
           "key": "paperwork",
           "label": "Paperwork",
@@ -30705,24 +30869,45 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Wright, Frank - BIA",
-              "status": "not-started",
+              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
+              "status": "late",
               "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Katie Rower-Osborn"
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
               ],
-              "advisor": "Katie Rower-Osborn",
+              "advisor": "Cheyenne Boyd",
               "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": "Name of Client: Frank Wright\nType of Account: Retirement\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"BIA\"]\n\nNotes: this is for a conversion: Roth conversion: From Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross- we will be doing this over the next 4 years (including this year so 3 more after this) to convert almost his whole IRA to Roth to beat RMDs, he has no taxable income besides SS!"
+              "dueDateFormatted": "May 6, 2026",
+              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": "- zocks notes saevd and f/u email sent 5/4 jek"
             }
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Schroeder, Marty",
@@ -30781,10 +30966,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Geiger, Jill",
@@ -30843,132 +31028,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Queue",
+      "nextAction": "Begin paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Timothy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Fernbaugh, Gina",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 6, 2026",
-              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Fernbaugh,Gina - FS IND TOD TOA ",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 6, 2026",
-              "notes": "Name of Client: Gina Fernbaugh\r\nType of Account: Individual\r\nSponsor Company: FS & FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA\"]\r\n\r\nNotes: TOA FS IND TOD #00150172489 to FID IND TOD #628839443\n\n02/11/2026 - need original signature that is signature medallion stamped by FJD.  Pending out to start when she is back in OH - in CA until 04/08/2026.  Will let her know! (kso)\r\n\r\n4/29/26- she is coming in today (jek)\r\nUPDATE: I was at PT and did not get this prepped.  Handing off to CMB to help me out!  Appreciate your face! Also per JEK -\r\n\r\nwell i forgot about it too haha- she will be out of town for a few days so maybe we mail to her BG house.\r\n\r\nMake sure to send with tracking and a return with tracking!  And try to leave SSN off! (kso)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Dobnikar, Frank",
@@ -31055,10 +31118,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Martin, Jeffrey",
@@ -31119,10 +31182,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Pasch, Jonathan",
@@ -31209,10 +31272,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Queue",
+      "nextAction": "Begin paperwork preparation",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Keech, Matthew",
@@ -31269,13 +31332,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Terry, Reggie & Laurie 05/12 3:45 (w)",
+      "client": "Terry, Reggie & Laurie",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31329,13 +31392,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Continue with advisor activities",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Kreais, John & Tammy 05/12 2pm (g)",
+      "client": "Kreais, John & Tammy",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31389,13 +31452,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "In- Progress Activities",
+      "nextAction": "Continue with advisor activities",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Hoffbauer, Greg & Mindy 05/15 1pm (b)",
+      "client": "Hoffbauer, Greg & Mindy",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31449,13 +31512,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Ready for Meeting",
+      "nextAction": "Prepare for upcoming meeting",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Vasko, Rocko 05/15 10:30am (w)",
+      "client": "Vasko, Rocko",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31509,10 +31572,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Ready for Meeting",
+      "nextAction": "Prepare for upcoming meeting",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Busch, Vicki",
@@ -31695,66 +31758,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Wright, Frank 05/11 1pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Wright, Frank 05/11 1pm (R) || Review F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks ntoes saved and f/u email sent!!! 5/11 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Wright, Frank 05/11 1pm (R) || Review F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks ntoes saved and f/u email sent!!! 5/11 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Coughtrie, Sarah 05/11 2:30pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -31865,66 +31868,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 4, 2026",
               "notes": "zocks notes saved and f/u email sent for him 5/4 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Fernbaugh, Gina 04/29 8:30am (b)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "- zocks notes saevd and f/u email sent 5/4 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Fernbaugh, Gina 04/29 8:30am (B) || NOTES -Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "- zocks notes saevd and f/u email sent 5/4 jek"
             }
           ]
         }
@@ -32705,66 +32648,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 4, 2026",
               "notes": "zocks. notes saved and f/u email sent 5/4 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Tim 05/07 12pm (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
             }
           ]
         }
@@ -47359,8 +47242,13 @@
       "score": 85
     },
     {
-      "nameA": "Vasko, Rocko 05/15 10:30am (w)",
+      "nameA": "Vasko, Rocko",
       "nameB": "Vasko, Rocko 04/08 2:15 (w)",
+      "score": 85
+    },
+    {
+      "nameA": "Vasko, Rocko",
+      "nameB": "Vasko, Rocko 01/16 10am (w)",
       "score": 85
     },
     {
@@ -47449,7 +47337,36 @@
       "score": 85
     }
   ],
-  "aiMerges": [],
+  "aiMerges": [
+    {
+      "from": "Wright, Frank 05/11 1pm (r)",
+      "to": "Wright, Frank"
+    },
+    {
+      "from": "Kohler, Tim 05/07 12pm (w)",
+      "to": "Kohler, Timothy"
+    },
+    {
+      "from": "Fernbaugh, Gina 04/29 8:30am (b)",
+      "to": "Fernbaugh, Gina"
+    },
+    {
+      "from": "Terry, Reggie & Laurie 05/12 3:45 (w)",
+      "to": "Terry, Reggie & Laurie"
+    },
+    {
+      "from": "Kreais, John & Tammy 05/12 2pm (g)",
+      "to": "Kreais, John & Tammy"
+    },
+    {
+      "from": "Hoffbauer, Greg & Mindy 05/15 1pm (b)",
+      "to": "Hoffbauer, Greg & Mindy"
+    },
+    {
+      "from": "Vasko, Rocko 05/15 10:30am (w)",
+      "to": "Vasko, Rocko"
+    }
+  ],
   "stats": {
     "totalOpen": 309,
     "completedToday": 0,
