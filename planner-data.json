@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-19T23:57:29.961Z",
+  "fetchedAt": "2026-05-20T03:34:21.170Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-19T23:57:31.552Z",
+      "lastUpdated": "2026-05-20T03:34:22.837Z",
       "tasks": [
         {
           "id": "eQZBO4laEkeELQ6tksmrs2UACqev",
@@ -7643,7 +7643,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-19T23:57:39.700Z",
+      "lastUpdated": "2026-05-20T03:34:30.409Z",
       "tasks": [
         {
           "id": "ZSrz3Et0YUmTUhuOC2-5YGUAMOKE",
@@ -15201,7 +15201,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-19T23:58:43.325Z",
+      "lastUpdated": "2026-05-20T03:35:27.481Z",
       "tasks": [
         {
           "id": "JZ5xirywbUefipcJWyH_6mUAHWQz",
@@ -21750,7 +21750,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-19T23:59:47.315Z",
+      "lastUpdated": "2026-05-20T03:36:25.532Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29276,7 +29276,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-20T00:00:00.281Z",
+      "lastUpdated": "2026-05-20T03:36:37.249Z",
       "tasks": [
         {
           "id": "2-tMq1A6lUmjHRq5neAzOmUAESj5",
@@ -30503,7 +30503,7 @@
         }
       ],
       "currentStage": "On Hold / Future Dated and Task Recognized",
-      "nextAction": "Address overdue tasks in both stages",
+      "nextAction": "Address overdue paperwork and trades",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30674,8 +30674,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Review overdue tasks",
+      "currentStage": "Task Recognized and In Progress Activities",
+      "nextAction": "Follow up on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30829,7 +30829,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue tasks",
+      "nextAction": "Follow up on overdue items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30911,8 +30911,174 @@
           ]
         }
       ],
+      "currentStage": "In Progress and Task Recognized",
+      "nextAction": "Resolve overdue trades",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Ebert, Steve & Donna",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Steve Ebert Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 1,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Steve Ebert Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 18, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Follow up on overdue tasks",
+      "nextAction": "Complete overdue items",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Killy, Scott & Cindy",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "advisor"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Scott Killy Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 1,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Scott Killy Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": "zocks notes saved and f.u email sent 4/27"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Resolve overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30995,7 +31161,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Follow up on overdue tasks",
+      "nextAction": "Resolve overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31078,8 +31244,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue tasks",
+      "currentStage": "Queue and In Progress Activities",
+      "nextAction": "Address overdue paperwork",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31159,8 +31325,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Review overdue tasks",
+      "currentStage": "Task Recognized and In Progress Activities",
+      "nextAction": "Complete overdue paperwork",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31242,8 +31408,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue tasks",
+      "currentStage": "Task Recognized and In Progress Activities",
+      "nextAction": "Complete overdue paperwork and trades",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31303,67 +31469,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Review overdue tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Karoly, Al & Diane",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 15, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 15, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Follow up on overdue tasks",
+      "nextAction": "Address overdue items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32249,66 +32355,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Ebert, Steve & Donna 05/18 3pm (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 18, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 18, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Busch, Vicki",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33029,6 +33075,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Karoly, Al & Diane 05/15 2pm (r)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 15, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 15, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Jones, Jeanna 04/20 11am (g)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33739,66 +33845,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 7, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f.u email sent 4/27"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f.u email sent 4/27"
             }
           ]
         }
@@ -47026,7 +47072,7 @@
       "score": 85
     },
     {
-      "nameA": "Ebert, Steve",
+      "nameA": "Ebert, Steve & Donna",
       "nameB": "Ebert, Steve & Donna 05/18 3pm (g)",
       "score": 85
     },
@@ -47131,12 +47177,12 @@
       "score": 85
     },
     {
-      "nameA": "Killy, Scott",
+      "nameA": "Killy, Scott & Cindy",
       "nameB": "Killy, Scott & Cynthia",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott",
+      "nameA": "Killy, Scott & Cindy",
       "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
       "score": 85
     },
@@ -47197,7 +47243,7 @@
     },
     {
       "nameA": "Karoly, Alan",
-      "nameB": "Karoly, Al & Diane",
+      "nameB": "Karoly, Al & Diane 05/15 2pm (r)",
       "score": 85
     },
     {
@@ -47551,7 +47597,7 @@
       "score": 85
     },
     {
-      "nameA": "Karoly, Al & Diane",
+      "nameA": "Karoly, Al & Diane 05/15 2pm (r)",
       "nameB": "Karoly, Al & Diane 04/06 4pm (w)",
       "score": 85
     },
@@ -47649,17 +47695,29 @@
       "to": "Kohler, Timothy"
     },
     {
-      "from": "Karoly, Al & Diane 05/15 2pm (r)",
-      "to": "Karoly, Al & Diane"
-    },
-    {
       "from": "Geiger, Hal & Jill",
       "to": "Geiger, Jill"
+    },
+    {
+      "from": "Killy, Scott",
+      "to": "Killy, Scott & Cindy"
+    },
+    {
+      "from": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "to": "Killy, Scott & Cindy"
+    },
+    {
+      "from": "Ebert, Steve",
+      "to": "Ebert, Steve & Donna"
+    },
+    {
+      "from": "Ebert, Steve & Donna 05/18 3pm (g)",
+      "to": "Ebert, Steve & Donna"
     }
   ],
   "stats": {
     "totalOpen": 284,
-    "completedToday": 25,
+    "completedToday": 0,
     "overdue": 119,
     "waitingOnClient": 82,
     "wipClients": 79
