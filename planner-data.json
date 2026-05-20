@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-20T07:37:34.385Z",
+  "fetchedAt": "2026-05-20T10:44:32.382Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-20T07:37:35.914Z",
+      "lastUpdated": "2026-05-20T10:44:34.037Z",
       "tasks": [
         {
           "id": "eQZBO4laEkeELQ6tksmrs2UACqev",
@@ -7643,7 +7643,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-20T07:37:42.798Z",
+      "lastUpdated": "2026-05-20T10:44:41.592Z",
       "tasks": [
         {
           "id": "ZSrz3Et0YUmTUhuOC2-5YGUAMOKE",
@@ -7666,7 +7666,7 @@
         {
           "id": "J82umb0DlE6WUKH2LeF3PGUAAiBF",
           "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Schwartz, Louise",
           "rawClientName": "Schwartz, Louise",
           "bucketName": "Queue ",
@@ -15194,14 +15194,14 @@
         }
       ],
       "openCount": 123,
-      "overdueCount": 10,
+      "overdueCount": 11,
       "waitingCount": 82
     },
     {
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-20T07:38:40.628Z",
+      "lastUpdated": "2026-05-20T10:45:40.549Z",
       "tasks": [
         {
           "id": "JZ5xirywbUefipcJWyH_6mUAHWQz",
@@ -15926,7 +15926,7 @@
         {
           "id": "LZCBZxaEQUSwgYEy9880P2UANCmo",
           "title": "Metzker, Larry & Linda 05/21 1pm (R) || Review",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Metzker, Larry & Linda 05/21 1pm (r)",
           "rawClientName": "Metzker, Larry & Linda 05/21 1pm (R)",
           "bucketName": "Prep Materials",
@@ -16682,7 +16682,7 @@
         {
           "id": "Rjs0gjYU0k-MQ3Q68qvAMWUAHqIp",
           "title": "Bochi, Donna 05/27 1pm (G) || GBU Contract Maturity",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Bochi, Donna 05/27 1pm (g)",
           "rawClientName": "Bochi, Donna 05/27 1pm (G)",
           "bucketName": "Prep Materials",
@@ -21743,14 +21743,14 @@
         }
       ],
       "openCount": 123,
-      "overdueCount": 98,
+      "overdueCount": 100,
       "waitingCount": 0
     },
     {
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-20T07:39:38.021Z",
+      "lastUpdated": "2026-05-20T10:46:38.499Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29276,7 +29276,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-20T07:39:49.456Z",
+      "lastUpdated": "2026-05-20T10:46:50.174Z",
       "tasks": [
         {
           "id": "2-tMq1A6lUmjHRq5neAzOmUAESj5",
@@ -30675,161 +30675,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Review overdue tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Mohon, Josh & Holly",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "trades",
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Josh Mohon Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Josh Mohon Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Mohon, Josh - PPWK FID SPI",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 5, 2026",
-              "notes": "Name of Client: Josh Mohon\nType of Account: Retirement\nSponsor Company: FID IRA (mainly roth 655024401)\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: need to get bank added for his roth as well (they are supposed to start monthly conts each... )"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 4,
-      "doneItems": 2,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Josh Mohon Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Josh Mohon Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 28, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Mohon, Josh - PPWK FID SPI",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 5, 2026",
-              "notes": "Name of Client: Josh Mohon\nType of Account: Retirement\nSponsor Company: FID IRA (mainly roth 655024401)\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: need to get bank added for his roth as well (they are supposed to start monthly conts each... )"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Mohon, Josh & Holly 04/24 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 24, 2026",
-              "notes": "zocks notes saved adn f/u eamil sent 4/27 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Review overdue tasks",
+      "nextAction": "Follow up on overdue items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30917,89 +30763,6 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Killy, Scott & Cindy",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "advisor"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Scott Killy Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Scott Killy Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 20, 2026",
-              "notes": "zocks notes saved and f.u email sent 4/27"
-            }
-          ]
-        }
-      ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
       "client": "Mcknight, Brian & Sarah",
       "advisor": "Melissa Benedict",
       "planners": [
@@ -31078,7 +30841,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Check on overdue items",
+      "nextAction": "Check on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31159,7 +30922,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Address overdue tasks",
+      "nextAction": "Review overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31247,6 +31010,66 @@
       "aiUrgency": "high"
     },
     {
+      "client": "Ebert, Steve & Donna",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 18, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 18, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Review overdue tasks",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
       "client": "Erdmann, Cecil & Jane",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -31307,7 +31130,7 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Karoly, Al & Diane",
+      "client": "Owens, Bob & Cindy",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31320,7 +31143,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31328,8 +31151,8 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "May 15, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
             }
           ]
         }
@@ -31347,7 +31170,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31355,19 +31178,19 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "May 15, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
             }
           ]
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Check on overdue items",
+      "nextAction": "Follow up on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Amborski, Rick",
+      "client": "Killy, Scott & Cindy",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31380,16 +31203,16 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Amborski, Rick 05/21 2pm || F/IU - RO",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "In- Progress Activities",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
-              "notes": null
+              "notes": "zocks notes saved and f.u email sent 4/27"
             }
           ]
         }
@@ -31407,22 +31230,84 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Amborski, Rick 05/21 2pm || F/IU - RO",
+              "title": "Killy, Scott & Cindy 04/27 1pm (G) || NOTES - Review",
               "status": "late",
-              "bucketName": "Prep Materials",
+              "bucketName": "In- Progress Activities",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
-              "notes": null
+              "notes": "zocks notes saved and f.u email sent 4/27"
             }
           ]
         }
       ],
-      "currentStage": "Prep Materials",
-      "nextAction": "Prepare for upcoming meeting",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Address overdue items",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mohon, Josh & Holly",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Mohon, Holly & Josh - NEW ACCT FID JTWROS",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 1, 2026",
+              "notes": "Name of Client: Holly & Josh Mohon\nType of Account: Joint\nSponsor Company: FID JTWROS\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? No\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: each other- as mentioend, need to check if they want to add their kids in case something happens to them both (kids are of age)\nHow the Account being funded:\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: Maybe- BES didnt note why we were opening\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Docusign\n\nFinancial Data:\nRefers to: Household\nAnnual Income: 120k\nNet Worth: 250k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 25k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: N/a unsure what account is for as of now"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": true,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Mohon, Holly & Josh - NEW ACCT FID JTWROS",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 1, 2026",
+              "notes": "Name of Client: Holly & Josh Mohon\nType of Account: Joint\nSponsor Company: FID JTWROS\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? No\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: each other- as mentioend, need to check if they want to add their kids in case something happens to them both (kids are of age)\nHow the Account being funded:\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: Maybe- BES didnt note why we were opening\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Docusign\n\nFinancial Data:\nRefers to: Household\nAnnual Income: 120k\nNet Worth: 250k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 25k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: N/a unsure what account is for as of now"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Address overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31693,6 +31578,195 @@
               "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
               "dueDateFormatted": "Mar 11, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Schwartz, Louise",
+      "advisor": "Melissa Benedict",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 31, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 13, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 13, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK POA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 1, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 5,
+      "doneItems": 4,
+      "progress": 80,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 31, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 13, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 13, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK POA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 1, 2026",
               "notes": null
             }
           ]
@@ -32370,66 +32444,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Ebert, Steve & Donna 05/18 3pm (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 18, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Ebert, Steve & Donna 05/18 3pm (G) || Review",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 18, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Busch, Vicki",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33090,6 +33104,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Metzker, Larry & Linda 05/21 1pm (r)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Metzker, Larry & Linda 05/21 1pm (R) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Metzker, Larry & Linda 05/21 1pm (R) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Kuch, Donna & Earl 04/27 10am (b)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33140,6 +33214,126 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 27, 2026",
               "notes": "zocks notes saved and f/u email sent 4/27 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Mohon, Josh & Holly 04/24 1pm (g) || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Mohon, Josh & Holly 04/24 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "zocks notes saved adn f/u eamil sent 4/27 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Mohon, Josh & Holly 04/24 1pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 24, 2026",
+              "notes": "zocks notes saved adn f/u eamil sent 4/27 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Karoly, Al & Diane 05/15 2pm (r)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 15, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Karoly, Al & Diane 05/15 2PM (R) || financial plan overview",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 15, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/18 jek. goal is to retire at 65"
             }
           ]
         }
@@ -33690,7 +33884,7 @@
       "aiUrgency": null
     },
     {
-      "client": "Owens, Bob & Cindy 04/13 11am (r)",
+      "client": "Amborski, Rick 05/21 2pm || F/iu",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -33703,16 +33897,16 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "title": "Amborski, Rick 05/21 2pm || F/IU - RO",
               "status": "late",
-              "bucketName": "In- Progress Activities",
+              "bucketName": "Prep Materials",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": null
             }
           ]
         }
@@ -33730,16 +33924,16 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "title": "Amborski, Rick 05/21 2pm || F/IU - RO",
               "status": "late",
-              "bucketName": "In- Progress Activities",
+              "bucketName": "Prep Materials",
               "assigneeNames": [
                 "Jaiden Karrick"
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
+              "dueDateFormatted": "Apr 20, 2026",
+              "notes": null
             }
           ]
         }
@@ -34640,6 +34834,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
               "notes": "zocks notes saved and f/u email sent 4/21 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Bochi, Donna 05/27 1pm (g)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Bochi, Donna 05/27 1pm (G) || GBU Contract Maturity",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Bochi, Donna 05/27 1pm (G) || GBU Contract Maturity",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": null
             }
           ]
         }
@@ -37627,6 +37881,139 @@
       "aiUrgency": null
     },
     {
+      "client": "Mohon, Josh",
+      "advisor": "Cheyenne Boyd",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Josh Mohon Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 28, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Josh Mohon Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 28, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Mohon, Josh - PPWK FID SPI",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 5, 2026",
+              "notes": "Name of Client: Josh Mohon\nType of Account: Retirement\nSponsor Company: FID IRA (mainly roth 655024401)\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: need to get bank added for his roth as well (they are supposed to start monthly conts each... )"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": true,
+      "totalItems": 3,
+      "doneItems": 2,
+      "progress": 67,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Josh Mohon Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 28, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Josh Mohon Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 28, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Mohon, Josh - PPWK FID SPI",
+              "status": "waiting-on-client",
+              "bucketName": "Paperwork Submitted",
+              "assigneeNames": [
+                "Cheyenne Boyd",
+                "Alyssa Shimman"
+              ],
+              "advisor": "Cheyenne Boyd",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 5, 2026",
+              "notes": "Name of Client: Josh Mohon\nType of Account: Retirement\nSponsor Company: FID IRA (mainly roth 655024401)\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: need to get bank added for his roth as well (they are supposed to start monthly conts each... )"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Mahr, Sophia",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -38306,195 +38693,6 @@
               "isUnassigned": false,
               "dueDateFormatted": null,
               "notes": "Name of Client: Jill Stolarski\r\nType of Account: Retirement\r\nSponsor Company: FID IRA 628916658 to FID ROTH 628916660\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: roth conversion of 12k no tax w/h, plan is to do this until she reaches RMD age!!\r\n\r\nFID IRA 628916658 to FID ROTH 628916660 Retirement"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Schwartz, Louise",
-      "advisor": "Melissa Benedict",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 31, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-              "status": "not-started",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK POA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 1, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 5,
-      "doneItems": 4,
-      "progress": 80,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 31, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 13, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-              "status": "not-started",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK POA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 1, 2026",
-              "notes": null
             }
           ]
         }
@@ -41164,68 +41362,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jan 21, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Mohon, Holly & Josh",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Mohon, Holly & Josh - NEW ACCT FID JTWROS",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 1, 2026",
-              "notes": "Name of Client: Holly & Josh Mohon\nType of Account: Joint\nSponsor Company: FID JTWROS\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? No\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: each other- as mentioend, need to check if they want to add their kids in case something happens to them both (kids are of age)\nHow the Account being funded:\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: Maybe- BES didnt note why we were opening\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Docusign\n\nFinancial Data:\nRefers to: Household\nAnnual Income: 120k\nNet Worth: 250k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 25k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: N/a unsure what account is for as of now"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": true,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Mohon, Holly & Josh - NEW ACCT FID JTWROS",
-              "status": "waiting-on-client",
-              "bucketName": "Paperwork Submitted",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 1, 2026",
-              "notes": "Name of Client: Holly & Josh Mohon\nType of Account: Joint\nSponsor Company: FID JTWROS\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? No\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: each other- as mentioend, need to check if they want to add their kids in case something happens to them both (kids are of age)\nHow the Account being funded:\n\nAIP information:\nAny current AIPs at old account to be shut off: no\n\n---Will they be making monthly CONTs: Maybe- BES didnt note why we were opening\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: Yes\nDrivers License Upload:\nFull Suitability Needed?: Yes\n\nHow to Sign:\nSignature Method: Docusign\n\nFinancial Data:\nRefers to: Household\nAnnual Income: 120k\nNet Worth: 250k\nTax Bracket: 22%\nNet Investable Assets: 50k\nFee Schedule: BES Standard\n\nInvestment Objectives:\nRisk Tolerance: High\nPrimary Objective: Growth\nSeconday Objective: Growth\nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Long (>10 yrs)\nAnnual Expenses: 25k\nEstimated Special Expenses: 0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: N/a unsure what account is for as of now"
             }
           ]
         }
@@ -44646,66 +44782,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Metzker, Larry & Linda 05/21 1pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Metzker, Larry & Linda 05/21 1pm (R) || Review",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Metzker, Larry & Linda 05/21 1pm (R) || Review",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Straube, Barb 09/10 12pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -45066,66 +45142,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Bochi, Donna 05/27 1pm (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Bochi, Donna 05/27 1pm (G) || GBU Contract Maturity",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Bochi, Donna 05/27 1pm (G) || GBU Contract Maturity",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Meng, Big Mike",
       "advisor": "Melissa Benedict",
       "planners": [
@@ -45426,6 +45442,21 @@
       "advisor": null,
       "isUnassigned": false,
       "dueDateFormatted": "May 11, 2026"
+    },
+    {
+      "plannerKey": "paperwork",
+      "plannerLabel": "Paperwork",
+      "plannerColor": "#d97706",
+      "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+      "clientName": "Schwartz, Louise",
+      "bucketName": "Queue ",
+      "assigneeNames": [
+        "Alyssa Shimman",
+        "Melissa Benedict"
+      ],
+      "advisor": "Melissa Benedict",
+      "isUnassigned": false,
+      "dueDateFormatted": "May 20, 2026"
     },
     {
       "plannerKey": "paperwork",
@@ -45928,6 +45959,20 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
+      "title": "Metzker, Larry & Linda 05/21 1pm (R) || Review",
+      "clientName": "Metzker, Larry & Linda 05/21 1pm (r)",
+      "bucketName": "Prep Materials",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "advisor": "Jaiden Karrick",
+      "isUnassigned": false,
+      "dueDateFormatted": "May 20, 2026"
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
       "title": "Erdmann, Jeremy & Kelly 04/27 10:30am (B) || NOTES - Review",
       "clientName": "Erdmann, Jeremy & Kelly 04/27 10:30am (b) || Notes",
       "bucketName": "In- Progress Activities",
@@ -46413,6 +46458,20 @@
       "advisor": "Jaiden Karrick",
       "isUnassigned": false,
       "dueDateFormatted": "Apr 20, 2026"
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
+      "title": "Bochi, Donna 05/27 1pm (G) || GBU Contract Maturity",
+      "clientName": "Bochi, Donna 05/27 1pm (g)",
+      "bucketName": "Prep Materials",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "advisor": "Jaiden Karrick",
+      "isUnassigned": false,
+      "dueDateFormatted": "May 20, 2026"
     },
     {
       "plannerKey": "advisor",
@@ -47090,7 +47149,7 @@
     },
     {
       "nameA": "Ebert, Steve",
-      "nameB": "Ebert, Steve & Donna 05/18 3pm (g)",
+      "nameB": "Ebert, Steve & Donna",
       "score": 85
     },
     {
@@ -47189,18 +47248,23 @@
       "score": 85
     },
     {
-      "nameA": "Mohon, Josh & Holly",
+      "nameA": "Mohon, Josh",
+      "nameB": "Mohon, Josh & Holly",
+      "score": 85
+    },
+    {
+      "nameA": "Mohon, Josh",
       "nameB": "Mohon, Josh & Holly 04/24 1pm (g) || Notes",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
+      "nameA": "Killy, Scott",
       "nameB": "Killy, Scott & Cynthia",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott & Cindy",
-      "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "nameA": "Killy, Scott",
+      "nameB": "Killy, Scott & Cindy",
       "score": 85
     },
     {
@@ -47260,7 +47324,7 @@
     },
     {
       "nameA": "Karoly, Alan",
-      "nameB": "Karoly, Al & Diane",
+      "nameB": "Karoly, Al & Diane 05/15 2pm (r)",
       "score": 85
     },
     {
@@ -47290,7 +47354,7 @@
     },
     {
       "nameA": "Owens, Bob",
-      "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
+      "nameB": "Owens, Bob & Cindy",
       "score": 85
     },
     {
@@ -47419,8 +47483,8 @@
       "score": 85
     },
     {
-      "nameA": "Mohon, Holly & Josh",
-      "nameB": "Mohon, Holly",
+      "nameA": "Mohon, Josh & Holly",
+      "nameB": "Mohon, Josh & Holly 04/24 1pm (g) || Notes",
       "score": 85
     },
     {
@@ -47495,7 +47559,7 @@
     },
     {
       "nameA": "Killy, Scott & Cynthia",
-      "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
+      "nameB": "Killy, Scott & Cindy",
       "score": 85
     },
     {
@@ -47614,7 +47678,7 @@
       "score": 85
     },
     {
-      "nameA": "Karoly, Al & Diane",
+      "nameA": "Karoly, Al & Diane 05/15 2pm (r)",
       "nameB": "Karoly, Al & Diane 04/06 4pm (w)",
       "score": 85
     },
@@ -47692,6 +47756,10 @@
       "to": "Erdmann, Cecil & Jane"
     },
     {
+      "from": "Mohon, Holly & Josh",
+      "to": "Mohon, Josh & Holly"
+    },
+    {
       "from": "Kohler, Tim 05/07 12pm (w)",
       "to": "Kohler, Timothy"
     },
@@ -47704,34 +47772,22 @@
       "to": "Mcknight, Brian & Sarah"
     },
     {
-      "from": "Mohon, Josh",
-      "to": "Mohon, Josh & Holly"
-    },
-    {
-      "from": "Mohon, Josh & Holly 04/24 1pm (g) || Notes",
-      "to": "Mohon, Josh & Holly"
-    },
-    {
-      "from": "Killy, Scott",
-      "to": "Killy, Scott & Cindy"
+      "from": "Ebert, Steve & Donna 05/18 3pm (g)",
+      "to": "Ebert, Steve & Donna"
     },
     {
       "from": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
       "to": "Killy, Scott & Cindy"
     },
     {
-      "from": "Karoly, Al & Diane 05/15 2pm (r)",
-      "to": "Karoly, Al & Diane"
-    },
-    {
-      "from": "Amborski, Rick 05/21 2pm || F/iu",
-      "to": "Amborski, Rick"
+      "from": "Owens, Bob & Cindy 04/13 11am (r)",
+      "to": "Owens, Bob & Cindy"
     }
   ],
   "stats": {
     "totalOpen": 284,
     "completedToday": 0,
-    "overdue": 119,
+    "overdue": 122,
     "waitingOnClient": 82,
     "wipClients": 79
   }
