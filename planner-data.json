@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-23T15:58:09.846Z",
+  "fetchedAt": "2026-05-23T17:01:15.080Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-23T15:58:11.464Z",
+      "lastUpdated": "2026-05-23T17:01:16.578Z",
       "tasks": [
         {
           "id": "FTtcUTQ5EEa0UXXycc9EFGUAGT8a",
@@ -7640,7 +7640,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-23T15:58:24.896Z",
+      "lastUpdated": "2026-05-23T17:01:29.196Z",
       "tasks": [
         {
           "id": "RddCJGgaf0iJ9HKZBByhsWUAPivy",
@@ -15200,7 +15200,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-23T15:59:22.759Z",
+      "lastUpdated": "2026-05-23T17:02:25.933Z",
       "tasks": [
         {
           "id": "clldQs74oUGDQvnofGC922UAJcls",
@@ -21911,7 +21911,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-23T16:00:25.002Z",
+      "lastUpdated": "2026-05-23T17:03:26.751Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29432,7 +29432,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-23T16:00:36.287Z",
+      "lastUpdated": "2026-05-23T17:03:37.853Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30780,7 +30780,7 @@
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks in the Task Recognized stage.",
+      "currentStage": "Overdue in the Task Recognized stage.",
       "nextAction": "Initiate paperwork process.",
       "blockers": null,
       "aiUrgency": "high"
@@ -30930,7 +30930,7 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Paperwork and Advisor Flow.",
+      "currentStage": "Overdue tasks in both Paperwork and Advisor Flow.",
       "nextAction": "Address overdue paperwork and advisor tasks.",
       "blockers": null,
       "aiUrgency": "high"
@@ -31035,168 +31035,9 @@
           ]
         }
       ],
-      "currentStage": "Waiting on Signatures stage, overdue.",
+      "currentStage": "Waiting on Signatures, overdue.",
       "nextAction": "Follow up with client for signatures.",
       "blockers": "Waiting on client.",
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Schwartz, Louise & Schumaker, Don",
-      "advisor": "Melissa Benedict",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 31, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK POA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 1, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 4,
-      "doneItems": 2,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Louise Schwartz Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 31, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK POA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 1, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Both clients have overdue paperwork in the Queue stage.",
-      "nextAction": "Review and initiate paperwork for both clients.",
-      "blockers": null,
       "aiUrgency": "high"
     },
     {
@@ -31290,8 +31131,8 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Geiger, Jill",
-      "advisor": null,
+      "client": "Kohler, Timothy",
+      "advisor": "Katie Rower-Osborn",
       "planners": [
         "paperwork"
       ],
@@ -31303,17 +31144,16 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
               "status": "late",
-              "bucketName": "Queue ",
+              "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
+                "Katie Rower-Osborn"
               ],
-              "advisor": null,
+              "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)\r\n\r\n05/04/26- I asked BES if I should cancel this systematic withdrawal request, he said yes. I called into BTH and spoke with Sherry, she was able to stop the request. I am unsure how to communicate this to Jill. I will get with BES for the communication piece. (ctb)\r\n\r\nBES to going to call Jill to explain - I will follow up with BES and make sure the call is made(ctb)\r\n\r\n05/07/26- So ZWB brought BES in on this early last week, ZWB and BES have been working relentlessly with Corebridge to get the transfer reversed as Hal would be taxed on all $220,000 something dollars and also would not be able to take any DIST for the remainder of the year. Jim Butsco has been the main internal wholesaler we are working with. There was talks about BES having to tell Hal to take SDC to court because BES said he could not sleep with himself knowing that Hal will be shorted DIST and taxed. ZWB and BES worked something out with Corebridge that they will be able to reverse the transfer (Jill's account will go back to Hal's account). So, they will have to split the MAWA that is being taken out every month, and Hal will probably have to find a way to pay Jill out. **I will most likely have to set up a new systematic withdrawal for the new MAWA to Hal's account, but waiting on direction from BES. (ctb)**"
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
             }
           ]
         }
@@ -31331,23 +31171,22 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
               "status": "late",
-              "bucketName": "Queue ",
+              "bucketName": "Task Recognized",
               "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
+                "Katie Rower-Osborn"
               ],
-              "advisor": null,
+              "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)\r\n\r\n05/04/26- I asked BES if I should cancel this systematic withdrawal request, he said yes. I called into BTH and spoke with Sherry, she was able to stop the request. I am unsure how to communicate this to Jill. I will get with BES for the communication piece. (ctb)\r\n\r\nBES to going to call Jill to explain - I will follow up with BES and make sure the call is made(ctb)\r\n\r\n05/07/26- So ZWB brought BES in on this early last week, ZWB and BES have been working relentlessly with Corebridge to get the transfer reversed as Hal would be taxed on all $220,000 something dollars and also would not be able to take any DIST for the remainder of the year. Jim Butsco has been the main internal wholesaler we are working with. There was talks about BES having to tell Hal to take SDC to court because BES said he could not sleep with himself knowing that Hal will be shorted DIST and taxed. ZWB and BES worked something out with Corebridge that they will be able to reverse the transfer (Jill's account will go back to Hal's account). So, they will have to split the MAWA that is being taken out every month, and Hal will probably have to find a way to pay Jill out. **I will most likely have to set up a new systematic withdrawal for the new MAWA to Hal's account, but waiting on direction from BES. (ctb)**"
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
             }
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks in the Queue stage.",
-      "nextAction": "Initiate paperwork process.",
+      "currentStage": "Overdue in the Task Recognized stage.",
+      "nextAction": "Start paperwork process.",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31436,7 +31275,7 @@
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks in the Task Recognized stage.",
+      "currentStage": "Overdue in the Task Recognized stage.",
       "nextAction": "Initiate paperwork process.",
       "blockers": null,
       "aiUrgency": "high"
@@ -31500,8 +31339,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks in the Task Recognized stage.",
-      "nextAction": "Initiate paperwork process.",
+      "currentStage": "Overdue in the Task Recognized stage.",
+      "nextAction": "Start paperwork process.",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31590,8 +31429,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks in the Queue stage.",
-      "nextAction": "Initiate paperwork process.",
+      "currentStage": "Overdue in the Queue stage.",
+      "nextAction": "Review paperwork items.",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31650,8 +31489,70 @@
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks in the Queue stage.",
-      "nextAction": "Initiate paperwork process.",
+      "currentStage": "Overdue in the Queue stage.",
+      "nextAction": "Review paperwork items.",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Mcknight, Brian & Sarah",
+      "advisor": "Melissa Benedict",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 8, 2026",
+              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": true,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 8, 2026",
+              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Overdue in the In-Progress Activities stage.",
+      "nextAction": "Follow up on overdue activities.",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31759,7 +31660,140 @@
       "aiUrgency": null
     },
     {
-      "client": "Kohler, Timothy",
+      "client": "Schwartz, Louise",
+      "advisor": "Melissa Benedict",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 31, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK POA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 1, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 2,
+      "progress": 67,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 31, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK POA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 1, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Schumaker, Don",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "paperwork"
@@ -31772,16 +31806,16 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "title": "Schumaker, Don - MetLife Computershare",
               "status": "late",
-              "bucketName": "Task Recognized",
+              "bucketName": "Queue ",
               "assigneeNames": [
                 "Katie Rower-Osborn"
               ],
               "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
             }
           ]
         }
@@ -31799,16 +31833,78 @@
           "items": [
             {
               "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "title": "Schumaker, Don - MetLife Computershare",
               "status": "late",
-              "bucketName": "Task Recognized",
+              "bucketName": "Queue ",
               "assigneeNames": [
                 "Katie Rower-Osborn"
               ],
               "advisor": "Katie Rower-Osborn",
               "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Geiger, Jill",
+      "advisor": null,
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)\r\n\r\n05/04/26- I asked BES if I should cancel this systematic withdrawal request, he said yes. I called into BTH and spoke with Sherry, she was able to stop the request. I am unsure how to communicate this to Jill. I will get with BES for the communication piece. (ctb)\r\n\r\nBES to going to call Jill to explain - I will follow up with BES and make sure the call is made(ctb)\r\n\r\n05/07/26- So ZWB brought BES in on this early last week, ZWB and BES have been working relentlessly with Corebridge to get the transfer reversed as Hal would be taxed on all $220,000 something dollars and also would not be able to take any DIST for the remainder of the year. Jim Butsco has been the main internal wholesaler we are working with. There was talks about BES having to tell Hal to take SDC to court because BES said he could not sleep with himself knowing that Hal will be shorted DIST and taxed. ZWB and BES worked something out with Corebridge that they will be able to reverse the transfer (Jill's account will go back to Hal's account). So, they will have to split the MAWA that is being taken out every month, and Hal will probably have to find a way to pay Jill out. **I will most likely have to set up a new systematic withdrawal for the new MAWA to Hal's account, but waiting on direction from BES. (ctb)**"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Geiger, Jill - ACH & DIST FORMS BTH/AIG Retirement",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)\r\n\r\n05/04/26- I asked BES if I should cancel this systematic withdrawal request, he said yes. I called into BTH and spoke with Sherry, she was able to stop the request. I am unsure how to communicate this to Jill. I will get with BES for the communication piece. (ctb)\r\n\r\nBES to going to call Jill to explain - I will follow up with BES and make sure the call is made(ctb)\r\n\r\n05/07/26- So ZWB brought BES in on this early last week, ZWB and BES have been working relentlessly with Corebridge to get the transfer reversed as Hal would be taxed on all $220,000 something dollars and also would not be able to take any DIST for the remainder of the year. Jim Butsco has been the main internal wholesaler we are working with. There was talks about BES having to tell Hal to take SDC to court because BES said he could not sleep with himself knowing that Hal will be shorted DIST and taxed. ZWB and BES worked something out with Corebridge that they will be able to reverse the transfer (Jill's account will go back to Hal's account). So, they will have to split the MAWA that is being taken out every month, and Hal will probably have to find a way to pay Jill out. **I will most likely have to set up a new systematic withdrawal for the new MAWA to Hal's account, but waiting on direction from BES. (ctb)**"
             }
           ]
         }
@@ -42503,68 +42599,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Mcknight, Brian",
-      "advisor": "Melissa Benedict",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 8, 2026",
-              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": true,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 8, 2026",
-              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Tuttle",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -49031,7 +49065,7 @@
       "score": 85
     },
     {
-      "nameA": "Schwartz, Louise & Schumaker, Don",
+      "nameA": "Schwartz, Louise",
       "nameB": "Schwartz, Louise 02/25 8:30am (w) || Notes",
       "score": 85
     },
@@ -49071,7 +49105,7 @@
       "score": 85
     },
     {
-      "nameA": "Mcknight, Brian",
+      "nameA": "Mcknight, Brian & Sarah",
       "nameB": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
       "score": 85
     },
@@ -49360,12 +49394,8 @@
       "to": "Wright, Frank"
     },
     {
-      "from": "Schwartz, Louise",
-      "to": "Schwartz, Louise & Schumaker, Don"
-    },
-    {
-      "from": "Schumaker, Don",
-      "to": "Schwartz, Louise & Schumaker, Don"
+      "from": "Mcknight, Brian",
+      "to": "Mcknight, Brian & Sarah"
     }
   ],
   "stats": {
