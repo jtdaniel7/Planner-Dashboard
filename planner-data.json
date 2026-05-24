@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-24T16:00:37.566Z",
+  "fetchedAt": "2026-05-24T17:29:43.258Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-24T16:00:39.025Z",
+      "lastUpdated": "2026-05-24T17:29:44.743Z",
       "tasks": [
         {
           "id": "FTtcUTQ5EEa0UXXycc9EFGUAGT8a",
@@ -7640,7 +7640,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-24T16:00:51.315Z",
+      "lastUpdated": "2026-05-24T17:29:57.047Z",
       "tasks": [
         {
           "id": "RddCJGgaf0iJ9HKZBByhsWUAPivy",
@@ -15200,7 +15200,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-24T16:01:47.995Z",
+      "lastUpdated": "2026-05-24T17:30:52.831Z",
       "tasks": [
         {
           "id": "clldQs74oUGDQvnofGC922UAJcls",
@@ -21911,7 +21911,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-24T16:02:49.793Z",
+      "lastUpdated": "2026-05-24T17:31:53.009Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29432,7 +29432,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-24T16:03:01.364Z",
+      "lastUpdated": "2026-05-24T17:32:04.128Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30780,225 +30780,18 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Koscho, Jason",
-      "advisor": "Frank Dobnikar",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jason Koscho Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Jason Koscho\nAccount: PER ROTH IRA *4367\nSells / Amount / Ticker / Holding Name: Sell / 30,000 / PRWCX / T. Rowe Price Capital Appreciation Fund\nBuys / Amount / Ticker / Holding Name: Buy / 15,000 / VNG SP 500 Mutual Fund\nBuy / 15,000 / FIWS ContraFund \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Reallocate T Rowe Price Capital appreciation position in PER ROTH IRA to 50% FIWS Contrafund and 50% Vanguard SP 500 Mutual fund.  Update monthly contribution to $200 - 50% FIWS contrafund and 50% Vanguard SP 500. Getting ready to transfer in kind to FID ROTH.\n"
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Koscho, Jason - NEW ACCT FID ROTH IRA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Name of Client: Jason Koscho\r\nType of Account: Retirement\r\nSponsor Company: Fid Roth IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Primary: Julie Koscho 12/30/1979 100%\r\nContingent: Kathryn Koscho 9/15/2012 34%, Sophia Koscho 12/29/2014 33%, Annette Koscho 3/4/2018 33%\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: Yes- $100 monthly cont. on the 25th\r\n\r\n---Will they be making monthly CONTs: Yes\r\nHow Much: $100 5/22/26 - FJD REVIEW COVER NOTED INCREASE CONT TO $200 EACH MONTH. SPLIT BETWEEN CONTRA FUND VNG 500 MUTUAL FUND (EJD)\r\nOn what day of the month: 25th\r\nWhich year is the CONT for (if Roth IRA): 2026\r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100-200k\r\nNet Worth: 100-250k\r\nTax Bracket: 24%\r\nNet Investable Assets: 100-250k\r\nFee Schedule: Tiered Fee- 100k- 1.2%, 250k- 1.1%, 500k- 1.0%, 1B - 0.85%\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 60,000\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Transfer in Kind. Voided check in CLIC folder ending in *6811 Fifth Third Bank\r\n\r\n05/22/2026 - pulled ppwk and holding in my folder till Tuesday 5/26.  After his monthly $100 to his PER ROTH IRA goes through (baw)\r\n- Form ADV Delivery Receipt\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- WealthPort Custodian Agreement and Application\r\n- Premiere Select IRA Application\r\n- Standing Payment Instructions\r\n- Transfer of Assets"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Jason Koscho Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Jason Koscho\nAccount: PER ROTH IRA *4367\nSells / Amount / Ticker / Holding Name: Sell / 30,000 / PRWCX / T. Rowe Price Capital Appreciation Fund\nBuys / Amount / Ticker / Holding Name: Buy / 15,000 / VNG SP 500 Mutual Fund\nBuy / 15,000 / FIWS ContraFund \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Reallocate T Rowe Price Capital appreciation position in PER ROTH IRA to 50% FIWS Contrafund and 50% Vanguard SP 500 Mutual fund.  Update monthly contribution to $200 - 50% FIWS contrafund and 50% Vanguard SP 500. Getting ready to transfer in kind to FID ROTH.\n"
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Koscho, Jason - NEW ACCT FID ROTH IRA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Name of Client: Jason Koscho\r\nType of Account: Retirement\r\nSponsor Company: Fid Roth IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Primary: Julie Koscho 12/30/1979 100%\r\nContingent: Kathryn Koscho 9/15/2012 34%, Sophia Koscho 12/29/2014 33%, Annette Koscho 3/4/2018 33%\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: Yes- $100 monthly cont. on the 25th\r\n\r\n---Will they be making monthly CONTs: Yes\r\nHow Much: $100 5/22/26 - FJD REVIEW COVER NOTED INCREASE CONT TO $200 EACH MONTH. SPLIT BETWEEN CONTRA FUND VNG 500 MUTUAL FUND (EJD)\r\nOn what day of the month: 25th\r\nWhich year is the CONT for (if Roth IRA): 2026\r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100-200k\r\nNet Worth: 100-250k\r\nTax Bracket: 24%\r\nNet Investable Assets: 100-250k\r\nFee Schedule: Tiered Fee- 100k- 1.2%, 250k- 1.1%, 500k- 1.0%, 1B - 0.85%\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 60,000\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Transfer in Kind. Voided check in CLIC folder ending in *6811 Fifth Third Bank\r\n\r\n05/22/2026 - pulled ppwk and holding in my folder till Tuesday 5/26.  After his monthly $100 to his PER ROTH IRA goes through (baw)\r\n- Form ADV Delivery Receipt\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- WealthPort Custodian Agreement and Application\r\n- Premiere Select IRA Application\r\n- Standing Payment Instructions\r\n- Transfer of Assets"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Cash, Samuele",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Samuele Cash Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "Who filled this out: EJD\nClient Name: Samuele Cash\nAccount: PER JTOD HHG030377\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $800/month CONT - $400 to QQQ and $400 to VIG\nSolicited?: No\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: SMFPP please. thanks\n"
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "CASH, SAMUELE - NEW ACCT BRD 529 FBO JEREMY",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 11, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Samuele Cash Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "Who filled this out: EJD\nClient Name: Samuele Cash\nAccount: PER JTOD HHG030377\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $800/month CONT - $400 to QQQ and $400 to VIG\nSolicited?: No\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: SMFPP please. thanks\n"
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "CASH, SAMUELE - NEW ACCT BRD 529 FBO JEREMY",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 11, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Wright, Frank",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "trades",
-        "paperwork"
+        "paperwork",
+        "advisor"
       ],
       "byPlanner": {
         "trades": {
@@ -31058,7 +30851,7 @@
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 3,
+      "totalItems": 4,
       "doneItems": 0,
       "progress": 0,
       "plannerGroups": [
@@ -31115,12 +30908,32 @@
               "notes": "Name of Client: Frank Wright\nType of Account: Retirement\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"BIA\"]\n\nNotes: this is for a conversion: Roth conversion: From Account (IRA): FID IRA 628846791\nTo Account (Roth): FID ROTH 628846789\nDollar Amount: 40,000 gross- we will be doing this over the next 4 years (including this year so 3 more after this) to convert almost his whole IRA to Roth to beat RMDs, he has no taxable income besides SS!"
             }
           ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Wright, Frank 05/11 1pm (R) || Review F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks ntoes saved and f/u email sent!!! 5/11 jek"
+            }
+          ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Multiple items across trades and paperwork",
+      "nextAction": "Resolve overdue paperwork and trades",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Schwartz, Louise",
@@ -31250,13 +31063,13 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
-      "client": "Ferguson, Linda",
+      "client": "Ferguson, Linda & Matthew",
       "advisor": null,
       "planners": [
         "trades"
@@ -31280,13 +31093,27 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 22, 2026",
               "notes": "Who filled this out: Nick\nClient Name: Linda Ferguson\nAccount: FID IRA *6534\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy / $7500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7500 to Linda FID IRA *6534 from linked Chase Bank checking *3318. Then convert to Linda's FID ROTH IRA *7191 and rebalance in SDC growth ETF\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Matthew Ferguson Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Matthew Ferguson\nAccount: FID IRA *6551\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy/ $7,500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7,500 to Matt's FID IRA *6551 from linked Chase Bank Checking *3318. Then convert to Matt's FID ROTH IRA *7190 and rebalance in SDC Growth ETF\n"
             }
           ]
         }
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 1,
+      "totalItems": 2,
       "doneItems": 0,
       "progress": 0,
       "plannerGroups": [
@@ -31308,55 +31135,7 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 22, 2026",
               "notes": "Who filled this out: Nick\nClient Name: Linda Ferguson\nAccount: FID IRA *6534\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy / $7500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7500 to Linda FID IRA *6534 from linked Chase Bank checking *3318. Then convert to Linda's FID ROTH IRA *7191 and rebalance in SDC growth ETF\n"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Ferguson, Matthew",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Matthew Ferguson Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Matthew Ferguson\nAccount: FID IRA *6551\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy/ $7,500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7,500 to Matt's FID IRA *6551 from linked Chase Bank Checking *3318. Then convert to Matt's FID ROTH IRA *7190 and rebalance in SDC Growth ETF\n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
+            },
             {
               "plannerKey": "trades",
               "title": "Matthew Ferguson Trade Request FJD",
@@ -31374,10 +31153,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Multiple items across trades",
+      "nextAction": "Address overdue trades for both clients",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Schumaker, Don",
@@ -31434,10 +31213,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Geiger, Jill",
@@ -31496,70 +31275,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Timothy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Dobnikar, Frank",
@@ -31646,10 +31365,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Martin, Jeffrey",
@@ -31710,10 +31429,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Task Recognized",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Pasch, Jonathan",
@@ -31800,10 +31519,10 @@
           ]
         }
       ],
-      "currentStage": null,
-      "nextAction": null,
+      "currentStage": "Overdue paperwork in Queue",
+      "nextAction": "Start paperwork process",
       "blockers": null,
-      "aiUrgency": null
+      "aiUrgency": "high"
     },
     {
       "client": "Keech, Matthew",
@@ -31856,6 +31575,169 @@
               "isUnassigned": false,
               "dueDateFormatted": "Nov 12, 2025",
               "notes": "10/29/25 - i know this usually gets added to Planner, but adding to RT right now since I'm adding ZB to the activity. they're holding comp from this Nationwide Life Policy (it's for Matt Keech's mom, Odella):\r\n\r\nOMECA INC The Best of America® Next Generation FPVUL\r\n\r\nPolicy Values as of 10/28/2025 [(details)](https://financial.nationwide.com/iApp/ssc/clientAccounts/variableLife/investmentDetails.action)\r\nTotal Policy Value: $200,613.10\r\nNet Surrender Value: $200,613.10\r\n\r\nPolicy: N100385940\r\nOwner: OMECA INC\r\nInsured: ODELLA KEECH\r\nAddress: 702 W MONROE ST SANDUSKY, OH 44870-2359\r\nProduct type: Variable\r\nIssue date: 07/22/1998\r\nPremiums paid: $133,256.95\r\nInvestment Professional: BRENT SHIMMAN\r\nDeath Benefits\r\nLEVEL: as of Month End $300,000.00\r\n\r\nStatus: Active\r\nPremium amount: $4,000.00\r\nBilling mode: Annual\r\n\r\n* i looked into this a little bit and it may just be we didn't pull or submit any CIR ppwk! we can see the policy online via NW website, but still pending on CIR. (acs)\r\n\r\nto do:\r\n- get CIR ppwk pulled to add us\r\n- once signed and completed, update Janelle ASAP"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Overdue paperwork in Queue",
+      "nextAction": "Start paperwork process",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Cash, Samuele",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Samuele Cash Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "Who filled this out: EJD\nClient Name: Samuele Cash\nAccount: PER JTOD HHG030377\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $800/month CONT - $400 to QQQ and $400 to VIG\nSolicited?: No\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: SMFPP please. thanks\n"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "CASH, SAMUELE - NEW ACCT BRD 529 FBO JEREMY",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 11, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 1,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Samuele Cash Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "Who filled this out: EJD\nClient Name: Samuele Cash\nAccount: PER JTOD HHG030377\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: $800/month CONT - $400 to QQQ and $400 to VIG\nSolicited?: No\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: SMFPP please. thanks\n"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "CASH, SAMUELE - NEW ACCT BRD 529 FBO JEREMY",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 11, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Kohler, Timothy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
             }
           ]
         }
@@ -32576,66 +32458,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 19, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Wright, Frank 05/11 1pm (r)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Wright, Frank 05/11 1pm (R) || Review F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks ntoes saved and f/u email sent!!! 5/11 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Wright, Frank 05/11 1pm (R) || Review F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks ntoes saved and f/u email sent!!! 5/11 jek"
             }
           ]
         }
@@ -46922,6 +46744,111 @@
       "nextAction": null,
       "blockers": null,
       "aiUrgency": null
+    },
+    {
+      "client": "Koscho, Jason",
+      "advisor": "Frank Dobnikar",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jason Koscho Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Jason Koscho\nAccount: PER ROTH IRA *4367\nSells / Amount / Ticker / Holding Name: Sell / 30,000 / PRWCX / T. Rowe Price Capital Appreciation Fund\nBuys / Amount / Ticker / Holding Name: Buy / 15,000 / VNG SP 500 Mutual Fund\nBuy / 15,000 / FIWS ContraFund \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Reallocate T Rowe Price Capital appreciation position in PER ROTH IRA to 50% FIWS Contrafund and 50% Vanguard SP 500 Mutual fund.  Update monthly contribution to $200 - 50% FIWS contrafund and 50% Vanguard SP 500. Getting ready to transfer in kind to FID ROTH.\n"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Koscho, Jason - NEW ACCT FID ROTH IRA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Name of Client: Jason Koscho\r\nType of Account: Retirement\r\nSponsor Company: Fid Roth IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Primary: Julie Koscho 12/30/1979 100%\r\nContingent: Kathryn Koscho 9/15/2012 34%, Sophia Koscho 12/29/2014 33%, Annette Koscho 3/4/2018 33%\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: Yes- $100 monthly cont. on the 25th\r\n\r\n---Will they be making monthly CONTs: Yes\r\nHow Much: $100 5/22/26 - FJD REVIEW COVER NOTED INCREASE CONT TO $200 EACH MONTH. SPLIT BETWEEN CONTRA FUND VNG 500 MUTUAL FUND (EJD)\r\nOn what day of the month: 25th\r\nWhich year is the CONT for (if Roth IRA): 2026\r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100-200k\r\nNet Worth: 100-250k\r\nTax Bracket: 24%\r\nNet Investable Assets: 100-250k\r\nFee Schedule: Tiered Fee- 100k- 1.2%, 250k- 1.1%, 500k- 1.0%, 1B - 0.85%\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 60,000\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Transfer in Kind. Voided check in CLIC folder ending in *6811 Fifth Third Bank\r\n\r\n05/22/2026 - pulled ppwk and holding in my folder till Tuesday 5/26.  After his monthly $100 to his PER ROTH IRA goes through (baw)\r\n- Form ADV Delivery Receipt\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- WealthPort Custodian Agreement and Application\r\n- Premiere Select IRA Application\r\n- Standing Payment Instructions\r\n- Transfer of Assets"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": true,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Jason Koscho Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Jason Koscho\nAccount: PER ROTH IRA *4367\nSells / Amount / Ticker / Holding Name: Sell / 30,000 / PRWCX / T. Rowe Price Capital Appreciation Fund\nBuys / Amount / Ticker / Holding Name: Buy / 15,000 / VNG SP 500 Mutual Fund\nBuy / 15,000 / FIWS ContraFund \nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Reallocate T Rowe Price Capital appreciation position in PER ROTH IRA to 50% FIWS Contrafund and 50% Vanguard SP 500 Mutual fund.  Update monthly contribution to $200 - 50% FIWS contrafund and 50% Vanguard SP 500. Getting ready to transfer in kind to FID ROTH.\n"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Koscho, Jason - NEW ACCT FID ROTH IRA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Name of Client: Jason Koscho\r\nType of Account: Retirement\r\nSponsor Company: Fid Roth IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Primary: Julie Koscho 12/30/1979 100%\r\nContingent: Kathryn Koscho 9/15/2012 34%, Sophia Koscho 12/29/2014 33%, Annette Koscho 3/4/2018 33%\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: Yes- $100 monthly cont. on the 25th\r\n\r\n---Will they be making monthly CONTs: Yes\r\nHow Much: $100 5/22/26 - FJD REVIEW COVER NOTED INCREASE CONT TO $200 EACH MONTH. SPLIT BETWEEN CONTRA FUND VNG 500 MUTUAL FUND (EJD)\r\nOn what day of the month: 25th\r\nWhich year is the CONT for (if Roth IRA): 2026\r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100-200k\r\nNet Worth: 100-250k\r\nTax Bracket: 24%\r\nNet Investable Assets: 100-250k\r\nFee Schedule: Tiered Fee- 100k- 1.2%, 250k- 1.1%, 500k- 1.0%, 1B - 0.85%\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 60,000\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Transfer in Kind. Voided check in CLIC folder ending in *6811 Fifth Third Bank\r\n\r\n05/22/2026 - pulled ppwk and holding in my folder till Tuesday 5/26.  After his monthly $100 to his PER ROTH IRA goes through (baw)\r\n- Form ADV Delivery Receipt\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- WealthPort Custodian Agreement and Application\r\n- Premiere Select IRA Application\r\n- Standing Payment Instructions\r\n- Transfer of Assets"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Waiting on Signatures",
+      "nextAction": "Follow up with client for signatures",
+      "blockers": "Waiting on client",
+      "aiUrgency": "waiting"
     }
   ],
   "overdueTasks": [
@@ -49391,7 +49318,20 @@
       "score": 85
     }
   ],
-  "aiMerges": [],
+  "aiMerges": [
+    {
+      "from": "Ferguson, Linda",
+      "to": "Ferguson, Linda & Matthew"
+    },
+    {
+      "from": "Ferguson, Matthew",
+      "to": "Ferguson, Linda & Matthew"
+    },
+    {
+      "from": "Wright, Frank 05/11 1pm (r)",
+      "to": "Wright, Frank"
+    }
+  ],
   "stats": {
     "totalOpen": 297,
     "completedToday": 0,
