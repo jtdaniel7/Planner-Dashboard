@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-25T07:07:49.701Z",
+  "fetchedAt": "2026-05-25T11:33:47.852Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-25T07:07:51.302Z",
+      "lastUpdated": "2026-05-25T11:33:49.586Z",
       "tasks": [
         {
           "id": "FTtcUTQ5EEa0UXXycc9EFGUAGT8a",
@@ -48,7 +48,7 @@
         {
           "id": "1v6ZzKHk9EeU16liYAOG6WUAOG2S",
           "title": "Steve Ebert Trade Request BES",
-          "status": "in-progress",
+          "status": "late",
           "clientName": "Ebert, Steve",
           "rawClientName": "Steve Ebert",
           "bucketName": "In progress",
@@ -86,7 +86,7 @@
         {
           "id": "LIL4S8ytiEGUHgMfKJ9naWUAAEkb",
           "title": "Lori Hayes Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Hayes, Lori",
           "rawClientName": "Lori Hayes",
           "bucketName": "Unknown",
@@ -105,7 +105,7 @@
         {
           "id": "WsYgrx7xLUWu5KibQF_Nv2UADafi",
           "title": "John Hayes Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Hayes, John",
           "rawClientName": "John Hayes",
           "bucketName": "Unknown",
@@ -144,7 +144,7 @@
         {
           "id": "5bmJt0H4O0GBcengwERQ52UAD54y",
           "title": "Andrew Bochi Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Bochi, Andrew",
           "rawClientName": "Andrew Bochi",
           "bucketName": "Unknown",
@@ -220,7 +220,7 @@
         {
           "id": "-eB7iG4a7kmzBFFbFZ4J3GUAMG9N",
           "title": "Eric Boysen Trade Request FJD",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Boysen, Eric",
           "rawClientName": "Eric Boysen",
           "bucketName": "Unknown",
@@ -239,7 +239,7 @@
         {
           "id": "aSpkm1U4gka8OoOlyG5nf2UAIrVU",
           "title": "Carol Nastasi Distribution FJD",
-          "status": "in-progress",
+          "status": "late",
           "clientName": "Nastasi, Carol",
           "rawClientName": "Carol Nastasi",
           "bucketName": "In progress",
@@ -258,7 +258,7 @@
         {
           "id": "5rVapyRe4U6W-C8C_IGbN2UAJNLX",
           "title": "Carol Nastasi Distribution FJD",
-          "status": "in-progress",
+          "status": "late",
           "clientName": "Nastasi, Carol",
           "rawClientName": "Carol Nastasi",
           "bucketName": "In progress",
@@ -7633,14 +7633,14 @@
         }
       ],
       "openCount": 23,
-      "overdueCount": 5,
+      "overdueCount": 12,
       "waitingCount": 0
     },
     {
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-25T07:08:05.185Z",
+      "lastUpdated": "2026-05-25T11:34:02.208Z",
       "tasks": [
         {
           "id": "RddCJGgaf0iJ9HKZBByhsWUAPivy",
@@ -15200,7 +15200,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-25T07:09:10.680Z",
+      "lastUpdated": "2026-05-25T11:35:01.821Z",
       "tasks": [
         {
           "id": "clldQs74oUGDQvnofGC922UAJcls",
@@ -21911,7 +21911,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-25T07:10:20.473Z",
+      "lastUpdated": "2026-05-25T11:36:06.447Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29432,7 +29432,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-25T07:10:33.501Z",
+      "lastUpdated": "2026-05-25T11:36:18.202Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30558,6 +30558,288 @@
   ],
   "wip": [
     {
+      "client": "Hayes, John & Lori",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "trades",
+        "paperwork",
+        "conts"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: JEK\nClient Name: John Hayes\nAccount: FID ROTH 628-847258\nSells / Amount / Ticker / Holding Name: YEXT\nSMR\nS\nQQQ\nBuys / Amount / Ticker / Holding Name: \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Distribution\"]\nNotes / Comments / Special Instructions / Restrictionsgot verbal confirmation from John on this- send proceeds to his bank from these sales!"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 7, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Lori Hayes Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: JEK\nClient Name: Lori Hayes\nAccount: FID ROTH 628847500\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: *Using cash available in her account\nMDT        75 shares\nLUNR     100 shares\nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictionsverbal confirmation recieved"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Hayes, John - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 17, 2026",
+              "notes": "Name of Client: John Hayes\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: From Account (IRA): FID TRAD 628847259\r\nTo Account (Roth): ROTH 628-847258\r\nROHT CONVERSION BIA!"
+            }
+          ]
+        },
+        "conts": {
+          "key": "conts",
+          "label": "CONTs & Checks",
+          "color": "#dc2626",
+          "items": [
+            {
+              "plannerKey": "conts",
+              "title": "John Hayes Cont/check",
+              "status": "complete",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            },
+            {
+              "plannerKey": "conts",
+              "title": "Lori Hayes Cont/check",
+              "status": "complete",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 8,
+      "doneItems": 5,
+      "progress": 63,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: JEK\nClient Name: John Hayes\nAccount: FID ROTH 628-847258\nSells / Amount / Ticker / Holding Name: YEXT\nSMR\nS\nQQQ\nBuys / Amount / Ticker / Holding Name: \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Distribution\"]\nNotes / Comments / Special Instructions / Restrictionsgot verbal confirmation from John on this- send proceeds to his bank from these sales!"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 7, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "John Hayes Roth Conversion BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 15, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Lori Hayes Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: JEK\nClient Name: Lori Hayes\nAccount: FID ROTH 628847500\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: *Using cash available in her account\nMDT        75 shares\nLUNR     100 shares\nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictionsverbal confirmation recieved"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Hayes, John - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 17, 2026",
+              "notes": "Name of Client: John Hayes\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: From Account (IRA): FID TRAD 628847259\r\nTo Account (Roth): ROTH 628-847258\r\nROHT CONVERSION BIA!"
+            }
+          ]
+        },
+        {
+          "key": "conts",
+          "label": "CONTs & Checks",
+          "color": "#dc2626",
+          "items": [
+            {
+              "plannerKey": "conts",
+              "title": "John Hayes Cont/check",
+              "status": "complete",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            },
+            {
+              "plannerKey": "conts",
+              "title": "Lori Hayes Cont/check",
+              "status": "complete",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Multiple items across Paperwork and Advisor Flow",
+      "nextAction": "Address overdue paperwork and trades",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
       "client": "Wright, Frank",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -30703,159 +30985,7 @@
         }
       ],
       "currentStage": "Multiple items across Paperwork and Advisor Flow",
-      "nextAction": "Address overdue paperwork and advisor tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Halprin, Chloe",
-      "advisor": "Cheyenne Boyd",
-      "planners": [
-        "paperwork",
-        "conts",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "complete",
-              "bucketName": "Withdrawn Request",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "conts": {
-          "key": "conts",
-          "label": "CONTs & Checks",
-          "color": "#dc2626",
-          "items": [
-            {
-              "plannerKey": "conts",
-              "title": "Chloe Halprin Cont/check",
-              "status": "complete",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 4,
-      "doneItems": 3,
-      "progress": 75,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 26, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Halprin, Chloe - NEW ACCT FID SIMP IRA",
-              "status": "complete",
-              "bucketName": "Withdrawn Request",
-              "assigneeNames": [
-                "Cheyenne Boyd",
-                "Alyssa Shimman"
-              ],
-              "advisor": "Cheyenne Boyd",
-              "isUnassigned": false,
-              "dueDateFormatted": "Mar 2, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "conts",
-          "label": "CONTs & Checks",
-          "color": "#dc2626",
-          "items": [
-            {
-              "plannerKey": "conts",
-              "title": "Chloe Halprin Cont/check",
-              "status": "complete",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 10, 2026",
-              "notes": "sent f/u email 4/13 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Single advisor task overdue",
-      "nextAction": "Complete overdue advisor task",
+      "nextAction": "Address overdue paperwork and trades",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30875,7 +31005,7 @@
             {
               "plannerKey": "trades",
               "title": "Steve Ebert Trade Request BES",
-              "status": "in-progress",
+              "status": "late",
               "bucketName": "In progress",
               "assigneeNames": [
                 "Ryan Juhasz",
@@ -30917,7 +31047,7 @@
             {
               "plannerKey": "trades",
               "title": "Steve Ebert Trade Request BES",
-              "status": "in-progress",
+              "status": "late",
               "bucketName": "In progress",
               "assigneeNames": [
                 "Ryan Juhasz",
@@ -30965,672 +31095,10 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Advisor Flow",
-      "nextAction": "Review overdue advisor tasks",
+      "currentStage": "In Progress Activities",
+      "nextAction": "Follow up on overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
-    },
-    {
-      "client": "Mcknight, Brian & Sarah",
-      "advisor": "Melissa Benedict",
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 8, 2026",
-              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": true,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 8, 2026",
-              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 29, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/4 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Multiple items across Advisor Flow",
-      "nextAction": "Review overdue advisor tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Kohler, Timothy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork",
-        "advisor"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        },
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Single advisor task overdue",
-      "nextAction": "Complete overdue advisor task",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Ferguson, Linda & Matthew",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Linda Ferguson Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Linda Ferguson\nAccount: FID IRA *6534\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy / $7500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7500 to Linda FID IRA *6534 from linked Chase Bank checking *3318. Then convert to Linda's FID ROTH IRA *7191 and rebalance in SDC growth ETF\n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Matthew Ferguson Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Matthew Ferguson\nAccount: FID IRA *6551\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy/ $7,500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7,500 to Matt's FID IRA *6551 from linked Chase Bank Checking *3318. Then convert to Matt's FID ROTH IRA *7190 and rebalance in SDC Growth ETF\n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Linda Ferguson Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Linda Ferguson\nAccount: FID IRA *6534\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy / $7500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7500 to Linda FID IRA *6534 from linked Chase Bank checking *3318. Then convert to Linda's FID ROTH IRA *7191 and rebalance in SDC growth ETF\n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Matthew Ferguson Trade Request FJD",
-              "status": "late",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Matthew Ferguson\nAccount: FID IRA *6551\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy/ $7,500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7,500 to Matt's FID IRA *6551 from linked Chase Bank Checking *3318. Then convert to Matt's FID ROTH IRA *7190 and rebalance in SDC Growth ETF\n"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Multiple items across Paperwork and Trades",
-      "nextAction": "Follow up on overdue paperwork and trades",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Erdmann, Cecil & Jane",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Multiple items across Advisor Flow",
-      "nextAction": "Review overdue advisor tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Vasko, Rocko & Katie",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Vasko, Katie 05/18 2:15pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 18, 2026",
-              "notes": "zocks f/u email sent 5/19 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Vasko, Katie 05/18 2:15pm (G) || NOTES - Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 18, 2026",
-              "notes": "zocks f/u email sent 5/19 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Multiple items across Advisor Flow",
-      "nextAction": "Review overdue advisor tasks",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Owens, Bob & Cindy",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 6, 2026",
-              "notes": "zocks notes saved and f/u email sent /13 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Single advisor task overdue",
-      "nextAction": "Complete overdue advisor task",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Hayes, John",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "trades",
-        "paperwork",
-        "conts"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: JEK\nClient Name: John Hayes\nAccount: FID ROTH 628-847258\nSells / Amount / Ticker / Holding Name: YEXT\nSMR\nS\nQQQ\nBuys / Amount / Ticker / Holding Name: \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Distribution\"]\nNotes / Comments / Special Instructions / Restrictionsgot verbal confirmation from John on this- send proceeds to his bank from these sales!"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 7, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Hayes, John - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 17, 2026",
-              "notes": "Name of Client: John Hayes\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: From Account (IRA): FID TRAD 628847259\r\nTo Account (Roth): ROTH 628-847258\r\nROHT CONVERSION BIA!"
-            }
-          ]
-        },
-        "conts": {
-          "key": "conts",
-          "label": "CONTs & Checks",
-          "color": "#dc2626",
-          "items": [
-            {
-              "plannerKey": "conts",
-              "title": "John Hayes Cont/check",
-              "status": "complete",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 6,
-      "doneItems": 4,
-      "progress": 67,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: JEK\nClient Name: John Hayes\nAccount: FID ROTH 628-847258\nSells / Amount / Ticker / Holding Name: YEXT\nSMR\nS\nQQQ\nBuys / Amount / Ticker / Holding Name: \nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Distribution\"]\nNotes / Comments / Special Instructions / Restrictionsgot verbal confirmation from John on this- send proceeds to his bank from these sales!"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Trade Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Distribution Request BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 7, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "John Hayes Roth Conversion BES",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Hayes, John - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 17, 2026",
-              "notes": "Name of Client: John Hayes\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA\"]\r\n\r\nNotes: From Account (IRA): FID TRAD 628847259\r\nTo Account (Roth): ROTH 628-847258\r\nROHT CONVERSION BIA!"
-            }
-          ]
-        },
-        {
-          "key": "conts",
-          "label": "CONTs & Checks",
-          "color": "#dc2626",
-          "items": [
-            {
-              "plannerKey": "conts",
-              "title": "John Hayes Cont/check",
-              "status": "complete",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
     },
     {
       "client": "Koscho, Jason",
@@ -31728,6 +31196,727 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 22, 2026",
               "notes": "Name of Client: Jason Koscho\r\nType of Account: Retirement\r\nSponsor Company: Fid Roth IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Primary: Julie Koscho 12/30/1979 100%\r\nContingent: Kathryn Koscho 9/15/2012 34%, Sophia Koscho 12/29/2014 33%, Annette Koscho 3/4/2018 33%\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: Yes- $100 monthly cont. on the 25th\r\n\r\n---Will they be making monthly CONTs: Yes\r\nHow Much: $100 5/22/26 - FJD REVIEW COVER NOTED INCREASE CONT TO $200 EACH MONTH. SPLIT BETWEEN CONTRA FUND VNG 500 MUTUAL FUND (EJD)\r\nOn what day of the month: 25th\r\nWhich year is the CONT for (if Roth IRA): 2026\r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100-200k\r\nNet Worth: 100-250k\r\nTax Bracket: 24%\r\nNet Investable Assets: 100-250k\r\nFee Schedule: Tiered Fee- 100k- 1.2%, 250k- 1.1%, 500k- 1.0%, 1B - 0.85%\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 60,000\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Transfer in Kind. Voided check in CLIC folder ending in *6811 Fifth Third Bank\r\n\r\n05/22/2026 - pulled ppwk and holding in my folder till Tuesday 5/26.  After his monthly $100 to his PER ROTH IRA goes through (baw)\r\n- Form ADV Delivery Receipt\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- WealthPort Custodian Agreement and Application\r\n- Premiere Select IRA Application\r\n- Standing Payment Instructions\r\n- Transfer of Assets"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Waiting on Signatures",
+      "nextAction": "Follow up on signatures",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Schwartz, Louise & Schumaker, Don",
+      "advisor": "Melissa Benedict",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 31, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK POA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 1, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schumaker, Don - MetLife Computershare",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 4,
+      "doneItems": 2,
+      "progress": 50,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Louise Schwartz Trade Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Mar 31, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 20, 2026",
+              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schwartz, Louise - PPWK POA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Collin Berryman",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 1, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Schumaker, Don - MetLife Computershare",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Queue",
+      "nextAction": "Prepare paperwork",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Kohler, Timothy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Prepare paperwork",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Ferguson, Linda & Matthew",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Linda Ferguson Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Linda Ferguson\nAccount: FID IRA *6534\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy / $7500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7500 to Linda FID IRA *6534 from linked Chase Bank checking *3318. Then convert to Linda's FID ROTH IRA *7191 and rebalance in SDC growth ETF\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Matthew Ferguson Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Matthew Ferguson\nAccount: FID IRA *6551\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy/ $7,500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7,500 to Matt's FID IRA *6551 from linked Chase Bank Checking *3318. Then convert to Matt's FID ROTH IRA *7190 and rebalance in SDC Growth ETF\n"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Linda Ferguson Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Linda Ferguson\nAccount: FID IRA *6534\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy / $7500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7500 to Linda FID IRA *6534 from linked Chase Bank checking *3318. Then convert to Linda's FID ROTH IRA *7191 and rebalance in SDC growth ETF\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Matthew Ferguson Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Matthew Ferguson\nAccount: FID IRA *6551\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buy/ $7,500 / Cash\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Retirement - Accumulation\nNotes / Comments / Special Instructions / Restrictions: Add $7,500 to Matt's FID IRA *6551 from linked Chase Bank Checking *3318. Then convert to Matt's FID ROTH IRA *7190 and rebalance in SDC Growth ETF\n"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Review overdue tasks",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Dobnikar, Frank",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Dobnikar, Frank - NEW ACCT FID ROTH IRA w/FRK TOA",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Dobnikar, Frank - FID TRAD IRA w/2 TOA",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jan 26, 2026",
+              "notes": "Who filled this out: EJD\r\n\r\nName of Client: FJD\r\n\r\nType of Account: Retirement\r\n\r\nSponsor Company: Fidelity\r\n\r\nType of Paperwork Being Pulled: New Account\r\n\r\n**Basic Information:**\r\n\r\nIs this a new client? No\r\n\r\nBeneficiaries: transfer in kind - keep same\r\n\r\nHow the Account being funded:Transfer\r\n\r\n**AIP information & CONTs:**\r\n\r\nAny current AIPs at old account to be shut off: \r\n\r\nWill they be making monthly CONTs: \r\n\r\nHow Much (if CONTs are made): \r\n\r\nOn what day of the month (if CONTs are made): \r\n\r\nWhich year is the CONT for (if CONTS are made): \r\n\r\n**Bank Linking / Verification:**\r\n\r\nAre we linking the bank: \r\n\r\nDo we have a voided check: \r\n\r\n**Additional Verification Information:**\r\n\r\nCopy of Current DL on file: \r\n\r\nDrivers License Upload (if on file): \r\n\r\nFull Suitability Needed?: \r\n\r\n**How to Sign:**\r\n\r\nSignature Method: Docusign\r\n\r\n**Financial Data:**\r\n\r\nRefers to: \r\n\r\nAnnual Income: \r\n\r\nNet Worth: \r\n\r\nTax Bracket: \r\n\r\nNet Investable Assets: \r\n\r\n**Investment Objectives:**\r\n\r\nRisk Tolerance: \r\n\r\nPrimary Objective: \r\n\r\nSeconday Objective: \r\n\r\nOutside Objective: \r\n\r\n**Time and Horizon / Liquidity Needs:**\r\n\r\nAccount Time Horizon: \r\n\r\nAnnual Expenses: \r\n\r\nEstimated Special Expenses: \r\n\r\nSpecial Expense Timeline: \r\n\r\nIf not in a model, what trades are needed:"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Dobnikar, Frank - NEW ACCT FID ROTH IRA w/FRK TOA",
+              "status": "not-started",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": null,
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Dobnikar, Frank - FID TRAD IRA w/2 TOA",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jan 26, 2026",
+              "notes": "Who filled this out: EJD\r\n\r\nName of Client: FJD\r\n\r\nType of Account: Retirement\r\n\r\nSponsor Company: Fidelity\r\n\r\nType of Paperwork Being Pulled: New Account\r\n\r\n**Basic Information:**\r\n\r\nIs this a new client? No\r\n\r\nBeneficiaries: transfer in kind - keep same\r\n\r\nHow the Account being funded:Transfer\r\n\r\n**AIP information & CONTs:**\r\n\r\nAny current AIPs at old account to be shut off: \r\n\r\nWill they be making monthly CONTs: \r\n\r\nHow Much (if CONTs are made): \r\n\r\nOn what day of the month (if CONTs are made): \r\n\r\nWhich year is the CONT for (if CONTS are made): \r\n\r\n**Bank Linking / Verification:**\r\n\r\nAre we linking the bank: \r\n\r\nDo we have a voided check: \r\n\r\n**Additional Verification Information:**\r\n\r\nCopy of Current DL on file: \r\n\r\nDrivers License Upload (if on file): \r\n\r\nFull Suitability Needed?: \r\n\r\n**How to Sign:**\r\n\r\nSignature Method: Docusign\r\n\r\n**Financial Data:**\r\n\r\nRefers to: \r\n\r\nAnnual Income: \r\n\r\nNet Worth: \r\n\r\nTax Bracket: \r\n\r\nNet Investable Assets: \r\n\r\n**Investment Objectives:**\r\n\r\nRisk Tolerance: \r\n\r\nPrimary Objective: \r\n\r\nSeconday Objective: \r\n\r\nOutside Objective: \r\n\r\n**Time and Horizon / Liquidity Needs:**\r\n\r\nAccount Time Horizon: \r\n\r\nAnnual Expenses: \r\n\r\nEstimated Special Expenses: \r\n\r\nSpecial Expense Timeline: \r\n\r\nIf not in a model, what trades are needed:"
+            }
+          ]
+        }
+      ],
+      "currentStage": "Task Recognized",
+      "nextAction": "Prepare paperwork",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Nastasi, Carol",
+      "advisor": "Frank Dobnikar",
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Distribution FJD",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: Nick\nName: Carol Nastasi\nAcct: FID IRA *2549\n\nDistribution Information\nGross Amount: $1,000\nNet Amount: \nTax W/H: W/H for FED tax\nACH on file? Yes\nCheck Request? Chase Bank Checking *6192\nAny Trades Needed? 2026 RMD from Carol's FID IRA *2549 withhold federal tax\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Distribution FJD",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "carol nastasi ind tod Trade Request FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "carol nastasi ind tod Distribution FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 7, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Trade Request FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Trade Request FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Nastasi, Carol - NEW ACCT FID BENE IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Nastasi, Carol - NEW ACCT FID TRAD IRA W/TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Nastasi, Carol - NEW ACCT FID IND TOD W/TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 9,
+      "doneItems": 7,
+      "progress": 78,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Distribution FJD",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: Nick\nName: Carol Nastasi\nAcct: FID IRA *2549\n\nDistribution Information\nGross Amount: $1,000\nNet Amount: \nTax W/H: W/H for FED tax\nACH on file? Yes\nCheck Request? Chase Bank Checking *6192\nAny Trades Needed? 2026 RMD from Carol's FID IRA *2549 withhold federal tax\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Distribution FJD",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "carol nastasi ind tod Trade Request FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 22, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "carol nastasi ind tod Distribution FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 7, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Trade Request FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Carol Nastasi Trade Request FJD",
+              "status": "complete",
+              "bucketName": "Completed",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Nastasi, Carol - NEW ACCT FID BENE IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Nastasi, Carol - NEW ACCT FID TRAD IRA W/TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Nastasi, Carol - NEW ACCT FID IND TOD W/TOA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 23, 2026",
+              "notes": null
             }
           ]
         }
@@ -31841,11 +32030,10 @@
       "aiUrgency": null
     },
     {
-      "client": "Schwartz, Louise",
-      "advisor": "Melissa Benedict",
+      "client": "Bochi, Andrew",
+      "advisor": null,
       "planners": [
-        "trades",
-        "paperwork"
+        "trades"
       ],
       "byPlanner": {
         "trades": {
@@ -31855,7 +32043,83 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "Louise Schwartz Trade Request BES",
+              "title": "Andrew Bochi Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: AL\nClient Name: Andrew Bochi\nAccount: FID IND TOD #655-445567\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per RT notes - Moderate ETF, see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions05/22/26 - the check i processed is just under $25k, i'm not sure if that matters a lot or not. messaging Brent to verify! (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Andrew Bochi Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: AL\nClient Name: Andrew Bochi\nAccount: FID IND TOD #655-445567\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per RT notes - Moderate ETF, see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions05/22/26 - the check i processed is just under $25k, i'm not sure if that matters a lot or not. messaging Brent to verify! (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Boysen, Eric",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Eric Boysen Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Eric Boysen\nAccount: FID TODI *9980\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buys / $5,000 / FINSX / fidelity new insights fund\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Asset Allocation\nNotes / Comments / Special Instructions / Restrictions: pull in $5k from linked Ally bank account and buy FINSX fidelity new insights fund.  he likes the spacex position in the fund.\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Eric Boysen Trade Request FJD",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -31864,42 +32128,21 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Mar 31, 2026",
+              "dueDateFormatted": "May 25, 2026",
               "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
             },
             {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK POA",
+              "plannerKey": "trades",
+              "title": "Eric Boysen TOD Trade Request FJD",
               "status": "complete",
-              "bucketName": "Completed Tasks",
+              "bucketName": "Completed",
               "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
+                "Ryan Juhasz",
+                "Jennifer Ottney"
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 1, 2026",
+              "dueDateFormatted": "Apr 15, 2026",
               "notes": null
             }
           ]
@@ -31918,7 +32161,21 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "Louise Schwartz Trade Request BES",
+              "title": "Eric Boysen Trade Request FJD",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "May 25, 2026",
+              "notes": "Who filled this out: Nick\nClient Name: Eric Boysen\nAccount: FID TODI *9980\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buys / $5,000 / FINSX / fidelity new insights fund\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Asset Allocation\nNotes / Comments / Special Instructions / Restrictions: pull in $5k from linked Ally bank account and buy FINSX fidelity new insights fund.  he likes the spacex position in the fund.\n"
+            },
+            {
+              "plannerKey": "trades",
+              "title": "Eric Boysen Trade Request FJD",
               "status": "complete",
               "bucketName": "Completed",
               "assigneeNames": [
@@ -31927,103 +32184,22 @@
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Mar 31, 2026",
+              "dueDateFormatted": "May 25, 2026",
               "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK FID BANK UPDATE",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Alyssa Shimman",
-                "Melissa Benedict"
-              ],
-              "advisor": "Melissa Benedict",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 20, 2026",
-              "notes": "Name of Client: Louise Schwartz\nType of Account: Other\nSponsor Company: FID\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"ACH Update\"]\n\nNotes: She called in to update her bank, she said that Bob's name was first on the other account and that she had to get a new bank account. She is still with BACU, Checking #423189009... I let her know that she will probably need to sign new ppwk along with needing a voided check or a bank letter. Please get back with her ASAP - looks like she gets MO DIST."
             },
             {
-              "plannerKey": "paperwork",
-              "title": "Schwartz, Louise - PPWK POA",
+              "plannerKey": "trades",
+              "title": "Eric Boysen TOD Trade Request FJD",
               "status": "complete",
-              "bucketName": "Completed Tasks",
+              "bucketName": "Completed",
               "assigneeNames": [
-                "Collin Berryman",
-                "Alyssa Shimman"
+                "Ryan Juhasz",
+                "Jennifer Ottney"
               ],
               "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "Apr 1, 2026",
+              "dueDateFormatted": "Apr 15, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Schumaker, Don",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
             }
           ]
         }
@@ -32086,96 +32262,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 10, 2026",
               "notes": "Name of Client: Jill Geiger\r\nType of Account: Retirement\r\nSponsor Company: BTH/AIG\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: \r\n\r\nNotes: 04/08/2026 - Per JEK, she wants to take half of what Hal's getting each month from AIG & BTH. Need to link bank as well. (kso)\r\n\r\n04/10/26- I pulled BTH and AIG systematic withdrawal forms, I need to add tax w/h & banking information. Also pulled W-4R for AIG tax withholding. Katie also has an annuity disclosure form up there for sigs as well. (ctb)\r\n\r\nI called Jill and she is coming in MON to sign. (ctb)\r\n\r\n04/14/26- Jill came in and signed with KSO yesterday, KKB said she was very confused. I confirmed with BES that we are going to use 16% Fed and 4% state for the time being but we could be changing within the next year or two. I reached out to KSO to confirm amounts of DIST. \r\n\r\nI gave Jill a call, apologized that I missed her, let her know we are sticking with the 16% Fed 4% state for the time being but will reevaluate within the next couple years. Told her the DISTs will be sent the second week of every month. (ctb)\r\n\r\n04/14/26- I submitted to both AIG and BTH today with the voided check and W-4R attached as well as WC. I sent a secure email for AIG and BTH I used JEK faxage. (ctb)\r\n\r\n05/04/26- I asked BES if I should cancel this systematic withdrawal request, he said yes. I called into BTH and spoke with Sherry, she was able to stop the request. I am unsure how to communicate this to Jill. I will get with BES for the communication piece. (ctb)\r\n\r\nBES to going to call Jill to explain - I will follow up with BES and make sure the call is made(ctb)\r\n\r\n05/07/26- So ZWB brought BES in on this early last week, ZWB and BES have been working relentlessly with Corebridge to get the transfer reversed as Hal would be taxed on all $220,000 something dollars and also would not be able to take any DIST for the remainder of the year. Jim Butsco has been the main internal wholesaler we are working with. There was talks about BES having to tell Hal to take SDC to court because BES said he could not sleep with himself knowing that Hal will be shorted DIST and taxed. ZWB and BES worked something out with Corebridge that they will be able to reverse the transfer (Jill's account will go back to Hal's account). So, they will have to split the MAWA that is being taken out every month, and Hal will probably have to find a way to pay Jill out. **I will most likely have to set up a new systematic withdrawal for the new MAWA to Hal's account, but waiting on direction from BES. (ctb)**"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Dobnikar, Frank",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Dobnikar, Frank - NEW ACCT FID ROTH IRA w/FRK TOA",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Dobnikar, Frank - FID TRAD IRA w/2 TOA",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jan 26, 2026",
-              "notes": "Who filled this out: EJD\r\n\r\nName of Client: FJD\r\n\r\nType of Account: Retirement\r\n\r\nSponsor Company: Fidelity\r\n\r\nType of Paperwork Being Pulled: New Account\r\n\r\n**Basic Information:**\r\n\r\nIs this a new client? No\r\n\r\nBeneficiaries: transfer in kind - keep same\r\n\r\nHow the Account being funded:Transfer\r\n\r\n**AIP information & CONTs:**\r\n\r\nAny current AIPs at old account to be shut off: \r\n\r\nWill they be making monthly CONTs: \r\n\r\nHow Much (if CONTs are made): \r\n\r\nOn what day of the month (if CONTs are made): \r\n\r\nWhich year is the CONT for (if CONTS are made): \r\n\r\n**Bank Linking / Verification:**\r\n\r\nAre we linking the bank: \r\n\r\nDo we have a voided check: \r\n\r\n**Additional Verification Information:**\r\n\r\nCopy of Current DL on file: \r\n\r\nDrivers License Upload (if on file): \r\n\r\nFull Suitability Needed?: \r\n\r\n**How to Sign:**\r\n\r\nSignature Method: Docusign\r\n\r\n**Financial Data:**\r\n\r\nRefers to: \r\n\r\nAnnual Income: \r\n\r\nNet Worth: \r\n\r\nTax Bracket: \r\n\r\nNet Investable Assets: \r\n\r\n**Investment Objectives:**\r\n\r\nRisk Tolerance: \r\n\r\nPrimary Objective: \r\n\r\nSeconday Objective: \r\n\r\nOutside Objective: \r\n\r\n**Time and Horizon / Liquidity Needs:**\r\n\r\nAccount Time Horizon: \r\n\r\nAnnual Expenses: \r\n\r\nEstimated Special Expenses: \r\n\r\nSpecial Expense Timeline: \r\n\r\nIf not in a model, what trades are needed:"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Dobnikar, Frank - NEW ACCT FID ROTH IRA w/FRK TOA",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Dobnikar, Frank - FID TRAD IRA w/2 TOA",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jan 26, 2026",
-              "notes": "Who filled this out: EJD\r\n\r\nName of Client: FJD\r\n\r\nType of Account: Retirement\r\n\r\nSponsor Company: Fidelity\r\n\r\nType of Paperwork Being Pulled: New Account\r\n\r\n**Basic Information:**\r\n\r\nIs this a new client? No\r\n\r\nBeneficiaries: transfer in kind - keep same\r\n\r\nHow the Account being funded:Transfer\r\n\r\n**AIP information & CONTs:**\r\n\r\nAny current AIPs at old account to be shut off: \r\n\r\nWill they be making monthly CONTs: \r\n\r\nHow Much (if CONTs are made): \r\n\r\nOn what day of the month (if CONTs are made): \r\n\r\nWhich year is the CONT for (if CONTS are made): \r\n\r\n**Bank Linking / Verification:**\r\n\r\nAre we linking the bank: \r\n\r\nDo we have a voided check: \r\n\r\n**Additional Verification Information:**\r\n\r\nCopy of Current DL on file: \r\n\r\nDrivers License Upload (if on file): \r\n\r\nFull Suitability Needed?: \r\n\r\n**How to Sign:**\r\n\r\nSignature Method: Docusign\r\n\r\n**Financial Data:**\r\n\r\nRefers to: \r\n\r\nAnnual Income: \r\n\r\nNet Worth: \r\n\r\nTax Bracket: \r\n\r\nNet Investable Assets: \r\n\r\n**Investment Objectives:**\r\n\r\nRisk Tolerance: \r\n\r\nPrimary Objective: \r\n\r\nSeconday Objective: \r\n\r\nOutside Objective: \r\n\r\n**Time and Horizon / Liquidity Needs:**\r\n\r\nAccount Time Horizon: \r\n\r\nAnnual Expenses: \r\n\r\nEstimated Special Expenses: \r\n\r\nSpecial Expense Timeline: \r\n\r\nIf not in a model, what trades are needed:"
             }
           ]
         }
@@ -32880,6 +32966,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Erdmann, Cecil & Jane 05/11 4pm (g)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "June-------Cogswell, David & Kelsey  (g)",
       "advisor": "Melissa Benedict",
       "planners": [
@@ -33360,6 +33506,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Vasko, Katie 05/18 2:15pm (g) || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Vasko, Katie 05/18 2:15pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 18, 2026",
+              "notes": "zocks f/u email sent 5/19 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Vasko, Katie 05/18 2:15pm (G) || NOTES - Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 18, 2026",
+              "notes": "zocks f/u email sent 5/19 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Straube, Barb 04/28 1pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -33410,6 +33616,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 28, 2026",
               "notes": "zocks notes saved and f/u email sent 4/29 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/4 (jek)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "McKnight, Brian & Sarah 04/29 12:15 (G) || Review & Possible UTMA/529",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 29, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/4 (jek)"
             }
           ]
         }
@@ -33900,6 +34166,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Halprin, Chloe (g) 04/10 8am || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Halprin, Chloe (G) 04/10 8am || NOTES - Review - CALL",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 10, 2026",
+              "notes": "sent f/u email 4/13 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Ferner, David & Susan 05/18 1pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -34370,6 +34696,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 20, 2026",
               "notes": "zocks notes saved and f/u email sent 5/22 (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Owens, Bob & Cindy 04/13 11am (r)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Owens, Bob & Cindy 04/13 11am (R) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 6, 2026",
+              "notes": "zocks notes saved and f/u email sent /13 jek"
             }
           ]
         }
@@ -37919,410 +38305,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Hayes, Lori",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "conts"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Lori Hayes Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: JEK\nClient Name: Lori Hayes\nAccount: FID ROTH 628847500\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: *Using cash available in her account\nMDT        75 shares\nLUNR     100 shares\nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictionsverbal confirmation recieved"
-            }
-          ]
-        },
-        "conts": {
-          "key": "conts",
-          "label": "CONTs & Checks",
-          "color": "#dc2626",
-          "items": [
-            {
-              "plannerKey": "conts",
-              "title": "Lori Hayes Cont/check",
-              "status": "complete",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 2,
-      "doneItems": 1,
-      "progress": 50,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Lori Hayes Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: JEK\nClient Name: Lori Hayes\nAccount: FID ROTH 628847500\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: *Using cash available in her account\nMDT        75 shares\nLUNR     100 shares\nSolicited?: No\nDiscretion?: No\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictionsverbal confirmation recieved"
-            }
-          ]
-        },
-        {
-          "key": "conts",
-          "label": "CONTs & Checks",
-          "color": "#dc2626",
-          "items": [
-            {
-              "plannerKey": "conts",
-              "title": "Lori Hayes Cont/check",
-              "status": "complete",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Nastasi, Carol",
-      "advisor": "Frank Dobnikar",
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Distribution FJD",
-              "status": "in-progress",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: Nick\nName: Carol Nastasi\nAcct: FID IRA *2549\n\nDistribution Information\nGross Amount: $1,000\nNet Amount: \nTax W/H: W/H for FED tax\nACH on file? Yes\nCheck Request? Chase Bank Checking *6192\nAny Trades Needed? 2026 RMD from Carol's FID IRA *2549 withhold federal tax\n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Distribution FJD",
-              "status": "in-progress",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "carol nastasi ind tod Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "carol nastasi ind tod Distribution FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 7, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Nastasi, Carol - NEW ACCT FID BENE IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Nastasi, Carol - NEW ACCT FID TRAD IRA W/TOA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Nastasi, Carol - NEW ACCT FID IND TOD W/TOA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 9,
-      "doneItems": 7,
-      "progress": 78,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Distribution FJD",
-              "status": "in-progress",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: Nick\nName: Carol Nastasi\nAcct: FID IRA *2549\n\nDistribution Information\nGross Amount: $1,000\nNet Amount: \nTax W/H: W/H for FED tax\nACH on file? Yes\nCheck Request? Chase Bank Checking *6192\nAny Trades Needed? 2026 RMD from Carol's FID IRA *2549 withhold federal tax\n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Distribution FJD",
-              "status": "in-progress",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "carol nastasi ind tod Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 22, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "carol nastasi ind tod Distribution FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 7, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Carol Nastasi Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Nastasi, Carol - NEW ACCT FID BENE IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Nastasi, Carol - NEW ACCT FID TRAD IRA W/TOA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Nastasi, Carol - NEW ACCT FID IND TOD W/TOA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 23, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Belkofer, David",
       "advisor": null,
       "planners": [
@@ -40500,186 +40482,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Bochi, Andrew",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Andrew Bochi Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: AL\nClient Name: Andrew Bochi\nAccount: FID IND TOD #655-445567\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per RT notes - Moderate ETF, see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions05/22/26 - the check i processed is just under $25k, i'm not sure if that matters a lot or not. messaging Brent to verify! (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Andrew Bochi Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: AL\nClient Name: Andrew Bochi\nAccount: FID IND TOD #655-445567\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per RT notes - Moderate ETF, see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions05/22/26 - the check i processed is just under $25k, i'm not sure if that matters a lot or not. messaging Brent to verify! (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Boysen, Eric",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Eric Boysen Trade Request FJD",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Eric Boysen\nAccount: FID TODI *9980\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buys / $5,000 / FINSX / fidelity new insights fund\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Asset Allocation\nNotes / Comments / Special Instructions / Restrictions: pull in $5k from linked Ally bank account and buy FINSX fidelity new insights fund.  he likes the spacex position in the fund.\n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Eric Boysen Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Eric Boysen TOD Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 2,
-      "progress": 67,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Eric Boysen Trade Request FJD",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": "Who filled this out: Nick\nClient Name: Eric Boysen\nAccount: FID TODI *9980\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Buys / $5,000 / FINSX / fidelity new insights fund\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): N/A\nRecommended Strategy: Asset Allocation\nNotes / Comments / Special Instructions / Restrictions: pull in $5k from linked Ally bank account and buy FINSX fidelity new insights fund.  he likes the spacex position in the fund.\n"
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Eric Boysen Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "May 25, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "trades",
-              "title": "Eric Boysen TOD Trade Request FJD",
-              "status": "complete",
-              "bucketName": "Completed",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 15, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Shook, Tom",
       "advisor": null,
       "planners": [
@@ -42502,6 +42304,68 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 8, 2026",
               "notes": "Name of Client: Brian & Michelle Bailey\nType of Account: Joint\nSponsor Company: PIMCO to AMF\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"Transfer of Assets\"]\n\nNotes: They have a JTOD at PIMCO (#7050088228) and we need to transfer both funds (~$150k) over to their AMF JTOD (#87216263) and trade in the following funds:\n\nFUND         %         TOTAL       \nANCFX     10%       $15,000      \nAGTHX     10%       $15,000     \nAWSHX     10%      $15,000       \nAIVSX       10%      $15,000      \nAMRMX    10%      $15,000     \nABALX      50%      $75,000      \n\n\nDocusign ppwk over to Brian"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Mcknight, Brian",
+      "advisor": "Melissa Benedict",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 8, 2026",
+              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": true,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "McKnight, Brian - NEW ACCT AMF 529 fbo Skylar McKnight",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Alyssa Shimman",
+                "Melissa Benedict"
+              ],
+              "advisor": "Melissa Benedict",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 8, 2026",
+              "notes": "Name of Client: Brian McKnight fbo Skylar McKnight\r\nType of Account: Other\r\nSponsor Company: AMF 529\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: SKylar is the bene. Brian will be main owner, then Sarah successor\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 120k\r\nNet Worth: 250k\r\nTax Bracket: 12%\r\nNet Investable Assets: 20k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: High\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 30k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: Growth portfolio a shares\r\n\r\nthey need to get us a void check, i sent him an MRC reminder. they want to make a 3k deposit to start off. growth portfolio at AMF, let me know if any questions!"
             }
           ]
         }
@@ -46831,6 +46695,66 @@
       "plannerKey": "trades",
       "plannerLabel": "Trades & Distributions",
       "plannerColor": "#2563eb",
+      "title": "Steve Ebert Trade Request BES",
+      "clientName": "Ebert, Steve",
+      "bucketName": "In progress",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Lori Hayes Trade Request BES",
+      "clientName": "Hayes, Lori",
+      "bucketName": "Unknown",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "John Hayes Trade Request BES",
+      "clientName": "Hayes, John",
+      "bucketName": "Unknown",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Andrew Bochi Trade Request BES",
+      "clientName": "Bochi, Andrew",
+      "bucketName": "Unknown",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
       "title": "Jason Koscho Trade Request FJD",
       "clientName": "Koscho, Jason",
       "bucketName": "Unknown",
@@ -46871,6 +46795,51 @@
       "advisor": null,
       "isUnassigned": false,
       "dueDateFormatted": "May 22, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Eric Boysen Trade Request FJD",
+      "clientName": "Boysen, Eric",
+      "bucketName": "Unknown",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Carol Nastasi Distribution FJD",
+      "clientName": "Nastasi, Carol",
+      "bucketName": "In progress",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Carol Nastasi Distribution FJD",
+      "clientName": "Nastasi, Carol",
+      "bucketName": "In progress",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "May 25, 2026"
     },
     {
       "plannerKey": "trades",
@@ -48603,7 +48572,7 @@
       "score": 85
     },
     {
-      "nameA": "Hayes, John",
+      "nameA": "Hayes, John & Lori",
       "nameB": "Hayes, John & Lori  03/27 10am (w) || Review",
       "score": 85
     },
@@ -48889,7 +48858,7 @@
     },
     {
       "nameA": "Owens, Bob",
-      "nameB": "Owens, Bob & Cindy",
+      "nameB": "Owens, Bob & Cindy 04/13 11am (r)",
       "score": 85
     },
     {
@@ -48978,7 +48947,7 @@
       "score": 85
     },
     {
-      "nameA": "Schwartz, Louise",
+      "nameA": "Schwartz, Louise & Schumaker, Don",
       "nameB": "Schwartz, Louise 02/25 8:30am (w) || Notes",
       "score": 85
     },
@@ -49018,7 +48987,7 @@
       "score": 85
     },
     {
-      "nameA": "Mcknight, Brian & Sarah",
+      "nameA": "Mcknight, Brian",
       "nameB": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
       "score": 85
     },
@@ -49204,16 +49173,11 @@
     },
     {
       "nameA": "Vasko, Rocko 05/15 10:30am (w)",
-      "nameB": "Vasko, Rocko & Katie",
-      "score": 85
-    },
-    {
-      "nameA": "Vasko, Rocko 05/15 10:30am (w)",
       "nameB": "Vasko, Rocko 04/08 2:15 (w)",
       "score": 85
     },
     {
-      "nameA": "Erdmann, Cecil & Jane",
+      "nameA": "Erdmann, Cecil & Jane 05/11 4pm (g)",
       "nameB": "Erdmann, Cecil & Jane 03/10 2:30pm (p)",
       "score": 85
     },
@@ -49235,16 +49199,6 @@
     {
       "nameA": "Sheehy, Kevin 04/21 (t)",
       "nameB": "Sheehy, Kevin & Kimberly 03/13 8:15am (p)",
-      "score": 85
-    },
-    {
-      "nameA": "Vasko, Rocko & Katie",
-      "nameB": "Vasko, Rocko 04/08 2:15 (w)",
-      "score": 85
-    },
-    {
-      "nameA": "Vasko, Rocko & Katie",
-      "nameB": "Vasko, Rocko 01/16 10am (w)",
       "score": 85
     },
     {
@@ -49310,6 +49264,22 @@
   ],
   "aiMerges": [
     {
+      "from": "Ebert, Steve",
+      "to": "Ebert, Steve & Donna"
+    },
+    {
+      "from": "Ebert, Steve & Donna 05/18 3pm (g)",
+      "to": "Ebert, Steve & Donna"
+    },
+    {
+      "from": "Hayes, John",
+      "to": "Hayes, John & Lori"
+    },
+    {
+      "from": "Hayes, Lori",
+      "to": "Hayes, John & Lori"
+    },
+    {
       "from": "Ferguson, Linda",
       "to": "Ferguson, Linda & Matthew"
     },
@@ -49322,46 +49292,22 @@
       "to": "Wright, Frank"
     },
     {
-      "from": "Erdmann, Cecil & Jane 05/11 4pm (g)",
-      "to": "Erdmann, Cecil & Jane"
-    },
-    {
-      "from": "Halprin, Chloe (g) 04/10 8am || Notes",
-      "to": "Halprin, Chloe"
-    },
-    {
       "from": "Kohler, Tim 05/07 12pm (w)",
       "to": "Kohler, Timothy"
     },
     {
-      "from": "Mcknight, Brian",
-      "to": "Mcknight, Brian & Sarah"
+      "from": "Schwartz, Louise",
+      "to": "Schwartz, Louise & Schumaker, Don"
     },
     {
-      "from": "Mcknight, Brian & Sarah 04/29 12:15 (g)",
-      "to": "Mcknight, Brian & Sarah"
-    },
-    {
-      "from": "Owens, Bob & Cindy 04/13 11am (r)",
-      "to": "Owens, Bob & Cindy"
-    },
-    {
-      "from": "Vasko, Katie 05/18 2:15pm (g) || Notes",
-      "to": "Vasko, Rocko & Katie"
-    },
-    {
-      "from": "Ebert, Steve",
-      "to": "Ebert, Steve & Donna"
-    },
-    {
-      "from": "Ebert, Steve & Donna 05/18 3pm (g)",
-      "to": "Ebert, Steve & Donna"
+      "from": "Schumaker, Don",
+      "to": "Schwartz, Louise & Schumaker, Don"
     }
   ],
   "stats": {
     "totalOpen": 297,
     "completedToday": 0,
-    "overdue": 126,
+    "overdue": 133,
     "waitingOnClient": 79,
     "wipClients": 82
   }
