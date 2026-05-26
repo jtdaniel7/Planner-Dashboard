@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-26T22:01:16.083Z",
+  "fetchedAt": "2026-05-26T23:37:23.070Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-26T22:01:17.838Z",
+      "lastUpdated": "2026-05-26T23:37:24.594Z",
       "tasks": [
         {
           "id": "kNA2YRhP40qpgVGmHRsOb2UAOhe0",
@@ -7643,7 +7643,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-26T22:01:27.916Z",
+      "lastUpdated": "2026-05-26T23:37:35.222Z",
       "tasks": [
         {
           "id": "l5rKluuSIUyWRcNUML2DQ2UAKiqE",
@@ -15203,7 +15203,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-26T22:02:22.180Z",
+      "lastUpdated": "2026-05-26T23:38:36.723Z",
       "tasks": [
         {
           "id": "JFshjKCLWUabJBx0RNfdh2UAGD8X",
@@ -21968,7 +21968,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-26T22:03:25.900Z",
+      "lastUpdated": "2026-05-26T23:39:48.758Z",
       "tasks": [
         {
           "id": "grCvIceJsECUyWqOaAkKWmUAC4TN",
@@ -29498,7 +29498,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-26T22:03:38.577Z",
+      "lastUpdated": "2026-05-26T23:40:03.109Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30624,11 +30624,11 @@
   ],
   "wip": [
     {
-      "client": "Boles, John",
-      "advisor": "Zachery Briggs",
+      "client": "Schmidt, Evan",
+      "advisor": null,
       "planners": [
         "trades",
-        "paperwork"
+        "advisor"
       ],
       "byPlanner": {
         "trades": {
@@ -30638,18 +30638,17 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "John Boles Trade Request JEB",
-              "status": "late",
-              "bucketName": "Unknown",
+              "title": "Evan Schmidt and Amber Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
               "assigneeNames": [
-                "Zachery Briggs",
                 "Ryan Juhasz",
                 "Jennifer Ottney"
               ],
-              "advisor": "Zachery Briggs",
+              "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "May 26, 2026",
-              "notes": "Client Name: John Boles\nAccount: QGK086806\nSells / Amount / Ticker / Holding Name: SDC Core Conservative\nBuys / Amount / Ticker / Holding Name: SDC G&I\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+              "dueDateFormatted": "Apr 22, 2026",
+              "notes": null
             }
           ]
         }
@@ -30657,8 +30656,8 @@
       "hasOverdue": true,
       "hasWaitingOnClient": false,
       "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
+      "doneItems": 1,
+      "progress": 50,
       "plannerGroups": [
         {
           "key": "trades",
@@ -30667,22 +30666,55 @@
           "items": [
             {
               "plannerKey": "trades",
-              "title": "John Boles Trade Request JEB",
-              "status": "late",
-              "bucketName": "Unknown",
+              "title": "Evan Schmidt and Amber Distribution Request BES",
+              "status": "complete",
+              "bucketName": "Completed",
               "assigneeNames": [
-                "Zachery Briggs",
                 "Ryan Juhasz",
                 "Jennifer Ottney"
               ],
-              "advisor": "Zachery Briggs",
+              "advisor": null,
               "isUnassigned": false,
-              "dueDateFormatted": "May 26, 2026",
-              "notes": "Client Name: John Boles\nAccount: QGK086806\nSells / Amount / Ticker / Holding Name: SDC Core Conservative\nBuys / Amount / Ticker / Holding Name: SDC G&I\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+              "dueDateFormatted": "Apr 22, 2026",
+              "notes": null
             }
           ]
         },
         {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Schmidt, Evan 05/21 4pmEST (G) || Condo Convo -CALL",
+              "status": "late",
+              "bucketName": "Post-Meeting Documentation/ Delegate",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 21, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities stage and overdue",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Boles, John & Kathryn",
+      "advisor": "Zachery Briggs",
+      "planners": [
+        "paperwork",
+        "trades"
+      ],
+      "byPlanner": {
+        "paperwork": {
           "key": "paperwork",
           "label": "Paperwork",
           "color": "#d97706",
@@ -30703,9 +30735,221 @@
             }
           ]
         }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Boles, John & Kathryn - NEW ACCT PER JTOD",
+              "status": "not-started",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Zachery Briggs",
+                "Collin Berryman"
+              ],
+              "advisor": "Zachery Briggs",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 29, 2026",
+              "notes": "Name of Client: John & Kathryn Boles\nType of Account: Individual\nSponsor Company: PER\nType of Paperwork Being Pulled: New Account\n\nBasic Information:\nIs this a new client? No\nIs this a Minor Custodial Account? (UGMA/UTMA): No\nWhat is the Minor Beneficiary's Full Name?: \nWhat is the Minor Beneficiary's DOB?: \nWhat is the Minor Beneficiary's SSN?: \nBeneficiaries: John Ryan Boles - 5/22/1984 - 295-90-5672 - 50%\nSamantha Krasula - 4/21/1988 - 295-90-5627 - 50%\nHow the Account being funded:Check\n\nAIP information:\nAny current AIPs at old account to be shut off: N/A\n\n---Will they be making monthly CONTs: No\nHow Much: \nOn what day of the month: \nWhich year is the CONT for (if Roth IRA): \n\nBank Linking / Verification:\nAre we linking the bank: Yes\nDo we have a voided check: No\n\nAdditional Verification Information:\nCopy of Current DL on file: No\nDrivers License Upload:\nFull Suitability Needed?: No\n\nHow to Sign:\nSignature Method: Docusign\n\nFinancial Data:\nRefers to: Household\nAnnual Income: $150k\nNet Worth: $500k\nTax Bracket: 22%\nNet Investable Assets: $350k\nFee Schedule: Commission Account $0\n\nInvestment Objectives:\nRisk Tolerance: Low\nPrimary Objective: Preservation\nSeconday Objective: \nOutside Objective: \n\nTime and Horizon / Liquidity Needs:\nAccount Time Horizon: Medium (3-10 yrs)\nAnnual Expenses: $120k\nEstimated Special Expenses: $0\nSpecial Expense Timeline: 0\nIf not in a model, what trades are needed: FDRXX 100%\nAdditional Notes: Commission based account, $0 commission on the FDRXX trades. Setup for e-delivery "
+            }
+          ]
+        },
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "John Boles Trade Request JEB",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Zachery Briggs",
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "advisor": "Zachery Briggs",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 26, 2026",
+              "notes": "Client Name: John Boles\nAccount: QGK086806\nSells / Amount / Ticker / Holding Name: SDC Core Conservative\nBuys / Amount / Ticker / Holding Name: SDC G&I\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+            }
+          ]
+        }
       ],
-      "currentStage": "Overdue trades",
-      "nextAction": "Place trades for the account",
+      "currentStage": "John is in the Trades stage and overdue",
+      "nextAction": "Place trades for John",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Koester, Donna",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Koester, Donna - FID IND TOD app w/ ComputerShare ACAT",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 26, 2026",
+              "notes": "05/19/26 - Donna met with Brent today. She has PRU stock held at Computershare with no beneficiaries listed on it. Brent said to open a FID NQ for her and get this moved over to the new account. we'll need to verify who to list at the beneficiary for an IND TOD or if this just needs to be opened as an IND. Computershare statement is on KSOs desk. I can help with it if needed! (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Koester, Donna - FID IND TOD app w/ ComputerShare ACAT",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 26, 2026",
+              "notes": "05/19/26 - Donna met with Brent today. She has PRU stock held at Computershare with no beneficiaries listed on it. Brent said to open a FID NQ for her and get this moved over to the new account. we'll need to verify who to list at the beneficiary for an IND TOD or if this just needs to be opened as an IND. Computershare statement is on KSOs desk. I can help with it if needed! (acs)"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Koester, Donna 05/19 12pm (G) || NOTES",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "no email to send f/u too! zocks notes saved tho (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities stage and overdue",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Kohler, Timothy",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork",
+        "advisor"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "Feb 13, 2026",
+              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
+            }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities stage and overdue",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30794,128 +31038,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue trades",
-      "nextAction": "Place trades for both accounts",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Koester, Donna",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Koester, Donna - FID IND TOD app w/ ComputerShare ACAT",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 26, 2026",
-              "notes": "05/19/26 - Donna met with Brent today. She has PRU stock held at Computershare with no beneficiaries listed on it. Brent said to open a FID NQ for her and get this moved over to the new account. we'll need to verify who to list at the beneficiary for an IND TOD or if this just needs to be opened as an IND. Computershare statement is on KSOs desk. I can help with it if needed! (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Koester, Donna - FID IND TOD app w/ ComputerShare ACAT",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 26, 2026",
-              "notes": "05/19/26 - Donna met with Brent today. She has PRU stock held at Computershare with no beneficiaries listed on it. Brent said to open a FID NQ for her and get this moved over to the new account. we'll need to verify who to list at the beneficiary for an IND TOD or if this just needs to be opened as an IND. Computershare statement is on KSOs desk. I can help with it if needed! (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Multiple items in progress",
-      "nextAction": "Follow up on overdue paperwork",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Kohler, Timothy",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Kohler, Timothy - BIA ROTH CONVERSION",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "Feb 13, 2026",
-              "notes": "Name of Client: Tim Kohler\r\n\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO 259-061454 to ROTH 628886131\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"BIA for roth conversion \"]\r\n\r\nNotes: we do conversions annually for Tim up to the 24% bracket, this time we are transferring all AAPL & GOOG shares and model rebal to get the cash available to send 171,000 gross. taking 22k from BENE IRA and 100% witholding it for taxes"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Overdue activities",
-      "nextAction": "Follow up on overdue activities",
+      "currentStage": "Both clients are in the Trades stage and overdue",
+      "nextAction": "Place trades for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31004,8 +31128,128 @@
           ]
         }
       ],
-      "currentStage": "Multiple items in paperwork queue",
-      "nextAction": "Review overdue paperwork items",
+      "currentStage": "In Progress Activities stage and overdue",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Hoffbauer, Greg & Mindy",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Hoffbauer, Greg & Mindy 05/15 1pm (B) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 15, 2026",
+              "notes": "ocks notes saved and fu email set 5/18 jek"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Hoffbauer, Greg & Mindy 05/15 1pm (B) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 15, 2026",
+              "notes": "ocks notes saved and fu email set 5/18 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities stage and overdue",
+      "nextAction": "Follow up on overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Erdmann, Cecil & Jane",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities stage and overdue",
+      "nextAction": "Follow up on overdue activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31066,7 +31310,7 @@
           ]
         }
       ],
-      "currentStage": "Overdue activities",
+      "currentStage": "In Progress Activities stage and overdue",
       "nextAction": "Follow up on overdue activities",
       "blockers": null,
       "aiUrgency": "high"
@@ -31936,66 +32180,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Schmidt, Evan 05/21 4pmest (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Schmidt, Evan 05/21 4pmEST (G) || Condo Convo -CALL",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 21, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Schmidt, Evan 05/21 4pmEST (G) || Condo Convo -CALL",
-              "status": "late",
-              "bucketName": "Post-Meeting Documentation/ Delegate",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 21, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Hutchinson, Garry 05/26 11:30am (r)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32382,66 +32566,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Hoffbauer, Greg & Mindy 05/15 1pm (b)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Hoffbauer, Greg & Mindy 05/15 1pm (B) ||F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 15, 2026",
-              "notes": "ocks notes saved and fu email set 5/18 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Hoffbauer, Greg & Mindy 05/15 1pm (B) ||F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 15, 2026",
-              "notes": "ocks notes saved and fu email set 5/18 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Vasko, Rocko 05/15 10:30am (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32612,66 +32736,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 11, 2026",
               "notes": "zocks notes aved, BES will send f/u email (jek) 5/11"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Erdmann, Cecil & Jane 05/11 4pm (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
             }
           ]
         }
@@ -32912,66 +32976,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 4, 2026",
               "notes": "zocks notes saved and f/u email sent for him 5/4 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Koester, Donna 05/19 12pm (g)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Koester, Donna 05/19 12pm (G) || NOTES",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "no email to send f/u too! zocks notes saved tho (jek)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Koester, Donna 05/19 12pm (G) || NOTES",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "no email to send f/u too! zocks notes saved tho (jek)"
             }
           ]
         }
@@ -34052,66 +34056,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 4, 2026",
               "notes": "zocks. notes saved and f/u email sent 5/4 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Tim 05/07 12pm (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
             }
           ]
         }
@@ -48107,12 +48051,12 @@
       "score": 85
     },
     {
-      "nameA": "Killy, Scott",
+      "nameA": "Killy, Scott & Cindy",
       "nameB": "Killy, Scott & Cynthia",
       "score": 85
     },
     {
-      "nameA": "Killy, Scott",
+      "nameA": "Killy, Scott & Cindy",
       "nameB": "Killy, Scott & Cindy 04/27 1pm (g) || Notes",
       "score": 85
     },
@@ -48532,7 +48476,7 @@
       "score": 85
     },
     {
-      "nameA": "Erdmann, Cecil & Jane 05/11 4pm (g)",
+      "nameA": "Erdmann, Cecil & Jane",
       "nameB": "Erdmann, Cecil & Jane 03/10 2:30pm (p)",
       "score": 85
     },
@@ -48619,10 +48563,6 @@
   ],
   "aiMerges": [
     {
-      "from": "Boles, John & Kathryn",
-      "to": "Boles, John"
-    },
-    {
       "from": "Ferguson, Linda",
       "to": "Ferguson, Linda & Matthew"
     },
@@ -48631,12 +48571,40 @@
       "to": "Ferguson, Linda & Matthew"
     },
     {
+      "from": "Boles, John",
+      "to": "Boles, John & Kathryn"
+    },
+    {
+      "from": "Koester, Donna 05/19 12pm (g)",
+      "to": "Koester, Donna"
+    },
+    {
+      "from": "Kohler, Tim 05/07 12pm (w)",
+      "to": "Kohler, Timothy"
+    },
+    {
+      "from": "Schmidt, Evan 05/21 4pmest (g)",
+      "to": "Schmidt, Evan"
+    },
+    {
+      "from": "Hoffbauer, Greg & Mindy 05/15 1pm (b)",
+      "to": "Hoffbauer, Greg & Mindy"
+    },
+    {
+      "from": "Erdmann, Cecil & Jane 05/11 4pm (g)",
+      "to": "Erdmann, Cecil & Jane"
+    },
+    {
       "from": "Mcknight, Brian",
       "to": "Mcknight, Brian & Sarah"
     },
     {
       "from": "Owens, Bob",
       "to": "Owens, Bob & Cindy"
+    },
+    {
+      "from": "Killy, Scott",
+      "to": "Killy, Scott & Cindy"
     }
   ],
   "stats": {
