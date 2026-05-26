@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-25T22:53:21.068Z",
+  "fetchedAt": "2026-05-25T23:59:31.342Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-25T22:53:22.618Z",
+      "lastUpdated": "2026-05-25T23:59:32.664Z",
       "tasks": [
         {
           "id": "FTtcUTQ5EEa0UXXycc9EFGUAGT8a",
@@ -7640,7 +7640,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-25T22:53:36.058Z",
+      "lastUpdated": "2026-05-25T23:59:45.410Z",
       "tasks": [
         {
           "id": "RddCJGgaf0iJ9HKZBByhsWUAPivy",
@@ -15200,7 +15200,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-25T22:54:39.917Z",
+      "lastUpdated": "2026-05-26T00:00:45.217Z",
       "tasks": [
         {
           "id": "clldQs74oUGDQvnofGC922UAJcls",
@@ -21911,7 +21911,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-25T22:55:48.610Z",
+      "lastUpdated": "2026-05-26T00:01:47.698Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29432,7 +29432,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-25T22:56:01.233Z",
+      "lastUpdated": "2026-05-26T00:01:59.066Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30985,7 +30985,7 @@
         }
       ],
       "currentStage": "Multiple items across Paperwork and Advisor Flow",
-      "nextAction": "Review overdue tasks",
+      "nextAction": "Address overdue paperwork and trades",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31206,7 +31206,7 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Schwartz, Louise & Schumaker, Don",
+      "client": "Schwartz, Louise",
       "advisor": "Melissa Benedict",
       "planners": [
         "trades",
@@ -31266,28 +31266,15 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 1, 2026",
               "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
             }
           ]
         }
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 4,
+      "totalItems": 3,
       "doneItems": 2,
-      "progress": 50,
+      "progress": 67,
       "plannerGroups": [
         {
           "key": "trades",
@@ -31342,19 +31329,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 1, 2026",
               "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
             }
           ]
         }
@@ -31531,7 +31505,7 @@
         }
       ],
       "currentStage": "In Progress Activities",
-      "nextAction": "Check on overdue tasks",
+      "nextAction": "Review overdue tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32200,6 +32174,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "Apr 15, 2026",
               "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Schumaker, Don",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schumaker, Don - MetLife Computershare",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schumaker, Don - MetLife Computershare",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
             }
           ]
         }
@@ -48947,7 +48981,7 @@
       "score": 85
     },
     {
-      "nameA": "Schwartz, Louise & Schumaker, Don",
+      "nameA": "Schwartz, Louise",
       "nameB": "Schwartz, Louise 02/25 8:30am (w) || Notes",
       "score": 85
     },
@@ -49294,14 +49328,6 @@
     {
       "from": "Kohler, Tim 05/07 12pm (w)",
       "to": "Kohler, Timothy"
-    },
-    {
-      "from": "Schwartz, Louise",
-      "to": "Schwartz, Louise & Schumaker, Don"
-    },
-    {
-      "from": "Schumaker, Don",
-      "to": "Schwartz, Louise & Schumaker, Don"
     }
   ],
   "stats": {
