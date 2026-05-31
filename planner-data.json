@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-31T11:42:43.502Z",
+  "fetchedAt": "2026-05-31T13:22:48.613Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-31T11:42:44.957Z",
+      "lastUpdated": "2026-05-31T13:22:50.138Z",
       "tasks": [
         {
           "id": "aiMXB5A9906-CfFnp49DUmUAG7I0",
@@ -7642,7 +7642,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-31T11:42:55.952Z",
+      "lastUpdated": "2026-05-31T13:23:01.440Z",
       "tasks": [
         {
           "id": "OUA-xYff8Em-n3QZJbGanGUAGKHM",
@@ -15202,7 +15202,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-31T11:43:52.583Z",
+      "lastUpdated": "2026-05-31T13:24:00.763Z",
       "tasks": [
         {
           "id": "IvjenwapTUuAVN8Xd9p3s2UABOBr",
@@ -21967,7 +21967,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-31T11:45:00.146Z",
+      "lastUpdated": "2026-05-31T13:25:11.859Z",
       "tasks": [
         {
           "id": "1mTAp9Bre0KLb-8k88FTBmUANOkK",
@@ -29491,7 +29491,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-31T11:45:15.336Z",
+      "lastUpdated": "2026-05-31T13:25:27.691Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30761,8 +30761,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue paperwork and advisor tasks.",
-      "nextAction": "Follow up on paperwork and advisor tasks.",
+      "currentStage": "Overdue paperwork and advisor tasks",
+      "nextAction": "Follow up on overdue paperwork and advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30915,8 +30915,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue advisor tasks.",
-      "nextAction": "Follow up on overdue tasks.",
+      "currentStage": "Overdue advisor tasks",
+      "nextAction": "Follow up on overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30998,13 +30998,13 @@
           ]
         }
       ],
-      "currentStage": "Overdue advisor tasks.",
-      "nextAction": "Follow up on overdue tasks.",
+      "currentStage": "Overdue advisor tasks",
+      "nextAction": "Follow up on overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Kohler, Timothy & Donna",
+      "client": "Kohler, Timothy",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "paperwork",
@@ -31065,7 +31065,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Koester, Donna 05/19 12pm (G) || NOTES",
+              "title": "Kohler, Tim 05/07 12pm (W) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31073,14 +31073,14 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "no email to send f/u too! zocks notes saved tho (jek)"
+              "dueDateFormatted": "Apr 30, 2026",
+              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
             }
           ]
         }
       ],
-      "currentStage": "Overdue paperwork tasks.",
-      "nextAction": "Review overdue paperwork items.",
+      "currentStage": "Overdue advisor tasks",
+      "nextAction": "Follow up on overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31253,8 +31253,8 @@
           ]
         }
       ],
-      "currentStage": "Both clients have overdue trades tasks.",
-      "nextAction": "Place trades for both clients.",
+      "currentStage": "Overdue trades for both clients",
+      "nextAction": "Place trades for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31343,8 +31343,8 @@
           ]
         }
       ],
-      "currentStage": "Both clients have overdue trades tasks.",
-      "nextAction": "Review overdue trades for both clients.",
+      "currentStage": "Overdue trades for both clients",
+      "nextAction": "Place trades for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31405,8 +31405,8 @@
           ]
         }
       ],
-      "currentStage": "Both clients have overdue tasks in paperwork.",
-      "nextAction": "Review overdue paperwork items.",
+      "currentStage": "Multiple items across Paperwork and Advisor Flow",
+      "nextAction": "Review overdue paperwork items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31465,8 +31465,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple overdue advisor tasks.",
-      "nextAction": "Review overdue advisor tasks.",
+      "currentStage": "Multiple items across Advisor Flow",
+      "nextAction": "Review overdue advisor tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -33256,6 +33256,66 @@
       "aiUrgency": null
     },
     {
+      "client": "Koester, Donna 05/19 12pm (g)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Koester, Donna 05/19 12pm (G) || NOTES",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "no email to send f/u too! zocks notes saved tho (jek)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Koester, Donna 05/19 12pm (G) || NOTES",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "no email to send f/u too! zocks notes saved tho (jek)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Fernbaugh, Gina 04/29 8:30am (b)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -34206,66 +34266,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 4, 2026",
               "notes": "zocks. notes saved and f/u email sent 5/4 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Kohler, Tim 05/07 12pm (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Kohler, Tim 05/07 12pm (W) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 30, 2026",
-              "notes": "no zocks from this, no f/u email bc I am not sure what was discussed"
             }
           ]
         }
@@ -47743,7 +47743,7 @@
       "score": 85
     },
     {
-      "nameA": "Kohler, Timothy & Donna",
+      "nameA": "Kohler, Timothy",
       "nameB": "Kohler, Tim 05/07 12pm (w)",
       "score": 85
     },
@@ -47991,12 +47991,8 @@
       "to": "Amborski, Rick"
     },
     {
-      "from": "Kohler, Timothy",
-      "to": "Kohler, Timothy & Donna"
-    },
-    {
-      "from": "Koester, Donna 05/19 12pm (g)",
-      "to": "Kohler, Timothy & Donna"
+      "from": "Kohler, Tim 05/07 12pm (w)",
+      "to": "Kohler, Timothy"
     }
   ],
   "stats": {
