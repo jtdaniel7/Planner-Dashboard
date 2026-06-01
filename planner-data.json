@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-31T22:53:59.123Z",
+  "fetchedAt": "2026-06-01T00:01:27.561Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-05-31T22:54:00.589Z",
+      "lastUpdated": "2026-06-01T00:01:29.365Z",
       "tasks": [
         {
           "id": "aiMXB5A9906-CfFnp49DUmUAG7I0",
@@ -7642,7 +7642,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-05-31T22:54:10.780Z",
+      "lastUpdated": "2026-06-01T00:01:40.897Z",
       "tasks": [
         {
           "id": "OUA-xYff8Em-n3QZJbGanGUAGKHM",
@@ -15202,7 +15202,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-05-31T22:55:03.055Z",
+      "lastUpdated": "2026-06-01T00:02:40.293Z",
       "tasks": [
         {
           "id": "IvjenwapTUuAVN8Xd9p3s2UABOBr",
@@ -21967,7 +21967,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-05-31T22:56:04.673Z",
+      "lastUpdated": "2026-06-01T00:03:49.986Z",
       "tasks": [
         {
           "id": "1mTAp9Bre0KLb-8k88FTBmUANOkK",
@@ -29491,7 +29491,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-05-31T22:56:18.804Z",
+      "lastUpdated": "2026-06-01T00:04:05.988Z",
       "tasks": [
         {
           "id": "PExoA-_9b0WqIlnpvF1nQWUAMLSQ",
@@ -30761,8 +30761,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue tasks in both paperwork and advisor flow.",
-      "nextAction": "Address overdue paperwork and advisor tasks.",
+      "currentStage": "Overdue paperwork tasks recognized",
+      "nextAction": "Follow up on overdue paperwork",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -30915,8 +30915,8 @@
           ]
         }
       ],
-      "currentStage": "Overdue tasks in advisor activities.",
-      "nextAction": "Follow up on overdue advisor tasks.",
+      "currentStage": "Overdue advisor meeting tasks",
+      "nextAction": "Schedule follow-up meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31089,8 +31089,8 @@
           ]
         }
       ],
-      "currentStage": "Both clients are overdue with tasks related to trades.",
-      "nextAction": "Place trades for both clients.",
+      "currentStage": "Overdue trades pending for both clients",
+      "nextAction": "Place trades for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31179,8 +31179,8 @@
           ]
         }
       ],
-      "currentStage": "Both clients are overdue with tasks related to trades.",
-      "nextAction": "Review overdue tasks for both clients.",
+      "currentStage": "Overdue trades pending for both clients",
+      "nextAction": "Place trades for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31241,13 +31241,13 @@
           ]
         }
       ],
-      "currentStage": "Both clients have overdue tasks in the paperwork stage.",
-      "nextAction": "Follow up on overdue paperwork.",
+      "currentStage": "Overdue paperwork tasks recognized",
+      "nextAction": "Review and process paperwork for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Erdmann, Cecil & Jane",
+      "client": "Hurst, Katharine",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -31260,7 +31260,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "title": "Hurst, Katharine 05/27 10am (w) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31268,8 +31268,8 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+              "dueDateFormatted": "May 27, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/28 jek"
             }
           ]
         }
@@ -31287,7 +31287,7 @@
           "items": [
             {
               "plannerKey": "advisor",
-              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "title": "Hurst, Katharine 05/27 10am (w) || Review",
               "status": "late",
               "bucketName": "In- Progress Activities",
               "assigneeNames": [
@@ -31295,14 +31295,14 @@
               ],
               "advisor": "Jaiden Karrick",
               "isUnassigned": false,
-              "dueDateFormatted": "May 11, 2026",
-              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+              "dueDateFormatted": "May 27, 2026",
+              "notes": "zocks notes saved and f/u email sent 5/28 jek"
             }
           ]
         }
       ],
-      "currentStage": "Multiple overdue tasks across advisor activities.",
-      "nextAction": "Review and address overdue tasks.",
+      "currentStage": "Overdue advisor meeting tasks",
+      "nextAction": "Schedule follow-up meeting",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32312,66 +32312,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Hurst, Katharine 05/27 10am (w)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Hurst, Katharine 05/27 10am (w) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 27, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/28 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Hurst, Katharine 05/27 10am (w) || Review",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 27, 2026",
-              "notes": "zocks notes saved and f/u email sent 5/28 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Hutchinson, Garry 05/26 11:30am (r)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -32902,6 +32842,66 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 11, 2026",
               "notes": "zocks notes aved, BES will send f/u email (jek) 5/11"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Erdmann, Cecil & Jane 05/11 4pm (g)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Erdmann, Cecil & Jane 05/11 4pm (G) ||F/U",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 11, 2026",
+              "notes": "zocks notes saved & F/u email sent 5/11 (jek)"
             }
           ]
         }
@@ -47946,7 +47946,7 @@
       "score": 85
     },
     {
-      "nameA": "Erdmann, Cecil & Jane",
+      "nameA": "Erdmann, Cecil & Jane 05/11 4pm (g)",
       "nameB": "Erdmann, Cecil & Jane 03/10 2:30pm (p)",
       "score": 85
     },
@@ -48053,8 +48053,8 @@
       "to": "Wright, Frank"
     },
     {
-      "from": "Erdmann, Cecil & Jane 05/11 4pm (g)",
-      "to": "Erdmann, Cecil & Jane"
+      "from": "Hurst, Katharine 05/27 10am (w)",
+      "to": "Hurst, Katharine"
     },
     {
       "from": "Amborski, Rick 05/21 2pm || F/iu",
