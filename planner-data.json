@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-06T20:05:30.467Z",
+  "fetchedAt": "2026-06-06T21:35:26.494Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-06T20:05:31.933Z",
+      "lastUpdated": "2026-06-06T21:35:27.954Z",
       "tasks": [
         {
           "id": "c_6wbp3WkUWyRqriNd2PI2UAGLZS",
@@ -7640,7 +7640,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-06T20:05:40.615Z",
+      "lastUpdated": "2026-06-06T21:35:37.063Z",
       "tasks": [
         {
           "id": "OIDeXeqLIkSczIQxnOgWXWUAJh0V",
@@ -15209,7 +15209,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-06T20:06:31.995Z",
+      "lastUpdated": "2026-06-06T21:36:28.732Z",
       "tasks": [
         {
           "id": "xIEACEuEDkKNMmgwAgv8_GUAG4R3",
@@ -22190,7 +22190,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-06T20:07:39.122Z",
+      "lastUpdated": "2026-06-06T21:37:36.183Z",
       "tasks": [
         {
           "id": "2xmrvBDmW0euJyTj_2jCAGUAJ0CL",
@@ -29704,7 +29704,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-06T20:07:53.281Z",
+      "lastUpdated": "2026-06-06T21:37:50.434Z",
       "tasks": [
         {
           "id": "D729T4_eT0mDh-2RhLukxWUAPtEW",
@@ -30950,9 +30950,9 @@
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 4,
+      "totalItems": 5,
       "doneItems": 3,
-      "progress": 75,
+      "progress": 60,
       "plannerGroups": [
         {
           "key": "trades",
@@ -31026,12 +31026,25 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 3, 2026",
               "notes": "zocks notes saved adn f/u email sent 6/4 jek"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "LaRiche, John 05/04 10am (B) || MO Review - ZOOM",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 4, 2026",
+              "notes": "zocks. notes saved and f/u email sent 5/4 jek"
             }
           ]
         }
       ],
-      "currentStage": "In Progress Activities",
-      "nextAction": "Prepare for upcoming meeting",
+      "currentStage": "Multiple items in progress for advisor activities",
+      "nextAction": "Prepare for upcoming meetings",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31213,7 +31226,7 @@
         }
       ],
       "currentStage": "Multiple items in progress for trades",
-      "nextAction": "Complete overdue trades for both clients",
+      "nextAction": "Address overdue trades for both clients",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31541,8 +31554,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Paperwork and Trades",
-      "nextAction": "Address overdue paperwork and trades",
+      "currentStage": "Multiple items across Paperwork and Advisor Flow",
+      "nextAction": "Resolve overdue paperwork and trades",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31631,8 +31644,8 @@
           ]
         }
       ],
-      "currentStage": "In Progress Activities for both clients",
-      "nextAction": "Follow up on overdue activities",
+      "currentStage": "Multiple items in progress for advisor activities",
+      "nextAction": "Follow up on overdue advisor activities",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35219,66 +35232,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 11, 2026",
               "notes": "zocks notes saved and f/u email sent 5/11 jek"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Lariche, John 05/04 10am (b) || Mo Review",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "LaRiche, John 05/04 10am (B) || MO Review - ZOOM",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 4, 2026",
-              "notes": "zocks. notes saved and f/u email sent 5/4 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "LaRiche, John 05/04 10am (B) || MO Review - ZOOM",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 4, 2026",
-              "notes": "zocks. notes saved and f/u email sent 5/4 jek"
             }
           ]
         }
@@ -49004,6 +48957,10 @@
     },
     {
       "from": "Lariche, John 06/03 10am (b)",
+      "to": "Lariche, John"
+    },
+    {
+      "from": "Lariche, John 05/04 10am (b) || Mo Review",
       "to": "Lariche, John"
     }
   ],
