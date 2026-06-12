@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-12T18:59:41.069Z",
+  "fetchedAt": "2026-06-12T21:03:16.048Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-12T18:59:42.456Z",
+      "lastUpdated": "2026-06-12T21:03:17.492Z",
       "tasks": [
         {
           "id": "eaYDx0hgakWbTwCj8ixtj2UAJ-FZ",
@@ -7640,7 +7640,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-12T18:59:50.212Z",
+      "lastUpdated": "2026-06-12T21:03:26.132Z",
       "tasks": [
         {
           "id": "USPR2LgG3USpULkzgh3aM2UAP1X7",
@@ -15211,7 +15211,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-12T19:00:55.090Z",
+      "lastUpdated": "2026-06-12T21:04:36.769Z",
       "tasks": [
         {
           "id": "YBXfcPlBh0KojJri6kol4GUAEYnO",
@@ -22319,7 +22319,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-12T19:02:07.201Z",
+      "lastUpdated": "2026-06-12T21:05:56.592Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29828,7 +29828,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-12T19:02:18.398Z",
+      "lastUpdated": "2026-06-12T21:06:09.103Z",
       "tasks": [
         {
           "id": "alUXcV2Lqk-XXZJo-2BywWUAL6Yz",
@@ -31290,7 +31290,7 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Belkofer, David & Deborah",
+      "client": "Belkofer, David",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "trades",
@@ -31613,8 +31613,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Paperwork and Advisor Flow",
-      "nextAction": "Review overdue paperwork items",
+      "currentStage": "Multiple items across Task Recognized and On Hold",
+      "nextAction": "Review and reassign paperwork tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31780,8 +31780,8 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "currentStage": "Task Recognized for trades",
+      "nextAction": "Start trades preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31972,7 +31972,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled for trades",
-      "nextAction": "Place trades for the account",
+      "nextAction": "Place trades as soon as possible",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32034,7 +32034,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled for trades",
-      "nextAction": "Place trades for the account",
+      "nextAction": "Place trades as soon as possible",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32185,8 +32185,126 @@
           ]
         }
       ],
-      "currentStage": "Unknown stage",
-      "nextAction": "Determine current status and next steps",
+      "currentStage": "Unknown status",
+      "nextAction": "Clarify current status and next steps",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Abraham, Alexis",
+      "advisor": "Frank Dobnikar",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Frank Dobnikar",
+                "Elizabeth Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 12, 2026",
+              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 2,
+      "progress": 67,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Frank Dobnikar",
+                "Elizabeth Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 12, 2026",
+              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": "Queue for paperwork",
+      "nextAction": "Start paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32797,124 +32915,6 @@
       "nextAction": "Start paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
-    },
-    {
-      "client": "Abraham, Alexis",
-      "advisor": "Frank Dobnikar",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Frank Dobnikar",
-                "Elizabeth Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 12, 2026",
-              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 2,
-      "progress": 67,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Frank Dobnikar",
-                "Elizabeth Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 12, 2026",
-              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
     },
     {
       "client": "Lariche, Chaz 06/08 1pm Teams",
@@ -49393,12 +49393,12 @@
   ],
   "possibleDuplicates": [
     {
-      "nameA": "Belkofer, David & Deborah",
+      "nameA": "Belkofer, David",
       "nameB": "Belkofer, David & Debbie 04/02 3pm (r)",
       "score": 85
     },
     {
-      "nameA": "Belkofer, David & Deborah",
+      "nameA": "Belkofer, David",
       "nameB": "Belkofer, David & Debbie 03/05 3pm (r)",
       "score": 85
     },
@@ -50120,12 +50120,8 @@
   ],
   "aiMerges": [
     {
-      "from": "Belkofer, David",
-      "to": "Belkofer, David & Deborah"
-    },
-    {
       "from": "Belkofer, Deborah",
-      "to": "Belkofer, David & Deborah"
+      "to": "Belkofer, David"
     }
   ],
   "stats": {
