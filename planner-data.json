@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-12T21:03:16.048Z",
+  "fetchedAt": "2026-06-12T22:54:28.678Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-12T21:03:17.492Z",
+      "lastUpdated": "2026-06-12T22:54:30.224Z",
       "tasks": [
         {
           "id": "eaYDx0hgakWbTwCj8ixtj2UAJ-FZ",
@@ -7640,7 +7640,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-12T21:03:26.132Z",
+      "lastUpdated": "2026-06-12T22:54:38.529Z",
       "tasks": [
         {
           "id": "USPR2LgG3USpULkzgh3aM2UAP1X7",
@@ -15211,7 +15211,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-12T21:04:36.769Z",
+      "lastUpdated": "2026-06-12T22:55:40.108Z",
       "tasks": [
         {
           "id": "YBXfcPlBh0KojJri6kol4GUAEYnO",
@@ -22319,7 +22319,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-12T21:05:56.592Z",
+      "lastUpdated": "2026-06-12T22:56:49.045Z",
       "tasks": [
         {
           "id": "rUfVbbO-m0-ev7YnFLO4X2UAPhWY",
@@ -29828,7 +29828,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-12T21:06:09.103Z",
+      "lastUpdated": "2026-06-12T22:56:59.957Z",
       "tasks": [
         {
           "id": "alUXcV2Lqk-XXZJo-2BywWUAL6Yz",
@@ -31285,12 +31285,12 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Belkofer, David",
+      "client": "Belkofer, David & Deborah",
       "advisor": "Katie Rower-Osborn",
       "planners": [
         "trades",
@@ -31613,8 +31613,8 @@
           ]
         }
       ],
-      "currentStage": "Multiple items across Task Recognized and On Hold",
-      "nextAction": "Review and reassign paperwork tasks",
+      "currentStage": "Multiple items across Paperwork and Advisor Flow",
+      "nextAction": "Review overdue paperwork items",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31780,8 +31780,8 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized for trades",
-      "nextAction": "Start trades preparation",
+      "currentStage": "Task Recognized for paperwork",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -31910,7 +31910,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32124,7 +32124,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32185,126 +32185,8 @@
           ]
         }
       ],
-      "currentStage": "Unknown status",
+      "currentStage": "Unknown stage",
       "nextAction": "Clarify current status and next steps",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
-      "client": "Abraham, Alexis",
-      "advisor": "Frank Dobnikar",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Frank Dobnikar",
-                "Elizabeth Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 12, 2026",
-              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 3,
-      "doneItems": 2,
-      "progress": 67,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
-              "status": "late",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Frank Dobnikar",
-                "Elizabeth Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 12, 2026",
-              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
-              "status": "complete",
-              "bucketName": "Completed Tasks",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Frank Dobnikar"
-              ],
-              "advisor": "Frank Dobnikar",
-              "isUnassigned": false,
-              "dueDateFormatted": "Apr 16, 2026",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": "Queue for paperwork",
-      "nextAction": "Start paperwork preparation",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32433,66 +32315,6 @@
       "aiUrgency": "high"
     },
     {
-      "client": "Schumaker, Don",
-      "advisor": "Katie Rower-Osborn",
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Schumaker, Don - MetLife Computershare",
-              "status": "late",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Katie Rower-Osborn"
-              ],
-              "advisor": "Katie Rower-Osborn",
-              "isUnassigned": false,
-              "dueDateFormatted": "May 19, 2026",
-              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
-      "blockers": null,
-      "aiUrgency": "high"
-    },
-    {
       "client": "Mccloskey, Elle & Blake Peek",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -32548,7 +32370,7 @@
         }
       ],
       "currentStage": "Queue for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32608,7 +32430,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32698,7 +32520,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32762,7 +32584,7 @@
         }
       ],
       "currentStage": "Task Recognized for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32852,7 +32674,7 @@
         }
       ],
       "currentStage": "Queue for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -32912,12 +32734,12 @@
         }
       ],
       "currentStage": "Queue for paperwork",
-      "nextAction": "Start paperwork preparation",
+      "nextAction": "Initiate paperwork process",
       "blockers": null,
       "aiUrgency": "high"
     },
     {
-      "client": "Lariche, Chaz 06/08 1pm Teams",
+      "client": "Lariche, Chaz & John",
       "advisor": "Jaiden Karrick",
       "planners": [
         "advisor"
@@ -32940,13 +32762,26 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 8, 2026",
               "notes": "zocks notes saved and f/u email sent 06/09 jek"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "LaRiche, John 06/03 10am (B) || Review Zoom",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "zocks notes saved adn f/u email sent 6/4 jek"
             }
           ]
         }
       },
       "hasOverdue": true,
       "hasWaitingOnClient": false,
-      "totalItems": 1,
+      "totalItems": 2,
       "doneItems": 0,
       "progress": 0,
       "plannerGroups": [
@@ -32967,6 +32802,315 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 8, 2026",
               "notes": "zocks notes saved and f/u email sent 06/09 jek"
+            },
+            {
+              "plannerKey": "advisor",
+              "title": "LaRiche, John 06/03 10am (B) || Review Zoom",
+              "status": "late",
+              "bucketName": "In- Progress Activities",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "advisor": "Jaiden Karrick",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 3, 2026",
+              "notes": "zocks notes saved adn f/u email sent 6/4 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Review overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Chepke, Mark & Lori",
+      "advisor": null,
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Mark - NEW ACCT FID ROTH IRA with TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 18, 2026",
+              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA with TOA from Baird #87353703\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Lori Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6. mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: model- growth etf, confirmed with BES\r\nAdditional Notes: TOA from Baird, accoutn number listed in ticket and statement saved in their documetn CLIC folder!\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Mark - NEW ACCT FID RO IRA w/TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 18, 2026",
+              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID RO IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 million\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: Need to talk to BES about fees\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Income\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: need to talk to BES on this as well\r\nAdditional Notes: TOA from Baird, Account number #5695-0222. saved in the financial documents folder. meeting is 6/18 so we need this sent asap to be set up before then hopefully\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n​​​​​​- Premiere Select IRA Application\r\n- Transfer of Assets"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Lori - NEW ACCT FID ROTH IRA- TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 18, 2026",
+              "notes": "Name of Client: Lori Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA- TOA from Baird as well #87354913\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 250k (match suit with whateve ri put on other ticket\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Preservation\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: did not get this model from BES- half voo half tcaf if needed for RB but need to verify!!\r\nAdditional Notes: TOA from Baird, statement is saved in their clic folder. we are only moving one account for lori\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
+            }
+          ]
+        }
+      },
+      "hasOverdue": false,
+      "hasWaitingOnClient": true,
+      "totalItems": 3,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Mark - NEW ACCT FID ROTH IRA with TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 18, 2026",
+              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA with TOA from Baird #87353703\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Lori Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6. mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: model- growth etf, confirmed with BES\r\nAdditional Notes: TOA from Baird, accoutn number listed in ticket and statement saved in their documetn CLIC folder!\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Mark - NEW ACCT FID RO IRA w/TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 18, 2026",
+              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID RO IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 million\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: Need to talk to BES about fees\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Income\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: need to talk to BES on this as well\r\nAdditional Notes: TOA from Baird, Account number #5695-0222. saved in the financial documents folder. meeting is 6/18 so we need this sent asap to be set up before then hopefully\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n​​​​​​- Premiere Select IRA Application\r\n- Transfer of Assets"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Lori - NEW ACCT FID ROTH IRA- TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Signatures",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "advisor": null,
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 18, 2026",
+              "notes": "Name of Client: Lori Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA- TOA from Baird as well #87354913\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 250k (match suit with whateve ri put on other ticket\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Preservation\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: did not get this model from BES- half voo half tcaf if needed for RB but need to verify!!\r\nAdditional Notes: TOA from Baird, statement is saved in their clic folder. we are only moving one account for lori\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
+            }
+          ]
+        }
+      ],
+      "currentStage": "In Progress Activities",
+      "nextAction": "Review overdue activities",
+      "blockers": null,
+      "aiUrgency": "high"
+    },
+    {
+      "client": "Abraham, Alexis",
+      "advisor": "Frank Dobnikar",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Frank Dobnikar",
+                "Elizabeth Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 12, 2026",
+              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 3,
+      "doneItems": 2,
+      "progress": 67,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - PPWK FID TRAD IRA TOA",
+              "status": "late",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Frank Dobnikar",
+                "Elizabeth Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 12, 2026",
+              "notes": "Name of Client: Alexis Abraham\nType of Account: Retirement\nSponsor Company: FID TRAD IRA\nType of Paperwork Being Pulled: Existing Account Maintenance\n\nType of Maintenance: [\"TOA\"]\n\nNotes: Client has a Inspira account that can be transferred using TOA FID form - KSO I can take this one thx EJD"
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID TRAD IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            },
+            {
+              "plannerKey": "paperwork",
+              "title": "Abraham, Alexis - NEW ACCT FID ROTH IRA",
+              "status": "complete",
+              "bucketName": "Completed Tasks",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Frank Dobnikar"
+              ],
+              "advisor": "Frank Dobnikar",
+              "isUnassigned": false,
+              "dueDateFormatted": "Apr 16, 2026",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Schumaker, Don",
+      "advisor": "Katie Rower-Osborn",
+      "planners": [
+        "paperwork"
+      ],
+      "byPlanner": {
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schumaker, Don - MetLife Computershare",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Schumaker, Don - MetLife Computershare",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Katie Rower-Osborn"
+              ],
+              "advisor": "Katie Rower-Osborn",
+              "isUnassigned": false,
+              "dueDateFormatted": "May 19, 2026",
+              "notes": "05/13/26 - The MetLife Computershare is in Christine's name. We need to re-register to Don's name and then move the shares over to his FID IND TOD. Brent mentioned possibly selling the shares (and Don getting a check?) or just keeping as is, moving to FID and selling once at FID. (acs)"
             }
           ]
         }
@@ -34647,66 +34791,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "May 19, 2026",
               "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Lariche, John 06/03 10am (b)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "LaRiche, John 06/03 10am (B) || Review Zoom",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "zocks notes saved adn f/u email sent 6/4 jek"
-            }
-          ]
-        }
-      },
-      "hasOverdue": true,
-      "hasWaitingOnClient": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "LaRiche, John 06/03 10am (B) || Review Zoom",
-              "status": "late",
-              "bucketName": "In- Progress Activities",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "advisor": "Jaiden Karrick",
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 3, 2026",
-              "notes": "zocks notes saved adn f/u email sent 6/4 jek"
             }
           ]
         }
@@ -41821,158 +41905,6 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 19, 2026",
               "notes": "Brent Shimman\r\nYesterday 11:12 AM\r\n## MCATEE - Maren Rose McAtee\r\n\r\nDOB 6/26/2025.\r\n\r\nSS# 843012287\r\n\r\nwhile we are at it we need to make sure these have successor owners on all the kids and we need to pull ppwk for all the kids to add us to the accounts\r\n\r\nthere are 3 more UTMA\r\n\r\nZ26719125 maddon\r\n\r\nZ28162731 Maeve\r\n\r\nZ37575076 Scottie\r\n\r\nZ34929637 Maren\r\n\r\nPer BES - when i opened that online no where does it let me add successor owner so it must be in a form or LOI, i checked and none of them have bene on them, there is $1k in his TOD and that we will use to transfer to the new UTMA and invest the same as the others.  BRENDA to be successor custodian, use LOI and have Ric sign it.\r\n\r\nFidelity Investments\r\n100 Crosby Pkwy\r\nMailzone KC1 A\r\nCovington, KY 41015-4325\r\n\r\n**RE:        Successor Custodian LOI**\r\n**{Name of Custodian}, Custodian of {Name of Minor} FIDELITY UTMA**\r\n\r\nTo Whom It May Concern:\r\n\r\nPlease elect the following individual,** {Name of Successor Custodian}**, as the successor custodian for, minor under fourteen years of age, **{Name of Minor}**’s Fidelity UTMA account that is being established.  In the case that I, **{Name of Custodian}**, become ill able to act on behalf of the UTMA account or my own death precedes the minor’s age of maturity for the account, **{Name of Successor Custodian}** shall have full control and delegation of the account in all aspects acting on behalf of the minor, **{Name of Minor}**.\r\n\r\n**{Name of Successor Custodian}**\r\nDOB:\r\nSSN:\r\nAddress:\r\nPhone Number:\r\nEmail:\r\n\r\nPlease feel free to reach out to my financial advisors, Brent Shimman or Frank Dobnikar with any questions at 419-693-9000.\r\n\r\n**{Name of Custodian}**\r\nDOB:\r\nSSN:\r\n\r\n**{Name of Custodian}**, Custodian for **{Name of Minor}** Date\r\n(kso)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Chepke, Mark",
-      "advisor": null,
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Mark - NEW ACCT FID ROTH IRA with TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 18, 2026",
-              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA with TOA from Baird #87353703\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Lori Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6. mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: model- growth etf, confirmed with BES\r\nAdditional Notes: TOA from Baird, accoutn number listed in ticket and statement saved in their documetn CLIC folder!\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Mark - NEW ACCT FID RO IRA w/TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 18, 2026",
-              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID RO IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 million\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: Need to talk to BES about fees\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Income\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: need to talk to BES on this as well\r\nAdditional Notes: TOA from Baird, Account number #5695-0222. saved in the financial documents folder. meeting is 6/18 so we need this sent asap to be set up before then hopefully\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n​​​​​​- Premiere Select IRA Application\r\n- Transfer of Assets"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": true,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Mark - NEW ACCT FID ROTH IRA with TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 18, 2026",
-              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA with TOA from Baird #87353703\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Lori Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6. mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: model- growth etf, confirmed with BES\r\nAdditional Notes: TOA from Baird, accoutn number listed in ticket and statement saved in their documetn CLIC folder!\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
-            },
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Mark - NEW ACCT FID RO IRA w/TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 18, 2026",
-              "notes": "Name of Client: Mark Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID RO IRA\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 million\r\nTax Bracket: 22%\r\nNet Investable Assets: 280k\r\nFee Schedule: Need to talk to BES about fees\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Income\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: need to talk to BES on this as well\r\nAdditional Notes: TOA from Baird, Account number #5695-0222. saved in the financial documents folder. meeting is 6/18 so we need this sent asap to be set up before then hopefully\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n​​​​​​- Premiere Select IRA Application\r\n- Transfer of Assets"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Chepke, Lori",
-      "advisor": null,
-      "planners": [
-        "paperwork"
-      ],
-      "byPlanner": {
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Lori - NEW ACCT FID ROTH IRA- TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 18, 2026",
-              "notes": "Name of Client: Lori Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA- TOA from Baird as well #87354913\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 250k (match suit with whateve ri put on other ticket\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Preservation\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: did not get this model from BES- half voo half tcaf if needed for RB but need to verify!!\r\nAdditional Notes: TOA from Baird, statement is saved in their clic folder. we are only moving one account for lori\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": true,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Lori - NEW ACCT FID ROTH IRA- TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Signatures",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "advisor": null,
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 18, 2026",
-              "notes": "Name of Client: Lori Chepke\r\nType of Account: Retirement\r\nSponsor Company: FID ROTH IRA- TOA from Baird as well #87354913\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Mark Chepke 100% p, then kids Jordan 50% and Steven 50% (DOB on RT)\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: no\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload:\r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 250k\r\nNet Worth: 6 mill\r\nTax Bracket: 22%\r\nNet Investable Assets: 250k (match suit with whateve ri put on other ticket\r\nFee Schedule: BP\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Moderate\r\nPrimary Objective: Growth\r\nSeconday Objective: Preservation\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 75k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nIf not in a model, what trades are needed: did not get this model from BES- half voo half tcaf if needed for RB but need to verify!!\r\nAdditional Notes: TOA from Baird, statement is saved in their clic folder. we are only moving one account for lori\r\n\r\n06/12/2026 - ppwk was pulled and sent via docusign (baw)\r\n- Cambridge Investment Research Advisors Form CRS\r\n- Cambridge Investment Research, Inc. Form CRS\r\n- Form ADV Delivery Receipt\r\n- WealthPort Custodian Agreement and Application\r\n- Client Information Disclosure Authorization\r\n- Premiere Select IRA Application\r\n- Transfer of Assets"
             }
           ]
         }
@@ -49393,12 +49325,12 @@
   ],
   "possibleDuplicates": [
     {
-      "nameA": "Belkofer, David",
+      "nameA": "Belkofer, David & Deborah",
       "nameB": "Belkofer, David & Debbie 04/02 3pm (r)",
       "score": 85
     },
     {
-      "nameA": "Belkofer, David",
+      "nameA": "Belkofer, David & Deborah",
       "nameB": "Belkofer, David & Debbie 03/05 3pm (r)",
       "score": 85
     },
@@ -49818,12 +49750,12 @@
       "score": 85
     },
     {
-      "nameA": "Chepke, Mark",
+      "nameA": "Chepke, Mark & Lori",
       "nameB": "Chepke, Mark 06/18 8:30am (p)",
       "score": 85
     },
     {
-      "nameA": "Chepke, Mark",
+      "nameA": "Chepke, Mark & Lori",
       "nameB": "Chepke, Mark & Lori 06/10 10am (p)",
       "score": 85
     },
@@ -50120,8 +50052,28 @@
   ],
   "aiMerges": [
     {
+      "from": "Belkofer, David",
+      "to": "Belkofer, David & Deborah"
+    },
+    {
       "from": "Belkofer, Deborah",
-      "to": "Belkofer, David"
+      "to": "Belkofer, David & Deborah"
+    },
+    {
+      "from": "Lariche, Chaz 06/08 1pm Teams",
+      "to": "Lariche, Chaz & John"
+    },
+    {
+      "from": "Lariche, John 06/03 10am (b)",
+      "to": "Lariche, Chaz & John"
+    },
+    {
+      "from": "Chepke, Mark",
+      "to": "Chepke, Mark & Lori"
+    },
+    {
+      "from": "Chepke, Lori",
+      "to": "Chepke, Mark & Lori"
     }
   ],
   "stats": {
