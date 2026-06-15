@@ -86,42 +86,54 @@ function extractTitleDate(title) {
 function detectStuck(task, notesLastMod) {
   if (task.status === 'complete' || task.status === 'waiting-on-client') return null;
 
-  // Advisor Flow: if title has a date, don't flag as stuck until 7 days after that date
+  // Use notes lastModifiedDateTime as the activity signal — it's updated whenever
+  // someone adds a note, which is the key communication/progress indicator.
+  // Fall back to task's own lastModifiedDateTime if notes haven't been fetched.
+  const activityDate = notesLastMod || task.lastModifiedDateTime;
+  const age = activityDate ? daysSince(activityDate) : null;
+
+  // Advisor Flow: if title has a date, use that as the event date
   if (task.plannerKey === 'advisor') {
     const titleDate = extractTitleDate(task.title);
     if (titleDate) {
       const daysSinceEvent = daysSince(titleDate.toISOString());
-      if (daysSinceEvent === null || daysSinceEvent < 7) return null; // event hasn't passed + 7 days yet
-      // After 7 days past the event date, check for communication gap
-      const commGap = notesLastMod
-        ? daysSince(notesLastMod) > COMM_GAP_DAYS
-        : daysSinceEvent > COMM_GAP_DAYS;
+      if (daysSinceEvent === null || daysSinceEvent < 7) return null;
+      const commGap = age !== null ? age > COMM_GAP_DAYS : daysSinceEvent > COMM_GAP_DAYS;
       if (!commGap && task.status !== 'late') return null;
       return {
         type:  task.status === 'late' ? 'overdue-silent' : 'comm-gap',
         age: daysSinceEvent, threshold: 7, commGap,
         label: task.status === 'late'
           ? `Follow-up overdue — ${daysSinceEvent} days since event`
-          : `No follow-up notes in ${daysSince(notesLastMod) ?? daysSinceEvent} days`,
+          : `No follow-up notes in ${age ?? daysSinceEvent} days`,
       };
     }
   }
 
   const bt        = getBucketType(task.bucketName);
   const threshold = STUCK_THRESHOLDS[bt];
-  const age       = bt === 'queue' ? businessDaysSince(task.lastModifiedDateTime) : daysSince(task.lastModifiedDateTime);
-  if (age === null) return null;
-  const commGap   = notesLastMod ? daysSince(notesLastMod) > COMM_GAP_DAYS : age > COMM_GAP_DAYS;
-  const isStuck   = age >= threshold;
-  const silentOD  = task.status === 'late' && commGap;
+
+  // For queue buckets use business days, otherwise calendar days
+  const effectiveAge = bt === 'queue'
+    ? businessDaysSince(activityDate)
+    : age;
+
+  if (effectiveAge === null) return null;
+
+  const commGap  = effectiveAge > COMM_GAP_DAYS;
+  const isStuck  = effectiveAge >= threshold;
+  const silentOD = task.status === 'late' && commGap;
+
   if (!isStuck && !commGap && !silentOD) return null;
+
   return {
     type:  isStuck ? 'stuck' : silentOD ? 'overdue-silent' : 'comm-gap',
-    age, threshold, commGap,
+    age: effectiveAge, threshold, commGap,
     label: isStuck
-      ? `No movement for ${age} day${age !== 1 ? 's' : ''}`
-      : silentOD ? `Overdue — no client communication logged`
-      : `No notes update in ${daysSince(notesLastMod)} days`,
+      ? `No movement for ${effectiveAge} day${effectiveAge !== 1 ? 's' : ''}`
+      : silentOD
+      ? `Overdue — no client communication logged`
+      : `No notes update in ${effectiveAge} days`,
   };
 }
 
@@ -279,7 +291,7 @@ async function main() {
     console.log(`Fetching: ${planner.label}`);
     await sleep(300);
     const [tasksRes, bucketsRes] = await Promise.all([
-      graphGet(token,`/planner/plans/${planner.planId}/tasks?$select=id,title,percentComplete,dueDateTime,completedDateTime,assignments,bucketId,lastModifiedDateTime`),
+      graphGet(token,`/planner/plans/${planner.planId}/tasks`),
       graphGet(token,`/planner/plans/${planner.planId}/buckets`),
     ]);
     const bmap={};
@@ -328,7 +340,7 @@ async function main() {
         }
       } catch {}
 
-      task.stuckInfo=detectStuck(task,task.notesLastModified);
+      task.stuckInfo=detectStuck(task, task.notesLastModified);
       if (task.stuckInfo) console.log(`  STUCK: ${task.title.slice(0,40)} — ${task.stuckInfo.label}`);
 
       if (task.stuckInfo) {
