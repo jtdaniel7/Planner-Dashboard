@@ -84,11 +84,27 @@ function extractTitleDate(title) {
 }
 
 function detectStuck(task, notesLastMod) {
-  if (task.status === 'complete' || task.status === 'waiting-on-client') return null;
+  if (task.status === 'complete') return null;
 
-  const hasNotes    = task.notes && task.notes.trim().length > 0;
-  const noteAge     = notesLastMod ? daysSince(notesLastMod) : null;
-  const bt          = getBucketType(task.bucketName);
+  const hasNotes = task.notes && task.notes.trim().length > 0;
+  const noteAge  = notesLastMod ? daysSince(notesLastMod) : null;
+  const bt       = getBucketType(task.bucketName);
+
+  // ── Waiting on Client / Signatures: flag if stale ─────────────────────────
+  // These are client-dependent so never "overdue" — but if nothing has been
+  // logged in 10 days, the client likely needs a follow-up nudge.
+  if (task.status === 'waiting-on-client') {
+    const WAITING_FOLLOWUP_DAYS = 10;
+    if (!hasNotes) return {
+      type: 'comm-gap', age: null, threshold: WAITING_FOLLOWUP_DAYS, commGap: true,
+      label: 'Waiting on signatures — no follow-up logged',
+    };
+    if (noteAge !== null && noteAge >= WAITING_FOLLOWUP_DAYS) return {
+      type: 'comm-gap', age: noteAge, threshold: WAITING_FOLLOWUP_DAYS, commGap: true,
+      label: `Waiting on signatures — no follow-up in ${noteAge} day${noteAge !== 1 ? 's' : ''}`,
+    };
+    return null;
+  }
 
   // ── Advisor Flow: date-in-title tasks ─────────────────────────────────────
   if (task.plannerKey === 'advisor') {
