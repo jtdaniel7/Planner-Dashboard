@@ -394,6 +394,7 @@ const ADVISOR_KW=['brent','frank','zach','cheyenne','katie','melissa','elizabeth
 
 // ── State ──────────────────────────────────────────────────────────────────
 let DATA=null, panelClient=null, panelFilter='all', activeTab='clients';
+let siIdx=0;
 let mergeMap={}, skipList=new Set(), dupQueue=[], dupIdx=0, selectedMerge=null;
 
 function loadMergeState(){
@@ -624,7 +625,6 @@ function renderStuck(){
   document.getElementById('stuck-comm-cnt').textContent=commGap.length;
   document.getElementById('stuck-silent-cnt').textContent=silent.length;
 
-  let siIdx=0;
   const buildSI=(t)=>{
     const id=`si-${siIdx++}`;
     const client=t.clientName||'No client identified';
