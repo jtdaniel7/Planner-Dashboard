@@ -86,55 +86,78 @@ function extractTitleDate(title) {
 function detectStuck(task, notesLastMod) {
   if (task.status === 'complete' || task.status === 'waiting-on-client') return null;
 
-  // Use notes lastModifiedDateTime as the activity signal — it's updated whenever
-  // someone adds a note, which is the key communication/progress indicator.
-  // Fall back to task's own lastModifiedDateTime if notes haven't been fetched.
-  const activityDate = notesLastMod || task.lastModifiedDateTime;
-  const age = activityDate ? daysSince(activityDate) : null;
+  const hasNotes    = task.notes && task.notes.trim().length > 0;
+  const noteAge     = notesLastMod ? daysSince(notesLastMod) : null;
+  const bt          = getBucketType(task.bucketName);
 
-  // Advisor Flow: if title has a date, use that as the event date
+  // ── Advisor Flow: date-in-title tasks ─────────────────────────────────────
   if (task.plannerKey === 'advisor') {
     const titleDate = extractTitleDate(task.title);
     if (titleDate) {
       const daysSinceEvent = daysSince(titleDate.toISOString());
       if (daysSinceEvent === null || daysSinceEvent < 7) return null;
-      const commGap = age !== null ? age > COMM_GAP_DAYS : daysSinceEvent > COMM_GAP_DAYS;
-      if (!commGap && task.status !== 'late') return null;
-      return {
-        type:  task.status === 'late' ? 'overdue-silent' : 'comm-gap',
-        age: daysSinceEvent, threshold: 7, commGap,
-        label: task.status === 'late'
-          ? `Follow-up overdue — ${daysSinceEvent} days since event`
-          : `No follow-up notes in ${age ?? daysSinceEvent} days`,
+      // 7+ days past event — flag if no notes or old notes
+      if (!hasNotes) return {
+        type: 'comm-gap', age: daysSinceEvent, threshold: 7, commGap: true,
+        label: `No follow-up notes — ${daysSinceEvent} days since event`,
       };
+      if (noteAge !== null && noteAge > COMM_GAP_DAYS) return {
+        type: 'comm-gap', age: noteAge, threshold: COMM_GAP_DAYS, commGap: true,
+        label: `No notes update in ${noteAge} days — follow up needed`,
+      };
+      return null;
     }
   }
 
-  const bt        = getBucketType(task.bucketName);
-  const threshold = STUCK_THRESHOLDS[bt];
+  // ── Overdue tasks ─────────────────────────────────────────────────────────
+  if (task.status === 'late') {
+    // Overdue with zero notes = definitely no client communication
+    if (!hasNotes) return {
+      type: 'overdue-silent', age: null, threshold: null, commGap: true,
+      label: 'Overdue — no communication logged',
+    };
+    // Overdue with stale notes = comm gap
+    if (noteAge !== null && noteAge > COMM_GAP_DAYS) return {
+      type: 'overdue-silent', age: noteAge, threshold: COMM_GAP_DAYS, commGap: true,
+      label: `Overdue — no update in ${noteAge} day${noteAge !== 1 ? 's' : ''}`,
+    };
+    return null;
+  }
 
-  // For queue buckets use business days, otherwise calendar days
-  const effectiveAge = bt === 'queue'
-    ? businessDaysSince(activityDate)
-    : age;
+  // ── Queue / Task Recognized: flag if no notes after 1 business day ────────
+  if (bt === 'queue') {
+    if (!hasNotes) return {
+      type: 'stuck', age: null, threshold: 1, commGap: false,
+      label: 'In queue with no activity logged',
+    };
+    if (noteAge !== null && noteAge >= STUCK_THRESHOLDS.queue) return {
+      type: 'stuck', age: noteAge, threshold: STUCK_THRESHOLDS.queue, commGap: false,
+      label: `In queue — no movement in ${noteAge} day${noteAge !== 1 ? 's' : ''}`,
+    };
+    return null;
+  }
 
-  if (effectiveAge === null) return null;
+  // ── In Progress: flag if notes are stale ──────────────────────────────────
+  if (bt === 'inprogress') {
+    if (noteAge !== null && noteAge >= STUCK_THRESHOLDS.inprogress) return {
+      type: 'stuck', age: noteAge, threshold: STUCK_THRESHOLDS.inprogress, commGap: false,
+      label: `No movement in ${noteAge} day${noteAge !== 1 ? 's' : ''}`,
+    };
+    // No notes at all on an in-progress task is also a comm gap
+    if (!hasNotes && noteAge === null) return {
+      type: 'comm-gap', age: null, threshold: COMM_GAP_DAYS, commGap: true,
+      label: 'In progress with no communication logged',
+    };
+    return null;
+  }
 
-  const commGap  = effectiveAge > COMM_GAP_DAYS;
-  const isStuck  = effectiveAge >= threshold;
-  const silentOD = task.status === 'late' && commGap;
-
-  if (!isStuck && !commGap && !silentOD) return null;
-
-  return {
-    type:  isStuck ? 'stuck' : silentOD ? 'overdue-silent' : 'comm-gap',
-    age: effectiveAge, threshold, commGap,
-    label: isStuck
-      ? `No movement for ${effectiveAge} day${effectiveAge !== 1 ? 's' : ''}`
-      : silentOD
-      ? `Overdue — no client communication logged`
-      : `No notes update in ${effectiveAge} days`,
+  // ── General comm gap: active task with no notes update in 5 days ─────────
+  if (noteAge !== null && noteAge > COMM_GAP_DAYS) return {
+    type: 'comm-gap', age: noteAge, threshold: COMM_GAP_DAYS, commGap: true,
+    label: `No notes update in ${noteAge} day${noteAge !== 1 ? 's' : ''}`,
   };
+
+  return null;
 }
 
 function normalizeName(raw) {
