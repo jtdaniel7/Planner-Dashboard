@@ -7,430 +7,325 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg:      #f0f2f5;
-  --surface: #ffffff;
-  --surface2:#f7f8fa;
-  --border:  #e2e5ea;
-  --border2: #d0d5dd;
-  --text:    #0f1117;
-  --text2:   #3d4450;
-  --muted:   #6b7280;
-  --muted2:  #9ca3af;
-  --red:     #dc2626;
-  --red-bg:  #fef2f2;
-  --red-border: #fecaca;
-  --amber:   #d97706;
-  --amber-bg:#fffbeb;
-  --amber-border:#fde68a;
-  --purple:  #7c3aed;
-  --purple-bg:#f5f3ff;
-  --purple-border:#ddd6fe;
-  --blue:    #2563eb;
-  --blue-bg: #eff6ff;
-  --blue-border:#bfdbfe;
-  --green:   #16a34a;
-  --green-bg:#f0fdf4;
-  --green-border:#bbf7d0;
-  --trades:  #2563eb;
-  --paper:   #d97706;
-  --advisor: #16a34a;
-  --locs:    #7c3aed;
+  --bg:#f0f2f5; --surface:#fff; --surface2:#f7f8fa; --border:#e2e5ea; --border2:#d0d5dd;
+  --text:#0f1117; --text2:#3d4450; --muted:#6b7280; --muted2:#9ca3af;
+  --red:#dc2626; --red-bg:#fef2f2; --red-b:#fecaca;
+  --amber:#d97706; --amber-bg:#fffbeb; --amber-b:#fde68a;
+  --orange:#ea580c; --orange-bg:#fff7ed; --orange-b:#fed7aa;
+  --purple:#7c3aed; --purple-bg:#f5f3ff; --purple-b:#ddd6fe;
+  --blue:#2563eb; --blue-bg:#eff6ff; --blue-b:#bfdbfe;
+  --green:#16a34a; --green-bg:#f0fdf4; --green-b:#bbf7d0;
+  --trades:#2563eb; --paper:#d97706; --advisor:#16a34a; --locs:#7c3aed; --conts:#dc2626;
 }
-
-* { margin:0; padding:0; box-sizing:border-box; }
-body { background:var(--bg); color:var(--text); font-family:'Plus Jakarta Sans',sans-serif; min-height:100vh; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif;min-height:100vh}
 
 /* HEADER */
-.header {
-  background:var(--surface);
-  border-bottom:1px solid var(--border);
-  padding:0 28px;
-  display:flex; align-items:center; justify-content:space-between;
-  height:60px;
-  position:sticky; top:0; z-index:100;
-  box-shadow:0 1px 3px rgba(0,0,0,0.06);
-}
-.header-left { display:flex; align-items:center; gap:12px; }
-.logo-mark {
-  width:34px; height:34px; border-radius:8px;
-  background:linear-gradient(135deg,#2563eb,#7c3aed);
-  display:flex; align-items:center; justify-content:center;
-  font-weight:800; font-size:13px; color:#fff; letter-spacing:-0.5px;
-}
-.header-title { font-size:15px; font-weight:700; color:var(--text); }
-.header-sub { font-size:11px; color:var(--muted); font-family:'IBM Plex Mono',monospace; letter-spacing:.04em; }
-.header-right { display:flex; align-items:center; gap:16px; }
-.sync-badge {
-  display:flex; align-items:center; gap:6px;
-  font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted);
-  background:var(--surface2); border:1px solid var(--border);
-  padding:5px 10px; border-radius:6px;
-}
-.sync-dot { width:6px; height:6px; border-radius:50%; background:#16a34a; animation:pulse 2s infinite; }
-@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.8)} }
+.header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;z-index:100;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-mark{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#2563eb,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;color:#fff}
+.header-title{font-size:14px;font-weight:700}
+.header-sub{font-size:11px;color:var(--muted);font-family:'IBM Plex Mono',monospace}
+.sync-badge{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);background:var(--surface2);border:1px solid var(--border);padding:4px 10px;border-radius:6px}
+.sync-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 
-/* SEARCH BAR */
-.search-wrap {
-  padding:16px 28px 0;
-}
-.search-input {
-  width:100%; max-width:420px;
-  background:var(--surface); border:1px solid var(--border2);
-  border-radius:8px; padding:9px 14px 9px 36px;
-  font-family:'Plus Jakarta Sans',sans-serif; font-size:13px;
-  color:var(--text); outline:none; transition:border-color .2s;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E");
-  background-repeat:no-repeat; background-position:12px center;
-}
-.search-input:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(37,99,235,0.1); }
-.search-input::placeholder { color:var(--muted2); }
+/* TABS */
+.tab-bar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;display:flex;gap:0;position:sticky;top:56px;z-index:99}
+.tab{padding:10px 18px;font-size:13px;font-weight:500;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--blue);border-bottom-color:var(--blue);font-weight:600}
+.tab-badge{font-size:10px;padding:1px 6px;border-radius:10px;font-family:'IBM Plex Mono',monospace}
+.tab-badge.red{background:var(--red-bg);color:var(--red)}
+.tab-badge.amber{background:var(--amber-bg);color:var(--amber)}
+.tab-badge.orange{background:var(--orange-bg);color:var(--orange)}
 
-/* STAT CARDS */
-.stats-row {
-  display:grid; grid-template-columns:repeat(4,1fr); gap:14px;
-  padding:16px 28px 0;
-}
-.stat-card {
-  background:var(--surface); border:1px solid var(--border);
-  border-radius:12px; padding:16px 20px;
-  cursor:pointer; transition:all .15s;
-  position:relative; overflow:hidden;
-}
-.stat-card:hover { box-shadow:0 4px 12px rgba(0,0,0,0.08); transform:translateY(-1px); }
-.stat-card.red   { border-top:3px solid var(--red); }
-.stat-card.amber { border-top:3px solid var(--amber); }
-.stat-card.purple{ border-top:3px solid var(--purple); }
-.stat-card.blue  { border-top:3px solid var(--blue); }
-.stat-label { font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.15em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
-.stat-num { font-size:32px; font-weight:800; line-height:1; }
-.stat-card.red   .stat-num { color:var(--red); }
-.stat-card.amber .stat-num { color:var(--amber); }
-.stat-card.purple .stat-num { color:var(--purple); }
-.stat-card.blue  .stat-num { color:var(--blue); }
-.stat-sub { font-size:11px; color:var(--muted); margin-top:4px; }
+/* CONTROLS */
+.controls{padding:12px 24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:var(--surface);border-bottom:1px solid var(--border)}
+.search-input{flex:1;min-width:200px;max-width:360px;font-size:13px;padding:7px 12px 7px 32px;border:1px solid var(--border2);border-radius:7px;background:var(--surface2);color:var(--text);outline:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:10px center;transition:border-color .2s}
+.search-input:focus{border-color:var(--blue)}
+.select-filter{font-size:12px;padding:7px 12px;border:1px solid var(--border2);border-radius:7px;background:var(--surface2);color:var(--text);outline:none;cursor:pointer;font-family:inherit}
 
-/* MAIN COLUMNS */
-.columns-wrap { padding:20px 28px 32px; display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; }
+/* DUP BANNER */
+.dup-banner{margin:12px 24px 0;background:var(--amber-bg);border:1px solid var(--amber-b);border-radius:8px;padding:8px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.dup-banner-text{font-size:12px;color:var(--amber)}
+.dup-btn{font-size:11px;padding:4px 12px;background:var(--amber);color:#fff;border:none;border-radius:5px;cursor:pointer;font-family:inherit}
 
-.column-header {
-  display:flex; align-items:center; justify-content:space-between;
-  margin-bottom:12px;
-}
-.column-title {
-  display:flex; align-items:center; gap:8px;
-  font-size:12px; font-weight:700; letter-spacing:.04em; text-transform:uppercase;
-}
-.col-dot { width:9px; height:9px; border-radius:50%; }
-.col-count {
-  font-family:'IBM Plex Mono',monospace; font-size:10px;
-  padding:2px 8px; border-radius:10px;
-}
-.col-overdue .col-count { background:var(--red-bg); color:var(--red); border:1px solid var(--red-border); }
-.col-inprog  .col-count { background:var(--amber-bg); color:var(--amber); border:1px solid var(--amber-border); }
-.col-waiting .col-count { background:var(--purple-bg); color:var(--purple); border:1px solid var(--purple-border); }
+/* STATS */
+.stats-row{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;padding:14px 24px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px;cursor:pointer;transition:all .15s;position:relative;overflow:hidden}
+.stat:hover{box-shadow:0 3px 10px rgba(0,0,0,.08);transform:translateY(-1px)}
+.stat::after{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+.stat.red::after{background:var(--red)} .stat.amber::after{background:var(--amber)} .stat.orange::after{background:var(--orange)} .stat.purple::after{background:var(--purple)} .stat.blue::after{background:var(--blue)} .stat.green::after{background:var(--green)}
+.stat-label{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.stat-num{font-size:24px;font-weight:800;line-height:1}
+.stat.red .stat-num{color:var(--red)} .stat.amber .stat-num{color:var(--amber)} .stat.orange .stat-num{color:var(--orange)} .stat.purple .stat-num{color:var(--purple)} .stat.blue .stat-num{color:var(--blue)} .stat.green .stat-num{color:var(--green)}
+.stat-sub{font-size:10px;color:var(--muted);margin-top:2px;font-family:'IBM Plex Mono',monospace}
 
-.col-cards { display:flex; flex-direction:column; gap:10px; }
+/* THREE-COL LAYOUT */
+.cols{padding:0 24px 32px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.col-head{display:flex;align-items:center;justify-content:space-between;padding:14px 0 10px}
+.col-title{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.col-dot{width:8px;height:8px;border-radius:50%}
+.col-cnt{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:2px 8px;border-radius:10px}
+.col-overdue .col-cnt{background:var(--red-bg);color:var(--red);border:1px solid var(--red-b)}
+.col-inprog .col-cnt{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b)}
+.col-waiting .col-cnt{background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-b)}
+.col-cards{display:flex;flex-direction:column;gap:8px}
+.col-empty{padding:24px;text-align:center;background:var(--surface);border:1px dashed var(--border2);border-radius:10px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted2)}
 
 /* CLIENT CARD */
-.client-card {
-  background:var(--surface); border:1px solid var(--border);
-  border-radius:12px; overflow:hidden;
-  transition:all .15s; cursor:pointer;
-}
-.client-card:hover { box-shadow:0 4px 16px rgba(0,0,0,0.08); border-color:var(--border2); transform:translateY(-1px); }
-.client-card.overdue { border-left:3px solid var(--red); }
-.client-card.waiting { border-left:3px solid var(--purple); }
-.client-card.inprog  { border-left:3px solid var(--amber); }
+.client-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:all .15s}
+.client-card:hover{box-shadow:0 3px 12px rgba(0,0,0,.08);border-color:var(--border2)}
+.client-card.has-overdue{border-left:3px solid var(--red)}
+.client-card.has-stuck{border-left:3px solid var(--orange)}
+.client-card.has-comm-gap{border-left:3px solid var(--amber)}
+.client-card.has-waiting{border-left:3px solid var(--purple)}
+.card-head{padding:10px 12px;display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.card-avatar{width:30px;height:30px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff}
+.card-info{flex:1;min-width:0}
+.card-name{font-size:13px;font-weight:700;color:var(--text);line-height:1.3}
+.card-meta{font-size:10px;color:var(--muted);margin-top:1px;font-family:'IBM Plex Mono',monospace}
+.card-right{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
+.ptag{font-size:8px;padding:1px 5px;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-weight:500}
+.ptag-trades{background:var(--blue-bg);color:var(--trades);border:1px solid var(--blue-b)}
+.ptag-paperwork{background:var(--amber-bg);color:var(--paper);border:1px solid var(--amber-b)}
+.ptag-advisor{background:var(--green-bg);color:var(--advisor);border:1px solid var(--green-b)}
+.ptag-locations{background:var(--purple-bg);color:var(--locs);border:1px solid var(--purple-b)}
+.ptag-conts{background:var(--red-bg);color:var(--conts);border:1px solid var(--red-b)}
+.advisor-chip{font-size:9px;padding:1px 6px;border-radius:10px;background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
+.flag-badge{font-size:9px;padding:1px 6px;border-radius:10px;font-weight:500;white-space:nowrap}
+.flag-overdue{background:var(--red-bg);color:var(--red);border:1px solid var(--red-b)}
+.flag-stuck{background:var(--orange-bg);color:var(--orange);border:1px solid var(--orange-b)}
+.flag-commgap{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b)}
+.flag-dup{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b);cursor:pointer}
 
-.card-header {
-  padding:12px 14px;
-  display:flex; align-items:flex-start; justify-content:space-between; gap:8px;
-}
-.card-avatar {
-  width:32px; height:32px; border-radius:50%; flex-shrink:0;
-  display:flex; align-items:center; justify-content:center;
-  font-size:11px; font-weight:700; color:#fff;
-}
-.card-client-info { flex:1; min-width:0; }
-.card-client-name { font-size:13px; font-weight:700; color:var(--text); line-height:1.3; }
-.card-client-sub { font-family:'IBM Plex Mono',monospace; font-size:9px; color:var(--muted); margin-top:2px; }
-.card-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; flex-shrink:0; }
+/* CARD ACTIVITIES */
+.card-activities{padding:0 12px 8px}
+.card-planner-grp{margin-top:6px}
+.card-planner-grp:first-child{margin-top:2px}
+.card-planner-lbl{font-size:9px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px;padding-bottom:2px;border-bottom:.5px solid var(--border)}
+.card-act-row{display:grid;grid-template-columns:6px 1fr auto;gap:5px;align-items:center;padding:3px 0;border-bottom:.5px solid var(--border)}
+.card-act-row:last-child{border-bottom:none}
+.act-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.act-title{font-size:11px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.act-right{display:flex;align-items:center;gap:4px;flex-shrink:0}
+.act-bucket{font-size:9px;color:var(--muted);font-family:'IBM Plex Mono',monospace;white-space:nowrap;max-width:100px;overflow:hidden;text-overflow:ellipsis}
+.stuck-icon{font-size:10px;flex-shrink:0}
 
-.planner-tags { display:flex; gap:3px; flex-wrap:wrap; justify-content:flex-end; }
-.ptag {
-  font-family:'IBM Plex Mono',monospace; font-size:8px;
-  padding:2px 6px; border-radius:4px; letter-spacing:.03em; font-weight:500;
-}
-.ptag-trades   { background:var(--blue-bg);   color:var(--trades);  border:1px solid var(--blue-border); }
-.ptag-paperwork{ background:var(--amber-bg);  color:var(--paper);   border:1px solid var(--amber-border); }
-.ptag-advisor  { background:var(--green-bg);  color:var(--advisor); border:1px solid var(--green-border); }
-.ptag-locations{ background:var(--purple-bg); color:var(--locs);    border:1px solid var(--purple-border); }
-.ptag-conts    { background:#fff1f2;          color:#dc2626;        border:1px solid #fecaca; }
+/* AI ONE-LINER */
+.ai-oneliner{font-size:11px;padding:5px 12px 7px;border-top:.5px solid var(--border);background:var(--surface2);font-weight:500;line-height:1.4}
 
-/* CARD ITEMS PREVIEW */
-.card-items { padding:0 14px 12px; }
-.card-item {
-  display:flex; align-items:center; gap:6px;
-  padding:5px 0; border-top:1px solid var(--border);
-  font-size:11px; color:var(--text2);
-}
-.card-item:first-child { border-top:none; }
-.item-dot { width:5px; height:5px; border-radius:50%; flex-shrink:0; }
-.item-title { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:11px; }
-.item-badge {
-  font-family:'IBM Plex Mono',monospace; font-size:8px;
-  padding:1px 5px; border-radius:3px; white-space:nowrap; flex-shrink:0;
-}
-.item-badge.late    { background:var(--red-bg);    color:var(--red);    border:1px solid var(--red-border); }
-.item-badge.prog    { background:var(--amber-bg);  color:var(--amber);  border:1px solid var(--amber-border); }
-.item-badge.waiting { background:var(--purple-bg); color:var(--purple); border:1px solid var(--purple-border); }
-.item-badge.ns      { background:var(--surface2);  color:var(--muted);  border:1px solid var(--border); }
+/* CARD MORE */
+.card-more{font-size:10px;color:var(--muted);padding:4px 12px;border-top:.5px solid var(--border);text-align:center;background:var(--surface2);font-family:'IBM Plex Mono',monospace}
 
-.card-more {
-  font-family:'IBM Plex Mono',monospace; font-size:9px; color:var(--muted);
-  padding:6px 14px; border-top:1px solid var(--border);
-  text-align:center; background:var(--surface2);
-}
+/* ── TEAM VIEW ── */
+.team-grid{padding:0 24px 32px;display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.member-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.member-head{padding:12px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;background:var(--surface2)}
+.member-avatar{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0}
+.member-name{font-size:13px;font-weight:700}
+.member-meta{font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace;margin-top:1px}
+.member-badges{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
+.mbadge{font-size:9px;padding:2px 7px;border-radius:10px;font-family:'IBM Plex Mono',monospace;font-weight:500}
+.mbadge-overdue{background:var(--red-bg);color:var(--red);border:1px solid var(--red-b)}
+.mbadge-stuck{background:var(--orange-bg);color:var(--orange);border:1px solid var(--orange-b)}
+.mbadge-commgap{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b)}
+.mbadge-waiting{background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-b)}
+.member-tasks{max-height:320px;overflow-y:auto}
+.member-task{padding:8px 16px;border-bottom:.5px solid var(--border);cursor:pointer;transition:background .1s}
+.member-task:hover{background:var(--surface2)}
+.member-task:last-child{border-bottom:none}
+.mt-row{display:flex;align-items:center;gap:7px}
+.mt-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.mt-title{font-size:12px;font-weight:500;color:var(--text);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mt-status{font-size:9px;padding:1px 6px;border-radius:4px;white-space:nowrap;font-family:'IBM Plex Mono',monospace}
+.s-late{background:var(--red-bg);color:var(--red);border:1px solid var(--red-b)}
+.s-prog{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b)}
+.s-wait{background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-b)}
+.s-ns{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
+.mt-detail{display:flex;align-items:center;gap:8px;margin-top:4px;flex-wrap:wrap}
+.mt-client{font-size:10px;color:var(--blue);font-weight:500}
+.mt-planner{font-size:9px;padding:1px 5px;border-radius:3px;font-family:'IBM Plex Mono',monospace}
+.mt-bucket{font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace}
+.mt-due{font-size:10px;color:var(--muted)}
+.mt-stuck{font-size:10px;font-weight:500}
+.mt-stuck.stuck{color:var(--orange)}
+.mt-stuck.comm-gap{color:var(--amber)}
+.mt-stuck.overdue-silent{color:var(--red)}
+.mt-notes{font-size:10px;color:var(--text2);margin-top:3px;line-height:1.4;border-left:2px solid var(--border2);padding-left:6px;font-style:italic}
 
-/* EMPTY COL */
-.col-empty {
-  padding:32px 16px; text-align:center;
-  background:var(--surface); border:1px dashed var(--border2);
-  border-radius:12px;
-  font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted2);
-  letter-spacing:.08em;
-}
+/* ── STUCK VIEW ── */
+.stuck-page{padding:0 24px 32px}
+.stuck-section{margin-top:16px}
+.stuck-section-head{display:flex;align-items:center;gap:8px;padding:10px 0 8px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.stuck-section-title{font-size:12px;font-weight:700;letter-spacing:.04em}
+.stuck-list{display:flex;flex-direction:column;gap:6px}
+.stuck-item{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 14px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start}
+.stuck-item.type-stuck{border-left:3px solid var(--orange)}
+.stuck-item.type-comm-gap{border-left:3px solid var(--amber)}
+.stuck-item.type-overdue-silent{border-left:3px solid var(--red)}
+.si-icon{font-size:16px;padding-top:1px}
+.si-main{}
+.si-client{font-size:12px;font-weight:700;color:var(--text)}
+.si-title{font-size:11px;color:var(--text2);margin-top:2px}
+.si-meta{display:flex;align-items:center;gap:6px;margin-top:5px;flex-wrap:wrap}
+.si-flag{font-size:10px;font-weight:500}
+.si-flag.stuck{color:var(--orange)}
+.si-flag.comm-gap{color:var(--amber)}
+.si-flag.overdue-silent{color:var(--red)}
+.si-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.si-assignee{font-size:11px;color:var(--text2)}
+.si-unassigned{font-size:11px;color:var(--red);font-weight:500}
+.si-due{font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace}
 
 /* SLIDE PANEL */
-.panel-overlay {
-  display:none; position:fixed; inset:0;
-  background:rgba(15,17,23,0.4); z-index:500;
-  backdrop-filter:blur(3px);
-}
-.panel-overlay.open { display:block; }
+.panel-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:500;backdrop-filter:blur(2px)}
+.panel-overlay.open{display:block}
+.slide-panel{position:fixed;top:0;right:-600px;width:560px;height:100vh;background:var(--surface);border-left:1px solid var(--border);z-index:501;transition:right .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;overflow:hidden;box-shadow:-6px 0 24px rgba(0,0,0,.1)}
+.slide-panel.open{right:0}
+.panel-head{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;flex-shrink:0}
+.panel-avatar{width:38px;height:38px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff}
+.panel-name{font-size:15px;font-weight:700;margin-top:2px}
+.panel-meta{font-size:11px;color:var(--muted);font-family:'IBM Plex Mono',monospace;margin-top:2px}
+.panel-close{width:28px;height:28px;border-radius:6px;background:var(--surface2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--muted);font-size:14px;transition:all .15s;flex-shrink:0}
+.panel-close:hover{background:var(--red-bg);border-color:var(--red-b);color:var(--red)}
+.panel-ai{padding:10px 20px;border-bottom:1px solid var(--border);background:var(--surface2);font-size:12px;color:var(--text2)}
+.panel-search-bar{padding:10px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+.panel-search-input{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:7px 10px;font-family:inherit;font-size:12px;color:var(--text);outline:none}
+.panel-filters{padding:8px 20px;border-bottom:1px solid var(--border);display:flex;gap:5px;flex-wrap:wrap;flex-shrink:0}
+.pf-btn{padding:4px 10px;background:var(--surface2);border:1px solid var(--border);border-radius:5px;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.06em;color:var(--muted);cursor:pointer;transition:all .15s}
+.pf-btn:hover{color:var(--text)}
+.pf-btn.on{background:var(--blue-bg);border-color:var(--blue-b);color:var(--blue)}
+.panel-body{flex:1;overflow-y:auto;padding:14px 20px}
+.panel-grp-head{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:10px 0 6px;border-bottom:.5px solid var(--border);margin-bottom:6px}
+.pg-dot{width:6px;height:6px;border-radius:50%}
+.ptask{background:var(--surface2);border:1px solid var(--border);border-radius:8px;margin-bottom:6px;overflow:hidden;transition:border-color .15s;cursor:pointer}
+.ptask:hover{border-color:var(--border2)}
+.ptask.late{border-left:3px solid var(--red)}
+.ptask.waiting-on-client{border-left:3px solid var(--purple)}
+.ptask.stuck{border-left:3px solid var(--orange)}
+.ptask.comm-gap{border-left:3px solid var(--amber)}
+.ptask-top{padding:10px 12px;display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.ptask-title{font-size:12px;font-weight:600;color:var(--text);line-height:1.4;flex:1}
+.ptask-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0}
+.chip{font-family:'IBM Plex Mono',monospace;font-size:8px;padding:2px 6px;border-radius:4px;white-space:nowrap}
+.chip-late{background:var(--red-bg);color:var(--red);border:1px solid var(--red-b)}
+.chip-prog{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b)}
+.chip-wait{background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-b)}
+.chip-ns{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
+.chip-done{background:var(--green-bg);color:var(--green);border:1px solid var(--green-b)}
+.chip-stuck{background:var(--orange-bg);color:var(--orange);border:1px solid var(--orange-b)}
+.chip-commgap{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-b)}
+.chip-unassigned{background:var(--red-bg);color:var(--red);border:1px solid var(--red-b)}
+.ptask-detail{display:none;padding:8px 12px 10px;border-top:.5px solid var(--border);background:var(--surface);grid-template-columns:1fr 1fr;gap:8px}
+.ptask-detail.open{display:grid}
+.pd-item{display:flex;flex-direction:column;gap:2px}
+.pd-label{font-family:'IBM Plex Mono',monospace;font-size:7px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+.pd-value{font-size:11px;color:var(--text)}
+.pd-notes{grid-column:1/-1}
+.pd-notes .pd-value{color:var(--text2);font-size:11px;line-height:1.6;font-style:italic}
+.pd-stuck{grid-column:1/-1}
+.pd-stuck .pd-value{font-weight:500}
+.panel-empty{padding:32px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted2)}
 
-.slide-panel {
-  position:fixed; top:0; right:-620px; width:600px; height:100vh;
-  background:var(--surface); border-left:1px solid var(--border);
-  z-index:501; transition:right .3s cubic-bezier(.4,0,.2,1);
-  display:flex; flex-direction:column; overflow:hidden;
-  box-shadow:-8px 0 32px rgba(0,0,0,0.12);
-}
-.slide-panel.open { right:0; }
-
-.panel-head {
-  padding:20px 24px; border-bottom:1px solid var(--border);
-  display:flex; align-items:flex-start; justify-content:space-between;
-  background:var(--surface);
-  flex-shrink:0;
-}
-.panel-head-left { display:flex; align-items:center; gap:12px; }
-.panel-avatar {
-  width:40px; height:40px; border-radius:50%; flex-shrink:0;
-  display:flex; align-items:center; justify-content:center;
-  font-size:14px; font-weight:700; color:#fff;
-}
-.panel-client-name { font-size:16px; font-weight:700; }
-.panel-client-meta { font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted); margin-top:3px; }
-.panel-close {
-  width:32px; height:32px; border-radius:8px;
-  background:var(--surface2); border:1px solid var(--border);
-  display:flex; align-items:center; justify-content:center;
-  cursor:pointer; color:var(--muted); font-size:16px;
-  transition:all .15s; flex-shrink:0;
-}
-.panel-close:hover { background:var(--red-bg); border-color:var(--red-border); color:var(--red); }
-
-.panel-search-bar {
-  padding:12px 24px; border-bottom:1px solid var(--border);
-  flex-shrink:0;
-}
-.panel-search-input {
-  width:100%; background:var(--surface2); border:1px solid var(--border);
-  border-radius:7px; padding:8px 12px;
-  font-family:'Plus Jakarta Sans',sans-serif; font-size:12px;
-  color:var(--text); outline:none; transition:border-color .2s;
-}
-.panel-search-input:focus { border-color:var(--blue); }
-.panel-search-input::placeholder { color:var(--muted2); }
-
-.panel-filters {
-  padding:10px 24px 12px; border-bottom:1px solid var(--border);
-  display:flex; gap:6px; flex-wrap:wrap; flex-shrink:0;
-}
-.pf-btn {
-  padding:5px 12px; background:var(--surface2);
-  border:1px solid var(--border); border-radius:6px;
-  font-family:'IBM Plex Mono',monospace; font-size:9px;
-  letter-spacing:.06em; color:var(--muted); cursor:pointer; transition:all .15s;
-}
-.pf-btn:hover { border-color:var(--border2); color:var(--text); }
-.pf-btn.on { background:var(--blue-bg); border-color:var(--blue-border); color:var(--blue); }
-
-.panel-body { flex:1; overflow-y:auto; padding:16px 24px; }
-
-/* PANEL TASK */
-.ptask {
-  background:var(--surface2); border:1px solid var(--border);
-  border-radius:10px; margin-bottom:8px; overflow:hidden;
-  transition:border-color .15s;
-}
-.ptask:hover { border-color:var(--border2); }
-.ptask.late   { border-left:3px solid var(--red); }
-.ptask.waiting-on-client { border-left:3px solid var(--purple); }
-.ptask.in-progress { border-left:3px solid var(--amber); }
-
-.ptask-top {
-  padding:12px 14px; cursor:pointer;
-  display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
-}
-.ptask-title { font-size:12px; font-weight:600; color:var(--text); line-height:1.4; flex:1; }
-.ptask-right { display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex-shrink:0; }
-.ptask-planner-tag {
-  font-family:'IBM Plex Mono',monospace; font-size:8px;
-  padding:2px 6px; border-radius:4px;
-}
-.status-chip {
-  font-family:'IBM Plex Mono',monospace; font-size:8px;
-  padding:2px 7px; border-radius:4px; white-space:nowrap;
-}
-.chip-late    { background:var(--red-bg);    color:var(--red);    border:1px solid var(--red-border); }
-.chip-prog    { background:var(--amber-bg);  color:var(--amber);  border:1px solid var(--amber-border); }
-.chip-waiting { background:var(--purple-bg); color:var(--purple); border:1px solid var(--purple-border); }
-.chip-ns      { background:var(--surface2);  color:var(--muted);  border:1px solid var(--border); }
-.chip-done    { background:var(--green-bg);  color:var(--green);  border:1px solid var(--green-border); }
-
-.ptask-detail {
-  display:none; padding:12px 14px; border-top:1px solid var(--border);
-  background:var(--surface); grid-template-columns:1fr 1fr; gap:10px;
-}
-.ptask-detail.open { display:grid; }
-.pd-item { display:flex; flex-direction:column; gap:3px; }
-.pd-label { font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
-.pd-value { font-size:11px; color:var(--text); }
-.pd-notes { grid-column:1/-1; }
-.pd-notes .pd-value { color:var(--text2); font-size:11px; line-height:1.6; }
-.pd-unassigned { color:var(--red); font-size:11px; }
-
-/* PLANNER GROUP HEADER IN PANEL */
-.panel-group-head {
-  display:flex; align-items:center; gap:8px;
-  font-family:'IBM Plex Mono',monospace; font-size:9px;
-  letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
-  padding:12px 0 8px; border-bottom:1px solid var(--border); margin-bottom:8px;
-  margin-top:4px;
-}
-.panel-group-head:first-child { padding-top:0; }
-.pg-dot { width:6px; height:6px; border-radius:50%; }
-
-.panel-empty { padding:40px; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted2); letter-spacing:.1em; }
+/* MERGE MODAL */
+#merge-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:600;align-items:center;justify-content:center}
+#merge-modal.open{display:flex}
+.modal-box{background:var(--surface);border:1px solid var(--border);border-radius:12px;width:460px;max-width:95vw;padding:22px;box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.modal-title{font-size:14px;font-weight:600;margin-bottom:3px}
+.modal-sub{font-size:12px;color:var(--muted);margin-bottom:16px}
+.dup-progress{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-bottom:12px}
+.dup-pair{display:flex;flex-direction:column;gap:7px;margin-bottom:16px}
+.dup-option{padding:10px 12px;border:1px solid var(--border);border-radius:7px;cursor:pointer;transition:all .15s;font-size:13px;font-weight:500}
+.dup-option:hover{border-color:var(--blue);background:var(--blue-bg)}
+.dup-option.selected{border-color:var(--blue);background:var(--blue-bg)}
+.dup-option-sub{font-size:10px;color:var(--muted);font-weight:400;margin-top:2px;font-family:'IBM Plex Mono',monospace}
+.modal-actions{display:flex;gap:7px;justify-content:flex-end}
+.btn-merge{padding:7px 16px;background:var(--blue);color:#fff;border:none;border-radius:6px;font-size:12px;cursor:pointer;font-family:inherit}
+.btn-merge:disabled{opacity:.4;cursor:not-allowed}
+.btn-skip{padding:7px 16px;background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:6px;font-size:12px;cursor:pointer;font-family:inherit}
+.btn-skip:hover{background:var(--surface2)}
 
 /* LOADING */
-.loading { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:400px; gap:12px; color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.1em; }
-.spinner { width:28px; height:28px; border-radius:50%; border:2px solid var(--border); border-top-color:var(--blue); animation:spin .8s linear infinite; }
+.loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:400px;gap:12px;color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em}
+.spinner{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);border-top-color:var(--blue);animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
+#error-banner{display:none;background:var(--red-bg);border-bottom:1px solid var(--red-b);padding:10px 24px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--red)}
 
-#error-banner { display:none; background:var(--red-bg); border-bottom:1px solid var(--red-border); padding:10px 28px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--red); }
-
-::-webkit-scrollbar { width:4px; }
-::-webkit-scrollbar-track { background:transparent; }
-::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
-
-@keyframes fadeUp { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
-.stats-row  { animation:fadeUp .3s ease both; }
-.columns-wrap { animation:fadeUp .3s .08s ease both; opacity:0; animation-fill-mode:forwards; }
+::-webkit-scrollbar{width:4px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <div class="header-left">
+  <div class="logo">
     <div class="logo-mark">SDC</div>
-    <div>
-      <div class="header-title">Operations Dashboard</div>
-      <div class="header-sub">SD Capital Advisors</div>
-    </div>
+    <div><div class="header-title">Operations Dashboard</div><div class="header-sub">SD Capital Advisors</div></div>
   </div>
-  <div class="header-right">
-    <div class="sync-badge">
-      <div class="sync-dot"></div>
-      <span id="sync-label">Loading...</span>
-    </div>
-  </div>
+  <div class="sync-badge"><div class="sync-dot"></div><span id="sync-label">Loading...</span></div>
+</div>
+
+<div class="tab-bar">
+  <div class="tab active" onclick="switchTab('clients',this)">Clients <span class="tab-badge blue" id="tab-clients-cnt"></span></div>
+  <div class="tab" onclick="switchTab('team',this)">Team <span class="tab-badge amber" id="tab-team-cnt"></span></div>
+  <div class="tab" onclick="switchTab('stuck',this)">Stuck &amp; Blocked <span class="tab-badge red" id="tab-stuck-cnt"></span></div>
 </div>
 
 <div id="error-banner">⚠ Could not load planner data.</div>
-
-<div id="loading" class="loading" style="padding:60px">
-  <div class="spinner"></div>
-  LOADING PLANNER DATA
-</div>
+<div id="loading" class="loading"><div class="spinner"></div>LOADING PLANNER DATA</div>
 
 <div id="main" style="display:none">
-
-  <div class="controls-bar">
-    <input class="search-input" id="global-search" type="text" placeholder="Search clients, tasks, assignees..." oninput="applySearch()" style="flex:1;min-width:200px;max-width:380px">
-    <select class="advisor-select" id="advisor-filter" onchange="applySearch()">
-      <option value="">All advisors</option>
-    </select>
+  <div class="controls">
+    <input class="search-input" id="global-search" type="text" placeholder="Search clients, tasks, assignees..." oninput="applyFilters()">
+    <select class="select-filter" id="advisor-filter" onchange="applyFilters()"><option value="">All advisors</option></select>
   </div>
   <div class="dup-banner" id="dup-banner" style="display:none">
-    <div class="dup-banner-text"><strong id="dup-count">0</strong> possible duplicate clients detected — names that may refer to the same person</div>
-    <button class="dup-review-btn" onclick="openMergeModal()">Review &amp; Merge</button>
+    <div class="dup-banner-text"><strong id="dup-count">0</strong> possible duplicate clients — names that may refer to the same person</div>
+    <button class="dup-btn" onclick="openMergeModal()">Review &amp; Merge</button>
   </div>
 
+  <!-- STATS -->
   <div class="stats-row" id="stats-row"></div>
 
-  <div class="columns-wrap">
-    <!-- OVERDUE -->
-    <div class="col-overdue">
-      <div class="column-header">
-        <div class="column-title">
-          <div class="col-dot" style="background:var(--red)"></div>
-          Overdue
-        </div>
-        <div class="col-count" id="cnt-overdue">0</div>
+  <!-- CLIENTS TAB -->
+  <div id="tab-clients">
+    <div class="cols">
+      <div class="col-overdue">
+        <div class="col-head"><div class="col-title"><div class="col-dot" style="background:var(--red)"></div>Overdue</div><div class="col-cnt" id="cnt-overdue">0 clients</div></div>
+        <div class="col-cards" id="col-overdue"></div>
       </div>
-      <div class="col-cards" id="col-overdue"></div>
-    </div>
-
-    <!-- IN PROGRESS -->
-    <div class="col-inprog">
-      <div class="column-header">
-        <div class="column-title">
-          <div class="col-dot" style="background:var(--amber)"></div>
-          In Progress
-        </div>
-        <div class="col-count" id="cnt-inprog">0</div>
+      <div class="col-inprog">
+        <div class="col-head"><div class="col-title"><div class="col-dot" style="background:var(--amber)"></div>In Progress</div><div class="col-cnt" id="cnt-inprog">0 clients</div></div>
+        <div class="col-cards" id="col-inprog"></div>
       </div>
-      <div class="col-cards" id="col-inprog"></div>
-    </div>
-
-    <!-- WAITING ON CLIENT -->
-    <div class="col-waiting">
-      <div class="column-header">
-        <div class="column-title">
-          <div class="col-dot" style="background:var(--purple)"></div>
-          Waiting on Client
-        </div>
-        <div class="col-count" id="cnt-waiting">0</div>
+      <div class="col-waiting">
+        <div class="col-head"><div class="col-title"><div class="col-dot" style="background:var(--purple)"></div>Waiting on Client</div><div class="col-cnt" id="cnt-waiting">0 clients</div></div>
+        <div class="col-cards" id="col-waiting"></div>
       </div>
-      <div class="col-cards" id="col-waiting"></div>
     </div>
   </div>
 
-</div>
+  <!-- TEAM TAB -->
+  <div id="tab-team" style="display:none">
+    <div class="team-grid" id="team-grid"></div>
+  </div>
 
-<!-- MERGE MODAL -->
-<div class="modal-overlay" id="merge-modal">
-  <div class="modal-box">
-    <div class="modal-title">Possible duplicate clients</div>
-    <div class="modal-sub">These names may refer to the same person. Select which name to keep as the canonical name, or skip if they are different people.</div>
-    <div class="dup-progress" id="dup-progress"></div>
-    <div class="dup-pair" id="dup-pair"></div>
-    <div class="modal-actions">
-      <button class="btn-skip" onclick="skipDup()">Different people — skip</button>
-      <button class="btn-merge" id="btn-merge-confirm" onclick="confirmMerge()" disabled>Merge into selected name</button>
+  <!-- STUCK TAB -->
+  <div id="tab-stuck" style="display:none">
+    <div class="stuck-page">
+      <div class="stuck-section">
+        <div class="stuck-section-head"><div class="col-dot" style="background:var(--orange)"></div><div class="stuck-section-title">No Movement</div><div class="tab-badge orange" id="stuck-no-move-cnt"></div></div>
+        <div class="stuck-list" id="stuck-no-move"></div>
+      </div>
+      <div class="stuck-section">
+        <div class="stuck-section-head"><div class="col-dot" style="background:var(--amber)"></div><div class="stuck-section-title">No Client Communication</div><div class="tab-badge amber" id="stuck-comm-cnt"></div></div>
+        <div class="stuck-list" id="stuck-comm"></div>
+      </div>
+      <div class="stuck-section">
+        <div class="stuck-section-head"><div class="col-dot" style="background:var(--red)"></div><div class="stuck-section-title">Overdue — Silent</div><div class="tab-badge red" id="stuck-silent-cnt"></div></div>
+        <div class="stuck-list" id="stuck-silent"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -439,563 +334,453 @@ body { background:var(--bg); color:var(--text); font-family:'Plus Jakarta Sans',
 <div class="panel-overlay" id="panel-overlay" onclick="closePanel()"></div>
 <div class="slide-panel" id="slide-panel">
   <div class="panel-head">
-    <div class="panel-head-left">
+    <div style="display:flex;align-items:center;gap:10px">
       <div class="panel-avatar" id="panel-avatar"></div>
-      <div>
-        <div class="panel-client-name" id="panel-client-name"></div>
-        <div class="panel-client-meta" id="panel-client-meta"></div>
-      </div>
+      <div><div class="panel-name" id="panel-name"></div><div class="panel-meta" id="panel-meta"></div></div>
     </div>
     <div class="panel-close" onclick="closePanel()">✕</div>
   </div>
-  <div class="panel-search-bar">
-    <input class="panel-search-input" id="panel-search" type="text" placeholder="Search tasks, buckets, assignees..." oninput="renderPanel()">
-  </div>
+  <div class="panel-ai" id="panel-ai" style="display:none"></div>
+  <div class="panel-search-bar"><input class="panel-search-input" id="panel-search" type="text" placeholder="Search tasks..." oninput="renderPanel()"></div>
   <div class="panel-filters" id="panel-filters">
     <button class="pf-btn on" onclick="setPF('all',this)">All</button>
     <button class="pf-btn" onclick="setPF('late',this)">Overdue</button>
+    <button class="pf-btn" onclick="setPF('stuck',this)">Stuck</button>
     <button class="pf-btn" onclick="setPF('in-progress',this)">In Progress</button>
     <button class="pf-btn" onclick="setPF('not-started',this)">Not Started</button>
-    <button class="pf-btn" onclick="setPF('waiting-on-client',this)">Waiting on Client</button>
+    <button class="pf-btn" onclick="setPF('waiting-on-client',this)">Waiting</button>
     <button class="pf-btn" onclick="setPF('unassigned',this)">Unassigned</button>
   </div>
   <div class="panel-body" id="panel-body"></div>
 </div>
 
+<!-- MERGE MODAL -->
+<div id="merge-modal">
+  <div class="modal-box">
+    <div class="modal-title">Possible duplicate clients</div>
+    <div class="modal-sub">These names may refer to the same person. Select which name to keep, or skip if they're different people.</div>
+    <div class="dup-progress" id="dup-progress"></div>
+    <div class="dup-pair" id="dup-pair"></div>
+    <div class="modal-actions">
+      <button class="btn-skip" onclick="skipDup()">Different people — skip</button>
+      <button class="btn-merge" id="btn-merge-confirm" onclick="confirmMerge()" disabled>Merge into selected</button>
+    </div>
+  </div>
+</div>
+
 <script>
 // ── Constants ──────────────────────────────────────────────────────────────
-const PLANNER_COLOR = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed' };
-const PC = { trades:'#2563eb', paperwork:'#d97706', advisor:'#16a34a', locations:'#7c3aed', conts:'#dc2626' };
-const PLANNER_LABEL = { trades:'Trades', paperwork:'Paperwork', advisor:'Advisor', locations:'Locations', conts:'CONTs & Checks' };
-const PTAG_CLASS = { trades:'ptag-trades', paperwork:'ptag-paperwork', advisor:'ptag-advisor', locations:'ptag-locations', conts:'ptag-conts' };
+const PC={trades:'#2563eb',paperwork:'#d97706',advisor:'#16a34a',locations:'#7c3aed',conts:'#dc2626'};
+const PL={trades:'Trades',paperwork:'Paperwork',advisor:'Advisor',locations:'Locations',conts:'CONTs'};
+const PT={trades:'ptag-trades',paperwork:'ptag-paperwork',advisor:'ptag-advisor',locations:'ptag-locations',conts:'ptag-conts'};
+const ADVISOR_KW=['brent','frank','zach','cheyenne','katie','melissa','elizabeth','jaiden'];
 
 // ── State ──────────────────────────────────────────────────────────────────
-let DATA = null;
-let panelClient = null;
-let panelFilter = 'all';
+let DATA=null, panelClient=null, panelFilter='all', activeTab='clients';
+let mergeMap={}, skipList=new Set(), dupQueue=[], dupIdx=0, selectedMerge=null;
 
-// Merge state — persisted in localStorage
-let mergeMap = {}; // { "Becca Ferguson": "Ferguson, Rebecca" }
-let skipList = new Set(); // duplicate pairs the user said are different people
-let dupQueue = [];
-let dupIdx = 0;
-let selectedMergeName = null;
-
-function loadMergeState() {
-  try {
-    const saved = localStorage.getItem('sdc-merge-map');
-    if (saved) mergeMap = JSON.parse(saved);
-    const skipped = localStorage.getItem('sdc-skip-list');
-    if (skipped) skipList = new Set(JSON.parse(skipped));
-  } catch(e) { mergeMap = {}; skipList = new Set(); }
+function loadMergeState(){
+  try{ mergeMap=JSON.parse(localStorage.getItem('sdc-mm')||'{}'); skipList=new Set(JSON.parse(localStorage.getItem('sdc-sl')||'[]')); }
+  catch{ mergeMap={}; skipList=new Set(); }
 }
-function saveMergeState() {
-  localStorage.setItem('sdc-merge-map', JSON.stringify(mergeMap));
-  localStorage.setItem('sdc-skip-list', JSON.stringify([...skipList]));
-}
-
-// Apply merge map to a client name — returns canonical name
-function resolveClient(name) {
-  return mergeMap[name] || name;
-}
+function saveMergeState(){ localStorage.setItem('sdc-mm',JSON.stringify(mergeMap)); localStorage.setItem('sdc-sl',JSON.stringify([...skipList])); }
+function resolve(name){ return mergeMap[name]||name; }
 
 // ── Helpers ────────────────────────────────────────────────────────────────
-function initials(name) {
-  const p = name.replace(/,/g,'').split(' ').filter(Boolean);
-  return ((p[0]||'')[0]||'') + ((p[1]||'')[0]||'');
-}
-function avatarGrad(name) {
-  const g = [['#2563eb','#7c3aed'],['#16a34a','#2563eb'],['#d97706','#dc2626'],['#7c3aed','#2563eb'],['#16a34a','#7c3aed'],['#dc2626','#d97706']];
-  const i = (name.charCodeAt(0)+(name.charCodeAt(1)||0)) % g.length;
-  return `linear-gradient(135deg,${g[i][0]},${g[i][1]})`;
-}
-function timeAgo(iso) {
-  const d = Math.floor((Date.now()-new Date(iso))/60000);
-  if (d<1) return 'just now';
-  if (d<60) return `${d}m ago`;
-  return `${Math.floor(d/60)}h ago`;
-}
-function chipClass(s) {
-  return {late:'chip-late','in-progress':'chip-prog','waiting-on-client':'chip-waiting','not-started':'chip-ns','complete':'chip-done'}[s]||'chip-ns';
-}
-function chipLabel(s) {
-  return {late:'Overdue','in-progress':'In Progress','waiting-on-client':'Waiting','not-started':'Not Started','complete':'Done'}[s]||s;
-}
-function assigneeStr(t) {
-  if (t.isUnassigned||!t.assigneeNames||!t.assigneeNames.length) return '⚠ Unassigned';
-  return t.assigneeNames.join(', ');
+function initials(n){ const p=n.replace(/,/g,'').split(' ').filter(Boolean); return((p[0]||'')[0]||'')+((p[1]||'')[0]||''); }
+function grad(n){ const g=[['#2563eb','#7c3aed'],['#16a34a','#2563eb'],['#d97706','#dc2626'],['#7c3aed','#2563eb'],['#16a34a','#7c3aed'],['#dc2626','#d97706']]; const i=(n.charCodeAt(0)+(n.charCodeAt(1)||0))%g.length; return`linear-gradient(135deg,${g[i][0]},${g[i][1]})`; }
+function timeAgo(s){ const d=Math.floor((Date.now()-new Date(s))/60000); return d<1?'just now':d<60?`${d}m ago`:`${Math.floor(d/60)}h ago`; }
+function chipCls(s){ return{late:'chip-late','in-progress':'chip-prog','waiting-on-client':'chip-wait','not-started':'chip-ns','complete':'chip-done'}[s]||'chip-ns'; }
+function chipLbl(s){ return{late:'Overdue','in-progress':'In Progress','waiting-on-client':'Waiting','not-started':'Not Started','complete':'Done'}[s]||s; }
+function stDot(status,stuck){ if(status==='late') return'var(--red)'; if(stuck?.type==='stuck') return'var(--orange)'; if(stuck?.type==='comm-gap') return'var(--amber)'; if(status==='waiting-on-client') return'var(--purple)'; if(status==='in-progress') return'var(--amber)'; return'var(--muted2,#9ca3af)'; }
+
+function clientCol(entry){
+  const statuses=entry.plannerGroups.flatMap(g=>g.items.map(i=>i.status));
+  if(statuses.includes('late')) return'overdue';
+  if(statuses.some(s=>s==='in-progress'||s==='not-started')) return'inprog';
+  if(statuses.includes('waiting-on-client')) return'waiting';
+  return'inprog';
 }
 
-// ── Bucket col classification ──────────────────────────────────────────────
-// Determine which column a WIP client belongs to based on worst status
-function clientColumn(entry) {
-  const statuses = entry.plannerGroups.flatMap(g => g.items.map(i => i.status));
-  if (statuses.includes('late')) return 'overdue';
-  if (statuses.some(s => s==='in-progress'||s==='not-started')) return 'inprog';
-  if (statuses.includes('waiting-on-client')) return 'waiting';
-  return 'inprog';
+// ── Tab switching ──────────────────────────────────────────────────────────
+function switchTab(tab, el){
+  activeTab=tab;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  ['clients','team','stuck'].forEach(t=>{ document.getElementById(`tab-${t}`).style.display=t===tab?'':'none'; });
 }
 
 // ── Render Stats ───────────────────────────────────────────────────────────
-function renderStats(s) {
-  document.getElementById('stats-row').innerHTML = `
-    <div class="stat-card red" onclick="filterColumn('overdue')">
-      <div class="stat-label">Overdue Tasks</div>
-      <div class="stat-num">${s.overdue}</div>
-      <div class="stat-sub">tasks past due date</div>
-    </div>
-    <div class="stat-card amber" onclick="filterColumn('inprog')">
-      <div class="stat-label">In Progress Tasks</div>
-      <div class="stat-num">${s.totalOpen - s.overdue - s.waitingOnClient}</div>
-      <div class="stat-sub">tasks actively in motion</div>
-    </div>
-    <div class="stat-card purple" onclick="filterColumn('waiting')">
-      <div class="stat-label">Waiting on Client Tasks</div>
-      <div class="stat-num">${s.waitingOnClient}</div>
-      <div class="stat-sub">pending client action</div>
-    </div>
-    <div class="stat-card blue" onclick="filterColumn('all')">
-      <div class="stat-label">Total Open Tasks</div>
-      <div class="stat-num">${s.totalOpen}</div>
-      <div class="stat-sub">across all planners</div>
-    </div>`;
+function renderStats(s){
+  document.getElementById('stats-row').innerHTML=`
+    <div class="stat red"><div class="stat-label">Overdue Tasks</div><div class="stat-num">${s.overdue}</div><div class="stat-sub">past due date</div></div>
+    <div class="stat orange"><div class="stat-label">Stuck Tasks</div><div class="stat-num">${s.stuck}</div><div class="stat-sub">no movement</div></div>
+    <div class="stat amber"><div class="stat-label">Comm Gaps</div><div class="stat-num">${s.commGap}</div><div class="stat-sub">no notes update</div></div>
+    <div class="stat purple"><div class="stat-label">Waiting on Client</div><div class="stat-num">${s.waitingOnClient}</div><div class="stat-sub">client action needed</div></div>
+    <div class="stat blue"><div class="stat-label">Total Open</div><div class="stat-num">${s.totalOpen}</div><div class="stat-sub">across all planners</div></div>
+    <div class="stat green"><div class="stat-label">Completed Today</div><div class="stat-num">${s.completedToday}</div><div class="stat-sub">since midnight</div></div>`;
 }
 
-// ── Build Client Card ──────────────────────────────────────────────────────
-function buildCard(entry) {
-  const allItems = entry.plannerGroups.flatMap(g => g.items.filter(i=>i.status!=='complete'));
-  const hasOverdue = allItems.some(i=>i.status==='late');
-  const hasWaiting = allItems.every(i=>i.status==='waiting-on-client');
-  const borderCls = hasOverdue ? 'overdue' : hasWaiting ? 'waiting' : 'inprog';
+// ── Build client card ──────────────────────────────────────────────────────
+function buildCard(entry){
+  const allItems=entry.plannerGroups.flatMap(g=>g.items.filter(i=>i.status!=='complete'));
+  const borderCls=entry.hasOverdue?'has-overdue':entry.hasStuck?'has-stuck':entry.hasCommGap?'has-comm-gap':entry.hasWaitingOnClient?'has-waiting':'';
+  const tags=entry.planners.map(pk=>`<span class="ptag ${PT[pk]}">${PL[pk]}</span>`).join('');
+  const advChip=entry.advisor?`<span class="advisor-chip">${entry.advisor.split(' ')[0]}</span>`:'';
+  const flags=[
+    entry.hasOverdue?`<span class="flag-badge flag-overdue">⚠ Overdue</span>`:'',
+    entry.hasStuck?`<span class="flag-badge flag-stuck">⏸ Stuck</span>`:'',
+    entry.hasCommGap?`<span class="flag-badge flag-commgap">📭 No comms</span>`:'',
+    entry._isDup?`<span class="flag-badge flag-dup" onclick="event.stopPropagation();openMergeModalFor('${entry.client.replace(/'/g,"\\'")}')">⚠ Dup?</span>`:'',
+  ].filter(Boolean).join('');
 
-  const tags = entry.planners.map(pk =>
-    `<span class="ptag ${PTAG_CLASS[pk]}">${PLANNER_LABEL[pk]}</span>`
-  ).join('');
-
-  const advisorChip = entry.advisor
-    ? `<span class="advisor-chip">${entry.advisor.split(' ')[0]}</span>` : '';
-  const dupFlag = entry._isDup
-    ? `<span class="dup-flag" onclick="event.stopPropagation();openMergeModalFor('${entry.client.replace(/'/g,"\'")}')">⚠ Possible duplicate</span>` : '';
-
-  // Show ALL active items grouped by planner — compact rows
-  const groupedItems = entry.plannerGroups.map(g => {
-    const activeItems = g.items.filter(i => i.status !== 'complete');
-    if (!activeItems.length) return '';
-    const plannerColor = PC[g.key] || '#6b7280';
-    const rows = activeItems.map(item => {
-      const statusDot = {
-        late:               'var(--red)',
-        'waiting-on-client':'var(--purple)',
-        'in-progress':      'var(--amber)',
-        'not-started':      'var(--muted2,#9ca3af)',
-      }[item.status] || 'var(--muted2,#9ca3af)';
-      const bucketShort = item.bucketName === 'Unknown' ? '' : item.bucketName;
-      return `
-        <div class="card-activity-row">
-          <div class="car-dot" style="background:${statusDot}"></div>
-          <div class="car-title" title="${item.title}">${item.title}</div>
-          ${bucketShort ? `<div class="car-bucket">${bucketShort}</div>` : ''}
-        </div>`;
-    }).join('');
-    return `
-      <div class="card-planner-group">
-        <div class="card-planner-label" style="color:${plannerColor}">${g.label}</div>
-        ${rows}
-      </div>`;
+  // Activities grouped by planner
+  const groups=entry.plannerGroups.map(g=>{
+    const active=g.items.filter(i=>i.status!=='complete');
+    if(!active.length) return'';
+    const rows=active.map(item=>`
+      <div class="card-act-row">
+        <div class="act-dot" style="background:${stDot(item.status,item.stuckInfo)}"></div>
+        <div class="act-title" title="${item.title}">${item.title}</div>
+        <div class="act-right">
+          ${item.stuckInfo?`<span class="stuck-icon">${item.stuckInfo.type==='stuck'?'⏸':item.stuckInfo.type==='comm-gap'?'📭':'🔴'}</span>`:''}
+          <span class="act-bucket">${item.bucketName==='Unknown'?'':item.bucketName}</span>
+        </div>
+      </div>`).join('');
+    return`<div class="card-planner-grp"><div class="card-planner-lbl" style="color:${PC[g.key]}">${g.label}</div>${rows}</div>`;
   }).join('');
 
-  const more = '';  // All items shown — click to open panel for full detail
-
-  // AI assessment — one compact line only
-  let aiBlock = '';
-  if (entry.nextAction || entry.blockers) {
-    const icon = entry.aiUrgency === 'high' ? '⚠' : entry.aiUrgency === 'waiting' ? '⏳' : '→';
-    const text = entry.blockers ? entry.blockers : entry.nextAction;
-    const color = entry.aiUrgency === 'high' ? 'var(--red,#dc2626)' : entry.aiUrgency === 'waiting' ? 'var(--purple,#7c3aed)' : 'var(--blue,#2563eb)';
-    aiBlock = `<div class="ai-oneliner" style="color:${color}">${icon} ${text}</div>`;
+  // AI one-liner
+  let aiLine='';
+  if(entry.nextAction||entry.blockers){
+    const icon=entry.aiUrgency==='high'?'⚠':entry.aiUrgency==='waiting'?'⏳':'→';
+    const txt=entry.blockers||entry.nextAction;
+    const col=entry.aiUrgency==='high'?'var(--red)':entry.aiUrgency==='waiting'?'var(--purple)':'var(--blue)';
+    aiLine=`<div class="ai-oneliner" style="color:${col}">${icon} ${txt}</div>`;
   }
 
-  return `
-    <div class="client-card ${borderCls}" onclick="openPanel('${entry.client.replace(/'/g,"\\'")}')">
-      <div class="card-header">
-        <div class="card-avatar" style="background:${avatarGrad(entry.client)}">${initials(entry.client)}</div>
-        <div class="card-client-info">
-          <div class="card-client-name">${entry.client}</div>
-          <div class="card-client-sub">${allItems.length} active · ${entry.planners.length} planner${entry.planners.length!==1?'s':''}</div>
-        </div>
-        <div class="card-right">
-          <div class="planner-tags">${tags}</div>
-          <div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end;margin-top:3px">
-            ${advisorChip}${dupFlag}
-            ${hasOverdue ? `<span class="item-badge late">⚠ Overdue</span>` : ''}
-          </div>
-        </div>
+  return`<div class="client-card ${borderCls}" onclick="openPanel('${entry.client.replace(/'/g,"\\'")}')">
+    <div class="card-head">
+      <div class="card-avatar" style="background:${grad(entry.client)}">${initials(entry.client)}</div>
+      <div class="card-info">
+        <div class="card-name">${entry.client}</div>
+        <div class="card-meta">${allItems.length} active · ${entry.planners.length} planner${entry.planners.length!==1?'s':''}</div>
       </div>
-      <div class="card-activities">${groupedItems}</div>
-      ${aiBlock}
-    </div>`;
+      <div class="card-right">
+        <div style="display:flex;gap:3px;flex-wrap:wrap;justify-content:flex-end">${tags}</div>
+        <div style="display:flex;gap:3px;flex-wrap:wrap;justify-content:flex-end;margin-top:2px">${advChip}${flags}</div>
+      </div>
+    </div>
+    <div class="card-activities">${groups}</div>
+    ${aiLine}
+  </div>`;
 }
 
-// ── Render Columns ─────────────────────────────────────────────────────────
-function renderColumns(wip) {
-  const search   = (document.getElementById('global-search')||{value:''}).value.toLowerCase().trim();
-  const advisor  = (document.getElementById('advisor-filter')||{value:''}).value.toLowerCase().trim();
+// ── Render columns ─────────────────────────────────────────────────────────
+function renderColumns(wip){
+  const search=(document.getElementById('global-search')||{value:''}).value.toLowerCase().trim();
+  const advisor=(document.getElementById('advisor-filter')||{value:''}).value.toLowerCase().trim();
 
-  // Apply merge map — group merged clients together
-  const mergedMap = {};
-  wip.forEach(entry => {
-    const canonical = resolveClient(entry.client);
-    if (!mergedMap[canonical]) {
-      mergedMap[canonical] = JSON.parse(JSON.stringify(entry));
-      mergedMap[canonical].client = canonical;
-      mergedMap[canonical].mergedFrom = [];
-    } else {
-      // Merge plannerGroups
-      entry.plannerGroups.forEach(pg => {
-        const existing = mergedMap[canonical].plannerGroups.find(g => g.key === pg.key);
-        if (existing) existing.items.push(...pg.items);
-        else mergedMap[canonical].plannerGroups.push(pg);
-      });
-      entry.planners.forEach(p => { if (!mergedMap[canonical].planners.includes(p)) mergedMap[canonical].planners.push(p); });
-      if (entry.hasOverdue) mergedMap[canonical].hasOverdue = true;
-      if (entry.hasWaitingOnClient) mergedMap[canonical].hasWaitingOnClient = true;
-      if (entry.advisor && !mergedMap[canonical].advisor) mergedMap[canonical].advisor = entry.advisor;
+  // Apply merge map
+  const mm={};
+  wip.forEach(e=>{
+    const can=resolve(e.client);
+    if(!mm[can]){ mm[can]=JSON.parse(JSON.stringify(e)); mm[can].client=can; mm[can].mergedFrom=[]; }
+    else{
+      e.plannerGroups.forEach(pg=>{ const ex=mm[can].plannerGroups.find(g=>g.key===pg.key); if(ex) ex.items.push(...pg.items); else mm[can].plannerGroups.push(pg); });
+      e.planners.forEach(p=>{if(!mm[can].planners.includes(p)) mm[can].planners.push(p);});
+      if(e.hasOverdue) mm[can].hasOverdue=true; if(e.hasWaitingOnClient) mm[can].hasWaitingOnClient=true;
+      if(e.hasStuck) mm[can].hasStuck=true; if(e.hasCommGap) mm[can].hasCommGap=true;
+      if(e.advisor&&!mm[can].advisor) mm[can].advisor=e.advisor;
     }
-    if (entry.client !== canonical) mergedMap[canonical].mergedFrom.push(entry.client);
+    if(e.client!==can) mm[can].mergedFrom.push(e.client);
   });
 
-  const merged = Object.values(mergedMap);
-
-  // Build set of names that have possible duplicates not yet skipped
-  const dupNames = new Set();
-  (DATA.possibleDuplicates||[]).forEach(d => {
-    const key = [d.nameA,d.nameB].sort().join('|||');
-    if (!skipList.has(key) && !mergeMap[d.nameA] && !mergeMap[d.nameB]) {
-      dupNames.add(d.nameA); dupNames.add(d.nameB);
-    }
+  const dupNames=new Set();
+  (DATA.possibleDuplicates||[]).forEach(d=>{
+    const key=[d.nameA,d.nameB].sort().join('|||');
+    if(!skipList.has(key)&&!mergeMap[d.nameA]&&!mergeMap[d.nameB]){ dupNames.add(d.nameA); dupNames.add(d.nameB); }
   });
 
-  const filtered = merged.filter(entry => {
-    const txt = [entry.client, entry.advisor||'',
-      ...entry.plannerGroups.flatMap(g => g.items.map(i => i.title+' '+(i.assigneeNames||[]).join(' ')+' '+i.bucketName))
-    ].join(' ').toLowerCase();
-    if (search && !txt.includes(search)) return false;
-    if (advisor && !(entry.advisor||'').toLowerCase().includes(advisor)) return false;
+  const merged=Object.values(mm).filter(e=>{
+    const txt=[e.client,e.advisor||'',...e.plannerGroups.flatMap(g=>g.items.map(i=>i.title+' '+(i.assigneeNames||[]).join(' ')+' '+i.bucketName))].join(' ').toLowerCase();
+    if(search&&!txt.includes(search)) return false;
+    if(advisor&&!(e.advisor||'').toLowerCase().includes(advisor)) return false;
     return true;
   });
 
-  const cols = { overdue:[], inprog:[], waiting:[] };
-  filtered.forEach(entry => {
-    entry._isDup = dupNames.has(entry.client);
-    const col = clientColumn(entry);
-    cols[col].push(entry);
+  merged.forEach(e=>{ e._isDup=dupNames.has(e.client); });
+
+  const cols={overdue:[],inprog:[],waiting:[]};
+  merged.forEach(e=>{ cols[clientCol(e)].push(e); });
+
+  ['overdue','inprog','waiting'].forEach(col=>{
+    document.getElementById(`col-${col}`).innerHTML=cols[col].length
+      ? cols[col].map(buildCard).join('')
+      : `<div class="col-empty">ALL CLEAR</div>`;
+    document.getElementById(`cnt-${col}`).textContent=`${cols[col].length} client${cols[col].length!==1?'s':''}`;
   });
 
-  ['overdue','inprog','waiting'].forEach(col => {
-    const el = document.getElementById(`col-${col}`);
-    const cnt = document.getElementById(`cnt-${col}`);
-    cnt.textContent = `${cols[col].length} client${cols[col].length !== 1 ? 's' : ''}`;
-    if (!cols[col].length) {
-      el.innerHTML = `<div class="col-empty">ALL CLEAR</div>`;
-    } else {
-      el.innerHTML = cols[col].map(buildCard).join('');
-    }
-  });
+  document.getElementById('tab-clients-cnt').textContent=merged.length;
 }
 
-// ── Filter column (stat card click) ───────────────────────────────────────
-function filterColumn(col) {
-  // Scroll to columns section
-  document.querySelector('.columns-wrap').scrollIntoView({behavior:'smooth'});
+// ── Render team view ───────────────────────────────────────────────────────
+function renderTeam(){
+  const members=DATA.teamView||[];
+  document.getElementById('tab-team-cnt').textContent=members.length;
+  if(!members.length){ document.getElementById('team-grid').innerHTML='<div class="col-empty" style="margin:24px">No team data</div>'; return; }
+
+  document.getElementById('team-grid').innerHTML=members.map((m,mi)=>{
+    const c=m.counts;
+    const badges=[
+      c.overdue?`<span class="mbadge mbadge-overdue">${c.overdue} overdue</span>`:'',
+      c.stuck?`<span class="mbadge mbadge-stuck">${c.stuck} stuck</span>`:'',
+      c.commGap?`<span class="mbadge mbadge-commgap">${c.commGap} no comms</span>`:'',
+      c.waitingClient?`<span class="mbadge mbadge-waiting">${c.waitingClient} waiting</span>`:'',
+    ].filter(Boolean).join('');
+
+    const isAdvisor=ADVISOR_KW.some(k=>m.name.toLowerCase().includes(k));
+    const avatarColor=isAdvisor?'linear-gradient(135deg,#16a34a,#2563eb)':'linear-gradient(135deg,#7c3aed,#2563eb)';
+
+    const tasks=m.tasks.map((t,ti)=>{
+      const tid=`mt-${mi}-${ti}`;
+      const dotColor=stDot(t.status,t.stuckInfo);
+      const statusChip={late:'s-late','in-progress':'s-prog','waiting-on-client':'s-wait','not-started':'s-ns'}[t.status]||'s-ns';
+      const statusLbl={late:'Overdue','in-progress':'In Progress','waiting-on-client':'Waiting','not-started':'Not Started'}[t.status]||t.status;
+      const stuckLine=t.stuckInfo?`<div class="mt-stuck ${t.stuckInfo.type}">${t.stuckInfo.type==='stuck'?'⏸':t.stuckInfo.type==='comm-gap'?'📭':'🔴'} ${t.stuckInfo.label}</div>`:'';
+      const notesLine=t.notes?`<div class="mt-notes">${t.notes.slice(0,120)}${t.notes.length>120?'…':''}</div>`:'';
+      return`<div class="member-task" onclick="toggleMT('${tid}')">
+        <div class="mt-row">
+          <div class="mt-dot" style="background:${dotColor}"></div>
+          <div class="mt-title">${t.title}</div>
+          <span class="mt-status ${statusChip}">${statusLbl}</span>
+        </div>
+        <div class="mt-detail">
+          ${t.clientName?`<span class="mt-client">${t.clientName}</span>`:''}
+          <span class="mt-planner" style="background:${PC[t.plannerKey]}18;color:${PC[t.plannerKey]};border:1px solid ${PC[t.plannerKey]}30">${PL[t.plannerKey]||t.plannerKey}</span>
+          <span class="mt-bucket">${t.bucketName==='Unknown'?'':t.bucketName}</span>
+          ${t.dueDateFormatted?`<span class="mt-due">Due: ${t.dueDateFormatted}</span>`:''}
+        </div>
+        <div id="${tid}" style="display:none">
+          ${stuckLine}${notesLine}
+        </div>
+      </div>`;
+    }).join('');
+
+    return`<div class="member-card">
+      <div class="member-head">
+        <div class="member-avatar" style="background:${avatarColor}">${initials(m.name)}</div>
+        <div>
+          <div class="member-name">${m.name}</div>
+          <div class="member-meta">${c.total} open task${c.total!==1?'s':''}</div>
+        </div>
+        <div class="member-badges">${badges}</div>
+      </div>
+      <div class="member-tasks">${tasks||'<div class="panel-empty">All clear</div>'}</div>
+    </div>`;
+  }).join('');
 }
 
-// ── Global search + advisor filter ────────────────────────────────────────
-function applySearch() { if (DATA) renderColumns(DATA.wip); }
-
-function populateAdvisorFilter(wip) {
-  const sel = document.getElementById('advisor-filter');
-  const advisors = [...new Set(wip.map(e => e.advisor).filter(Boolean))].sort();
-  const current = sel.value;
-  sel.innerHTML = '<option value="">All advisors</option>' +
-    advisors.map(a => `<option value="${a}" ${a===current?'selected':''}>${a}</option>`).join('');
+function toggleMT(id){
+  const el=document.getElementById(id);
+  if(el) el.style.display=el.style.display==='none'?'block':'none';
 }
 
-// ── PANEL ──────────────────────────────────────────────────────────────────
-function openPanel(clientName) {
-  if (!DATA) return;
-  panelClient = DATA.wip.find(e => e.client === clientName);
-  if (!panelClient) return;
+// ── Render stuck view ──────────────────────────────────────────────────────
+function renderStuck(){
+  const stuck=DATA.stuckTasks||[];
+  const noMove=stuck.filter(t=>t.stuckInfo?.type==='stuck');
+  const commGap=stuck.filter(t=>t.stuckInfo?.type==='comm-gap');
+  const silent=stuck.filter(t=>t.stuckInfo?.type==='overdue-silent');
 
-  panelFilter = 'all';
-  document.getElementById('panel-search').value = '';
+  document.getElementById('tab-stuck-cnt').textContent=stuck.length;
+  document.getElementById('stuck-no-move-cnt').textContent=noMove.length;
+  document.getElementById('stuck-comm-cnt').textContent=commGap.length;
+  document.getElementById('stuck-silent-cnt').textContent=silent.length;
+
+  const buildSI=(t)=>`
+    <div class="stuck-item type-${t.stuckInfo.type}">
+      <div class="si-icon">${t.stuckInfo.type==='stuck'?'⏸':t.stuckInfo.type==='comm-gap'?'📭':'🔴'}</div>
+      <div class="si-main">
+        <div class="si-client">${t.clientName||'No client'}</div>
+        <div class="si-title">${t.title}</div>
+        <div class="si-meta">
+          <span style="font-size:9px;padding:1px 5px;border-radius:3px;background:${PC[t.plannerKey]}18;color:${PC[t.plannerKey]};border:1px solid ${PC[t.plannerKey]}30;font-family:'IBM Plex Mono',monospace">${t.plannerLabel}</span>
+          <span style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">${t.bucketName==='Unknown'?'':t.bucketName}</span>
+          <span class="si-flag ${t.stuckInfo.type}">${t.stuckInfo.label}</span>
+        </div>
+      </div>
+      <div class="si-right">
+        ${t.isUnassigned?'<span class="si-unassigned">⚠ Unassigned</span>':`<span class="si-assignee">${(t.assigneeNames||[]).join(', ')||'—'}</span>`}
+        ${t.dueDateFormatted?`<span class="si-due">Due: ${t.dueDateFormatted}</span>`:''}
+      </div>
+    </div>`;
+
+  document.getElementById('stuck-no-move').innerHTML=noMove.length?noMove.map(buildSI).join(''):'<div class="col-empty">None</div>';
+  document.getElementById('stuck-comm').innerHTML=commGap.length?commGap.map(buildSI).join(''):'<div class="col-empty">None</div>';
+  document.getElementById('stuck-silent').innerHTML=silent.length?silent.map(buildSI).join(''):'<div class="col-empty">None</div>';
+}
+
+// ── Panel ──────────────────────────────────────────────────────────────────
+function openPanel(clientName){
+  if(!DATA) return;
+  panelClient=DATA.wip.find(e=>e.client===clientName);
+  if(!panelClient) return;
+  panelFilter='all';
+  document.getElementById('panel-search').value='';
   document.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('on'));
   document.querySelector('.pf-btn').classList.add('on');
-
-  document.getElementById('panel-avatar').style.background = avatarGrad(clientName);
-  document.getElementById('panel-avatar').textContent = initials(clientName);
-  document.getElementById('panel-client-name').textContent = clientName;
-
-  const allItems = panelClient.plannerGroups.flatMap(g=>g.items.filter(i=>i.status!=='complete'));
-  const overdue  = allItems.filter(i=>i.status==='late').length;
-  const waiting  = allItems.filter(i=>i.status==='waiting-on-client').length;
-  const metaParts = [`${allItems.length} active items`, `${overdue} overdue`, `${waiting} waiting on client`];
-  document.getElementById('panel-client-meta').textContent = metaParts.join(' · ');
-
-  // Show AI assessment in panel if available
-  const existingAI = document.getElementById('panel-ai-block');
-  if (existingAI) existingAI.remove();
-  if (panelClient.currentStage || panelClient.nextAction) {
-    const aiDiv = document.createElement('div');
-    aiDiv.id = 'panel-ai-block';
-    aiDiv.style.cssText = 'padding:12px 24px;border-bottom:0.5px solid var(--border,#e2e5ea);background:var(--surface2,#f7f8fa)';
-    const urgencyBadge = panelClient.aiUrgency
-      ? `<span class="ai-badge ${panelClient.aiUrgency}" style="margin-bottom:6px;display:inline-flex">${{high:'⚠ High priority',normal:'On track',waiting:'Waiting on client'}[panelClient.aiUrgency]||panelClient.aiUrgency}</span>`
-      : '';
-    aiDiv.innerHTML = `
-      ${urgencyBadge}
-      ${panelClient.currentStage ? `<div class="ai-stage" style="margin-top:4px">${panelClient.currentStage}</div>` : ''}
-      ${panelClient.nextAction ? `<div class="ai-next" style="margin-top:4px"><span class="ai-next-label">Next →</span>${panelClient.nextAction}</div>` : ''}
-      ${panelClient.blockers ? `<div class="ai-blocker" style="margin-top:3px"><span class="ai-blocker-label">⚠ Blocker:</span>${panelClient.blockers}</div>` : ''}
-    `;
-    document.getElementById('panel-filters').before(aiDiv);
-  }
-
+  document.getElementById('panel-avatar').style.background=grad(clientName);
+  document.getElementById('panel-avatar').textContent=initials(clientName);
+  document.getElementById('panel-name').textContent=clientName;
+  const all=panelClient.plannerGroups.flatMap(g=>g.items.filter(i=>i.status!=='complete'));
+  const ov=all.filter(i=>i.status==='late').length;
+  const st=all.filter(i=>i.stuckInfo?.type==='stuck').length;
+  const cg=all.filter(i=>i.stuckInfo?.type==='comm-gap').length;
+  const wt=all.filter(i=>i.status==='waiting-on-client').length;
+  document.getElementById('panel-meta').textContent=`${all.length} active · ${ov} overdue · ${st} stuck · ${wt} waiting on client`;
+  const aiEl=document.getElementById('panel-ai');
+  if(panelClient.currentStage||panelClient.nextAction){
+    const icon=panelClient.aiUrgency==='high'?'⚠':panelClient.aiUrgency==='waiting'?'⏳':'→';
+    const col=panelClient.aiUrgency==='high'?'var(--red)':panelClient.aiUrgency==='waiting'?'var(--purple)':'var(--blue)';
+    aiEl.style.display='block';
+    aiEl.innerHTML=`<span style="color:${col};font-weight:600">${icon} ${panelClient.nextAction||panelClient.currentStage}</span>${panelClient.blockers?` <span style="color:var(--orange)">· Blocker: ${panelClient.blockers}</span>`:''}`;
+  } else { aiEl.style.display='none'; }
   renderPanel();
   document.getElementById('panel-overlay').classList.add('open');
   document.getElementById('slide-panel').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflow='hidden';
 }
 
-function closePanel() {
+function closePanel(){
   document.getElementById('panel-overlay').classList.remove('open');
   document.getElementById('slide-panel').classList.remove('open');
-  document.body.style.overflow = '';
+  document.body.style.overflow='';
 }
 
-function setPF(f, btn) {
-  panelFilter = f;
-  document.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('on'));
-  btn.classList.add('on');
-  renderPanel();
-}
+function setPF(f,btn){ panelFilter=f; document.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('on')); btn.classList.add('on'); renderPanel(); }
 
-function renderPanel() {
-  if (!panelClient) return;
-  const search = document.getElementById('panel-search').value.toLowerCase().trim();
-  const body = document.getElementById('panel-body');
-  let html = '';
-
-  panelClient.plannerGroups.forEach(g => {
-    let items = g.items.filter(i => i.status !== 'complete');
-
-    if (panelFilter === 'unassigned') items = items.filter(i=>i.isUnassigned);
-    else if (panelFilter !== 'all') items = items.filter(i=>i.status===panelFilter);
-
-    if (search) items = items.filter(i =>
-      i.title.toLowerCase().includes(search) ||
-      (i.bucketName||'').toLowerCase().includes(search) ||
-      (i.assigneeNames||[]).some(n=>n.toLowerCase().includes(search))
-    );
-
-    if (!items.length) return;
-
-    html += `
-      <div class="panel-group-head">
-        <div class="pg-dot" style="background:${PC[g.key]}"></div>
-        ${g.label} · ${items.length} item${items.length!==1?'s':''}
+function renderPanel(){
+  if(!panelClient) return;
+  const search=document.getElementById('panel-search').value.toLowerCase().trim();
+  let html='';
+  panelClient.plannerGroups.forEach(g=>{
+    let items=g.items.filter(i=>i.status!=='complete');
+    if(panelFilter==='unassigned') items=items.filter(i=>i.isUnassigned);
+    else if(panelFilter==='stuck') items=items.filter(i=>i.stuckInfo?.type==='stuck'||i.stuckInfo?.type==='comm-gap');
+    else if(panelFilter!=='all') items=items.filter(i=>i.status===panelFilter);
+    if(search) items=items.filter(i=>i.title.toLowerCase().includes(search)||(i.bucketName||'').toLowerCase().includes(search)||(i.assigneeNames||[]).some(n=>n.toLowerCase().includes(search)));
+    if(!items.length) return;
+    html+=`<div class="panel-grp-head"><div class="pg-dot" style="background:${PC[g.key]}"></div>${g.label} · ${items.length} item${items.length!==1?'s':''}</div>`;
+    items.forEach((item,idx)=>{
+      const pid=`pi-${g.key}-${idx}`;
+      const borderCls=item.stuckInfo?.type==='stuck'?'stuck':item.stuckInfo?.type==='comm-gap'?'comm-gap':item.status==='late'?'late':item.status==='waiting-on-client'?'waiting-on-client':'';
+      const stuckChip=item.stuckInfo?`<span class="chip ${item.stuckInfo.type==='stuck'?'chip-stuck':'chip-commgap'}">${item.stuckInfo.type==='stuck'?'⏸ No movement':'📭 No comms'}</span>`:'';
+      const assigneeStr=item.isUnassigned?'<span class="chip chip-unassigned">⚠ Unassigned</span>':(item.assigneeNames||[]).join(', ')||'—';
+      html+=`<div class="ptask ${borderCls}" onclick="togglePT('${pid}')">
+        <div class="ptask-top">
+          <div class="ptask-title">${item.title}</div>
+          <div class="ptask-right">
+            <span class="chip ${chipCls(item.status)}">${chipLbl(item.status)}</span>
+            ${stuckChip}
+            ${item.isUnassigned?'<span class="chip chip-unassigned">⚠ Unassigned</span>':''}
+          </div>
+        </div>
+        <div class="ptask-detail" id="${pid}">
+          <div class="pd-item"><div class="pd-label">Bucket / Stage</div><div class="pd-value">${item.bucketName||'—'}</div></div>
+          <div class="pd-item"><div class="pd-label">Assigned To</div><div class="pd-value">${assigneeStr}</div></div>
+          <div class="pd-item"><div class="pd-label">Due Date</div><div class="pd-value" style="${item.status==='late'?'color:var(--red);font-weight:600':''}">${item.dueDateFormatted||'No due date'}</div></div>
+          <div class="pd-item"><div class="pd-label">Last Activity</div><div class="pd-value">${item.lastModifiedDateTime?timeAgo(item.lastModifiedDateTime):'Unknown'}</div></div>
+          ${item.stuckInfo?`<div class="pd-item pd-stuck"><div class="pd-label">Issue</div><div class="pd-value" style="color:${item.stuckInfo.type==='stuck'?'var(--orange)':'var(--amber)'}">${item.stuckInfo.label}</div></div>`:''}
+          ${item.notes?`<div class="pd-item pd-notes"><div class="pd-label">Notes</div><div class="pd-value">${item.notes}</div></div>`:''}
+        </div>
       </div>`;
-
-    items.forEach((item, idx) => {
-      const pid = `pi-${g.key}-${idx}`;
-      html += `
-        <div class="ptask ${item.status}" onclick="togglePTask('${pid}')">
-          <div class="ptask-top">
-            <div class="ptask-title">${item.title}</div>
-            <div class="ptask-right">
-              <span class="status-chip ${chipClass(item.status)}">${chipLabel(item.status)}</span>
-              ${item.isUnassigned ? '<span class="status-chip chip-late">⚠ Unassigned</span>' : ''}
-            </div>
-          </div>
-          <div class="ptask-detail" id="${pid}">
-            <div class="pd-item">
-              <div class="pd-label">Bucket / Stage</div>
-              <div class="pd-value">${item.bucketName||'—'}</div>
-            </div>
-            <div class="pd-item">
-              <div class="pd-label">Assigned To</div>
-              <div class="pd-value ${item.isUnassigned?'pd-unassigned':''}">${assigneeStr(item)}</div>
-            </div>
-            <div class="pd-item">
-              <div class="pd-label">Due Date</div>
-              <div class="pd-value" style="${item.status==='late'?'color:var(--red);font-weight:600':''}">${item.dueDateFormatted||'No due date'}</div>
-            </div>
-            <div class="pd-item">
-              <div class="pd-label">Planner</div>
-              <div class="pd-value">${g.label}</div>
-            </div>
-            ${item.notes ? `<div class="pd-item pd-notes"><div class="pd-label">Notes</div><div class="pd-value">${item.notes}</div></div>` : ''}
-          </div>
-        </div>`;
     });
   });
-
-  body.innerHTML = html || '<div class="panel-empty">NO ITEMS MATCH</div>';
+  document.getElementById('panel-body').innerHTML=html||'<div class="panel-empty">NO ITEMS MATCH</div>';
 }
 
-function togglePTask(pid) {
-  const el = document.getElementById(pid);
-  const wasOpen = el.classList.contains('open');
+function togglePT(id){
+  const el=document.getElementById(id);
+  const isOpen=el.classList.contains('open');
   document.querySelectorAll('.ptask-detail.open').forEach(d=>d.classList.remove('open'));
-  if (!wasOpen) el.classList.add('open');
+  if(!isOpen) el.classList.add('open');
 }
 
-document.addEventListener('keydown', e => { if(e.key==='Escape') closePanel(); });
-
-// ── Load Data ──────────────────────────────────────────────────────────────
-// ── Merge Modal ───────────────────────────────────────────────────────────
-function openMergeModal() {
-  if (!DATA) return;
-  dupQueue = (DATA.possibleDuplicates||[]).filter(d => {
-    const key = [d.nameA,d.nameB].sort().join('|||');
-    return !skipList.has(key) && !mergeMap[d.nameA] && !mergeMap[d.nameB];
-  });
-  dupIdx = 0;
-  selectedMergeName = null;
-  showDupPair();
+// ── Merge modal ────────────────────────────────────────────────────────────
+function openMergeModal(){
+  if(!DATA) return;
+  dupQueue=(DATA.possibleDuplicates||[]).filter(d=>{ const k=[d.nameA,d.nameB].sort().join('|||'); return!skipList.has(k)&&!mergeMap[d.nameA]&&!mergeMap[d.nameB]; });
+  dupIdx=0; selectedMerge=null; showDupPair();
   document.getElementById('merge-modal').classList.add('open');
 }
-
-function openMergeModalFor(clientName) {
-  if (!DATA) return;
-  const dup = (DATA.possibleDuplicates||[]).find(d => d.nameA===clientName||d.nameB===clientName);
-  if (!dup) return;
-  dupQueue = [dup];
-  dupIdx = 0;
-  selectedMergeName = null;
-  showDupPair();
+function openMergeModalFor(name){
+  if(!DATA) return;
+  const dup=(DATA.possibleDuplicates||[]).find(d=>d.nameA===name||d.nameB===name);
+  if(!dup) return;
+  dupQueue=[dup]; dupIdx=0; selectedMerge=null; showDupPair();
   document.getElementById('merge-modal').classList.add('open');
 }
-
-function showDupPair() {
-  const d = dupQueue[dupIdx];
-  if (!d) { closeMergeModal(); return; }
-
-  document.getElementById('dup-progress').textContent =
-    dupQueue.length > 1 ? `${dupIdx+1} of ${dupQueue.length}` : '';
-
-  const getInfo = name => {
-    const entry = DATA.wip.find(w => w.client === name);
-    if (!entry) return '';
-    const count = entry.plannerGroups.flatMap(g=>g.items).length;
-    return `${count} active task${count!==1?'s':''} · ${entry.planners.map(p=>({trades:'Trades',paperwork:'Paperwork',advisor:'Advisor',locations:'Locations',conts:'CONTs'})[p]||p).join(', ')}`;
-  };
-
-  document.getElementById('dup-pair').innerHTML = `
-    <div class="dup-option" id="opt-a" onclick="selectMergeName('${d.nameA.replace(/'/g,"\'")}','opt-a','opt-b')">
-      <div>${d.nameA}</div>
-      <div class="dup-option-sub">${getInfo(d.nameA)}</div>
-    </div>
-    <div style="text-align:center;font-size:11px;color:var(--muted,#6b7280)">or</div>
-    <div class="dup-option" id="opt-b" onclick="selectMergeName('${d.nameB.replace(/'/g,"\'")}','opt-b','opt-a')">
-      <div>${d.nameB}</div>
-      <div class="dup-option-sub">${getInfo(d.nameB)}</div>
-    </div>
-    <div style="font-size:11px;color:var(--muted,#6b7280);margin-top:4px">Similarity: ${d.score}% — select which name to keep</div>
-  `;
-  selectedMergeName = null;
-  document.getElementById('btn-merge-confirm').disabled = true;
+function showDupPair(){
+  const d=dupQueue[dupIdx]; if(!d){ closeMergeModal(); return; }
+  document.getElementById('dup-progress').textContent=dupQueue.length>1?`${dupIdx+1} of ${dupQueue.length}`:'';
+  const info=name=>{ const e=DATA.wip.find(w=>w.client===name); return e?`${e.plannerGroups.flatMap(g=>g.items).length} tasks · ${e.planners.map(p=>PL[p]||p).join(', ')}`:''; };
+  document.getElementById('dup-pair').innerHTML=`
+    <div class="dup-option" id="opt-a" onclick="selMerge('${d.nameA.replace(/'/g,"\\'")}','opt-a','opt-b')"><div>${d.nameA}</div><div class="dup-option-sub">${info(d.nameA)}</div></div>
+    <div style="text-align:center;font-size:11px;color:var(--muted)">or</div>
+    <div class="dup-option" id="opt-b" onclick="selMerge('${d.nameB.replace(/'/g,"\\'")}','opt-b','opt-a')"><div>${d.nameB}</div><div class="dup-option-sub">${info(d.nameB)}</div></div>
+    <div style="font-size:11px;color:var(--muted);margin-top:3px">Similarity: ${d.score}% — select which name to keep</div>`;
+  selectedMerge=null; document.getElementById('btn-merge-confirm').disabled=true;
+}
+function selMerge(name,onId,offId){ selectedMerge=name; document.getElementById(onId).classList.add('selected'); document.getElementById(offId).classList.remove('selected'); document.getElementById('btn-merge-confirm').disabled=false; }
+function confirmMerge(){ const d=dupQueue[dupIdx]; if(!d||!selectedMerge) return; const other=selectedMerge===d.nameA?d.nameB:d.nameA; mergeMap[other]=selectedMerge; saveMergeState(); nextDup(); }
+function skipDup(){ const d=dupQueue[dupIdx]; if(!d) return; skipList.add([d.nameA,d.nameB].sort().join('|||')); saveMergeState(); nextDup(); }
+function nextDup(){ dupIdx++; if(dupIdx>=dupQueue.length){ closeMergeModal(); renderColumns(DATA.wip); updateDupBanner(); } else { selectedMerge=null; showDupPair(); } }
+function closeMergeModal(){ document.getElementById('merge-modal').classList.remove('open'); }
+function updateDupBanner(){
+  const rem=(DATA.possibleDuplicates||[]).filter(d=>{ const k=[d.nameA,d.nameB].sort().join('|||'); return!skipList.has(k)&&!mergeMap[d.nameA]&&!mergeMap[d.nameB]; });
+  const banner=document.getElementById('dup-banner');
+  if(rem.length>0){ banner.style.display='flex'; document.getElementById('dup-count').textContent=rem.length; } else { banner.style.display='none'; }
 }
 
-function selectMergeName(name, onId, offId) {
-  selectedMergeName = name;
-  document.getElementById(onId).classList.add('selected');
-  document.getElementById(offId).classList.remove('selected');
-  document.getElementById('btn-merge-confirm').disabled = false;
+// ── Filters ────────────────────────────────────────────────────────────────
+function populateAdvisorFilter(wip){
+  const sel=document.getElementById('advisor-filter');
+  const advisors=[...new Set(wip.map(e=>e.advisor).filter(Boolean))].sort();
+  const cur=sel.value;
+  sel.innerHTML='<option value="">All advisors</option>'+advisors.map(a=>`<option value="${a}" ${a===cur?'selected':''}>${a}</option>`).join('');
 }
+function applyFilters(){ if(DATA){ renderColumns(DATA.wip); } }
 
-function confirmMerge() {
-  const d = dupQueue[dupIdx];
-  if (!d || !selectedMergeName) return;
-  const otherName = selectedMergeName === d.nameA ? d.nameB : d.nameA;
-  // Map the other name → selected canonical name
-  mergeMap[otherName] = selectedMergeName;
-  saveMergeState();
-  nextDup();
-}
-
-function skipDup() {
-  const d = dupQueue[dupIdx];
-  if (!d) return;
-  const key = [d.nameA,d.nameB].sort().join('|||');
-  skipList.add(key);
-  saveMergeState();
-  nextDup();
-}
-
-function nextDup() {
-  dupIdx++;
-  if (dupIdx >= dupQueue.length) {
-    closeMergeModal();
-    renderColumns(DATA.wip);
-    updateDupBanner();
-  } else {
-    selectedMergeName = null;
-    showDupPair();
-  }
-}
-
-function closeMergeModal() {
-  document.getElementById('merge-modal').classList.remove('open');
-}
-
-function updateDupBanner() {
-  if (!DATA) return;
-  const remaining = (DATA.possibleDuplicates||[]).filter(d => {
-    const key = [d.nameA,d.nameB].sort().join('|||');
-    return !skipList.has(key) && !mergeMap[d.nameA] && !mergeMap[d.nameB];
-  });
-  const banner = document.getElementById('dup-banner');
-  if (remaining.length > 0) {
-    banner.style.display = 'flex';
-    document.getElementById('dup-count').textContent = remaining.length;
-  } else {
-    banner.style.display = 'none';
-  }
-}
-
-// ── Load Data ──────────────────────────────────────────────────────────────
-async function loadData() {
+// ── Load data ──────────────────────────────────────────────────────────────
+async function loadData(){
   loadMergeState();
-  try {
-    const res  = await fetch('planner-data.json?t='+Date.now());
-    if (!res.ok) throw new Error(res.status);
-    DATA = await res.json();
+  try{
+    const res=await fetch('planner-data.json?t='+Date.now());
+    if(!res.ok) throw new Error(res.status);
+    DATA=await res.json();
 
-    document.getElementById('loading').style.display = 'none';
-    document.getElementById('main').style.display = 'block';
-    document.getElementById('sync-label').textContent = 'Synced ' + timeAgo(DATA.fetchedAt);
+    // Apply AI merges
+    (DATA.aiMerges||[]).forEach(m=>{ if(m.from&&m.to&&!mergeMap[m.from]) mergeMap[m.from]=m.to; });
 
-    // Apply AI merges from planner-data.json into the local mergeMap
-    // These are server-side merges the AI detected (Kuch, Earl → Kuch, Earl & Donna etc.)
-    if (DATA.aiMerges && DATA.aiMerges.length > 0) {
-      DATA.aiMerges.forEach(m => {
-        if (m.from && m.to && !mergeMap[m.from]) {
-          mergeMap[m.from] = m.to;
-        }
-      });
-    }
+    document.getElementById('loading').style.display='none';
+    document.getElementById('main').style.display='block';
+    document.getElementById('sync-label').textContent='Synced '+timeAgo(DATA.fetchedAt);
 
     renderStats(DATA.stats);
     populateAdvisorFilter(DATA.wip);
     updateDupBanner();
     renderColumns(DATA.wip);
-  } catch(err) {
-    document.getElementById('loading').style.display = 'none';
-    document.getElementById('error-banner').style.display = 'block';
+    renderTeam();
+    renderStuck();
+  } catch(err){
+    document.getElementById('loading').style.display='none';
+    document.getElementById('error-banner').style.display='block';
     console.error(err);
   }
 }
 
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') closePanel(); });
 loadData();
 </script>
 </body>
