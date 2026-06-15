@@ -176,6 +176,27 @@ function detectStuck(task, notesLastMod) {
   return null;
 }
 
+/**
+ * Extract client name from task notes/description.
+ * Handles Microsoft Forms structured notes like:
+ * "Name of Client: John Smith\nType of Account: ..."
+ */
+function extractClientFromNotes(notes) {
+  if (!notes) return null;
+  // Match "Name of Client: ..." or "Name: ..."
+  const match = notes.match(/Name of Client:\s*([^\n]+)/i)
+    || notes.match(/Client Name:\s*([^\n]+)/i)
+    || notes.match(/^Name:\s*([^\n]+)/im);
+  if (match) {
+    const name = match[1].trim();
+    // Normalize if it looks like a real name (not a placeholder)
+    if (name.length > 2 && !name.toLowerCase().includes('n/a')) {
+      return normalizeName(name);
+    }
+  }
+  return null;
+}
+
 function normalizeName(raw) {
   if (!raw) return null;
   let n = raw.trim()
@@ -380,6 +401,33 @@ async function main() {
       } catch {}
 
       task.stuckInfo=detectStuck(task, task.notesLastModified);
+
+      // If client name wasn't found in title, try extracting from notes
+      if (!task.clientName && task.notes) {
+        const notesClient = extractClientFromNotes(task.notes);
+        if (notesClient) {
+          task.clientName = notesClient;
+          // Also update WIP grouping with the found client name
+          if (!data.wip[notesClient]) {
+            data.wip[notesClient] = {
+              client: notesClient, advisor: task.advisor||null, planners:[], byPlanner:{},
+              hasOverdue:false, hasWaitingOnClient:false, hasStuck:false, hasCommGap:false,
+              totalItems:0, doneItems:0,
+            };
+          }
+          const wip = data.wip[notesClient];
+          if (!wip.advisor && task.advisor) wip.advisor = task.advisor;
+          if (!wip.byPlanner[planner.key]) wip.byPlanner[planner.key]={key:planner.key,label:planner.label,color:planner.color,items:[]};
+          wip.byPlanner[planner.key].items.push({
+            plannerKey:planner.key, title:task.title, status:task.status,
+            bucketName:task.bucketName, assigneeNames:task.assigneeNames,
+            isUnassigned:task.isUnassigned, dueDateFormatted:task.dueDateFormatted,
+            lastModifiedDateTime:task.lastModifiedDateTime, stuckInfo:task.stuckInfo, notes:task.notes,
+          });
+          if (!wip.planners.includes(planner.key)) wip.planners.push(planner.key);
+        }
+      }
+
       if (task.stuckInfo) console.log(`  STUCK: ${task.title.slice(0,40)} — ${task.stuckInfo.label}`);
 
       if (task.stuckInfo) {
@@ -388,7 +436,8 @@ async function main() {
         data.stuckTasks.push({ plannerKey:planner.key, plannerLabel:planner.label, plannerColor:planner.color,
           title:task.title, clientName:task.clientName, bucketName:task.bucketName,
           assigneeNames:task.assigneeNames, isUnassigned:task.isUnassigned,
-          dueDateFormatted:task.dueDateFormatted, stuckInfo:task.stuckInfo, status:task.status });
+          dueDateFormatted:task.dueDateFormatted, stuckInfo:task.stuckInfo, status:task.status,
+          notes:task.notes });
       }
 
       if (task.status==='late') {
