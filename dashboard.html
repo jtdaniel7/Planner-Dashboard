@@ -247,6 +247,23 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans
 .btn-skip{padding:7px 16px;background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:6px;font-size:12px;cursor:pointer;font-family:inherit}
 .btn-skip:hover{background:var(--surface2)}
 
+/* STUCK ITEM EXPAND */
+.si-detail {
+  display:none;
+  padding:10px 14px 12px;
+  border-top:.5px solid var(--border);
+  background:var(--surface2);
+  grid-column:1/-1;
+}
+.si-detail.open { display:block; }
+.si-detail-row { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:6px; }
+.si-detail-label { font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); min-width:80px; }
+.si-detail-val { font-size:11px; color:var(--text2); }
+.si-detail-notes { font-size:11px; color:var(--text2); line-height:1.6; font-style:italic; border-left:2px solid var(--border2); padding-left:8px; margin-top:6px; }
+.si-expand-hint { font-size:9px; color:var(--muted); font-family:'IBM Plex Mono',monospace; margin-top:4px; cursor:pointer; }
+.stuck-item { cursor:pointer; }
+.stuck-item:hover { background:var(--surface2); }
+
 /* LOADING */
 .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:400px;gap:12px;color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em}
 .spinner{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);border-top-color:var(--blue);animation:spin .8s linear infinite}
@@ -581,6 +598,14 @@ function renderTeam(){
   }).join('');
 }
 
+function toggleSI(id){
+  const el=document.getElementById(id);
+  if(!el) return;
+  const isOpen=el.classList.contains('open');
+  document.querySelectorAll('.si-detail.open').forEach(d=>d.classList.remove('open'));
+  if(!isOpen) el.classList.add('open');
+}
+
 function toggleMT(id){
   const el=document.getElementById(id);
   if(el) el.style.display=el.style.display==='none'?'block':'none';
@@ -588,6 +613,7 @@ function toggleMT(id){
 
 // ── Render stuck view ──────────────────────────────────────────────────────
 function renderStuck(){
+  siIdx=0;
   const stuck=DATA.stuckTasks||[];
   const noMove=stuck.filter(t=>t.stuckInfo?.type==='stuck');
   const commGap=stuck.filter(t=>t.stuckInfo?.type==='comm-gap');
@@ -598,23 +624,48 @@ function renderStuck(){
   document.getElementById('stuck-comm-cnt').textContent=commGap.length;
   document.getElementById('stuck-silent-cnt').textContent=silent.length;
 
-  const buildSI=(t)=>`
-    <div class="stuck-item type-${t.stuckInfo.type}">
+  let siIdx=0;
+  const buildSI=(t)=>{
+    const id=`si-${siIdx++}`;
+    const client=t.clientName||'No client identified';
+    const assignee=t.isUnassigned?'<span class="si-unassigned">⚠ Unassigned</span>':`<span class="si-assignee">${(t.assigneeNames||[]).join(', ')||'—'}</span>`;
+    const notesHtml=t.notes?`<div class="si-detail-notes">${t.notes.slice(0,400)}${t.notes.length>400?'…':''}</div>`:'<div style="font-size:11px;color:var(--muted);font-style:italic">No notes logged</div>';
+    return `
+    <div class="stuck-item type-${t.stuckInfo.type}" onclick="toggleSI('${id}')">
       <div class="si-icon">${t.stuckInfo.type==='stuck'?'⏸':t.stuckInfo.type==='comm-gap'?'📭':'🔴'}</div>
       <div class="si-main">
-        <div class="si-client">${t.clientName||'No client'}</div>
+        <div class="si-client">${client}</div>
         <div class="si-title">${t.title}</div>
         <div class="si-meta">
           <span style="font-size:9px;padding:1px 5px;border-radius:3px;background:${PC[t.plannerKey]}18;color:${PC[t.plannerKey]};border:1px solid ${PC[t.plannerKey]}30;font-family:'IBM Plex Mono',monospace">${t.plannerLabel}</span>
           <span style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">${t.bucketName==='Unknown'?'':t.bucketName}</span>
           <span class="si-flag ${t.stuckInfo.type}">${t.stuckInfo.label}</span>
         </div>
+        <div class="si-expand-hint">Click to expand details ↓</div>
       </div>
       <div class="si-right">
-        ${t.isUnassigned?'<span class="si-unassigned">⚠ Unassigned</span>':`<span class="si-assignee">${(t.assigneeNames||[]).join(', ')||'—'}</span>`}
+        ${assignee}
         ${t.dueDateFormatted?`<span class="si-due">Due: ${t.dueDateFormatted}</span>`:''}
       </div>
+      <div class="si-detail" id="${id}">
+        <div class="si-detail-row">
+          <span class="si-detail-label">Assigned To</span>
+          <span class="si-detail-val">${(t.assigneeNames||[]).join(', ')||'Unassigned'}</span>
+        </div>
+        <div class="si-detail-row">
+          <span class="si-detail-label">Planner</span>
+          <span class="si-detail-val">${t.plannerLabel}</span>
+        </div>
+        <div class="si-detail-row">
+          <span class="si-detail-label">Bucket</span>
+          <span class="si-detail-val">${t.bucketName==='Unknown'?'—':t.bucketName}</span>
+        </div>
+        ${t.dueDateFormatted?`<div class="si-detail-row"><span class="si-detail-label">Due Date</span><span class="si-detail-val" style="color:var(--red);font-weight:500">${t.dueDateFormatted}</span></div>`:''}
+        <div style="margin-top:6px;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px">Notes</div>
+        ${notesHtml}
+      </div>
     </div>`;
+  };
 
   document.getElementById('stuck-no-move').innerHTML=noMove.length?noMove.map(buildSI).join(''):'<div class="col-empty">None</div>';
   document.getElementById('stuck-comm').innerHTML=commGap.length?commGap.map(buildSI).join(''):'<div class="col-empty">None</div>';
