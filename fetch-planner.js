@@ -279,7 +279,7 @@ async function main() {
     console.log(`Fetching: ${planner.label}`);
     await sleep(300);
     const [tasksRes, bucketsRes] = await Promise.all([
-      graphGet(token,`/planner/plans/${planner.planId}/tasks`),
+      graphGet(token,`/planner/plans/${planner.planId}/tasks?$select=id,title,percentComplete,dueDateTime,completedDateTime,assignments,bucketId,lastModifiedDateTime`),
       graphGet(token,`/planner/plans/${planner.planId}/buckets`),
     ]);
     const bmap={};
@@ -329,6 +329,7 @@ async function main() {
       } catch {}
 
       task.stuckInfo=detectStuck(task,task.notesLastModified);
+      if (task.stuckInfo) console.log(`  STUCK: ${task.title.slice(0,40)} — ${task.stuckInfo.label}`);
 
       if (task.stuckInfo) {
         if (task.stuckInfo.type==='stuck')    data.stats.stuck++;
