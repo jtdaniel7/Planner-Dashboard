@@ -62,8 +62,51 @@ function businessDaysSince(iso) {
   return count;
 }
 
+/**
+ * Extract a date from Advisor Flow task titles.
+ * Handles formats like: "05/07", "04/06", "03/26 10:30pm", "JUNE/JULY"
+ * Returns a Date object or null.
+ */
+function extractTitleDate(title) {
+  if (!title) return null;
+  // Match MM/DD at start of title (e.g. "05/07", "04/06 1:30pm")
+  const match = title.match(/^(\d{1,2})\/(\d{1,2})/);
+  if (match) {
+    const month = parseInt(match[1], 10) - 1;
+    const day   = parseInt(match[2], 10);
+    const year  = new Date().getFullYear();
+    const d     = new Date(year, month, day);
+    // If the date is more than 6 months in the future, it's probably last year
+    if (d.getTime() - Date.now() > 180 * 86400000) d.setFullYear(year - 1);
+    return d;
+  }
+  return null;
+}
+
 function detectStuck(task, notesLastMod) {
   if (task.status === 'complete' || task.status === 'waiting-on-client') return null;
+
+  // Advisor Flow: if title has a date, don't flag as stuck until 7 days after that date
+  if (task.plannerKey === 'advisor') {
+    const titleDate = extractTitleDate(task.title);
+    if (titleDate) {
+      const daysSinceEvent = daysSince(titleDate.toISOString());
+      if (daysSinceEvent === null || daysSinceEvent < 7) return null; // event hasn't passed + 7 days yet
+      // After 7 days past the event date, check for communication gap
+      const commGap = notesLastMod
+        ? daysSince(notesLastMod) > COMM_GAP_DAYS
+        : daysSinceEvent > COMM_GAP_DAYS;
+      if (!commGap && task.status !== 'late') return null;
+      return {
+        type:  task.status === 'late' ? 'overdue-silent' : 'comm-gap',
+        age: daysSinceEvent, threshold: 7, commGap,
+        label: task.status === 'late'
+          ? `Follow-up overdue — ${daysSinceEvent} days since event`
+          : `No follow-up notes in ${daysSince(notesLastMod) ?? daysSinceEvent} days`,
+      };
+    }
+  }
+
   const bt        = getBucketType(task.bucketName);
   const threshold = STUCK_THRESHOLDS[bt];
   const age       = bt === 'queue' ? businessDaysSince(task.lastModifiedDateTime) : daysSince(task.lastModifiedDateTime);
