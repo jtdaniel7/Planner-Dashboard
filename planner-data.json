@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-25T04:41:20.988Z",
+  "fetchedAt": "2026-06-25T08:18:20.511Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-25T04:41:26.034Z",
+      "lastUpdated": "2026-06-25T08:18:25.351Z",
       "tasks": [
         {
           "id": "EAcod7NiHkuPT82yfkL2OGUAN7LM",
@@ -8439,7 +8439,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-25T04:42:22.700Z",
+      "lastUpdated": "2026-06-25T08:19:30.458Z",
       "tasks": [
         {
           "id": "hlL9osvKgEi3wRChTVTJ1mUACUwO",
@@ -16863,7 +16863,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-25T04:43:36.874Z",
+      "lastUpdated": "2026-06-25T08:20:55.131Z",
       "tasks": [
         {
           "id": "jefF0t2Eu0W3FRFTZJdCPGUALLfk",
@@ -17214,9 +17214,15 @@
           "lastModifiedDateTime": null,
           "percentComplete": 0,
           "plannerKey": "advisor",
-          "notes": "zocks notes saved and f/u email sent 6/9 jek",
+          "notes": null,
           "notesLastModified": null,
-          "stuckInfo": null
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          }
         },
         {
           "id": "l4ZtLK6vEkSjQw64OLmdKGUAD_VX",
@@ -24922,7 +24928,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-25T04:43:51.281Z",
+      "lastUpdated": "2026-06-25T08:21:11.538Z",
       "tasks": [
         {
           "id": "YDM6SqPYwkOD-5OY_sxJ7WUAD4R_",
@@ -33268,7 +33274,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-25T04:43:51.745Z",
+      "lastUpdated": "2026-06-25T08:21:12.054Z",
       "tasks": [
         {
           "id": "uOIA06gRfkaXYcEy1kFdz2UAF-o9",
@@ -50607,8 +50613,14 @@
           "status": "late",
           "dueDateFormatted": "Jun 8, 2026",
           "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "zocks notes saved and f/u email sent 6/9 jek"
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
         },
         {
           "id": "l4ZtLK6vEkSjQw64OLmdKGUAD_VX",
@@ -57194,7 +57206,13 @@
       "advisor": "Jaiden Karrick",
       "isUnassigned": false,
       "dueDateFormatted": "Jun 8, 2026",
-      "stuckInfo": null
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      }
     },
     {
       "plannerKey": "advisor",
@@ -59498,6 +59516,28 @@
       ],
       "isUnassigned": false,
       "dueDateFormatted": "Jun 22, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      },
+      "status": "late",
+      "notes": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
+      "title": "Fioritto, Felicia & Chase Watson",
+      "clientName": null,
+      "bucketName": "In- Progress Activities",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 8, 2026",
       "stuckInfo": {
         "type": "overdue-silent",
         "age": null,
