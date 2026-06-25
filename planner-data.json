@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-25T08:18:20.511Z",
+  "fetchedAt": "2026-06-25T11:12:20.887Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-25T08:18:25.351Z",
+      "lastUpdated": "2026-06-25T11:12:25.922Z",
       "tasks": [
         {
           "id": "EAcod7NiHkuPT82yfkL2OGUAN7LM",
@@ -31,7 +31,7 @@
         {
           "id": "9s7cPDRIwU6MsV3bHCgwLmUADDdJ",
           "title": "Mark Chepke Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Chepke, Mark",
           "bucketName": "Unknown",
           "assigneeNames": [
@@ -8431,7 +8431,7 @@
         }
       ],
       "openCount": 6,
-      "overdueCount": 4,
+      "overdueCount": 5,
       "waitingCount": 0,
       "stuckCount": 0
     },
@@ -8439,7 +8439,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-25T08:19:30.458Z",
+      "lastUpdated": "2026-06-25T11:13:28.609Z",
       "tasks": [
         {
           "id": "hlL9osvKgEi3wRChTVTJ1mUACUwO",
@@ -9150,9 +9150,15 @@
           "lastModifiedDateTime": null,
           "percentComplete": 50,
           "plannerKey": "paperwork",
-          "notes": "Name of Client: Hatfield, Hayley\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Christopher Hatfield, Primary 100%\r\nContingent??\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: NO\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: \r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: \r\nDrivers License Upload:\r\nFull Suitability Needed?: \r\n\r\nHow to Sign:\r\nSignature Method: \r\n\r\nFinancial Data:\r\nRefers to: \r\nAnnual Income: \r\nNet Worth: \r\nTax Bracket: \r\nNet Investable Assets: \r\nFee Schedule: \r\n\r\nInvestment Objectives:\r\nRisk Tolerance: \r\nPrimary Objective: \r\nSeconday Objective: \r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: \r\nAnnual Expenses: \r\nEstimated Special Expenses: \r\nSpecial Expense Timeline: \r\nIf not in a model, what trades are needed: \r\nAdditional Notes: \r\n\r\n06/15/26- Pulled CRS, ADV, WRAPAPP, FID Premiere Select Inherited IRA app, TOA, and SPI. This is all saved in my folder, waiting on the go ahead from BES/KSO. (ctb)\r\n\r\n06/16/26- BES left email for Hayley yesterday(ctb)\r\n\r\n06/17/26- BES sent a message to leave this go for a few weeks and give them space. (ctb)",
+          "notes": null,
           "notesLastModified": null,
-          "stuckInfo": null
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          }
         },
         {
           "id": "kkhaHvynpkCG2qAcE6L1AGUACxZS",
@@ -16863,7 +16869,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-25T08:20:55.131Z",
+      "lastUpdated": "2026-06-25T11:14:46.426Z",
       "tasks": [
         {
           "id": "jefF0t2Eu0W3FRFTZJdCPGUALLfk",
@@ -17214,15 +17220,9 @@
           "lastModifiedDateTime": null,
           "percentComplete": 0,
           "plannerKey": "advisor",
-          "notes": null,
+          "notes": "zocks notes saved and f/u email sent 6/9 jek",
           "notesLastModified": null,
-          "stuckInfo": {
-            "type": "overdue-silent",
-            "age": null,
-            "threshold": null,
-            "commGap": true,
-            "label": "Overdue — no communication logged"
-          }
+          "stuckInfo": null
         },
         {
           "id": "l4ZtLK6vEkSjQw64OLmdKGUAD_VX",
@@ -24928,7 +24928,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-25T08:21:11.538Z",
+      "lastUpdated": "2026-06-25T11:15:01.666Z",
       "tasks": [
         {
           "id": "YDM6SqPYwkOD-5OY_sxJ7WUAD4R_",
@@ -33274,7 +33274,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-25T08:21:12.054Z",
+      "lastUpdated": "2026-06-25T11:15:02.150Z",
       "tasks": [
         {
           "id": "uOIA06gRfkaXYcEy1kFdz2UAF-o9",
@@ -34813,6 +34813,117 @@
       "aiUrgency": null
     },
     {
+      "client": "Chepke, Mark",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Mark Chepke Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 25, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Mark - FID IRA RO TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Client Information",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 25, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Name of Client: Mark CHepke\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO #?? (account not set up yet so we may have to wait!)\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA!\"]\r\n\r\nNotes: We are PARTIALLY, TOA'ing his other BAIRD IRA (his other one, not the one we already initiated TOA for whole account), #8698-2952. We only want o move the VNG money market fund, ticker: VMFXX. let me know if any questions\r\n\r\nOnce account is set up, we are ONLY moving VMFXX from the BAIRD IRA.  So on the TOA form, you will use that field on the right hand side.  You will also need to do another RB, lololol. \r\n\r\n06/19/2026 - Account is still not established (baw)\r\n\r\n06/24/2026 - sent an email to Northwest green to figure out what the hold up is on the account being established (baw)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": true,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Mark Chepke Trade Request BES",
+              "status": "late",
+              "bucketName": "Unknown",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 25, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Chepke, Mark - FID IRA RO TOA",
+              "status": "waiting-on-client",
+              "bucketName": "Waiting on Client Information",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 25, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Name of Client: Mark CHepke\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO #?? (account not set up yet so we may have to wait!)\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA!\"]\r\n\r\nNotes: We are PARTIALLY, TOA'ing his other BAIRD IRA (his other one, not the one we already initiated TOA for whole account), #8698-2952. We only want o move the VNG money market fund, ticker: VMFXX. let me know if any questions\r\n\r\nOnce account is set up, we are ONLY moving VMFXX from the BAIRD IRA.  So on the TOA form, you will use that field on the right hand side.  You will also need to do another RB, lololol. \r\n\r\n06/19/2026 - Account is still not established (baw)\r\n\r\n06/24/2026 - sent an email to Northwest green to figure out what the hold up is on the account being established (baw)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Anteau, Brian",
       "advisor": null,
       "planners": [
@@ -35198,8 +35309,14 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 17, 2026",
               "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Name of Client: Hatfield, Hayley\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Christopher Hatfield, Primary 100%\r\nContingent??\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: NO\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: \r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: \r\nDrivers License Upload:\r\nFull Suitability Needed?: \r\n\r\nHow to Sign:\r\nSignature Method: \r\n\r\nFinancial Data:\r\nRefers to: \r\nAnnual Income: \r\nNet Worth: \r\nTax Bracket: \r\nNet Investable Assets: \r\nFee Schedule: \r\n\r\nInvestment Objectives:\r\nRisk Tolerance: \r\nPrimary Objective: \r\nSeconday Objective: \r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: \r\nAnnual Expenses: \r\nEstimated Special Expenses: \r\nSpecial Expense Timeline: \r\nIf not in a model, what trades are needed: \r\nAdditional Notes: \r\n\r\n06/15/26- Pulled CRS, ADV, WRAPAPP, FID Premiere Select Inherited IRA app, TOA, and SPI. This is all saved in my folder, waiting on the go ahead from BES/KSO. (ctb)\r\n\r\n06/16/26- BES left email for Hayley yesterday(ctb)\r\n\r\n06/17/26- BES sent a message to leave this go for a few weeks and give them space. (ctb)"
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
             },
             {
               "plannerKey": "paperwork",
@@ -35244,8 +35361,14 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 17, 2026",
               "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Name of Client: Hatfield, Hayley\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Christopher Hatfield, Primary 100%\r\nContingent??\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: NO\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: \r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: \r\nDrivers License Upload:\r\nFull Suitability Needed?: \r\n\r\nHow to Sign:\r\nSignature Method: \r\n\r\nFinancial Data:\r\nRefers to: \r\nAnnual Income: \r\nNet Worth: \r\nTax Bracket: \r\nNet Investable Assets: \r\nFee Schedule: \r\n\r\nInvestment Objectives:\r\nRisk Tolerance: \r\nPrimary Objective: \r\nSeconday Objective: \r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: \r\nAnnual Expenses: \r\nEstimated Special Expenses: \r\nSpecial Expense Timeline: \r\nIf not in a model, what trades are needed: \r\nAdditional Notes: \r\n\r\n06/15/26- Pulled CRS, ADV, WRAPAPP, FID Premiere Select Inherited IRA app, TOA, and SPI. This is all saved in my folder, waiting on the go ahead from BES/KSO. (ctb)\r\n\r\n06/16/26- BES left email for Hayley yesterday(ctb)\r\n\r\n06/17/26- BES sent a message to leave this go for a few weeks and give them space. (ctb)"
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
             },
             {
               "plannerKey": "paperwork",
@@ -44035,117 +44158,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Chepke, Mark",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Mark Chepke Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 25, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Mark - FID IRA RO TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Client Information",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 25, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Name of Client: Mark CHepke\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO #?? (account not set up yet so we may have to wait!)\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA!\"]\r\n\r\nNotes: We are PARTIALLY, TOA'ing his other BAIRD IRA (his other one, not the one we already initiated TOA for whole account), #8698-2952. We only want o move the VNG money market fund, ticker: VMFXX. let me know if any questions\r\n\r\nOnce account is set up, we are ONLY moving VMFXX from the BAIRD IRA.  So on the TOA form, you will use that field on the right hand side.  You will also need to do another RB, lololol. \r\n\r\n06/19/2026 - Account is still not established (baw)\r\n\r\n06/24/2026 - sent an email to Northwest green to figure out what the hold up is on the account being established (baw)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": true,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Mark Chepke Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Unknown",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 25, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Chepke, Mark - FID IRA RO TOA",
-              "status": "waiting-on-client",
-              "bucketName": "Waiting on Client Information",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 25, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Name of Client: Mark CHepke\r\nType of Account: Retirement\r\nSponsor Company: FID IRA RO #?? (account not set up yet so we may have to wait!)\r\nType of Paperwork Being Pulled: Existing Account Maintenance\r\n\r\nType of Maintenance: [\"TOA!\"]\r\n\r\nNotes: We are PARTIALLY, TOA'ing his other BAIRD IRA (his other one, not the one we already initiated TOA for whole account), #8698-2952. We only want o move the VNG money market fund, ticker: VMFXX. let me know if any questions\r\n\r\nOnce account is set up, we are ONLY moving VMFXX from the BAIRD IRA.  So on the TOA form, you will use that field on the right hand side.  You will also need to do another RB, lololol. \r\n\r\n06/19/2026 - Account is still not established (baw)\r\n\r\n06/24/2026 - sent an email to Northwest green to figure out what the hold up is on the account being established (baw)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Grosjean, Leslie",
       "advisor": "Melissa Benedict",
       "planners": [
@@ -50613,14 +50625,8 @@
           "status": "late",
           "dueDateFormatted": "Jun 8, 2026",
           "lastModifiedDateTime": null,
-          "stuckInfo": {
-            "type": "overdue-silent",
-            "age": null,
-            "threshold": null,
-            "commGap": true,
-            "label": "Overdue — no communication logged"
-          },
-          "notes": null
+          "stuckInfo": null,
+          "notes": "zocks notes saved and f/u email sent 6/9 jek"
         },
         {
           "id": "l4ZtLK6vEkSjQw64OLmdKGUAD_VX",
@@ -53872,6 +53878,198 @@
       }
     },
     {
+      "name": "Ryan Juhasz",
+      "tasks": [
+        {
+          "id": "9s7cPDRIwU6MsV3bHCgwLmUADDdJ",
+          "title": "Mark Chepke Trade Request BES",
+          "clientName": "Chepke, Mark",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Unknown",
+          "status": "late",
+          "dueDateFormatted": "Jun 25, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
+        },
+        {
+          "id": "FKxQCFRm2kOd1Zo-XFYbMGUAIXkW",
+          "title": "Brian Anteau Trade Request BES",
+          "clientName": "Anteau, Brian",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 24, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: JEK\nClient Name: Brian Anteau\nAccount: FID TAD IRA \t636-573891\nSells / Amount / Ticker / Holding Name: take him out of SDC GROWTH AND INCOME - ES EQUITY\n\nBuys / Amount / Ticker / Holding Name: and put this IRA into SDC CORE GROWTH - LEVEL 1\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Accumulation\"]\nNotes / Comments / Special Instructions / RestrictionsEssentially switching his IRA models at Fidelity. Please do not trade this quite yet- trade tomorrow if possoible. waiting a  bit since he just came in for a meeting, I will be calling him end of day today to let him know of upcoming change "
+        },
+        {
+          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
+          "title": "Josephine Dudderar Trade Request BES",
+          "clientName": "Dudderar, Josephine",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 19, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
+        },
+        {
+          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
+          "title": "Darlene Keith Distribution ZWB",
+          "clientName": "Keith, Darlene",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "May 28, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
+          "title": "Deborah Belkofer Distribution Request BES",
+          "clientName": "Belkofer, Deborah",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "On Hold / Future Dated",
+          "status": "late",
+          "dueDateFormatted": "Jun 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
+        },
+        {
+          "id": "EAcod7NiHkuPT82yfkL2OGUAN7LM",
+          "title": "Connie Sanderson Distribution Request BES",
+          "clientName": "Sanderson, Connie",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Unknown",
+          "status": "not-started",
+          "dueDateFormatted": "Jun 26, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nName: Connie Sanderson\nAcct: AMF IND TOD #4000416836\n\nDistribution Information\nGross Amount: $9k\nNet Amount: $9k\nTax W/H: \nACH on file? Adding a new checking acct. Will put new info in the thread! (acs)\nCheck Request? \nAny Trades Needed? \n"
+        }
+      ],
+      "counts": {
+        "total": 6,
+        "overdue": 5,
+        "stuck": 0,
+        "commGap": 0,
+        "waitingClient": 0
+      }
+    },
+    {
+      "name": "Jennifer Ottney",
+      "tasks": [
+        {
+          "id": "9s7cPDRIwU6MsV3bHCgwLmUADDdJ",
+          "title": "Mark Chepke Trade Request BES",
+          "clientName": "Chepke, Mark",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Unknown",
+          "status": "late",
+          "dueDateFormatted": "Jun 25, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
+        },
+        {
+          "id": "FKxQCFRm2kOd1Zo-XFYbMGUAIXkW",
+          "title": "Brian Anteau Trade Request BES",
+          "clientName": "Anteau, Brian",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 24, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: JEK\nClient Name: Brian Anteau\nAccount: FID TAD IRA \t636-573891\nSells / Amount / Ticker / Holding Name: take him out of SDC GROWTH AND INCOME - ES EQUITY\n\nBuys / Amount / Ticker / Holding Name: and put this IRA into SDC CORE GROWTH - LEVEL 1\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Accumulation\"]\nNotes / Comments / Special Instructions / RestrictionsEssentially switching his IRA models at Fidelity. Please do not trade this quite yet- trade tomorrow if possoible. waiting a  bit since he just came in for a meeting, I will be calling him end of day today to let him know of upcoming change "
+        },
+        {
+          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
+          "title": "Josephine Dudderar Trade Request BES",
+          "clientName": "Dudderar, Josephine",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 19, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
+        },
+        {
+          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
+          "title": "Darlene Keith Distribution ZWB",
+          "clientName": "Keith, Darlene",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "May 28, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
+          "title": "Deborah Belkofer Distribution Request BES",
+          "clientName": "Belkofer, Deborah",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "On Hold / Future Dated",
+          "status": "late",
+          "dueDateFormatted": "Jun 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
+        },
+        {
+          "id": "EAcod7NiHkuPT82yfkL2OGUAN7LM",
+          "title": "Connie Sanderson Distribution Request BES",
+          "clientName": "Sanderson, Connie",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Unknown",
+          "status": "not-started",
+          "dueDateFormatted": "Jun 26, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nName: Connie Sanderson\nAcct: AMF IND TOD #4000416836\n\nDistribution Information\nGross Amount: $9k\nNet Amount: $9k\nTax W/H: \nACH on file? Adding a new checking acct. Will put new info in the thread! (acs)\nCheck Request? \nAny Trades Needed? \n"
+        }
+      ],
+      "counts": {
+        "total": 6,
+        "overdue": 5,
+        "stuck": 0,
+        "commGap": 0,
+        "waitingClient": 0
+      }
+    },
+    {
       "name": "Alyssa Shimman",
       "tasks": [
         {
@@ -53899,8 +54097,14 @@
           "status": "late",
           "dueDateFormatted": "Jun 17, 2026",
           "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name of Client: Hatfield, Hayley\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Christopher Hatfield, Primary 100%\r\nContingent??\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: NO\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: \r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: \r\nDrivers License Upload:\r\nFull Suitability Needed?: \r\n\r\nHow to Sign:\r\nSignature Method: \r\n\r\nFinancial Data:\r\nRefers to: \r\nAnnual Income: \r\nNet Worth: \r\nTax Bracket: \r\nNet Investable Assets: \r\nFee Schedule: \r\n\r\nInvestment Objectives:\r\nRisk Tolerance: \r\nPrimary Objective: \r\nSeconday Objective: \r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: \r\nAnnual Expenses: \r\nEstimated Special Expenses: \r\nSpecial Expense Timeline: \r\nIf not in a model, what trades are needed: \r\nAdditional Notes: \r\n\r\n06/15/26- Pulled CRS, ADV, WRAPAPP, FID Premiere Select Inherited IRA app, TOA, and SPI. This is all saved in my folder, waiting on the go ahead from BES/KSO. (ctb)\r\n\r\n06/16/26- BES left email for Hayley yesterday(ctb)\r\n\r\n06/17/26- BES sent a message to leave this go for a few weeks and give them space. (ctb)"
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
         },
         {
           "id": "kkhaHvynpkCG2qAcE6L1AGUACxZS",
@@ -54534,198 +54738,6 @@
       }
     },
     {
-      "name": "Ryan Juhasz",
-      "tasks": [
-        {
-          "id": "FKxQCFRm2kOd1Zo-XFYbMGUAIXkW",
-          "title": "Brian Anteau Trade Request BES",
-          "clientName": "Anteau, Brian",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 24, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: JEK\nClient Name: Brian Anteau\nAccount: FID TAD IRA \t636-573891\nSells / Amount / Ticker / Holding Name: take him out of SDC GROWTH AND INCOME - ES EQUITY\n\nBuys / Amount / Ticker / Holding Name: and put this IRA into SDC CORE GROWTH - LEVEL 1\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Accumulation\"]\nNotes / Comments / Special Instructions / RestrictionsEssentially switching his IRA models at Fidelity. Please do not trade this quite yet- trade tomorrow if possoible. waiting a  bit since he just came in for a meeting, I will be calling him end of day today to let him know of upcoming change "
-        },
-        {
-          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
-          "title": "Josephine Dudderar Trade Request BES",
-          "clientName": "Dudderar, Josephine",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 19, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
-        },
-        {
-          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
-          "title": "Darlene Keith Distribution ZWB",
-          "clientName": "Keith, Darlene",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "May 28, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
-          "title": "Deborah Belkofer Distribution Request BES",
-          "clientName": "Belkofer, Deborah",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "On Hold / Future Dated",
-          "status": "late",
-          "dueDateFormatted": "Jun 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
-        },
-        {
-          "id": "EAcod7NiHkuPT82yfkL2OGUAN7LM",
-          "title": "Connie Sanderson Distribution Request BES",
-          "clientName": "Sanderson, Connie",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Unknown",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 26, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nName: Connie Sanderson\nAcct: AMF IND TOD #4000416836\n\nDistribution Information\nGross Amount: $9k\nNet Amount: $9k\nTax W/H: \nACH on file? Adding a new checking acct. Will put new info in the thread! (acs)\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "9s7cPDRIwU6MsV3bHCgwLmUADDdJ",
-          "title": "Mark Chepke Trade Request BES",
-          "clientName": "Chepke, Mark",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Unknown",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 25, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
-        }
-      ],
-      "counts": {
-        "total": 6,
-        "overdue": 4,
-        "stuck": 0,
-        "commGap": 0,
-        "waitingClient": 0
-      }
-    },
-    {
-      "name": "Jennifer Ottney",
-      "tasks": [
-        {
-          "id": "FKxQCFRm2kOd1Zo-XFYbMGUAIXkW",
-          "title": "Brian Anteau Trade Request BES",
-          "clientName": "Anteau, Brian",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 24, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: JEK\nClient Name: Brian Anteau\nAccount: FID TAD IRA \t636-573891\nSells / Amount / Ticker / Holding Name: take him out of SDC GROWTH AND INCOME - ES EQUITY\n\nBuys / Amount / Ticker / Holding Name: and put this IRA into SDC CORE GROWTH - LEVEL 1\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Retirement - Accumulation\"]\nNotes / Comments / Special Instructions / RestrictionsEssentially switching his IRA models at Fidelity. Please do not trade this quite yet- trade tomorrow if possoible. waiting a  bit since he just came in for a meeting, I will be calling him end of day today to let him know of upcoming change "
-        },
-        {
-          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
-          "title": "Josephine Dudderar Trade Request BES",
-          "clientName": "Dudderar, Josephine",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 19, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
-        },
-        {
-          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
-          "title": "Darlene Keith Distribution ZWB",
-          "clientName": "Keith, Darlene",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "May 28, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
-          "title": "Deborah Belkofer Distribution Request BES",
-          "clientName": "Belkofer, Deborah",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "On Hold / Future Dated",
-          "status": "late",
-          "dueDateFormatted": "Jun 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
-        },
-        {
-          "id": "EAcod7NiHkuPT82yfkL2OGUAN7LM",
-          "title": "Connie Sanderson Distribution Request BES",
-          "clientName": "Sanderson, Connie",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Unknown",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 26, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nName: Connie Sanderson\nAcct: AMF IND TOD #4000416836\n\nDistribution Information\nGross Amount: $9k\nNet Amount: $9k\nTax W/H: \nACH on file? Adding a new checking acct. Will put new info in the thread! (acs)\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "9s7cPDRIwU6MsV3bHCgwLmUADDdJ",
-          "title": "Mark Chepke Trade Request BES",
-          "clientName": "Chepke, Mark",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Unknown",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 25, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Mark Chepke\nAccount: FID ROTH IRA #655-462962\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Growth ETF. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/24/26 - IN KIND transfer hit ~$14k. per WIP - put into Growth ETF. (acs)"
-        }
-      ],
-      "counts": {
-        "total": 6,
-        "overdue": 4,
-        "stuck": 0,
-        "commGap": 0,
-        "waitingClient": 0
-      }
-    },
-    {
       "name": "Frank Dobnikar",
       "tasks": [
         {
@@ -55043,8 +55055,14 @@
           "status": "late",
           "dueDateFormatted": "Jun 17, 2026",
           "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name of Client: Hatfield, Hayley\r\nType of Account: Retirement\r\nSponsor Company: FID\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nBeneficiaries: Christopher Hatfield, Primary 100%\r\nContingent??\r\nHow the Account being funded:Transfer\r\n\r\nAIP information:\r\nAny current AIPs at old account to be shut off: NO\r\n\r\n---Will they be making monthly CONTs: No\r\nHow Much: \r\nOn what day of the month: \r\nWhich year is the CONT for (if Roth IRA): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: No\r\nDo we have a voided check: \r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: \r\nDrivers License Upload:\r\nFull Suitability Needed?: \r\n\r\nHow to Sign:\r\nSignature Method: \r\n\r\nFinancial Data:\r\nRefers to: \r\nAnnual Income: \r\nNet Worth: \r\nTax Bracket: \r\nNet Investable Assets: \r\nFee Schedule: \r\n\r\nInvestment Objectives:\r\nRisk Tolerance: \r\nPrimary Objective: \r\nSeconday Objective: \r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: \r\nAnnual Expenses: \r\nEstimated Special Expenses: \r\nSpecial Expense Timeline: \r\nIf not in a model, what trades are needed: \r\nAdditional Notes: \r\n\r\n06/15/26- Pulled CRS, ADV, WRAPAPP, FID Premiere Select Inherited IRA app, TOA, and SPI. This is all saved in my folder, waiting on the go ahead from BES/KSO. (ctb)\r\n\r\n06/16/26- BES left email for Hayley yesterday(ctb)\r\n\r\n06/17/26- BES sent a message to leave this go for a few weeks and give them space. (ctb)"
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
         },
         {
           "id": "kkhaHvynpkCG2qAcE6L1AGUACxZS",
@@ -56809,6 +56827,22 @@
       "plannerKey": "trades",
       "plannerLabel": "Trades & Distributions",
       "plannerColor": "#2563eb",
+      "title": "Mark Chepke Trade Request BES",
+      "clientName": "Chepke, Mark",
+      "bucketName": "Unknown",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 25, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
       "title": "Brian Anteau Trade Request BES",
       "clientName": "Anteau, Brian",
       "bucketName": "Task Recognized",
@@ -56900,7 +56934,13 @@
       "advisor": null,
       "isUnassigned": false,
       "dueDateFormatted": "Jun 17, 2026",
-      "stuckInfo": null
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      }
     },
     {
       "plannerKey": "paperwork",
@@ -57206,13 +57246,7 @@
       "advisor": "Jaiden Karrick",
       "isUnassigned": false,
       "dueDateFormatted": "Jun 8, 2026",
-      "stuckInfo": {
-        "type": "overdue-silent",
-        "age": null,
-        "threshold": null,
-        "commGap": true,
-        "label": "Overdue — no communication logged"
-      }
+      "stuckInfo": null
     },
     {
       "plannerKey": "advisor",
@@ -59304,6 +59338,29 @@
       "plannerKey": "paperwork",
       "plannerLabel": "Paperwork",
       "plannerColor": "#d97706",
+      "title": "Hatfield, Hayley - NEW ACCT FID BENE ROTH IRA",
+      "clientName": "Hatfield, Hayley",
+      "bucketName": "In Progress - Being Pulled",
+      "assigneeNames": [
+        "Collin Berryman",
+        "Alyssa Shimman"
+      ],
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 17, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      },
+      "status": "late",
+      "notes": null
+    },
+    {
+      "plannerKey": "paperwork",
+      "plannerLabel": "Paperwork",
+      "plannerColor": "#d97706",
       "title": "Murphy, Brandy - NEW ACCT FID IND TOD",
       "clientName": "Murphy, Brandy",
       "bucketName": "In WIP / Re-Assign RT to ACS/EJD",
@@ -59516,28 +59573,6 @@
       ],
       "isUnassigned": false,
       "dueDateFormatted": "Jun 22, 2026",
-      "stuckInfo": {
-        "type": "overdue-silent",
-        "age": null,
-        "threshold": null,
-        "commGap": true,
-        "label": "Overdue — no communication logged"
-      },
-      "status": "late",
-      "notes": null
-    },
-    {
-      "plannerKey": "advisor",
-      "plannerLabel": "Advisor Flow",
-      "plannerColor": "#16a34a",
-      "title": "Fioritto, Felicia & Chase Watson",
-      "clientName": null,
-      "bucketName": "In- Progress Activities",
-      "assigneeNames": [
-        "Jaiden Karrick"
-      ],
-      "isUnassigned": false,
-      "dueDateFormatted": "Jun 8, 2026",
       "stuckInfo": {
         "type": "overdue-silent",
         "age": null,
@@ -59985,7 +60020,7 @@
   "stats": {
     "totalOpen": 311,
     "completedToday": 0,
-    "overdue": 160,
+    "overdue": 161,
     "waitingOnClient": 74,
     "wipClients": 1,
     "stuck": 1,
