@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-26T22:42:03.134Z",
+  "fetchedAt": "2026-06-26T23:58:25.607Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-26T22:42:08.852Z",
+      "lastUpdated": "2026-06-26T23:58:30.866Z",
       "tasks": [
         {
           "id": "P-Heo288902DF1CZxEgR4GUAAmTE",
@@ -8439,7 +8439,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-26T22:43:01.313Z",
+      "lastUpdated": "2026-06-26T23:59:28.695Z",
       "tasks": [
         {
           "id": "yIg7-uYUdku7l2Wlxh6LVmUAOQZQ",
@@ -16863,7 +16863,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-26T22:44:17.955Z",
+      "lastUpdated": "2026-06-27T00:00:53.395Z",
       "tasks": [
         {
           "id": "sw4xPy9440mnU6WTR8K8nWUAFUey",
@@ -17680,9 +17680,15 @@
           "lastModifiedDateTime": null,
           "percentComplete": 0,
           "plannerKey": "advisor",
-          "notes": "zocks notes saved and f/u email sent! (jek) 6/3",
+          "notes": null,
           "notesLastModified": null,
-          "stuckInfo": null
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          }
         },
         {
           "id": "B8zxRmVot0im-sG2Dhtl8WUAPek4",
@@ -24928,7 +24934,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-26T22:44:29.706Z",
+      "lastUpdated": "2026-06-27T00:01:06.531Z",
       "tasks": [
         {
           "id": "eqh66llRyEqipTgRXCxEMmUADUZj",
@@ -33274,7 +33280,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-26T22:44:30.213Z",
+      "lastUpdated": "2026-06-27T00:01:07.038Z",
       "tasks": [
         {
           "id": "rRnR1vcR5EGa08sm0vAz22UAHzB5",
@@ -37121,8 +37127,14 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 2, 2026",
               "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "zocks notes saved and f/u email sent! (jek) 6/3"
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
             }
           ]
         }
@@ -37151,8 +37163,14 @@
               "isUnassigned": false,
               "dueDateFormatted": "Jun 2, 2026",
               "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "zocks notes saved and f/u email sent! (jek) 6/3"
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
             }
           ]
         }
@@ -50416,8 +50434,14 @@
           "status": "late",
           "dueDateFormatted": "Jun 2, 2026",
           "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "zocks notes saved and f/u email sent! (jek) 6/3"
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
         },
         {
           "id": "B8zxRmVot0im-sG2Dhtl8WUAPek4",
@@ -56536,7 +56560,13 @@
       "advisor": "Jaiden Karrick",
       "isUnassigned": false,
       "dueDateFormatted": "Jun 2, 2026",
-      "stuckInfo": null
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      }
     },
     {
       "plannerKey": "advisor",
@@ -58636,6 +58666,28 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
+      "title": "Zell, Tim 06/02 3:00pm (B) || Review ZOOM",
+      "clientName": "Zell, Tim 06/02 3:00pm (b)",
+      "bucketName": "In- Progress Activities",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 2, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      },
+      "status": "late",
+      "notes": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
       "title": "Bullins, Chris 5/14 TH 2pm Call (R)",
       "clientName": null,
       "bucketName": "Schedule Meeting",
@@ -59068,7 +59120,7 @@
   "aiMerges": [],
   "stats": {
     "totalOpen": 295,
-    "completedToday": 7,
+    "completedToday": 6,
     "overdue": 161,
     "waitingOnClient": 65,
     "wipClients": 0,
