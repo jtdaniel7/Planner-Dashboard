@@ -1,16 +1,16 @@
 {
-  "fetchedAt": "2026-06-29T05:09:08.945Z",
+  "fetchedAt": "2026-06-29T10:05:08.114Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-29T05:09:14.206Z",
+      "lastUpdated": "2026-06-29T10:05:13.396Z",
       "tasks": [
         {
           "id": "P-Heo288902DF1CZxEgR4GUAAmTE",
           "title": "Frank Hesselbart Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Hesselbart, Frank",
           "bucketName": "Task Recognized",
           "assigneeNames": [
@@ -31,7 +31,7 @@
         {
           "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
           "title": "Kimberly Dewar Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Dewar, Kimberly",
           "bucketName": "Task Recognized",
           "assigneeNames": [
@@ -52,7 +52,7 @@
         {
           "id": "allW4qsQzU2IpGq8xF6onmUAN5mM",
           "title": "Christopher Bullins Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Bullins, Christopher",
           "bucketName": "Task Recognized",
           "assigneeNames": [
@@ -73,7 +73,7 @@
         {
           "id": "rDpKEtY79U2UT5GfZ_IQSmUAAjZ9",
           "title": "Austin Horlamus Distribution Request BES",
-          "status": "in-progress",
+          "status": "late",
           "clientName": "Horlamus, Austin",
           "bucketName": "In progress",
           "assigneeNames": [
@@ -8431,7 +8431,7 @@
         }
       ],
       "openCount": 7,
-      "overdueCount": 3,
+      "overdueCount": 7,
       "waitingCount": 0,
       "stuckCount": 0
     },
@@ -8439,7 +8439,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-29T05:10:05.306Z",
+      "lastUpdated": "2026-06-29T10:06:11.105Z",
       "tasks": [
         {
           "id": "yIg7-uYUdku7l2Wlxh6LVmUAOQZQ",
@@ -16863,7 +16863,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-29T05:11:18.592Z",
+      "lastUpdated": "2026-06-29T10:07:34.456Z",
       "tasks": [
         {
           "id": "sw4xPy9440mnU6WTR8K8nWUAFUey",
@@ -17281,7 +17281,7 @@
         {
           "id": "r2m5HtRvMkOQmU0uPggtt2UAP9RO",
           "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
           "bucketName": "Prep Materials",
           "assigneeNames": [
@@ -17296,7 +17296,13 @@
           "plannerKey": "advisor",
           "notes": null,
           "notesLastModified": null,
-          "stuckInfo": null
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          }
         },
         {
           "id": "xIEACEuEDkKNMmgwAgv8_GUAG4R3",
@@ -17341,7 +17347,7 @@
         {
           "id": "LkK8kfsZCkykMXR8a5ewYGUAMqoE",
           "title": "LaRiche, John 06/29 10AM (B) || Zoom",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Lariche, John 06/29 10am (b)",
           "bucketName": "Prep Materials",
           "assigneeNames": [
@@ -17356,7 +17362,13 @@
           "plannerKey": "advisor",
           "notes": null,
           "notesLastModified": null,
-          "stuckInfo": null
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          }
         },
         {
           "id": "ffTc1k7K7kuaBcvyQxg3zWUACGwJ",
@@ -24920,7 +24932,7 @@
         }
       ],
       "openCount": 157,
-      "overdueCount": 135,
+      "overdueCount": 137,
       "waitingCount": 0,
       "stuckCount": 0
     },
@@ -24928,7 +24940,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-29T05:11:30.616Z",
+      "lastUpdated": "2026-06-29T10:07:47.631Z",
       "tasks": [
         {
           "id": "eqh66llRyEqipTgRXCxEMmUADUZj",
@@ -33274,7 +33286,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-29T05:11:31.093Z",
+      "lastUpdated": "2026-06-29T10:07:48.146Z",
       "tasks": [
         {
           "id": "rRnR1vcR5EGa08sm0vAz22UAHzB5",
@@ -34833,6 +34845,270 @@
       "aiUrgency": null
     },
     {
+      "client": "Hesselbart, Frank",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Frank Hesselbart Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Frank Hesselbart Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Dewar, Kimberly",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Kimberly Dewar Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Kimberly Dewar Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Bullins, Christopher",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Christopher Bullins Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Christopher Bullins Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Horlamus, Austin",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Austin Horlamus Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Austin Horlamus Distribution Request BES",
+              "status": "late",
+              "bucketName": "In progress",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Dudderar, Josephine",
       "advisor": null,
       "planners": [
@@ -36191,6 +36467,82 @@
       "aiUrgency": null
     },
     {
+      "client": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
       "client": "Wilcox, Brian 06/08 12pm (w)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -36309,6 +36661,82 @@
               "lastModifiedDateTime": null,
               "stuckInfo": null,
               "notes": "no zocsk on this, just frome BES teams channel in BES messages 06/09 jek"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Lariche, John 06/29 10am (b)",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "LaRiche, John 06/29 10AM (B) || Zoom",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "LaRiche, John 06/29 10AM (B) || Zoom",
+              "status": "late",
+              "bucketName": "Prep Materials",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 29, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
             }
           ]
         }
@@ -44065,270 +44493,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Hesselbart, Frank",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Frank Hesselbart Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Frank Hesselbart Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Dewar, Kimberly",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Kimberly Dewar Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Kimberly Dewar Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Bullins, Christopher",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Christopher Bullins Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Christopher Bullins Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Horlamus, Austin",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Austin Horlamus Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Austin Horlamus Distribution Request BES",
-              "status": "in-progress",
-              "bucketName": "In progress",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Kline",
       "advisor": "Katie Rower-Osborn",
       "planners": [
@@ -49563,134 +49727,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Lariche, John 06/29 10am (b)",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "LaRiche, John 06/29 10AM (B) || Zoom",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "LaRiche, John 06/29 10AM (B) || Zoom",
-              "status": "not-started",
-              "bucketName": "Prep Materials",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 29, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Erdmann, Kelly & Jeremy 07/14 2pm (b)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -50190,6 +50226,26 @@
           "notes": "zocks notes saved and f/u email sent 06/09 jek"
         },
         {
+          "id": "r2m5HtRvMkOQmU0uPggtt2UAP9RO",
+          "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
+          "clientName": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
+          "plannerKey": "advisor",
+          "plannerLabel": "Advisor Flow",
+          "plannerColor": "#16a34a",
+          "bucketName": "Prep Materials",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
+        },
+        {
           "id": "xIEACEuEDkKNMmgwAgv8_GUAG4R3",
           "title": "Wilcox, Brian 06/08 12pm (W) || Daughter going to college -how to Fund?",
           "clientName": "Wilcox, Brian 06/08 12pm (w)",
@@ -50216,6 +50272,26 @@
           "lastModifiedDateTime": null,
           "stuckInfo": null,
           "notes": "no zocsk on this, just frome BES teams channel in BES messages 06/09 jek"
+        },
+        {
+          "id": "LkK8kfsZCkykMXR8a5ewYGUAMqoE",
+          "title": "LaRiche, John 06/29 10AM (B) || Zoom",
+          "clientName": "Lariche, John 06/29 10am (b)",
+          "plannerKey": "advisor",
+          "plannerLabel": "Advisor Flow",
+          "plannerColor": "#16a34a",
+          "bucketName": "Prep Materials",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
         },
         {
           "id": "ffTc1k7K7kuaBcvyQxg3zWUACGwJ",
@@ -52186,34 +52262,6 @@
           "notes": null
         },
         {
-          "id": "r2m5HtRvMkOQmU0uPggtt2UAP9RO",
-          "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
-          "clientName": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
-          "plannerKey": "advisor",
-          "plannerLabel": "Advisor Flow",
-          "plannerColor": "#16a34a",
-          "bucketName": "Prep Materials",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": null
-        },
-        {
-          "id": "LkK8kfsZCkykMXR8a5ewYGUAMqoE",
-          "title": "LaRiche, John 06/29 10AM (B) || Zoom",
-          "clientName": "Lariche, John 06/29 10am (b)",
-          "plannerKey": "advisor",
-          "plannerLabel": "Advisor Flow",
-          "plannerColor": "#16a34a",
-          "bucketName": "Prep Materials",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": null
-        },
-        {
           "id": "clldQs74oUGDQvnofGC922UAJcls",
           "title": "Erdmann, Kelly & JEREMY 07/14 2pm (B) || Retirement F/U",
           "clientName": "Erdmann, Kelly & Jeremy 07/14 2pm (b)",
@@ -52300,7 +52348,7 @@
       ],
       "counts": {
         "total": 155,
-        "overdue": 134,
+        "overdue": 136,
         "stuck": 0,
         "commGap": 0,
         "waitingClient": 0
@@ -52940,6 +52988,226 @@
         "stuck": 1,
         "commGap": 5,
         "waitingClient": 24
+      }
+    },
+    {
+      "name": "Ryan Juhasz",
+      "tasks": [
+        {
+          "id": "P-Heo288902DF1CZxEgR4GUAAmTE",
+          "title": "Frank Hesselbart Trade Request BES",
+          "clientName": "Hesselbart, Frank",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
+        },
+        {
+          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
+          "title": "Kimberly Dewar Trade Request BES",
+          "clientName": "Dewar, Kimberly",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
+        },
+        {
+          "id": "allW4qsQzU2IpGq8xF6onmUAN5mM",
+          "title": "Christopher Bullins Trade Request BES",
+          "clientName": "Bullins, Christopher",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
+        },
+        {
+          "id": "rDpKEtY79U2UT5GfZ_IQSmUAAjZ9",
+          "title": "Austin Horlamus Distribution Request BES",
+          "clientName": "Horlamus, Austin",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "In progress",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
+          "title": "Josephine Dudderar Trade Request BES",
+          "clientName": "Dudderar, Josephine",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 19, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
+        },
+        {
+          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
+          "title": "Darlene Keith Distribution ZWB",
+          "clientName": "Keith, Darlene",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "May 28, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
+          "title": "Deborah Belkofer Distribution Request BES",
+          "clientName": "Belkofer, Deborah",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "On Hold / Future Dated",
+          "status": "late",
+          "dueDateFormatted": "Jun 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
+        }
+      ],
+      "counts": {
+        "total": 7,
+        "overdue": 7,
+        "stuck": 0,
+        "commGap": 0,
+        "waitingClient": 0
+      }
+    },
+    {
+      "name": "Jennifer Ottney",
+      "tasks": [
+        {
+          "id": "P-Heo288902DF1CZxEgR4GUAAmTE",
+          "title": "Frank Hesselbart Trade Request BES",
+          "clientName": "Hesselbart, Frank",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
+        },
+        {
+          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
+          "title": "Kimberly Dewar Trade Request BES",
+          "clientName": "Dewar, Kimberly",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
+        },
+        {
+          "id": "allW4qsQzU2IpGq8xF6onmUAN5mM",
+          "title": "Christopher Bullins Trade Request BES",
+          "clientName": "Bullins, Christopher",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
+        },
+        {
+          "id": "rDpKEtY79U2UT5GfZ_IQSmUAAjZ9",
+          "title": "Austin Horlamus Distribution Request BES",
+          "clientName": "Horlamus, Austin",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "In progress",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
+          "title": "Josephine Dudderar Trade Request BES",
+          "clientName": "Dudderar, Josephine",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 19, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
+        },
+        {
+          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
+          "title": "Darlene Keith Distribution ZWB",
+          "clientName": "Keith, Darlene",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "May 28, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
+          "title": "Deborah Belkofer Distribution Request BES",
+          "clientName": "Belkofer, Deborah",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "On Hold / Future Dated",
+          "status": "late",
+          "dueDateFormatted": "Jun 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
+        }
+      ],
+      "counts": {
+        "total": 7,
+        "overdue": 7,
+        "stuck": 0,
+        "commGap": 0,
+        "waitingClient": 0
       }
     },
     {
@@ -54423,226 +54691,6 @@
       }
     },
     {
-      "name": "Ryan Juhasz",
-      "tasks": [
-        {
-          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
-          "title": "Josephine Dudderar Trade Request BES",
-          "clientName": "Dudderar, Josephine",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 19, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
-        },
-        {
-          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
-          "title": "Darlene Keith Distribution ZWB",
-          "clientName": "Keith, Darlene",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "May 28, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
-          "title": "Deborah Belkofer Distribution Request BES",
-          "clientName": "Belkofer, Deborah",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "On Hold / Future Dated",
-          "status": "late",
-          "dueDateFormatted": "Jun 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
-        },
-        {
-          "id": "P-Heo288902DF1CZxEgR4GUAAmTE",
-          "title": "Frank Hesselbart Trade Request BES",
-          "clientName": "Hesselbart, Frank",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
-        },
-        {
-          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
-          "title": "Kimberly Dewar Trade Request BES",
-          "clientName": "Dewar, Kimberly",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
-        },
-        {
-          "id": "allW4qsQzU2IpGq8xF6onmUAN5mM",
-          "title": "Christopher Bullins Trade Request BES",
-          "clientName": "Bullins, Christopher",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
-        },
-        {
-          "id": "rDpKEtY79U2UT5GfZ_IQSmUAAjZ9",
-          "title": "Austin Horlamus Distribution Request BES",
-          "clientName": "Horlamus, Austin",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "In progress",
-          "status": "in-progress",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-        }
-      ],
-      "counts": {
-        "total": 7,
-        "overdue": 3,
-        "stuck": 0,
-        "commGap": 0,
-        "waitingClient": 0
-      }
-    },
-    {
-      "name": "Jennifer Ottney",
-      "tasks": [
-        {
-          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
-          "title": "Josephine Dudderar Trade Request BES",
-          "clientName": "Dudderar, Josephine",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 19, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
-        },
-        {
-          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
-          "title": "Darlene Keith Distribution ZWB",
-          "clientName": "Keith, Darlene",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "May 28, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "fV0hfYFFqkOSJw2nhrQL7mUAOQtj",
-          "title": "Deborah Belkofer Distribution Request BES",
-          "clientName": "Belkofer, Deborah",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "On Hold / Future Dated",
-          "status": "late",
-          "dueDateFormatted": "Jun 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Deborah Belkofer\r\nAcct: DL IRA PPMY0066787\r\n\r\nDistribution Information\r\nGross Amount: accumulated interest\r\nNet Amount: \r\nTax W/H: unknown\r\nACH on file? in MISC NOTES\r\nCheck Request? \r\nAny Trades Needed? special note on this one, she isnt 59.5 until june so dont let her dat ejust in case!!! ZWB said be careful, I asked"
-        },
-        {
-          "id": "P-Heo288902DF1CZxEgR4GUAAmTE",
-          "title": "Frank Hesselbart Trade Request BES",
-          "clientName": "Hesselbart, Frank",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: YOU KNOW, lol!\nClient Name: Frank Hesselbart\nAccount: FID BENE IRA #656-637190\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - Frank's FID BENE IRA #628-812032 transferred over to FID BENE IRA #656-637190 owned by the Trust. keeping funds as is, im assuming, but will tag Brent to verify! (acs)"
-        },
-        {
-          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
-          "title": "Kimberly Dewar Trade Request BES",
-          "clientName": "Dewar, Kimberly",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
-        },
-        {
-          "id": "allW4qsQzU2IpGq8xF6onmUAN5mM",
-          "title": "Christopher Bullins Trade Request BES",
-          "clientName": "Bullins, Christopher",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Christopher Bullins\nAccount: FID IND TOD #628-969810\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: per the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictionsper the notes: he wants to keep $30k in FDRXX (30k total, so right now he has 27k so we only need to add another 3k), and rebal the rest in his MOD ETF model. (acs)"
-        },
-        {
-          "id": "rDpKEtY79U2UT5GfZ_IQSmUAAjZ9",
-          "title": "Austin Horlamus Distribution Request BES",
-          "clientName": "Horlamus, Austin",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "In progress",
-          "status": "in-progress",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: CTB\nName: Austin Horlamus\nAcct: FID - 229676568\n\nDistribution Information\nGross Amount: \nNet Amount: $5,000\nTax W/H: No\nACH on file? Yes\nCheck Request? \nAny Trades Needed? \n"
-        }
-      ],
-      "counts": {
-        "total": 7,
-        "overdue": 3,
-        "stuck": 0,
-        "commGap": 0,
-        "waitingClient": 0
-      }
-    },
-    {
       "name": "Melissa Benedict",
       "tasks": [
         {
@@ -55878,6 +55926,70 @@
       "plannerKey": "trades",
       "plannerLabel": "Trades & Distributions",
       "plannerColor": "#2563eb",
+      "title": "Frank Hesselbart Trade Request BES",
+      "clientName": "Hesselbart, Frank",
+      "bucketName": "Task Recognized",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Kimberly Dewar Trade Request BES",
+      "clientName": "Dewar, Kimberly",
+      "bucketName": "Task Recognized",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Christopher Bullins Trade Request BES",
+      "clientName": "Bullins, Christopher",
+      "bucketName": "Task Recognized",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Austin Horlamus Distribution Request BES",
+      "clientName": "Horlamus, Austin",
+      "bucketName": "In progress",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
       "title": "Josephine Dudderar Trade Request BES",
       "clientName": "Dudderar, Josephine",
       "bucketName": "Task Recognized",
@@ -56296,6 +56408,27 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
+      "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
+      "clientName": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
+      "bucketName": "Prep Materials",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "advisor": "Jaiden Karrick",
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      }
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
       "title": "Wilcox, Brian 06/08 12pm (W) || Daughter going to college -how to Fund?",
       "clientName": "Wilcox, Brian 06/08 12pm (w)",
       "bucketName": "In- Progress Activities",
@@ -56321,6 +56454,27 @@
       "isUnassigned": false,
       "dueDateFormatted": "Jun 8, 2026",
       "stuckInfo": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
+      "title": "LaRiche, John 06/29 10AM (B) || Zoom",
+      "clientName": "Lariche, John 06/29 10am (b)",
+      "bucketName": "Prep Materials",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "advisor": "Jaiden Karrick",
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      }
     },
     {
       "plannerKey": "advisor",
@@ -58614,6 +58768,50 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
+      "title": "Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
+      "clientName": "Tuttle, Keith & Kathy 06/29 11:30am (b)",
+      "bucketName": "Prep Materials",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      },
+      "status": "late",
+      "notes": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
+      "title": "LaRiche, John 06/29 10AM (B) || Zoom",
+      "clientName": "Lariche, John 06/29 10am (b)",
+      "bucketName": "Prep Materials",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 29, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      },
+      "status": "late",
+      "notes": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
       "title": "Feys, Andy & Kelsey 06/26 9am (G) || Review",
       "clientName": "Feys, Andy & Kelsey 06/26 9am (g)",
       "bucketName": "Ready for Meeting",
@@ -59069,7 +59267,7 @@
   "stats": {
     "totalOpen": 295,
     "completedToday": 0,
-    "overdue": 161,
+    "overdue": 167,
     "waitingOnClient": 65,
     "wipClients": 0,
     "stuck": 1,
