@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-30T07:44:31.553Z",
+  "fetchedAt": "2026-06-30T10:50:23.788Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-30T07:44:38.562Z",
+      "lastUpdated": "2026-06-30T10:50:30.547Z",
       "tasks": [
         {
           "id": "oDhI_RuWjE6RvTotpd5cDGUAEqML",
@@ -73,7 +73,7 @@
         {
           "id": "eWlq5tQZ90mProSJUbkTX2UAIdxS",
           "title": "Kendall Nye (Julie Nye) Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Nye, Kendall",
           "bucketName": "Task Recognized",
           "assigneeNames": [
@@ -94,7 +94,7 @@
         {
           "id": "RbRLiNmQq0-VtPsLe6OCDWUAEG2s",
           "title": "Caden Nye  Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Nye, Caden",
           "bucketName": "Task Recognized",
           "assigneeNames": [
@@ -115,7 +115,7 @@
         {
           "id": "E0mYwxpbj0ecF3fs2xec_WUAPf8_",
           "title": "Lori Chepke Trade Request BES",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Chepke, Lori",
           "bucketName": "Task Recognized",
           "assigneeNames": [
@@ -8431,7 +8431,7 @@
         }
       ],
       "openCount": 10,
-      "overdueCount": 3,
+      "overdueCount": 6,
       "waitingCount": 0,
       "stuckCount": 0
     },
@@ -8439,7 +8439,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-30T07:45:35.530Z",
+      "lastUpdated": "2026-06-30T10:51:31.413Z",
       "tasks": [
         {
           "id": "otPccSl0NES0uXOm8o9py2UAM7a7",
@@ -16866,7 +16866,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-30T07:45:55.353Z",
+      "lastUpdated": "2026-06-30T10:51:52.130Z",
       "tasks": [
         {
           "id": "fXBRtPRdgUq0l3McA8hUdmUAN1CA",
@@ -16951,7 +16951,7 @@
         {
           "id": "-ozcCwlUDE24uDwHOSX082UAEEMG",
           "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
-          "status": "not-started",
+          "status": "late",
           "clientName": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
           "bucketName": "Ready for Meeting",
           "assigneeNames": [
@@ -16966,7 +16966,13 @@
           "plannerKey": "advisor",
           "notes": null,
           "notesLastModified": null,
-          "stuckInfo": null
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          }
         },
         {
           "id": "jefF0t2Eu0W3FRFTZJdCPGUALLfk",
@@ -24886,7 +24892,7 @@
         }
       ],
       "openCount": 38,
-      "overdueCount": 14,
+      "overdueCount": 15,
       "waitingCount": 0,
       "stuckCount": 0
     },
@@ -24894,7 +24900,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-30T07:46:11.759Z",
+      "lastUpdated": "2026-06-30T10:52:09.325Z",
       "tasks": [
         {
           "id": "EDOw9c9x8ky-DM5S47mSkGUAC8QX",
@@ -33249,7 +33255,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-30T07:46:12.252Z",
+      "lastUpdated": "2026-06-30T10:52:09.844Z",
       "tasks": [
         {
           "id": "rRnR1vcR5EGa08sm0vAz22UAHzB5",
@@ -34802,10 +34808,298 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Resolve stuck tasks",
-      "blockers": "Stuck",
-      "aiUrgency": "high"
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Nye, Kendall",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Kendall Nye (Julie Nye) Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Nye, Kendall - NEW ACCT AMF CUST ROTH IRA",
+              "status": "not-started",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jul 6, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\r\nName of Client: Kendall Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF CUST ROTH IRA \r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\r\nWhat is the Minor Beneficiary's Full Name?: Kendall Nye\r\nWhat is the Minor Beneficiary's DOB?: \t04/30/2009 \r\nWhat is the Minor Beneficiary's SSN?: 279-15-7270\r\nAdd Advisor?: No\r\nBeneficiaries: Julie can be primary but then need to make sure we have mark as successor on ther\r\nHow the Account being funded:ACH/EFT (bank link)\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: no\r\n\r\nWill they be making monthly CONTs: I am not sure- we will have to touch base with julie!\r\nHow Much (if CONTs are made): \r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Huntington (same bank connected to caydens)\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100k-200k\r\nNet Worth: 250k-500k\r\nTax Bracket: 12%\r\nNet Investable Assets: 120k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 40k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  2 = Occasional ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: GWPAX AMF Growth portfolio\r\nAdditional Notes:"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Kendall Nye (Julie Nye) Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Nye, Kendall - NEW ACCT AMF CUST ROTH IRA",
+              "status": "not-started",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jul 6, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\r\nName of Client: Kendall Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF CUST ROTH IRA \r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\r\nWhat is the Minor Beneficiary's Full Name?: Kendall Nye\r\nWhat is the Minor Beneficiary's DOB?: \t04/30/2009 \r\nWhat is the Minor Beneficiary's SSN?: 279-15-7270\r\nAdd Advisor?: No\r\nBeneficiaries: Julie can be primary but then need to make sure we have mark as successor on ther\r\nHow the Account being funded:ACH/EFT (bank link)\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: no\r\n\r\nWill they be making monthly CONTs: I am not sure- we will have to touch base with julie!\r\nHow Much (if CONTs are made): \r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Huntington (same bank connected to caydens)\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100k-200k\r\nNet Worth: 250k-500k\r\nTax Bracket: 12%\r\nNet Investable Assets: 120k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 40k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  2 = Occasional ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: GWPAX AMF Growth portfolio\r\nAdditional Notes:"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Nye, Caden",
+      "advisor": null,
+      "planners": [
+        "trades",
+        "paperwork"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Caden Nye  Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
+            }
+          ]
+        },
+        "paperwork": {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Nye, Caden - NEW ACCT AMF ROTH IRA",
+              "status": "not-started",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jul 6, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\r\nName of Client: Caden Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF ROTH IRA CUSTODIAN- he is 18 now so needs his own roth (ben jones similar example at AMF)\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nAdd Advisor?: \r\nBeneficiaries: Mark & Julie primary benes \r\nHow the Account being funded:Transfer\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: YES- $ 50 a month \r\n\r\nWill they be making monthly CONTs: will need to check\r\nHow Much (if CONTs are made): I am not sure if we are going to want to connect cadens bank now- I will touch base with Julie, or if she wants to keep their bank connected to his\r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Do not have- see prior note. he is 18 now so I assume we want his bank added?\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Primary Investor\r\nAnnual Income: 30k\r\nNet Worth: 15k\r\nTax Bracket: 10%\r\nNet Investable Assets: 10k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth & Income\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 10k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  1 = None ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: keep in GWPAX\r\nAdditional Notes: mentioned but will need to see if we are connecting his bank now!"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 2,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Caden Nye  Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
+            }
+          ]
+        },
+        {
+          "key": "paperwork",
+          "label": "Paperwork",
+          "color": "#d97706",
+          "items": [
+            {
+              "plannerKey": "paperwork",
+              "title": "Nye, Caden - NEW ACCT AMF ROTH IRA",
+              "status": "not-started",
+              "bucketName": "Queue ",
+              "assigneeNames": [
+                "Brooke Wertenbach",
+                "Alyssa Shimman"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jul 6, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: JEK\r\nName of Client: Caden Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF ROTH IRA CUSTODIAN- he is 18 now so needs his own roth (ben jones similar example at AMF)\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nAdd Advisor?: \r\nBeneficiaries: Mark & Julie primary benes \r\nHow the Account being funded:Transfer\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: YES- $ 50 a month \r\n\r\nWill they be making monthly CONTs: will need to check\r\nHow Much (if CONTs are made): I am not sure if we are going to want to connect cadens bank now- I will touch base with Julie, or if she wants to keep their bank connected to his\r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Do not have- see prior note. he is 18 now so I assume we want his bank added?\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Primary Investor\r\nAnnual Income: 30k\r\nNet Worth: 15k\r\nTax Bracket: 10%\r\nNet Investable Assets: 10k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth & Income\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 10k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  1 = None ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: keep in GWPAX\r\nAdditional Notes: mentioned but will need to see if we are connecting his bank now!"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
+    },
+    {
+      "client": "Chepke, Lori",
+      "advisor": null,
+      "planners": [
+        "trades"
+      ],
+      "byPlanner": {
+        "trades": {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Lori Chepke Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "trades",
+          "label": "Trades & Distributions",
+          "color": "#2563eb",
+          "items": [
+            {
+              "plannerKey": "trades",
+              "title": "Lori Chepke Trade Request BES",
+              "status": "late",
+              "bucketName": "Task Recognized",
+              "assigneeNames": [
+                "Ryan Juhasz",
+                "Jennifer Ottney"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": null,
+              "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
     },
     {
       "client": "Dewar, Kimberly",
@@ -34868,10 +35162,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue trades",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Dudderar, Josephine",
@@ -34934,10 +35228,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue trades",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Keith, Darlene",
@@ -35002,10 +35296,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue trades",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Ford, Price Pro",
@@ -35098,10 +35392,10 @@
           ]
         }
       ],
-      "currentStage": "Queue",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Hatfield, Hayley",
@@ -35194,10 +35488,10 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Shaw, Jeffrey",
@@ -35260,10 +35554,10 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Fornof, Carol",
@@ -35326,10 +35620,10 @@
           ]
         }
       ],
-      "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Wright, Frank",
@@ -35418,10 +35712,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Schumaker, Don",
@@ -35482,10 +35776,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Hayes, John",
@@ -35546,10 +35840,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Mccloskey, Elle & Blake Peek",
@@ -35610,10 +35904,10 @@
           ]
         }
       ],
-      "currentStage": "Queue",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Kohler, Timothy",
@@ -35674,10 +35968,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Martin, Jeffrey",
@@ -35742,10 +36036,10 @@
           ]
         }
       ],
-      "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Pasch, Jonathan",
@@ -35838,10 +36132,10 @@
           ]
         }
       ],
-      "currentStage": "Queue",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Keech, Matthew",
@@ -35902,10 +36196,86 @@
           ]
         }
       ],
-      "currentStage": "Queue",
-      "nextAction": "Complete overdue paperwork",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
+    },
+    {
+      "client": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
+      "advisor": "Jaiden Karrick",
+      "planners": [
+        "advisor"
+      ],
+      "byPlanner": {
+        "advisor": {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
+              "status": "late",
+              "bucketName": "Ready for Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
+            }
+          ]
+        }
+      },
+      "hasOverdue": true,
+      "hasWaitingOnClient": false,
+      "hasStuck": false,
+      "hasCommGap": false,
+      "totalItems": 1,
+      "doneItems": 0,
+      "progress": 0,
+      "plannerGroups": [
+        {
+          "key": "advisor",
+          "label": "Advisor Flow",
+          "color": "#16a34a",
+          "items": [
+            {
+              "plannerKey": "advisor",
+              "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
+              "status": "late",
+              "bucketName": "Ready for Meeting",
+              "assigneeNames": [
+                "Jaiden Karrick"
+              ],
+              "isUnassigned": false,
+              "dueDateFormatted": "Jun 30, 2026",
+              "lastModifiedDateTime": null,
+              "stuckInfo": {
+                "type": "overdue-silent",
+                "age": null,
+                "threshold": null,
+                "commGap": true,
+                "label": "Overdue — no communication logged"
+              },
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
     },
     {
       "client": "Plas, Matt & Megan 06/18 11am (r) || Notes",
@@ -36042,10 +36412,10 @@
           ]
         }
       ],
-      "currentStage": "Unknown",
-      "nextAction": "Resolve stuck tasks",
-      "blockers": "Stuck",
-      "aiUrgency": "high"
+      "currentStage": null,
+      "nextAction": null,
+      "blockers": null,
+      "aiUrgency": null
     },
     {
       "client": "Wilcox, Brian 06/08 12pm (w)",
@@ -36438,10 +36808,10 @@
           ]
         }
       ],
-      "currentStage": "Unknown",
-      "nextAction": "Complete overdue tasks",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Geiger, Hal & Jill",
@@ -36504,10 +36874,10 @@
           ]
         }
       ],
-      "currentStage": "Unknown",
-      "nextAction": "Complete overdue tasks",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Thierry, John",
@@ -36568,10 +36938,10 @@
           ]
         }
       ],
-      "currentStage": "Unknown",
-      "nextAction": "Complete overdue tasks",
+      "currentStage": null,
+      "nextAction": null,
       "blockers": null,
-      "aiUrgency": "high"
+      "aiUrgency": null
     },
     {
       "client": "Schafer, Neal & April  02/26 2pm (r) || Review",
@@ -37342,294 +37712,6 @@
               "lastModifiedDateTime": null,
               "stuckInfo": null,
               "notes": "Who filled this out: bES\nName: Nick Brann\nAcct: roth ira\n\nDistribution Information\nGross Amount: \nNet Amount: 6000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? sell and send him 6k no taxes w held- we will need to figure out his basis for this roth ira for taxes for him\n"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Nye, Kendall",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Kendall Nye (Julie Nye) Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Nye, Kendall - NEW ACCT AMF CUST ROTH IRA",
-              "status": "not-started",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jul 6, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\r\nName of Client: Kendall Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF CUST ROTH IRA \r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\r\nWhat is the Minor Beneficiary's Full Name?: Kendall Nye\r\nWhat is the Minor Beneficiary's DOB?: \t04/30/2009 \r\nWhat is the Minor Beneficiary's SSN?: 279-15-7270\r\nAdd Advisor?: No\r\nBeneficiaries: Julie can be primary but then need to make sure we have mark as successor on ther\r\nHow the Account being funded:ACH/EFT (bank link)\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: no\r\n\r\nWill they be making monthly CONTs: I am not sure- we will have to touch base with julie!\r\nHow Much (if CONTs are made): \r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Huntington (same bank connected to caydens)\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100k-200k\r\nNet Worth: 250k-500k\r\nTax Bracket: 12%\r\nNet Investable Assets: 120k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 40k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  2 = Occasional ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: GWPAX AMF Growth portfolio\r\nAdditional Notes:"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Kendall Nye (Julie Nye) Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Nye, Kendall - NEW ACCT AMF CUST ROTH IRA",
-              "status": "not-started",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jul 6, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\r\nName of Client: Kendall Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF CUST ROTH IRA \r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? Yes\r\nIs this a Minor Custodial Account? (UGMA/UTMA): Yes\r\nWhat is the Minor Beneficiary's Full Name?: Kendall Nye\r\nWhat is the Minor Beneficiary's DOB?: \t04/30/2009 \r\nWhat is the Minor Beneficiary's SSN?: 279-15-7270\r\nAdd Advisor?: No\r\nBeneficiaries: Julie can be primary but then need to make sure we have mark as successor on ther\r\nHow the Account being funded:ACH/EFT (bank link)\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: no\r\n\r\nWill they be making monthly CONTs: I am not sure- we will have to touch base with julie!\r\nHow Much (if CONTs are made): \r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Huntington (same bank connected to caydens)\r\nDo we have a voided check: Yes\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: Yes\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Household\r\nAnnual Income: 100k-200k\r\nNet Worth: 250k-500k\r\nTax Bracket: 12%\r\nNet Investable Assets: 120k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 40k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  2 = Occasional ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: GWPAX AMF Growth portfolio\r\nAdditional Notes:"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Nye, Caden",
-      "advisor": null,
-      "planners": [
-        "trades",
-        "paperwork"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Caden Nye  Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
-            }
-          ]
-        },
-        "paperwork": {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Nye, Caden - NEW ACCT AMF ROTH IRA",
-              "status": "not-started",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jul 6, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\r\nName of Client: Caden Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF ROTH IRA CUSTODIAN- he is 18 now so needs his own roth (ben jones similar example at AMF)\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nAdd Advisor?: \r\nBeneficiaries: Mark & Julie primary benes \r\nHow the Account being funded:Transfer\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: YES- $ 50 a month \r\n\r\nWill they be making monthly CONTs: will need to check\r\nHow Much (if CONTs are made): I am not sure if we are going to want to connect cadens bank now- I will touch base with Julie, or if she wants to keep their bank connected to his\r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Do not have- see prior note. he is 18 now so I assume we want his bank added?\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Primary Investor\r\nAnnual Income: 30k\r\nNet Worth: 15k\r\nTax Bracket: 10%\r\nNet Investable Assets: 10k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth & Income\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 10k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  1 = None ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: keep in GWPAX\r\nAdditional Notes: mentioned but will need to see if we are connecting his bank now!"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 2,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Caden Nye  Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
-            }
-          ]
-        },
-        {
-          "key": "paperwork",
-          "label": "Paperwork",
-          "color": "#d97706",
-          "items": [
-            {
-              "plannerKey": "paperwork",
-              "title": "Nye, Caden - NEW ACCT AMF ROTH IRA",
-              "status": "not-started",
-              "bucketName": "Queue ",
-              "assigneeNames": [
-                "Brooke Wertenbach",
-                "Alyssa Shimman"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jul 6, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: JEK\r\nName of Client: Caden Nye\r\nWho is the FP: Brent Shimman\r\nWhat is the Rep Code: KN6\r\nType of Account: Retirement\r\nSponsor Company: AMF ROTH IRA CUSTODIAN- he is 18 now so needs his own roth (ben jones similar example at AMF)\r\nType of Paperwork Being Pulled: New Account\r\n\r\nBasic Information:\r\nIs this a new client? No\r\nIs this a Minor Custodial Account? (UGMA/UTMA): No\r\nWhat is the Minor Beneficiary's Full Name?: \r\nWhat is the Minor Beneficiary's DOB?: \r\nWhat is the Minor Beneficiary's SSN?: \r\nAdd Advisor?: \r\nBeneficiaries: Mark & Julie primary benes \r\nHow the Account being funded:Transfer\r\n\r\nAIP information & CONTs:\r\nAny current AIPs at old account to be shut off: YES- $ 50 a month \r\n\r\nWill they be making monthly CONTs: will need to check\r\nHow Much (if CONTs are made): I am not sure if we are going to want to connect cadens bank now- I will touch base with Julie, or if she wants to keep their bank connected to his\r\nOn what day of the month (if CONTs are made): \r\nWhich year is the CONT for (if CONTS are made): \r\n\r\nBank Linking / Verification:\r\nAre we linking the bank: Yes\r\nWhat is the associated bank name: Do not have- see prior note. he is 18 now so I assume we want his bank added?\r\nDo we have a voided check: No\r\n\r\nAdditional Verification Information:\r\nCopy of Current DL on file: No\r\nDrivers License Upload (if on file): \r\nFull Suitability Needed?: Yes\r\n\r\nHow to Sign:\r\nSignature Method: Docusign\r\n\r\nFinancial Data:\r\nRefers to: Primary Investor\r\nAnnual Income: 30k\r\nNet Worth: 15k\r\nTax Bracket: 10%\r\nNet Investable Assets: 10k\r\nFee Schedule: AMF\r\n\r\nInvestment Objectives:\r\nRisk Tolerance: Aggressive\r\nPrimary Objective: Growth & Income\r\nSeconday Objective: Growth\r\nOutside Objective: \r\n\r\nTime and Horizon / Liquidity Needs:\r\nAccount Time Horizon: Long (>10 yrs)\r\nAnnual Expenses: 10k\r\nEstimated Special Expenses: 0\r\nSpecial Expense Timeline: 0\r\nInvestment Experience:\r\nStocks:  1 = None ,\r\nBonds: 1 = None\r\nOptions: 1 = None\r\nCommodities:  1 = None\r\nReal Estate: 1 = None\r\nCash/Bank: 2 = Occasional\r\n\r\nModel/Trades: keep in GWPAX\r\nAdditional Notes: mentioned but will need to see if we are connecting his bank now!"
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
-      "client": "Chepke, Lori",
-      "advisor": null,
-      "planners": [
-        "trades"
-      ],
-      "byPlanner": {
-        "trades": {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Lori Chepke Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "trades",
-          "label": "Trades & Distributions",
-          "color": "#2563eb",
-          "items": [
-            {
-              "plannerKey": "trades",
-              "title": "Lori Chepke Trade Request BES",
-              "status": "not-started",
-              "bucketName": "Task Recognized",
-              "assigneeNames": [
-                "Ryan Juhasz",
-                "Jennifer Ottney"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
             }
           ]
         }
@@ -42616,70 +42698,6 @@
       "aiUrgency": null
     },
     {
-      "client": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
-      "advisor": "Jaiden Karrick",
-      "planners": [
-        "advisor"
-      ],
-      "byPlanner": {
-        "advisor": {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
-              "status": "not-started",
-              "bucketName": "Ready for Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": null
-            }
-          ]
-        }
-      },
-      "hasOverdue": false,
-      "hasWaitingOnClient": false,
-      "hasStuck": false,
-      "hasCommGap": false,
-      "totalItems": 1,
-      "doneItems": 0,
-      "progress": 0,
-      "plannerGroups": [
-        {
-          "key": "advisor",
-          "label": "Advisor Flow",
-          "color": "#16a34a",
-          "items": [
-            {
-              "plannerKey": "advisor",
-              "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
-              "status": "not-started",
-              "bucketName": "Ready for Meeting",
-              "assigneeNames": [
-                "Jaiden Karrick"
-              ],
-              "isUnassigned": false,
-              "dueDateFormatted": "Jun 30, 2026",
-              "lastModifiedDateTime": null,
-              "stuckInfo": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "currentStage": null,
-      "nextAction": null,
-      "blockers": null,
-      "aiUrgency": null
-    },
-    {
       "client": "Hoffbauer, Greg & Mindy 08/10 2pm (b)",
       "advisor": "Jaiden Karrick",
       "planners": [
@@ -43837,6 +43855,26 @@
       "name": "Jaiden Karrick",
       "tasks": [
         {
+          "id": "-ozcCwlUDE24uDwHOSX082UAEEMG",
+          "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
+          "clientName": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
+          "plannerKey": "advisor",
+          "plannerLabel": "Advisor Flow",
+          "plannerColor": "#16a34a",
+          "bucketName": "Ready for Meeting",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": {
+            "type": "overdue-silent",
+            "age": null,
+            "threshold": null,
+            "commGap": true,
+            "label": "Overdue — no communication logged"
+          },
+          "notes": null
+        },
+        {
           "id": "xo6x0sp1dkii3Wwvt1rSwWUAAOpK",
           "title": "Plas, Matt & Megan 06/18 11am (R) || Notes - Call",
           "clientName": "Plas, Matt & Megan 06/18 11am (r) || Notes",
@@ -44082,20 +44120,6 @@
           "bucketName": "Prep Materials",
           "status": "not-started",
           "dueDateFormatted": "Jul 13, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": null
-        },
-        {
-          "id": "-ozcCwlUDE24uDwHOSX082UAEEMG",
-          "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
-          "clientName": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
-          "plannerKey": "advisor",
-          "plannerLabel": "Advisor Flow",
-          "plannerColor": "#16a34a",
-          "bucketName": "Ready for Meeting",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
           "lastModifiedDateTime": null,
           "stuckInfo": null,
           "notes": null
@@ -44355,7 +44379,7 @@
       ],
       "counts": {
         "total": 36,
-        "overdue": 13,
+        "overdue": 14,
         "stuck": 0,
         "commGap": 0,
         "waitingClient": 0
@@ -45608,6 +45632,310 @@
       }
     },
     {
+      "name": "Ryan Juhasz",
+      "tasks": [
+        {
+          "id": "eWlq5tQZ90mProSJUbkTX2UAIdxS",
+          "title": "Kendall Nye (Julie Nye) Trade Request BES",
+          "clientName": "Nye, Kendall",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+        },
+        {
+          "id": "RbRLiNmQq0-VtPsLe6OCDWUAEG2s",
+          "title": "Caden Nye  Trade Request BES",
+          "clientName": "Nye, Caden",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
+        },
+        {
+          "id": "E0mYwxpbj0ecF3fs2xec_WUAPf8_",
+          "title": "Lori Chepke Trade Request BES",
+          "clientName": "Chepke, Lori",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
+        },
+        {
+          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
+          "title": "Kimberly Dewar Trade Request BES",
+          "clientName": "Dewar, Kimberly",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
+        },
+        {
+          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
+          "title": "Josephine Dudderar Trade Request BES",
+          "clientName": "Dudderar, Josephine",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 19, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
+        },
+        {
+          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
+          "title": "Darlene Keith Distribution ZWB",
+          "clientName": "Keith, Darlene",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "May 28, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "oDhI_RuWjE6RvTotpd5cDGUAEqML",
+          "title": "Amy Hansen Trade Request BES",
+          "clientName": "Hansen, Amy",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "not-started",
+          "dueDateFormatted": "Jul 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Amy Hansen\nAccount: FID INDk #628-808065\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - processed $2800 check today, rebalance in current model:\nFID | SDC CORE Growth - Level 1\tFID 401k #628-808065 - 01/06/2021 | DNS AAPL GOOG | REBALANCED ON 12/30/25  (acs)"
+        },
+        {
+          "id": "Pspjb307QE-QtflkbAr1I2UAIciY",
+          "title": "vic haas Distribution Request BES",
+          "clientName": "Haas, Vic",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "not-started",
+          "dueDateFormatted": "Jul 2, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: bes\nName: vic haas\nAcct: ira \n\nDistribution Information\nGross Amount: \nNet Amount: 2300\nTax W/H: 24\nACH on file? Yes\nCheck Request? \nAny Trades Needed? send to glass city on file\n"
+        },
+        {
+          "id": "15BHaDv5OU6YuE1nJKeCc2UANDJr",
+          "title": "Nick Brann Distribution Request BES",
+          "clientName": "Brann, Nick",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "not-started",
+          "dueDateFormatted": "Jul 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: bES\nName: Nick Brann\nAcct: roth ira\n\nDistribution Information\nGross Amount: \nNet Amount: 6000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? sell and send him 6k no taxes w held- we will need to figure out his basis for this roth ira for taxes for him\n"
+        },
+        {
+          "id": "CtvNHZOhRkm7W_R21F8WSWUAA6rr",
+          "title": "Sasan and Lisa Partovi JTOD Distribution FJD",
+          "clientName": "And, Sasan",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "In progress",
+          "status": "in-progress",
+          "dueDateFormatted": "Jul 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: Frank\nName: Sasan and Lisa Partovi JTOD\nAcct: 636-879108\n\nDistribution Information\nGross Amount: 15,000\nNet Amount: 15,000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? Sell rest of PRWCX and $10k from IEFA.  they will be adding or receiving euro gifts again and will do buy only rebalance with new cash when it comes in.  funds are used for bathroom remodel and school tuition.\n"
+        }
+      ],
+      "counts": {
+        "total": 10,
+        "overdue": 6,
+        "stuck": 0,
+        "commGap": 0,
+        "waitingClient": 0
+      }
+    },
+    {
+      "name": "Jennifer Ottney",
+      "tasks": [
+        {
+          "id": "eWlq5tQZ90mProSJUbkTX2UAIdxS",
+          "title": "Kendall Nye (Julie Nye) Trade Request BES",
+          "clientName": "Nye, Kendall",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
+        },
+        {
+          "id": "RbRLiNmQq0-VtPsLe6OCDWUAEG2s",
+          "title": "Caden Nye  Trade Request BES",
+          "clientName": "Nye, Caden",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
+        },
+        {
+          "id": "E0mYwxpbj0ecF3fs2xec_WUAPf8_",
+          "title": "Lori Chepke Trade Request BES",
+          "clientName": "Chepke, Lori",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 30, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
+        },
+        {
+          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
+          "title": "Kimberly Dewar Trade Request BES",
+          "clientName": "Dewar, Kimberly",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 29, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
+        },
+        {
+          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
+          "title": "Josephine Dudderar Trade Request BES",
+          "clientName": "Dudderar, Josephine",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "Jun 19, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
+        },
+        {
+          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
+          "title": "Darlene Keith Distribution ZWB",
+          "clientName": "Keith, Darlene",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "late",
+          "dueDateFormatted": "May 28, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
+        },
+        {
+          "id": "oDhI_RuWjE6RvTotpd5cDGUAEqML",
+          "title": "Amy Hansen Trade Request BES",
+          "clientName": "Hansen, Amy",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "not-started",
+          "dueDateFormatted": "Jul 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: AL\nClient Name: Amy Hansen\nAccount: FID INDk #628-808065\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - processed $2800 check today, rebalance in current model:\nFID | SDC CORE Growth - Level 1\tFID 401k #628-808065 - 01/06/2021 | DNS AAPL GOOG | REBALANCED ON 12/30/25  (acs)"
+        },
+        {
+          "id": "Pspjb307QE-QtflkbAr1I2UAIciY",
+          "title": "vic haas Distribution Request BES",
+          "clientName": "Haas, Vic",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "not-started",
+          "dueDateFormatted": "Jul 2, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: bes\nName: vic haas\nAcct: ira \n\nDistribution Information\nGross Amount: \nNet Amount: 2300\nTax W/H: 24\nACH on file? Yes\nCheck Request? \nAny Trades Needed? send to glass city on file\n"
+        },
+        {
+          "id": "15BHaDv5OU6YuE1nJKeCc2UANDJr",
+          "title": "Nick Brann Distribution Request BES",
+          "clientName": "Brann, Nick",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "Task Recognized",
+          "status": "not-started",
+          "dueDateFormatted": "Jul 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: bES\nName: Nick Brann\nAcct: roth ira\n\nDistribution Information\nGross Amount: \nNet Amount: 6000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? sell and send him 6k no taxes w held- we will need to figure out his basis for this roth ira for taxes for him\n"
+        },
+        {
+          "id": "CtvNHZOhRkm7W_R21F8WSWUAA6rr",
+          "title": "Sasan and Lisa Partovi JTOD Distribution FJD",
+          "clientName": "And, Sasan",
+          "plannerKey": "trades",
+          "plannerLabel": "Trades & Distributions",
+          "plannerColor": "#2563eb",
+          "bucketName": "In progress",
+          "status": "in-progress",
+          "dueDateFormatted": "Jul 1, 2026",
+          "lastModifiedDateTime": null,
+          "stuckInfo": null,
+          "notes": "Who filled this out: Frank\nName: Sasan and Lisa Partovi JTOD\nAcct: 636-879108\n\nDistribution Information\nGross Amount: 15,000\nNet Amount: 15,000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? Sell rest of PRWCX and $10k from IEFA.  they will be adding or receiving euro gifts again and will do buy only rebalance with new cash when it comes in.  funds are used for bathroom remodel and school tuition.\n"
+        }
+      ],
+      "counts": {
+        "total": 10,
+        "overdue": 6,
+        "stuck": 0,
+        "commGap": 0,
+        "waitingClient": 0
+      }
+    },
+    {
       "name": "Alyssa Shimman",
       "tasks": [
         {
@@ -46695,310 +47023,6 @@
         "stuck": 1,
         "commGap": 1,
         "waitingClient": 9
-      }
-    },
-    {
-      "name": "Ryan Juhasz",
-      "tasks": [
-        {
-          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
-          "title": "Kimberly Dewar Trade Request BES",
-          "clientName": "Dewar, Kimberly",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
-        },
-        {
-          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
-          "title": "Josephine Dudderar Trade Request BES",
-          "clientName": "Dudderar, Josephine",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 19, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
-        },
-        {
-          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
-          "title": "Darlene Keith Distribution ZWB",
-          "clientName": "Keith, Darlene",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "May 28, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "oDhI_RuWjE6RvTotpd5cDGUAEqML",
-          "title": "Amy Hansen Trade Request BES",
-          "clientName": "Hansen, Amy",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jul 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Amy Hansen\nAccount: FID INDk #628-808065\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - processed $2800 check today, rebalance in current model:\nFID | SDC CORE Growth - Level 1\tFID 401k #628-808065 - 01/06/2021 | DNS AAPL GOOG | REBALANCED ON 12/30/25  (acs)"
-        },
-        {
-          "id": "Pspjb307QE-QtflkbAr1I2UAIciY",
-          "title": "vic haas Distribution Request BES",
-          "clientName": "Haas, Vic",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jul 2, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: bes\nName: vic haas\nAcct: ira \n\nDistribution Information\nGross Amount: \nNet Amount: 2300\nTax W/H: 24\nACH on file? Yes\nCheck Request? \nAny Trades Needed? send to glass city on file\n"
-        },
-        {
-          "id": "15BHaDv5OU6YuE1nJKeCc2UANDJr",
-          "title": "Nick Brann Distribution Request BES",
-          "clientName": "Brann, Nick",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jul 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: bES\nName: Nick Brann\nAcct: roth ira\n\nDistribution Information\nGross Amount: \nNet Amount: 6000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? sell and send him 6k no taxes w held- we will need to figure out his basis for this roth ira for taxes for him\n"
-        },
-        {
-          "id": "eWlq5tQZ90mProSJUbkTX2UAIdxS",
-          "title": "Kendall Nye (Julie Nye) Trade Request BES",
-          "clientName": "Nye, Kendall",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
-        },
-        {
-          "id": "RbRLiNmQq0-VtPsLe6OCDWUAEG2s",
-          "title": "Caden Nye  Trade Request BES",
-          "clientName": "Nye, Caden",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
-        },
-        {
-          "id": "E0mYwxpbj0ecF3fs2xec_WUAPf8_",
-          "title": "Lori Chepke Trade Request BES",
-          "clientName": "Chepke, Lori",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
-        },
-        {
-          "id": "CtvNHZOhRkm7W_R21F8WSWUAA6rr",
-          "title": "Sasan and Lisa Partovi JTOD Distribution FJD",
-          "clientName": "And, Sasan",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "In progress",
-          "status": "in-progress",
-          "dueDateFormatted": "Jul 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: Frank\nName: Sasan and Lisa Partovi JTOD\nAcct: 636-879108\n\nDistribution Information\nGross Amount: 15,000\nNet Amount: 15,000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? Sell rest of PRWCX and $10k from IEFA.  they will be adding or receiving euro gifts again and will do buy only rebalance with new cash when it comes in.  funds are used for bathroom remodel and school tuition.\n"
-        }
-      ],
-      "counts": {
-        "total": 10,
-        "overdue": 3,
-        "stuck": 0,
-        "commGap": 0,
-        "waitingClient": 0
-      }
-    },
-    {
-      "name": "Jennifer Ottney",
-      "tasks": [
-        {
-          "id": "zYFb0jrtc0arWd6brBVs52UAO6b3",
-          "title": "Kimberly Dewar Trade Request BES",
-          "clientName": "Dewar, Kimberly",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 29, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Kimberly Dewar\nAccount: FID IND TOD #655-464544\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name:  * see notes. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/26/26 - the cash and KR transferred over, no model yet. neeed to wait on cost basis. (acs)"
-        },
-        {
-          "id": "e3phww22iUST_YefRdRWW2UAHUKo",
-          "title": "Josephine Dudderar Trade Request BES",
-          "clientName": "Dudderar, Josephine",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "Jun 19, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Josephine Dudderar\nAccount: FID ROTH IRA #655-450482 fbo Zachery Klewer\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: SMFPP of PRWCX. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/18/26 - they are doing $1k/MO into this account on the 29th. Funds will begin to pull this month on 06/29. (acs)"
-        },
-        {
-          "id": "e_uqvVRh4UigS2bx15Tyv2UAOOlg",
-          "title": "Darlene Keith Distribution ZWB",
-          "clientName": "Keith, Darlene",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "late",
-          "dueDateFormatted": "May 28, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Name: Darlene Keith\nAcct: FID ROTH IRA #655-437132\n\nDistribution Information\nGross Amount: \nNet Amount: \nTax W/H: \nACH on file? No\nCheck Request? \nAny Trades Needed? \n"
-        },
-        {
-          "id": "oDhI_RuWjE6RvTotpd5cDGUAEqML",
-          "title": "Amy Hansen Trade Request BES",
-          "clientName": "Hansen, Amy",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jul 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Amy Hansen\nAccount: FID INDk #628-808065\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: Model Rebalance. (acs)\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - processed $2800 check today, rebalance in current model:\nFID | SDC CORE Growth - Level 1\tFID 401k #628-808065 - 01/06/2021 | DNS AAPL GOOG | REBALANCED ON 12/30/25  (acs)"
-        },
-        {
-          "id": "Pspjb307QE-QtflkbAr1I2UAIciY",
-          "title": "vic haas Distribution Request BES",
-          "clientName": "Haas, Vic",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jul 2, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: bes\nName: vic haas\nAcct: ira \n\nDistribution Information\nGross Amount: \nNet Amount: 2300\nTax W/H: 24\nACH on file? Yes\nCheck Request? \nAny Trades Needed? send to glass city on file\n"
-        },
-        {
-          "id": "15BHaDv5OU6YuE1nJKeCc2UANDJr",
-          "title": "Nick Brann Distribution Request BES",
-          "clientName": "Brann, Nick",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jul 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: bES\nName: Nick Brann\nAcct: roth ira\n\nDistribution Information\nGross Amount: \nNet Amount: 6000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? sell and send him 6k no taxes w held- we will need to figure out his basis for this roth ira for taxes for him\n"
-        },
-        {
-          "id": "eWlq5tQZ90mProSJUbkTX2UAIdxS",
-          "title": "Kendall Nye (Julie Nye) Trade Request BES",
-          "clientName": "Nye, Kendall",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: JEK\nClient Name: Kendall Nye (Julie Nye)\nAccount: BRD 529 00000000000053340220\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: move 35% of her acct in money market, shes going to school next year\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Explicit Hold\",\"Asset Allocation\"]\nNotes / Comments / Special Instructions / Restrictions"
-        },
-        {
-          "id": "RbRLiNmQq0-VtPsLe6OCDWUAEG2s",
-          "title": "Caden Nye  Trade Request BES",
-          "clientName": "Nye, Caden",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: JEK\nClient Name: Caden Nye \nAccount: BRD 529 00000000000053395091\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: put 50% of account into money market- hes in school now.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: [\"Asset Allocation\",\"Explicit Hold\"]\nNotes / Comments / Special Instructions / Restrictions"
-        },
-        {
-          "id": "E0mYwxpbj0ecF3fs2xec_WUAPf8_",
-          "title": "Lori Chepke Trade Request BES",
-          "clientName": "Chepke, Lori",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "Task Recognized",
-          "status": "not-started",
-          "dueDateFormatted": "Jun 30, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: AL\nClient Name: Lori Chepke\nAccount: FID ROTH IRA #655-464368\nSells / Amount / Ticker / Holding Name: \nBuys / Amount / Ticker / Holding Name: TBD.\nSolicited?: Yes\nDiscretion?: Yes\nCharge Commission? (HHG accounts): \nRecommended Strategy: \nNotes / Comments / Special Instructions / Restrictions06/29/26 - ~$14k hit, waiting on trades from Brent. already messaged him! (acs)"
-        },
-        {
-          "id": "CtvNHZOhRkm7W_R21F8WSWUAA6rr",
-          "title": "Sasan and Lisa Partovi JTOD Distribution FJD",
-          "clientName": "And, Sasan",
-          "plannerKey": "trades",
-          "plannerLabel": "Trades & Distributions",
-          "plannerColor": "#2563eb",
-          "bucketName": "In progress",
-          "status": "in-progress",
-          "dueDateFormatted": "Jul 1, 2026",
-          "lastModifiedDateTime": null,
-          "stuckInfo": null,
-          "notes": "Who filled this out: Frank\nName: Sasan and Lisa Partovi JTOD\nAcct: 636-879108\n\nDistribution Information\nGross Amount: 15,000\nNet Amount: 15,000\nTax W/H: 0\nACH on file? Yes\nCheck Request? \nAny Trades Needed? Sell rest of PRWCX and $10k from IEFA.  they will be adding or receiving euro gifts again and will do buy only rebalance with new cash when it comes in.  funds are used for bathroom remodel and school tuition.\n"
-        }
-      ],
-      "counts": {
-        "total": 10,
-        "overdue": 3,
-        "stuck": 0,
-        "commGap": 0,
-        "waitingClient": 0
       }
     },
     {
@@ -48377,6 +48401,54 @@
       "plannerKey": "trades",
       "plannerLabel": "Trades & Distributions",
       "plannerColor": "#2563eb",
+      "title": "Kendall Nye (Julie Nye) Trade Request BES",
+      "clientName": "Nye, Kendall",
+      "bucketName": "Task Recognized",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 30, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Caden Nye  Trade Request BES",
+      "clientName": "Nye, Caden",
+      "bucketName": "Task Recognized",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 30, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
+      "title": "Lori Chepke Trade Request BES",
+      "clientName": "Chepke, Lori",
+      "bucketName": "Task Recognized",
+      "assigneeNames": [
+        "Ryan Juhasz",
+        "Jennifer Ottney"
+      ],
+      "advisor": null,
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 30, 2026",
+      "stuckInfo": null
+    },
+    {
+      "plannerKey": "trades",
+      "plannerLabel": "Trades & Distributions",
+      "plannerColor": "#2563eb",
       "title": "Kimberly Dewar Trade Request BES",
       "clientName": "Dewar, Kimberly",
       "bucketName": "Task Recognized",
@@ -48656,6 +48728,27 @@
       "isUnassigned": false,
       "dueDateFormatted": "Nov 12, 2025",
       "stuckInfo": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
+      "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
+      "clientName": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
+      "bucketName": "Ready for Meeting",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "advisor": "Jaiden Karrick",
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 30, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      }
     },
     {
       "plannerKey": "advisor",
@@ -49202,6 +49295,28 @@
       "plannerKey": "advisor",
       "plannerLabel": "Advisor Flow",
       "plannerColor": "#16a34a",
+      "title": "Coughtrie, Sarah 06/30 3pm (W) || NOTES - Call",
+      "clientName": "Coughtrie, Sarah 06/30 3pm (w) || Notes",
+      "bucketName": "Ready for Meeting",
+      "assigneeNames": [
+        "Jaiden Karrick"
+      ],
+      "isUnassigned": false,
+      "dueDateFormatted": "Jun 30, 2026",
+      "stuckInfo": {
+        "type": "overdue-silent",
+        "age": null,
+        "threshold": null,
+        "commGap": true,
+        "label": "Overdue — no communication logged"
+      },
+      "status": "late",
+      "notes": null
+    },
+    {
+      "plannerKey": "advisor",
+      "plannerLabel": "Advisor Flow",
+      "plannerColor": "#16a34a",
       "title": "NEEDS RESCHEDULED - Tuttle, Keith & Kathy 06/29 11:30am (b) || Review",
       "clientName": "Rescheduled, Needs",
       "bucketName": "Unknown",
@@ -49519,7 +49634,7 @@
   "stats": {
     "totalOpen": 193,
     "completedToday": 0,
-    "overdue": 39,
+    "overdue": 43,
     "waitingOnClient": 64,
     "wipClients": 2,
     "stuck": 1,
