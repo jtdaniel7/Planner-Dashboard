@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-29T22:34:39.767Z",
+  "fetchedAt": "2026-06-30T03:33:39.551Z",
   "planners": [
     {
       "key": "trades",
       "label": "Trades & Distributions",
       "color": "#2563eb",
-      "lastUpdated": "2026-06-29T22:34:47.556Z",
+      "lastUpdated": "2026-06-30T03:33:46.742Z",
       "tasks": [
         {
           "id": "oDhI_RuWjE6RvTotpd5cDGUAEqML",
@@ -8439,7 +8439,7 @@
       "key": "paperwork",
       "label": "Paperwork",
       "color": "#d97706",
-      "lastUpdated": "2026-06-29T22:35:50.771Z",
+      "lastUpdated": "2026-06-30T03:34:50.032Z",
       "tasks": [
         {
           "id": "otPccSl0NES0uXOm8o9py2UAM7a7",
@@ -16866,7 +16866,7 @@
       "key": "advisor",
       "label": "Advisor Flow",
       "color": "#16a34a",
-      "lastUpdated": "2026-06-29T22:36:12.213Z",
+      "lastUpdated": "2026-06-30T03:35:11.709Z",
       "tasks": [
         {
           "id": "fXBRtPRdgUq0l3McA8hUdmUAN1CA",
@@ -24894,7 +24894,7 @@
       "key": "locations",
       "label": "Locations",
       "color": "#7c3aed",
-      "lastUpdated": "2026-06-29T22:36:30.365Z",
+      "lastUpdated": "2026-06-30T03:35:29.105Z",
       "tasks": [
         {
           "id": "EDOw9c9x8ky-DM5S47mSkGUAC8QX",
@@ -33249,7 +33249,7 @@
       "key": "conts",
       "label": "CONTs & Checks",
       "color": "#dc2626",
-      "lastUpdated": "2026-06-29T22:36:30.949Z",
+      "lastUpdated": "2026-06-30T03:35:29.755Z",
       "tasks": [
         {
           "id": "rRnR1vcR5EGa08sm0vAz22UAHzB5",
@@ -34803,8 +34803,8 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Resolve stuck paperwork",
-      "blockers": "Stuck",
+      "nextAction": "Resolve overdue paperwork tasks",
+      "blockers": "stuck",
       "aiUrgency": "high"
     },
     {
@@ -35195,7 +35195,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Resolve overdue paperwork tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35261,7 +35261,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Resolve overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35327,7 +35327,7 @@
         }
       ],
       "currentStage": "In Progress - Being Pulled",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Resolve overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35419,7 +35419,7 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35483,7 +35483,7 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35547,7 +35547,7 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35675,7 +35675,7 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35743,7 +35743,7 @@
         }
       ],
       "currentStage": "Task Recognized",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35839,7 +35839,7 @@
         }
       ],
       "currentStage": "Queue",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork tasks",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -35903,7 +35903,7 @@
         }
       ],
       "currentStage": "Queue",
-      "nextAction": "Complete overdue paperwork",
+      "nextAction": "Complete overdue paperwork task",
       "blockers": null,
       "aiUrgency": "high"
     },
@@ -36043,8 +36043,8 @@
         }
       ],
       "currentStage": "Unknown",
-      "nextAction": "Resolve stuck task",
-      "blockers": "Stuck",
+      "nextAction": "Resolve overdue task",
+      "blockers": "stuck",
       "aiUrgency": "high"
     },
     {
@@ -49518,7 +49518,7 @@
   "aiMerges": [],
   "stats": {
     "totalOpen": 193,
-    "completedToday": 139,
+    "completedToday": 0,
     "overdue": 39,
     "waitingOnClient": 64,
     "wipClients": 2,
